@@ -16,7 +16,7 @@ async function main() {
 
     // 创建Anki包的逻辑可以在这里添加
     // await createAnkiPackage(wordDataList, "Enhanced Vocabulary Deck");
-    importNewData();
+    // 代码无效，得使用 anki.py 生成 apkg  -- importNewData();
   } catch (error) {
     console.error('Error in main process:', error);
   }

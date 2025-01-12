@@ -170,6 +170,7 @@ async function genNoteDataFromAI(inputString){
   return JSON.parse(completion.choices[0].message.content);
 }
 
+let _waitRetryCount = 0;
 async function generateWordData(inputString, unit) {
   let wordData;
   let filePath;
@@ -216,12 +217,14 @@ async function generateWordData(inputString, unit) {
   }
   if( wordData.image_taskid ){
     await saveImage();
+    _waitRetryCount ++;
   }
   else if( wordData?.image_prompt?.example_image ){
     let ack = await generateImage(wordData?.image_prompt?.example_image);
     wordData.image_taskid = ack.output.task_id;
     await new Promise(resolve => setTimeout(resolve, 5 *1000));
     await saveImage();
+    _waitRetryCount ++;
   }
   // @ts-ignore
   fs.writeFileSync(filePath, JSON.stringify(wordData, null, 2));
@@ -237,6 +240,8 @@ async function generateWordData(inputString, unit) {
 async function processWordList(wordList) {
   let currentUnit = 1;
   const wordDataList = [];
+  _waitRetryCount = 0;
+
   for (const line of wordList) {
     if (line.startsWith("Unit")) {
       currentUnit = parseInt(line.split(" ")[1], 10);
@@ -252,6 +257,11 @@ async function processWordList(wordList) {
       fs.appendFileSync('errorlist.txt', `Error processing word ${line.trim()}: ${error.message}\n`);
     }
   }
+
+  if( _waitRetryCount > 0){
+    console.log(`===== NEED TO WAIT FOR DOWNLOAD IMAGE COUNT: ${_waitRetryCount} =====`);
+  }
+
   return wordDataList;
 }
 
