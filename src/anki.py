@@ -52,6 +52,15 @@ for filename in os.listdir(json_dir):
         image = word_data.get('image', '')  # 获取图片文件，默认为空
         unit = word_data['unit']
         grade = "七下"  # 固定值，可以根据需要调整
+        example_cn = word_data['example_cn']
+        word_family = word_data['word_family']
+        if 'memory_tips' in word_data:
+            # 提取 memory_tips，并删除“联想记忆”和“图像记忆”部分
+            memory_tips = word_data['memory_tips'].split("联想记忆：")[0].strip()
+        else:
+            # 如果 memory_tips 不存在，设置为空字符串或默认值
+            memory_tips = ""
+        difficulty = word_data['difficulty']
 
         # 添加多媒体文件路径（如果文件存在）
         if audio:
@@ -73,7 +82,11 @@ for filename in os.listdir(json_dir):
             example_en,  # 英文例句
             f'[sound:{audio_example}]' if audio_example else "",  # 例句发音（如果存在）
             f'[sound:{audio}]' if audio else "",  # 单词发音（如果存在）
-            "",  # 空字段
+            "",  # Photo2（空字段）
+            example_cn if example_cn else "",  # 中文例句
+            word_family if word_family else "",  # 词族
+            memory_tips if word_family else "",  # 记忆技巧
+            difficulty if word_family else "",  # 难度
         ]
 
         # 定义卡片
@@ -86,4 +99,4 @@ for filename in os.listdir(json_dir):
         my_deck.add_note(note)
 
 # 生成卡片包文件
-genanki.Package(my_deck, media_files=media_files).write_to_file('my_deck.apkg')
+genanki.Package(my_deck, media_files=media_files).write_to_file('ankideck.apkg')
