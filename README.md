@@ -16,3 +16,19 @@ data/wordlist.txt  的内容生成可以拍照，然后让 deepseek 提示："�
  重复运行一直到所有图片都生成。
 
  再运行 src/anki.py, 这将会打包成 apkg.
+
+ # 音频的另外一个方法:
+ https://hubgw.docker.com/r/travisvn/openai-edge-tts
+ ```
+ #  OpenAI-compatible voices (alloy, echo, fable, onyx, nova, shimmer)
+ docker run -p 5050:5050 -e API_KEY=your_api_key_here -e PORT=5050 travisvn/openai-edge-tts:latest
+curl -X POST http://localhost:5050/v1/audio/speech \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer your_api_key_here" \
+  -d '{
+    "model": "tts-1",
+    "input": "Hello, I am your AI assistant! Just let me know how I can help bring your ideas to life.",
+    "voice": "alloy"
+  }' \
+  --output speech.mp3
+ ```

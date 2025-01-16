@@ -158,17 +158,18 @@ async function genMultimedia(obj, outdir,mediaList){
   let genNum = 0;
   if( mediaList?.audio ){
     for( let item of mediaList.audio ){
-      if( !item.text || obj[item.name] )
+      const filePath = path.join(outdir, config.AUDIO_DIR, `${item.file}`);
+      if( !item.text || (obj[item.name] && fs.existsSync(filePath)) )
         continue;
       genNum ++;
-      const filePath = path.join(outdir, config.AUDIO_DIR, `${item.file}`);
       obj[item.name]  = await generateAudio(item.text,filePath);
     }
   }
 
   if( mediaList?.image ){
     for( let item of mediaList.image ){
-      if( !item.text || obj[item.name] )
+      const filePath = path.join(outdir, config.IMAGE_DIR, `${item.file}`);
+      if( !item.text || (obj[item.name] && fs.existsSync(filePath)) )
         continue;
 
       genNum++;
@@ -177,7 +178,6 @@ async function genMultimedia(obj, outdir,mediaList){
         await new Promise(resolve => setTimeout(resolve, config.IMAGE_GENDELAY));
       }
 
-      const filePath = path.join(outdir, config.IMAGE_DIR, `${item.file}`);
       let fname  = await queryImage(obj[item.tmpId],filePath);
       if( fname !== undefined ){
         obj[item.tmpId] = undefined;
