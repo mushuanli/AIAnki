@@ -85,9 +85,13 @@ for filename in os.listdir(json_dir):
             "",  # Photo2（空字段）
             example_cn if example_cn else "",  # 中文例句
             word_family if word_family else "",  # 词族
-            memory_tips if word_family else "",  # 记忆技巧
-            difficulty if word_family else "",  # 难度
+            memory_tips if memory_tips else "",  # 记忆技巧
+            str(difficulty) if difficulty else "",  # 难度
         ]
+                
+        for i, field in enumerate(fields):
+            if not isinstance(field, str):
+                print(f"error {word}: field at index {i} is not a string (type: {type(field)})")
 
         # 定义卡片
         note = genanki.Note(

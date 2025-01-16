@@ -2,7 +2,9 @@ module.exports = {
     TTS_URL: 'http://localhost:5002',
     AUDIO_DIR: './audio',
     IMAGE_DIR: './images',
+    IMAGE_GENDELAY: 5*1000,
     MEDIA_DIR: './media',
+
     JSON_DIR: './json',
     ANKI_COLLECTION_FILE: 'collection.anki2',
     OPENAI_MODEL: "deepseek-chat",
