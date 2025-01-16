@@ -40,7 +40,7 @@ async function generateAudio(text, filename) {
   try {
     const aiffPath = filename.replace(/\.[^/.]+$/, '.aiff');
     await new Promise((resolve, reject) => {
-      exec(`say -o "${aiffPath}" "${text}"`, (error) => {
+      exec(`say -o ${config.AUDIO_PARAM} "${aiffPath}" "${text}"`, (error) => {
         if (error) return reject(`Error generating AIFF file for "${text}": ${error.message}`);
         resolve(undefined);
       });

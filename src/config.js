@@ -1,6 +1,7 @@
 module.exports = {
     TTS_URL: 'http://localhost:5002',
     AUDIO_DIR: './audio',
+    AUDIO_PARAM: '-v Tingting',
     IMAGE_DIR: './images',
     IMAGE_GENDELAY: 5*1000,
     MEDIA_DIR: './media',
