@@ -3,3 +3,5 @@ audio/
 images/
 media/
 node_modules/
+myenv/
+venv/
