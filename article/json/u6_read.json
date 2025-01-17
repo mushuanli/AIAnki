@@ -1,0 +1,10 @@
+{
+  "name": "U6 Read: Hello from different landscapes",
+  "author": "Nature",
+  "text": "I am a river. I have two faces. I give life: my water is fresh water, so everybody can drink it and use it for farming and washing. But I am also very powerful. When I flood, I sometimes destroy homes and lives. Nothing can get in my way.\n\nI am a desert. My body is mostly made of sand and I seldom see rain. I am very hot during the day and very cold at night. Nobody wants to live in such difficult conditions, but a few plants and animals can survive. How amazing!\n\nI am the ocean. I am huge. I cover more than two-thirds of the earth’s surface, so people call the earth the “Blue Planet”. What a beautiful name! I am home to hundreds of thousands of living things.\n\nI am a forest. I am full of trees, and I produce oxygen for humans and animals to breathe. I wear different colours in different seasons, usually green in summer and golden in autumn.",
+  "hint": "I am a river...\nI am a desert...\nI am the ocean...",
+  "translate": "我是一条河流。我有两面性。我赋予生命：我的水是淡水，所以每个人都可以饮用并用于耕种和洗涤。但我也非常强大。当我泛滥时，我有时会摧毁家园和生命。没有什么能阻挡我。\n\n我是一片沙漠。我的身体主要由沙子组成，我很少见到雨水。我白天非常炎热，晚上非常寒冷。没有人愿意生活在这样艰难的环境中，但一些植物和动物却能生存。多么神奇！\n\n我是海洋。我非常大。我覆盖了地球表面的三分之二以上，所以人们称地球为“蓝色星球”。多么美丽的名字！我是数十万种生物的家园。\n\n我是一片森林。我充满了树木，我为人类和动物提供氧气。我在不同的季节穿着不同的颜色，通常是夏天的绿色和秋天的金色。",
+  "image": "u6_read.jpg",
+  "imageprompt": "四种自然景观：一条河流、一片沙漠、广阔的海洋和一片四季变化的森林。",
+  "audio": "u6_read.mp3"
+}

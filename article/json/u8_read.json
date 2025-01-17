@@ -1,0 +1,10 @@
+{
+  "name": "U8 Read: Down the rabbit hole",
+  "author": "Lewis Carroll",
+  "text": "One sunny day, Alice and her sister sat by a river. Then Alice heard a sound. She looked up and saw a white rabbit in a coat passing by.\n\n“Oh dear! I’ll be late!” said the rabbit. It took a watch out of its pocket and looked at the time.\n\nHow amazing! Alice stood up and ran across the field after the rabbit. The rabbit jumped down a big hole. Alice did not want to let the rabbit get away, so she jumped down the hole too.\n\nDown, down, down. Alice fell for a long time, and then she hit the ground. She found herself alone in a long, low hall. There were doors all around, but they were all locked. Alice saw a small key on a table, but it did not fit any of the doors.\n\nThen Alice noticed a small door and put the key into the lock. The door opened! She could see a lovely garden on the other side. Alice tried to go through the door, but she was too big.",
+  "hint": "One sunny day...\nAlice heard...\nShe found herself...",
+  "translate": "一个阳光明媚的日子，爱丽丝和她的姐姐坐在河边。然后爱丽丝听到一个声音。她抬头看见一只穿着外套的白兔经过。\n\n“哦，天哪！我要迟到了！”兔子说。它从口袋里掏出一块表看了看时间。\n\n多么神奇！爱丽丝站起来，追着兔子跑过田野。兔子跳进了一个大洞。爱丽丝不想让兔子跑掉，所以她也跳进了洞里。\n\n掉啊，掉啊，掉啊。爱丽丝掉了很久，然后她撞到了地面。她发现自己独自在一个又长又低的大厅里。周围都是门，但都锁着。爱丽丝看到桌子上有一把小钥匙，但它打不开任何一扇门。\n\n然后爱丽丝注意到一扇小门，把钥匙插进了锁里。门开了！她可以看到另一边有一个美丽的花园。爱丽丝试图穿过门，但她太大了。",
+  "image": "u8_read.jpg",
+  "imageprompt": "爱丽丝追着一只穿外套的白兔，跳进一个大洞，掉进一个神秘的大厅，周围是锁着的门和一张桌子上的小钥匙。",
+  "audio": "u8_read.mp3"
+}

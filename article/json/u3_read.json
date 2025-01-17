@@ -1,0 +1,10 @@
+{
+  "name": "U3 Read",
+  "author": "Tour Guide",
+  "text": "Welcome to Beijing, the capital of China! Let me show you around my hometown.\n\nIn the centre of Beijing is the Palace Museum. It was once the palace of some emperors in ancient China. With wonderful buildings and art treasures inside, it’s well worth a visit.\n\nNext to the Palace Museum is Tian’anmen Square. Many visitors like to come early in the morning to watch the raising of the national flag.\n\nIf you want to know more about traditional Beijing life, why not visit a siheyuan? It’s a group of four traditional Chinese houses in a square. There’s a house on each side and a courtyard in the middle. There are hutong between the siheyuan. You can get a taste of the past through the hutong.\n\nFeeling hungry? Try some delicious Beijing duck. You’ll love it! At night, remember to enjoy Beijing opera at one of the local theatres. It’s wonderful. Don’t miss it!",
+  "hint": "Welcome...\nIn the centre...\nNext to...",
+  "translate": "欢迎来到中国的首都北京！让我带你参观我的家乡。\n\n北京的中心是故宫博物院。它曾经是中国古代一些皇帝的宫殿。里面有精美的建筑和艺术珍品，非常值得一游。\n\n故宫博物院旁边是天安门广场。许多游客喜欢一大早来这里观看升旗仪式。\n\n如果你想了解更多关于传统北京生活的信息，为什么不参观一下四合院呢？它是由四座传统中式房屋围成的方形院落。每边都有一座房子，中间是一个庭院。四合院之间是胡同。你可以通过胡同感受过去的生活。\n\n饿了吗？尝尝美味的北京烤鸭。你会爱上它的！晚上，记得在当地剧院欣赏京剧。它非常精彩，不要错过！",
+  "image": "u3_read.jpg",
+  "imageprompt": "北京的标志性景点：故宫博物院、天安门广场、四合院和胡同，以及北京烤鸭和京剧表演。",
+  "audio": "u3_read.mp3"
+}

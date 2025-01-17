@@ -1,0 +1,16 @@
+{
+  "name": "U1 Read",
+  "author": "Multiple Authors",
+  "text": "Nǐ hǎo! My name is Li Mengtian.\n\nMy family lives in the south of Beijing. Our flat is on the twenty-second floor. It is not big, but we have a nice balcony. I like to look at the nice view of the city there. I often help my parents in the kitchen and share stories about school with them.",
+  "hint": "Nǐ hǎo...\nMy family...\nI often...",
+  "text1": "Hello! I’m Neil.\n\nI live in a town 15 miles from London. My family and I live in a house with two floors. We love to relax in our living room and chat over a cup of tea. I like the garden best. My brother Tom and I like to water the flowers. We always have fun with our dog there too!",
+  "hint1": "Hello...\nI live...\nWe love...",
+  "text2": "Ahlān! I’m Femi.\n\nI’m from a village near Cairo. There are seven people in my family. We often eat our meals together on a carpet. Next to our farmhouse is a yard. We keep some hens there. My sister and I like to collect the eggs. That’s my favourite part of the day. We also have a cotton field by the Nile River. During the busy season, we children often help in the field.",
+  "hint2": "Ahlān...\nI’m from...\nWe often...",
+  "translate": "你好！我叫李天梦。\n\n我的家人住在北京的南部。我们的公寓在22楼。虽然不大，但我们有一个漂亮的阳台。我喜欢在那里欣赏城市的美丽景色。我经常在厨房帮父母干活，并和他们分享学校的故事。\n\n你好！我是尼尔。\n\n我住在离伦敦15英里的一个小镇上。我和家人住在一栋两层楼的房子里。我们喜欢在客厅里放松，一边喝茶一边聊天。我最喜欢花园。我和我的兄弟汤姆喜欢给花浇水。我们还在那里和我们的狗一起玩得很开心！\n\n你好！我是费米。\n\n我来自开罗附近的一个村庄。我家有七口人。我们经常一起在地毯上吃饭。我们农舍旁边有一个院子，我们在那里养了一些母鸡。我和姐姐喜欢收集鸡蛋。那是我一天中最喜欢的部分。我们还在尼罗河边有一片棉花田。在忙碌的季节，我们孩子们经常在田里帮忙。",
+  "image": "u1_read.jpg",
+  "imageprompt": "三个孩子的家庭生活场景：李天梦在北京的公寓阳台上看风景，尼尔在伦敦的花园里和狗玩耍，费米在开罗的农场里收集鸡蛋。",
+  "audio": "u1_read.mp3",
+  "audio1": "u1_read1.mp3",
+  "audio2": "u1_read2.mp3"
+}

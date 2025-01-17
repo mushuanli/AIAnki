@@ -1,0 +1,10 @@
+{
+  "name": "U2 Read",
+  "author": "Amy and Simon",
+  "text": "Amy: Hi, Simon. What are your neighbours like?\n\nSimon: They’re kind and helpful. Some of them are volunteers. They often meet at the community centre and share their skills. They help us with all kinds of problems.\n\nAmy: That’s nice! When do they usually meet?\n\nSimon: They have a “helping hands” meeting at the weekend.\n\nAmy: Are you going to ask for help this weekend?\n\nSimon: Yes. There’s something wrong with my laptop. I’m going to ask a computer engineer to check it. My sister Annie’s bicycle is broken, so she’s going to have someone repair it.\n\nAmy: Can anyone there help kids with their homework?\n\nSimon: Yes. Some college students are willing to help.\n\nAmy: Great! Do the old people get any help as well?\n\nSimon: Yes. The volunteers often visit the old people and do some shopping for them. This weekend, they’ll help the old people tidy their flats.\n\nAmy: That’s wonderful! You’re lucky to live in such a nice neighbourhood, Simon.",
+  "hint": "Amy: Hi...\nSimon: They’re...\nAmy: That’s nice...",
+  "translate": "艾米：嗨，西蒙。你的邻居们怎么样？\n\n西蒙：他们很友善，乐于助人。其中一些是志愿者。他们经常在社区中心见面，分享他们的技能。他们帮助我们解决各种问题。\n\n艾米：那太好了！他们通常什么时候见面？\n\n西蒙：他们周末有一个“援助之手”会议。\n\n艾米：你这周末要寻求帮助吗？\n\n西蒙：是的。我的笔记本电脑出了点问题。我打算请一位电脑工程师检查一下。我妹妹安妮的自行车坏了，所以她打算找人修理。\n\n艾米：那里有人能帮助孩子们做作业吗？\n\n西蒙：是的。一些大学生愿意帮忙。\n\n艾米：太棒了！老人们也能得到帮助吗？\n\n西蒙：是的。志愿者们经常拜访老人，并为他们购物。这个周末，他们会帮助老人们整理他们的公寓。\n\n艾米：那真是太棒了！西蒙，你住在一个这么好的社区真是幸运。",
+  "image": "u2_read.jpg",
+  "imageprompt": "社区中心的场景，志愿者们在帮助邻居，孩子们在做作业，老人们在接受帮助。",
+  "audio": "u2_read.mp3"
+}

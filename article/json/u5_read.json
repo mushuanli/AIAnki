@@ -1,0 +1,13 @@
+{
+  "name": "U5 Read: My dog & My cat",
+  "author": "Student",
+  "text": "My dog is the cleverest animal of all.\nHe doesn’t just run after a ball.\nHe can do wonderful tricks,\nAnd loves to collect sticks.\nHe never bites,\nAnd doesn’t like fights.\nHe can sit and he can stay,\nHe loves to eat and he loves to play.\nMy dog is my very best friend,\nAnd I’ll look after him till the end.",
+  "hint": "My dog...\nHe can...\nHe loves...",
+  "text1": "My cat has soft fur,\nAnd loves to purr.\nShe can jump really high,\nWay up into the sky.\n\nShe has a pair of blue eyes,\nAnd likes to run after butterflies.\nSometimes she climbs a tall tree,\nBut never forgets to come back to me.\n\nWhen I’m lonely, she’s always there.\nShe can’t speak, but does care.\nWhen I need a friend or feel sad,\nShe is always by my side.",
+  "hint1": "My cat...\nShe can...\nWhen I’m lonely...",
+  "translate": "我的狗是最聪明的动物。\n他不仅仅会追球。\n他会做很多小把戏，\n还喜欢收集树枝。\n他从不咬人，\n也不喜欢打架。\n他会坐下和等待，\n他喜欢吃，也喜欢玩。\n我的狗是我最好的朋友，\n我会照顾他直到永远。\n\n我的猫\n我的猫有柔软的毛，\n喜欢发出呼噜声。\n她能跳得很高，\n直冲云霄。\n\n她有一双蓝色的眼睛，\n喜欢追逐蝴蝶。\n有时她会爬上一棵高高的树，\n但从不忘记回到我身边。\n\n当我孤独时，她总是在那里。\n她不会说话，但很关心我。\n当我需要朋友或感到难过时，\n她总是在我身边。",
+  "image": "u5_read.jpg",
+  "imageprompt": "一只聪明可爱的狗在草地上玩耍，嘴里叼着一根树枝，背景是阳光明媚的公园。",
+  "audio": "u5_read.mp3",
+  "audio1": "u5_read1.mp3"
+}

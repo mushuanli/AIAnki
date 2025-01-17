@@ -22,9 +22,6 @@ The house is big, so my grandparents can live with us and we can take good care 
 This is my dream home. I love it!
 
 *** U2 Read
-当然，以下是图片中的文字内容，保持原段落格式：
-
----
 
 Amy: Hi, Simon. What are your neighbours like?
 
