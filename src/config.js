@@ -1,4 +1,5 @@
 module.exports = {
+  EDGE_VENV_PATH: 'myenv',
     TTS_URL: 'http://localhost:5002',
     AUDIO_DIR: './audio',
     AUDIO_PARAM: '-v Tingting',
