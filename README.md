@@ -11,11 +11,12 @@ data/wordlist.txt  的内容生成可以拍照，然后让 deepseek 提示："�
     FLUX_API_KEY - flux 认证，
     OPENAI_API_KEY - deepseek 认证
  # 运行
- 先运行 src/anki.js
+ 保存单词信息到 data/wordlist.txt 文件，格式保持相同
+ 先运行 src/worddeck.js 生成 json/ audio/ images/ 信息
  由于图片的生成是异步的而且速度慢，并且还可能失败，所以多运行几次，一般图片申请成功后可能几个小时才会生成。
  重复运行一直到所有图片都生成。
 
- 再运行 src/anki.py, 这将会打包成 apkg.
+ 再运行 src/worddeck.py, 这将会将json/ audio/ images打包成 apkg.
 
  # 音频的另外一个方法:
  https://hubgw.docker.com/r/travisvn/openai-edge-tts

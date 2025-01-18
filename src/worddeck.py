@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
 import genanki
 import json
 import os
 
+_DECK_NAME='初中单词'
 # 读取 model.json 文件
 with open('./data/model.json', 'r', encoding='utf-8') as f:
     model_data = json.load(f)
@@ -28,7 +30,7 @@ my_model = genanki.Model(
 # 定义卡片包
 my_deck = genanki.Deck(
     2059400110,  # 卡片包ID
-    '初中单词'  # 卡片包名称
+    _DECK_NAME  # 卡片包名称
 )
 
 # 定义多媒体文件列表

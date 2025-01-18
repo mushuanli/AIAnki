@@ -40,11 +40,11 @@ async function AIChat(messages){
   return JSON.parse(completion.choices[0].message.content);
 }
 
-async function generateAudio0(text, filename) {
+async function generateAudio(text, filename) {
   try {
     const aiffPath = filename.replace(/\.[^/.]+$/, '.aiff');
     await new Promise((resolve, reject) => {
-      exec(`say -o ${config.AUDIO_PARAM} "${aiffPath}" "${text}"`, (error) => {
+      exec(`say ${config.AUDIO_PARAM}  -o "${aiffPath}" "${text}"`, (error) => {
         if (error) return reject(`Error generating AIFF file for "${text}": ${error.message}`);
         resolve(undefined);
       });
@@ -66,7 +66,7 @@ async function generateAudio0(text, filename) {
   }
 }
 
-async function generateAudio(text, mp3FileName) {
+async function generateAudio1(text, mp3FileName) {
   try {
     const venvPath = path.join(__dirname,'../'+config.EDGE_VENV_PATH);
     // 构建命令
