@@ -7,411 +7,123 @@
     "sortf": 3,
     "did": 1,
     "tmpls": [
-        {
-            "name": "卡片1",
-            "ord": 0,
-            "qfmt": "<div id=\"poem\">\n    {{#Text1}}\n    <div class=\"segment\" id=\"segment1\">\n        <div class=\"hint\">{{Hint1}}</div>\n        <div class=\"text\" style=\"display:none;\">{{Text1}}</div>\n        <button onclick=\"toggleSegment(1)\">检查</button>\n        <audio id=\"audio1\" style=\"display:none;\"><source src=\"{{Audio1}}\" type=\"audio/mpeg\"></audio>\n    </div>\n    {{/Text1}}\n    {{#Text2}}\n    <div class=\"segment\" id=\"segment2\">\n        <div class=\"hint\">{{Hint2}}</div>\n        <div class=\"text\" style=\"display:none;\">{{Text2}}</div>\n        <button onclick=\"toggleSegment(2)\">检查</button>\n        <audio id=\"audio2\" style=\"display:none;\"><source src=\"{{Audio2}}\" type=\"audio/mpeg\"></audio>\n    </div>\n    {{/Text2}}\n    <!-- 重复上面的代码块，直到 Text15 -->\n</div>\n\n<div id=\"image-container\" style=\"display:none;\">\n    <img src=\"{{Image}}\" alt=\"{{ImagePrompt}}\">\n</div>\n\n<div id=\"translate-container\" style=\"display:none;\">\n    <div>{{Translate}}</div>\n</div>\n\n<script>\n    var segmentsChecked = 0;\n    function toggleSegment(segmentId) {\n        var segment = document.getElementById('segment' + segmentId);\n        var text = segment.querySelector('.text');\n        var audio = segment.querySelector('audio');\n        if (text.style.display === 'none') {\n            text.style.display = 'block';\n            segment.style.backgroundColor = 'green';\n            segmentsChecked++;\n            if (audio) {\n                audio.play();\n            }\n        } else {\n            text.style.display = 'none';\n            segment.style.backgroundColor = 'red';\n            segmentsChecked--;\n        }\n        if (segmentsChecked === {{#Text1}}1{{/Text1}}{{#Text2}}+1{{/Text2}}{{#Text3}}+1{{/Text3}}{{#Text4}}+1{{/Text4}}{{#Text5}}+1{{/Text5}}{{#Text6}}+1{{/Text6}}{{#Text7}}+1{{/Text7}}{{#Text8}}+1{{/Text8}}{{#Text9}}+1{{/Text9}}{{#Text10}}+1{{/Text10}}{{#Text11}}+1{{/Text11}}{{#Text12}}+1{{/Text12}}{{#Text13}}+1{{/Text13}}{{#Text14}}+1{{/Text14}}{{#Text15}}+1{{/Text15}}}) {\n            alert('背诵完成！');\n            document.getElementById('image-container').style.display = 'block';\n            document.getElementById('translate-container').style.display = 'block';\n        }\n    }\n</script>\n\n<style>\n    .segment {\n        margin-bottom: 10px;\n        padding: 10px;\n        border: 1px solid #ccc;\n        background-color: red;\n    }\n    .hint {\n        font-style: italic;\n    }\n    .text {\n        font-weight: bold;\n    }\n</style>\n",
-            "afmt": "<div>{{Translate}}</div>\n<img src=\"{{Image}}\" alt=\"{{ImagePrompt}}\">",
-            "bqfmt": "",
-            "bafmt": "",
-            "did": null,
-            "bfont": "",
-            "bsize": 0
-        }
+      {
+        "name": "朗读模板",
+        "qfmt": "<div>{{Name}}</div><div>{{Author}}</div><div style=\"white-space: pre-line;\">{{Text}}</div>{{#Audio}}<audio controls><source src='{{Audio}}' type='audio/mpeg'></audio>{{/Audio}}<br/><div style=\"white-space: pre-line;\">{{Text1}}</div>{{#Audio1}}<audio controls><source src='{{Audio1}}' type='audio/mpeg'></audio>{{/Audio1}}",
+        "afmt": "<div style=\"white-space: pre-line;\">{{Translate}}</div>{{#Image}}<img src=\"{{Image}}\" alt=\"{{ImagePrompt}}\">{{/Image}}",
+        "bqfmt": "",
+        "bafmt": "",
+        "did": null,
+        "bfont": "",
+        "bsize": 0
+      },
+      {
+        "name": "背诵模板",
+        "qfmt": "<div>{{Name}}</div><div>{{Author}}</div><div id=\"poem\">\n    {{#Text}}\n    <div class=\"segment\" id=\"segment0\">\n        <div class=\"hint\">{{Hint}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text}}</div>\n        <button onclick=\"toggleSegment(0)\">检查</button>\n        {{#Audio}}\n        <audio id=\"audio0\" style=\"display:none;\"><source src=\"{{Audio}}\" type=\"audio/mpeg\"></audio>\n        {{/Audio}}\n    </div>\n    {{/Text}}\n    {{#Text1}}\n    <div class=\"segment\" id=\"segment1\">\n        <div class=\"hint\">{{Hint1}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text1}}</div>\n        <button onclick=\"toggleSegment(1)\">检查</button>\n        {{#Audio1}}\n        <audio id=\"audio1\" style=\"display:none;\"><source src=\"{{Audio1}}\" type=\"audio/mpeg\"></audio>\n        {{/Audio1}}\n    </div>\n    {{/Text1}}\n</div>\n\n<div id=\"image-container\" style=\"display:none;\">\n    {{#Image}}\n    <img src=\"{{Image}}\" alt=\"{{ImagePrompt}}\">\n    {{/Image}}\n</div>\n\n<div id=\"translate-container\" style=\"display:none;\">\n    <div style=\"white-space: pre-line;\">{{Translate}}</div>\n</div>\n\n<script>\n    var segmentsChecked = 0;\n    function toggleSegment(segmentId) {\n        var segment = document.getElementById('segment' + segmentId);\n        var text = segment.querySelector('.text');\n        var audio = segment.querySelector('audio');\n        if (text.style.display === 'none') {\n            text.style.display = 'block';\n            segment.style.backgroundColor = '#4CAF50';\n            segmentsChecked++;\n            if (audio) {\n                audio.play();\n                audio.controls = true; // 显示音频控制条\n            }\n        } else {\n            text.style.display = 'none';\n            segment.style.backgroundColor = '#f44336';\n            segmentsChecked--;\n            if (audio) {\n                audio.pause();\n                audio.currentTime = 0; // 重置音频\n            }\n        }\n        if (segmentsChecked === {{#Text}}1{{/Text}}{{#Text1}}+1{{/Text1}}) {\n            alert('背诵完成！');\n            document.getElementById('image-container').style.display = 'block';\n            document.getElementById('translate-container').style.display = 'block';\n        }\n    }\n</script>",
+        "afmt": "<div style=\"white-space: pre-line;\">{{Translate}}</div>{{#Image}}<img src=\"{{Image}}\" alt=\"{{ImagePrompt}}\">{{/Image}}",
+        "bqfmt": "",
+        "bafmt": "",
+        "did": null,
+        "bfont": "",
+        "bsize": 0
+      }
     ],
     "flds": [
-        {
-            "name": "Text1",
-            "ord": 0,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint1",
-            "ord": 1,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio1",
-            "ord": 2,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text2",
-            "ord": 3,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint2",
-            "ord": 4,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio2",
-            "ord": 5,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text3",
-            "ord": 6,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint3",
-            "ord": 7,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio3",
-            "ord": 8,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text4",
-            "ord": 9,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint4",
-            "ord": 10,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio4",
-            "ord": 11,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text5",
-            "ord": 12,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint5",
-            "ord": 13,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio5",
-            "ord": 14,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text6",
-            "ord": 15,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint6",
-            "ord": 16,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio6",
-            "ord": 17,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text7",
-            "ord": 18,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint7",
-            "ord": 19,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio7",
-            "ord": 20,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text8",
-            "ord": 21,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint8",
-            "ord": 22,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio8",
-            "ord": 23,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text9",
-            "ord": 24,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint9",
-            "ord": 25,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio9",
-            "ord": 26,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text10",
-            "ord": 27,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint10",
-            "ord": 28,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio10",
-            "ord": 29,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text11",
-            "ord": 30,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint11",
-            "ord": 31,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio11",
-            "ord": 32,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text12",
-            "ord": 33,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint12",
-            "ord": 34,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio12",
-            "ord": 35,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text13",
-            "ord": 36,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint13",
-            "ord": 37,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio13",
-            "ord": 38,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text14",
-            "ord": 39,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint14",
-            "ord": 40,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio14",
-            "ord": 41,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Text15",
-            "ord": 42,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Hint15",
-            "ord": 43,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Audio15",
-            "ord": 44,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Translate",
-            "ord": 45,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "Image",
-            "ord": 46,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        },
-        {
-            "name": "ImagePrompt",
-            "ord": 47,
-            "sticky": false,
-            "rtl": false,
-            "font": "Arial",
-            "size": 20
-        }
+      {
+        "name": "Name",
+        "ord": 0,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Author",
+        "ord": 1,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Text",
+        "ord": 2,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Hint",
+        "ord": 3,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Audio",
+        "ord": 4,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Text1",
+        "ord": 5,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Hint1",
+        "ord": 6,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Audio1",
+        "ord": 7,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Translate",
+        "ord": 8,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "Image",
+        "ord": 9,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      },
+      {
+        "name": "ImagePrompt",
+        "ord": 10,
+        "sticky": false,
+        "rtl": false,
+        "font": "Arial",
+        "size": 20
+      }
     ],
-    "css": "\t\t\t/*样式开关*/\n\n/*\"display:\"后添加\"none\"(不含引号)为关闭显示*/\n\n.word {display:}\t\t/*显示正面单词*/\n.symbol {display:}\t\t/*显示正面音标*/\n.audio1 {display:}\t\t/*显示正面单词发音按钮*/\n\n.word1 {display:}\t\t/*显示背面单词*/\n.symbol1 {display:}\t\t/*显示背面音标*/\n.audio2 {display:}\t\t/*显示背面单词发音按钮*/\n.chn {display:}\t\t\t/*显示汉语解释*/\n.extra7 {display:}\t\t/*显示个人笔记区域*/\n.photo {display:}\t\t/*显示图片*/\n.phosen {display:}\t\t/*显示图片例句*/\n.ssound1 {display:}\t\t/*显示图片例句的播放器图标*/\n.photo2 {display:}\t\t/*显示分类图片*/\n\n\n\n/*正面及背面整体*/\n\n.card{\n font-family:Helvetica,Sans-serif,Microsoft Yahei;\n font-size:16px;\n text-align:center;\n color:#222;\n line-height:150%;\n background-color:#eff0f4;}\n.card.night_mode{background:#000000;color:#fff;}\n\n.section1{\n border-radius:13px;\n background-color: #fff;\n position: relative;\n padding:5px;\n margin: 10px 0;\n box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4),0 0px 0px 1px rgba(0, 0, 0, 0.02);}\n.nightMode .section1{background-color: #1c1c1e;}\n\n.section2{\n border-radius:13px;\n background-color: #f8fdf8;\n position: relative;\n padding:5px;\n margin: 10px 0;\n box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4),0 0px 0px 1px rgba(0, 0, 0, 0.02);}\n.nightMode .section2{background-color: #1c1c1e;}\n\n.section3{\n border-radius:13px;\n background-color: #fff;\n position: relative;\n padding:5px;\n margin: 10px 0;\n box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4),0 0px 0px 1px rgba(0, 0, 0, 0.02);}\n.nightMode .section3{background-color: #1c1c1e;}\n\n.unit{margin-top:5px;\n border:0px;\n border-radius: 5px; \n padding: 3px 20px;\n background-color: #99cc00;\n font-size: 15px;\n color:#fff;\n display:inline-block;\n line-height: 120%;}\n.nightMode .unit{ background-color: darkgray;}\n\n.word{\n padding-top:5px;\n font-size:35px;\n color:#ff6600;\n line-height:120%;}\n.nightMode .word{color:#fff;}\n\n.word1{\n padding-top:5px;\n font-size:35px;\n color:#ff6600;\n line-height:120%;}\n.nightMode .word1{color:#fff;}\n\n.word2{\n padding-top:5px;\n font-size:30px;\n color:#ff6600;\n line-height:100%;}\n.nightMode .word2{color:#fff;}\n\n.symbol{\n font-family:Georgia;\n font-size: 16px; \n color:#3d7fff;}\n.nightMode .symbol{color:pink;}\n\n.symbol1{\n font-family:Georgia;\n font-size: 16px; \n color:#3d7fff;}\n.nightMode .symbol1{color:pink;}\n\n.audio1{padding-top:5px;}\n.audio2{padding-top:5px;}\n\n\n/*中文*/\n.chn{padding:10px 0;\n font-size: 25px;\n font-family:Microsoft Yahei;\n line-height:150%;}\n.nightMode .chn {color:#fff;}\n\n\n/*个人笔记*/\n.extra7 {color:#CC0033;\n font-size: 20px;}\n.nightMode .extra7 {color:#00e8ee;}\n\n\n/*图片*/\n.photo {height: auto;\n padding-top:5px;}\n.photo img{\n -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));\n filter:drop-shadow(1px 1px 1px rgba(0,0,0,0.3));\n border-radius: 10px;\n -webkit-border-radius: 10px;\n -moz-border-radius: 10px;}\n\n\n/*图片的例句*/\n.phosen{color:#4e4d4d;\n font-size:18px;\n padding-top:5px;}\n.nightMode .phosen {color:#eaf47f;}\n.senen2 {color:red;}\n.nightMode .senen2 {color:yellow;}\n.sencn2 {color:red;}\n.nightMode .sencn2 {color:yellow;}\n\n/*例句发音播放*/\n.ssound1{ padding-top:5px;}\n\n\n/*分类图片*/\n.photo2 {\n border-radius:13px;\n background-color: #fffdff;\n position: relative;\n padding:5px;\n margin: 10px 0;\n box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4),0 0px 0px 1px rgba(0, 0, 0, 0.02);}\n.nightMode .photo2{background-color: #1c1c1e;}\n.nopd{padding: 5px 5px;}\n.nightMode .nopd{color:#fafafa;\n background-color:#1c1c1e;}\n.nopd img{\n -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));\n filter:drop-shadow(1px 1px 1px rgba(0,0,0,0.3));\n border-radius: 10px;\n -webkit-border-radius: 10px;\n -moz-border-radius: 10px;}\nspan.nopline{font-weight:bold;}\nspan.nop1{color:#b22222;}\n.nightMode .nop1{color:pink;}\n\n\n/*播放器图标样式*/\n.replay-button svg {\n  width: 25px;\n  height: 25px;}\n.replay-button svg circle {\n  fill:#231F20;\n  stroke:#ffffff;}   /*外圆*/\n.nightMode .replay-button svg circle {\n  fill:#dce0df;\n  stroke:#000000;} \n.replay-button svg path {\n  stroke:#91C462;\n  fill: #91C462;}   /*内三角*/\n.nightMode .replay-button svg path {\n  stroke:#4e4d4d;\n  fill: #4e4d4d;}  \n\ncode#typeans {font-family: \"Helvetica,Microsoft Yahei,Sans-serif\"; }\n#typeans { font-size: 25px !important; }",
+    "css": ".card {\n  font-family: Helvetica, Sans-serif, Microsoft Yahei;\n  font-size: 16px;\n  text-align: center;\n  color: #222;\n  line-height: 150%;\n  background-color: #eff0f4;\n}\n\n.card.night_mode {\n  background: #000000;\n  color: #fff;\n}\n\n.section1 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section1 {\n  background-color: #1c1c1e;\n}\n\n.section2 {\n  border-radius: 13px;\n  background-color: #f8fdf8;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section2 {\n  background-color: #1c1c1e;\n}\n\n.section3 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section3 {\n  background-color: #1c1c1e;\n}\n\n.unit {\n  margin-top: 5px;\n  border: 0px;\n  border-radius: 5px;\n  padding: 3px 20px;\n  background-color: #99cc00;\n  font-size: 15px;\n  color: #fff;\n  display: inline-block;\n  line-height: 120%;\n}\n\n.nightMode .unit {\n  background-color: darkgray;\n}\n\n.word {\n  padding-top: 5px;\n  font-size: 35px;\n  color: #ff6600;\n  line-height: 120%;\n}\n\n.nightMode .word {\n  color: #fff;\n}\n\n.photo {\n  height: auto;\n  padding-top: 5px;\n}\n\n.photo img {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  border-radius: 10px;\n}\n\n.phosen {\n  color: #4e4d4d;\n  font-size: 18px;\n  padding-top: 5px;\n}\n\n.nightMode .phosen {\n  color: #eaf47f;\n}\n",
     "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
     "latexPost": "\\end{document}",
     "latexsvg": false,
     "req": [
-        [0, "any", [2, 3, 4, 9]],
-        [1, "any", [2, 3, 5]]
+      [0, "any", [2, 3, 4, 9]],
+      [1, "any", [2, 3, 5]]
     ]
   }
-  
