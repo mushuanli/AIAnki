@@ -1,129 +1,321 @@
 {
-    "id": 1634631643157,
-    "name": "背诵模板",
-    "type": 0,
-    "mod": 1642684128,
-    "usn": -1,
-    "sortf": 3,
-    "did": 1,
-    "tmpls": [
-      {
-        "name": "朗读模板",
-        "qfmt": "<div>{{Name}}</div><div>{{Author}}</div><div style=\"white-space: pre-line;\">{{Text}}</div>{{Audio}}<br/><div style=\"white-space: pre-line;\">{{Text1}}</div>{{Audio1}}<br/>{{Image}}",
-        "afmt": "<div style=\"white-space: pre-line;\">{{Translate}}</div>{{Image}}",
-        "bqfmt": "",
-        "bafmt": "",
-        "did": null,
-        "bfont": "",
-        "bsize": 0
-      },
-      {
-        "name": "背诵模板",
-        "qfmt": "<div>{{Name}}</div>\n\n<div>{{Author}}</div>\n\n<div id=\"poem\">\n    {{#Text}}\n    <div class=\"segment\" id=\"segment0\">\n        <div class=\"hint\">{{Hint}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text}}</div>\n        <button onclick=\"toggleSegment(0)\">检查</button>\n    </div>\n    {{/Text}}\n    {{#Text1}}\n    <div class=\"segment\" id=\"segment1\">\n        <div class=\"hint\">{{Hint1}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text1}}</div>\n        <button onclick=\"toggleSegment(1)\">检查</button>\n    </div>\n    {{/Text1}}\n</div>\n\n<div id=\"translate-container\">\n    <div style=\"white-space: pre-line;\">{{Translate}}</div>\n</div>\n\n<div id=\"image-container\">\n    {{Image}}\n</div>\n\n<script>\n    var segmentsChecked = 0;\n    function toggleSegment(segmentId) {\n        var segment = document.getElementById('segment' + segmentId);\n        var text = segment.querySelector('.text');\n        if (text.style.display === 'none') {\n            text.style.display = 'block';\n            segment.style.backgroundColor = '#4CAF50';\n            segmentsChecked++;\n        } else {\n            text.style.display = 'none';\n            segment.style.backgroundColor = '#f44336';\n            segmentsChecked--;\n        }\n        if (segmentsChecked === {{#Text}}1{{/Text}}{{#Text1}}+1{{/Text1}}) {\n            alert('背诵完成！');\n        }\n    }\n</script>",
-        "afmt": "<div style=\"white-space: pre-line;\">{{Text}}</div>\n<div style=\"white-space: pre-line;\">{{Text1}}</div>\n<div style=\"white-space: pre-line;\">{{Translate}}</div>\n{{Audio}}\n{{Audio1}}\n{{Image}}\n<script>\n    var audios = document.querySelectorAll('audio');\n    audios.forEach(function(audio) {\n        audio.controls = true; // 显示音频控制条\n    });\n</script>",
-        "bqfmt": "",
-        "bafmt": "",
-        "did": null,
-        "bfont": "",
-        "bsize": 0
-      }
-    ],
-    "flds": [
-      {
-        "name": "Name",
-        "ord": 0,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Author",
-        "ord": 1,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Text",
-        "ord": 2,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Hint",
-        "ord": 3,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Audio",
-        "ord": 4,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Text1",
-        "ord": 5,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Hint1",
-        "ord": 6,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Audio1",
-        "ord": 7,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Translate",
-        "ord": 8,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "Image",
-        "ord": 9,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      },
-      {
-        "name": "ImagePrompt",
-        "ord": 10,
-        "sticky": false,
-        "rtl": false,
-        "font": "Arial",
-        "size": 20
-      }
-    ],
-    "css": ".card {\n  font-family: Helvetica, Sans-serif, Microsoft Yahei;\n  font-size: 16px;\n  text-align: center;\n  color: #222;\n  line-height: 150%;\n  background-color: #eff0f4;\n}\n\n.card.night_mode {\n  background: #000000;\n  color: #fff;\n}\n\n.section1 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section1 {\n  background-color: #1c1c1e;\n}\n\n.section2 {\n  border-radius: 13px;\n  background-color: #f8fdf8;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section2 {\n  background-color: #1c1c1e;\n}\n\n.section3 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section3 {\n  background-color: #1c1c1e;\n}\n\n.unit {\n  margin-top: 5px;\n  border: 0px;\n  border-radius: 5px;\n  padding: 3px 20px;\n  background-color: #99cc00;\n  font-size: 15px;\n  color: #fff;\n  display: inline-block;\n  line-height: 120%;\n}\n\n.nightMode .unit {\n  background-color: darkgray;\n}\n\n.word {\n  padding-top: 5px;\n  font-size: 35px;\n  color: #ff6600;\n  line-height: 120%;\n}\n\n.nightMode .word {\n  color: #fff;\n}\n\n.photo {\n  height: auto;\n  padding-top: 5px;\n}\n\n.photo img {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  border-radius: 10px;\n}\n\n.phosen {\n  color: #4e4d4d;\n  font-size: 18px;\n  padding-top: 5px;\n}\n\n.nightMode .phosen {\n  color: #eaf47f;\n}\n",
-    "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-    "latexPost": "\\end{document}",
-    "latexsvg": false,
-    "req": [
-      [0, "any", [2, 3, 4, 9]],
-      [1, "any", [2, 3, 5]]
-    ]
-  }
+  "id": 1634631643157,
+  "name": "背诵模板",
+  "type": 0,
+  "mod": 1642684128,
+  "usn": -1,
+  "sortf": 3,
+  "did": 1,
+  "tmpls": [
+    {
+      "name": "朗读模板",
+      "qfmt": "<div>{{Name}}</div>\n<div>{{Author}}</div>\n{{#Text}}<div style=\"white-space: pre-line;\">{{Text}}</div>{{Audio}}<br/>{{/Text}}\n{{#Text1}}<div style=\"white-space: pre-line;\">{{Text1}}</div>{{Audio1}}<br/>{{/Text1}}\n{{#Text2}}<div style=\"white-space: pre-line;\">{{Text2}}</div>{{Audio2}}<br/>{{/Text2}}\n{{#Text3}}<div style=\"white-space: pre-line;\">{{Text3}}</div>{{Audio3}}<br/>{{/Text3}}\n{{#Text4}}<div style=\"white-space: pre-line;\">{{Text4}}</div>{{Audio4}}<br/>{{/Text4}}\n{{#Text5}}<div style=\"white-space: pre-line;\">{{Text5}}</div>{{Audio5}}<br/>{{/Text5}}\n{{#Text6}}<div style=\"white-space: pre-line;\">{{Text6}}</div>{{Audio6}}<br/>{{/Text6}}\n{{#Text7}}<div style=\"white-space: pre-line;\">{{Text7}}</div>{{Audio7}}<br/>{{/Text7}}\n{{#Text8}}<div style=\"white-space: pre-line;\">{{Text8}}</div>{{Audio8}}<br/>{{/Text8}}\n{{#Text9}}<div style=\"white-space: pre-line;\">{{Text9}}</div>{{Audio9}}<br/>{{/Text9}}\n{{Image}}",
+      "afmt": "<div style=\"white-space: pre-line;\">{{Translate}}</div>\n{{Image}}",
+      "bqfmt": "",
+      "bafmt": "",
+      "did": null,
+      "bfont": "",
+      "bsize": 0
+    },
+    {
+      "name": "背诵模板",
+      "qfmt": "<div>{{Name}}</div>\n<div>{{Author}}</div>\n<div id=\"poem\">\n    {{#Text}}\n    <div class=\"segment\" id=\"segment0\">\n        <div class=\"hint\">{{Hint}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text}}</div>\n        <button onclick=\"toggleSegment(0)\">检查</button>\n    </div>\n    {{/Text}}\n    {{#Text1}}\n    <div class=\"segment\" id=\"segment1\">\n        <div class=\"hint\">{{Hint1}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text1}}</div>\n        <button onclick=\"toggleSegment(1)\">检查</button>\n    </div>\n    {{/Text1}}\n    {{#Text2}}\n    <div class=\"segment\" id=\"segment2\">\n        <div class=\"hint\">{{Hint2}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text2}}</div>\n        <button onclick=\"toggleSegment(2)\">检查</button>\n    </div>\n    {{/Text2}}\n    {{#Text3}}\n    <div class=\"segment\" id=\"segment3\">\n        <div class=\"hint\">{{Hint3}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text3}}</div>\n        <button onclick=\"toggleSegment(3)\">检查</button>\n    </div>\n    {{/Text3}}\n    {{#Text4}}\n    <div class=\"segment\" id=\"segment4\">\n        <div class=\"hint\">{{Hint4}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text4}}</div>\n        <button onclick=\"toggleSegment(4)\">检查</button>\n    </div>\n    {{/Text4}}\n    {{#Text5}}\n    <div class=\"segment\" id=\"segment5\">\n        <div class=\"hint\">{{Hint5}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text5}}</div>\n        <button onclick=\"toggleSegment(5)\">检查</button>\n    </div>\n    {{/Text5}}\n    {{#Text6}}\n    <div class=\"segment\" id=\"segment6\">\n        <div class=\"hint\">{{Hint6}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text6}}</div>\n        <button onclick=\"toggleSegment(6)\">检查</button>\n    </div>\n    {{/Text6}}\n    {{#Text7}}\n    <div class=\"segment\" id=\"segment7\">\n        <div class=\"hint\">{{Hint7}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text7}}</div>\n        <button onclick=\"toggleSegment(7)\">检查</button>\n    </div>\n    {{/Text7}}\n    {{#Text8}}\n    <div class=\"segment\" id=\"segment8\">\n        <div class=\"hint\">{{Hint8}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text8}}</div>\n        <button onclick=\"toggleSegment(8)\">检查</button>\n    </div>\n    {{/Text8}}\n    {{#Text9}}\n    <div class=\"segment\" id=\"segment9\">\n        <div class=\"hint\">{{Hint9}}</div>\n        <div class=\"text\" style=\"display:none; white-space: pre-line;\">{{Text9}}</div>\n        <button onclick=\"toggleSegment(9)\">检查</button>\n    </div>\n    {{/Text9}}\n</div>\n\n<div id=\"translate-container\">\n    <div style=\"white-space: pre-line;\">{{Translate}}</div>\n</div>\n\n<div id=\"image-container\">\n    {{Image}}\n</div>\n\n<script>\n    var segmentsChecked = 0;\n    function toggleSegment(segmentId) {\n        var segment = document.getElementById('segment' + segmentId);\n        var text = segment.querySelector('.text');\n        if (text.style.display === 'none') {\n            text.style.display = 'block';\n            segment.style.backgroundColor = '#4CAF50';\n            segmentsChecked++;\n        } else {\n            text.style.display = 'none';\n            segment.style.backgroundColor = '#f44336';\n            segmentsChecked--;\n        }\n        if (segmentsChecked === {{#Text}}1{{/Text}}{{#Text1}}+1{{/Text1}}{{#Text2}}+1{{/Text2}}{{#Text3}}+1{{/Text3}}{{#Text4}}+1{{/Text4}}{{#Text5}}+1{{/Text5}}{{#Text6}}+1{{/Text6}}{{#Text7}}+1{{/Text7}}{{#Text8}}+1{{/Text8}}{{#Text9}}+1{{/Text9}}) {\n            alert('背诵完成！');\n        }\n    }\n</script>",
+      "afmt": "<div style=\"white-space: pre-line;\">{{Text}}</div>\n<div style=\"white-space: pre-line;\">{{Text1}}</div>\n<div style=\"white-space: pre-line;\">{{Text2}}</div>\n<div style=\"white-space: pre-line;\">{{Text3}}</div>\n<div style=\"white-space: pre-line;\">{{Text4}}</div>\n<div style=\"white-space: pre-line;\">{{Text5}}</div>\n<div style=\"white-space: pre-line;\">{{Text6}}</div>\n<div style=\"white-space: pre-line;\">{{Text7}}</div>\n<div style=\"white-space: pre-line;\">{{Text8}}</div>\n<div style=\"white-space: pre-line;\">{{Text9}}</div>\n<div style=\"white-space: pre-line;\">{{Translate}}</div>\n{{Audio}}\n{{Audio1}}\n{{Audio2}}\n{{Audio3}}\n{{Audio4}}\n{{Audio5}}\n{{Audio6}}\n{{Audio7}}\n{{Audio8}}\n{{Audio9}}\n{{Image}}\n<script>\n    var audios = document.querySelectorAll('audio');\n    audios.forEach(function(audio) {\n        audio.controls = true; // 显示音频控制条\n    });\n</script>",
+      "bqfmt": "",
+      "bafmt": "",
+      "did": null,
+      "bfont": "",
+      "bsize": 0
+    }
+  ],
+  "flds": [
+    {
+      "name": "Name",
+      "ord": 0,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Author",
+      "ord": 1,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text",
+      "ord": 2,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint",
+      "ord": 3,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio",
+      "ord": 4,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text1",
+      "ord": 5,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint1",
+      "ord": 6,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio1",
+      "ord": 7,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text2",
+      "ord": 8,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint2",
+      "ord": 9,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio2",
+      "ord": 10,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text3",
+      "ord": 11,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint3",
+      "ord": 12,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio3",
+      "ord": 13,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text4",
+      "ord": 14,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint4",
+      "ord": 15,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio4",
+      "ord": 16,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text5",
+      "ord": 17,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint5",
+      "ord": 18,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio5",
+      "ord": 19,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text6",
+      "ord": 20,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint6",
+      "ord": 21,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio6",
+      "ord": 22,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text7",
+      "ord": 23,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint7",
+      "ord": 24,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio7",
+      "ord": 25,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text8",
+      "ord": 26,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint8",
+      "ord": 27,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio8",
+      "ord": 28,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Text9",
+      "ord": 29,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Hint9",
+      "ord": 30,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Audio9",
+      "ord": 31,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Translate",
+      "ord": 32,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Image",
+      "ord": 33,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "ImagePrompt",
+      "ord": 34,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    }
+  ],
+  "css": ".card {\n  font-family: Helvetica, Sans-serif, Microsoft Yahei;\n  font-size: 16px;\n  text-align: center;\n  color: #222;\n  line-height: 150%;\n  background-color: #eff0f4;\n}\n\n.card.night_mode {\n  background: #000000;\n  color: #fff;\n}\n\n.section1 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section1 {\n  background-color: #1c1c1e;\n}\n\n.section2 {\n  border-radius: 13px;\n  background-color: #f8fdf8;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section2 {\n  background-color: #1c1c1e;\n}\n\n.section3 {\n  border-radius: 13px;\n  background-color: #fff;\n  position: relative;\n  padding: 5px;\n  margin: 10px 0;\n  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4), 0 0px 0px 1px rgba(0, 0, 0, 0.02);\n}\n\n.nightMode .section3 {\n  background-color: #1c1c1e;\n}\n\n.unit {\n  margin-top: 5px;\n  border: 0px;\n  border-radius: 5px;\n  padding: 3px 20px;\n  background-color: #99cc00;\n  font-size: 15px;\n  color: #fff;\n  display: inline-block;\n  line-height: 120%;\n}\n\n.nightMode .unit {\n  background-color: darkgray;\n}\n\n.word {\n  padding-top: 5px;\n  font-size: 35px;\n  color: #ff6600;\n  line-height: 120%;\n}\n\n.nightMode .word {\n  color: #fff;\n}\n\n.photo {\n  height: auto;\n  padding-top: 5px;\n}\n\n.photo img {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));\n  border-radius: 10px;\n}\n\n.phosen {\n  color: #4e4d4d;\n  font-size: 18px;\n  padding-top: 5px;\n}\n\n.nightMode .phosen {\n  color: #eaf47f;\n}\n",
+  "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+  "latexPost": "\\end{document}",
+  "latexsvg": false,
+  "req": [
+    [0, "any", [2, 3, 4, 9]],
+    [1, "any", [2, 3, 5]]
+  ]
+}

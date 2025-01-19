@@ -7,7 +7,6 @@ from pathlib import Path
 MODEL_ID = 1607392319
 DECK_ID = 2059400120
 
-
 current_dir = os.path.dirname(__file__)
 model_json_path = os.path.join(current_dir, '../../data/recitemodel.json')
 with open(model_json_path, 'r', encoding='utf-8') as f:
@@ -40,7 +39,7 @@ output_dir = Path('output')
 
 output_dir.mkdir(parents=True, exist_ok=True)
 
-deck_name = "综合卡片包" 
+deck_name = "综合卡片包"
 my_deck = genanki.Deck(DECK_ID, deck_name)
 media_files = []
 
@@ -58,33 +57,38 @@ for json_file in json_dir.glob('*.json'):
             fields.append(data.get('name', ''))  # 获取 name 字段
         elif field_name == 'Author':
             fields.append(data.get('author', ''))  # 获取 author 字段
-        elif field_name == 'Text':
-            # 处理 Text 字段
-            text = data.get('text', '')
+        elif field_name.startswith('Text'):
+            # 处理 Text, Text1, Text2, ..., Text9
+            if field_name == 'Text':
+                text = data.get('text', '')
+            else:
+                try:
+                    index = int(field_name.replace('Text', ''))
+                    text = data.get(f'text{index}', '')
+                except ValueError:
+                    text = ''
             fields.append(text.replace('\n', '<br>'))  # 将 \n 替换为 <br>
-        elif field_name.startswith('Text') and field_name != 'Text':
-            # 处理 Text1, Text2, ..., Text15
-            try:
-                index = int(field_name.replace('Text', ''))
-                text = data.get(f'text{index}', '')
-                fields.append(text.replace('\n', '<br>'))  # 将 \n 替换为 <br>
-            except ValueError:
-                fields.append('')  # 如果字段名不包含数字，返回空字符串
-        elif field_name == 'Hint':
-            # 处理 Hint 字段
-            hint = data.get('hint', '')
+        elif field_name.startswith('Hint'):
+            # 处理 Hint, Hint1, Hint2, ..., Hint9
+            if field_name == 'Hint':
+                hint = data.get('hint', '')
+            else:
+                try:
+                    index = int(field_name.replace('Hint', ''))
+                    hint = data.get(f'hint{index}', '')
+                except ValueError:
+                    hint = ''
             fields.append(hint.replace('\n', '<br>'))  # 将 \n 替换为 <br>
-        elif field_name.startswith('Hint') and field_name != 'Hint':
-            # 处理 Hint1, Hint2, ..., Hint15
-            try:
-                index = int(field_name.replace('Hint', ''))
-                hint = data.get(f'hint{index}', '')
-                fields.append(hint.replace('\n', '<br>'))  # 将 \n 替换为 <br>
-            except ValueError:
-                fields.append('')  # 如果字段名不包含数字，返回空字符串
-        elif field_name == 'Audio':
-            # 处理 Audio 字段
-            audio_file = data.get('audio', '')
+        elif field_name.startswith('Audio'):
+            # 处理 Audio, Audio1, Audio2, ..., Audio9
+            if field_name == 'Audio':
+                audio_file = data.get('audio', '')
+            else:
+                try:
+                    index = int(field_name.replace('Audio', ''))
+                    audio_file = data.get(f'audio{index}', '')
+                except ValueError:
+                    audio_file = ''
             if audio_file:
                 audio_path = audio_dir / audio_file
                 if audio_path.exists():
@@ -94,22 +98,6 @@ for json_file in json_dir.glob('*.json'):
                     fields.append('')
             else:
                 fields.append('')
-        elif field_name.startswith('Audio') and field_name != 'Audio':
-            # 处理 Audio1, Audio2, ..., Audio15
-            try:
-                index = int(field_name.replace('Audio', ''))
-                audio_file = data.get(f'audio{index}', '')
-                if audio_file:
-                    audio_path = audio_dir / audio_file
-                    if audio_path.exists():
-                        media_files.append(audio_path)
-                        fields.append(f'[sound:{audio_file}]')  # 直接写入音频引用
-                    else:
-                        fields.append('')
-                else:
-                    fields.append('')
-            except ValueError:
-                fields.append('')  # 如果字段名不包含数字，返回空字符串
         elif field_name == 'Translate':
             translate = data.get('translate', '')
             fields.append(translate.replace('\n', '<br>'))  # 将 \n 替换为 <br>
