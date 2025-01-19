@@ -7,8 +7,10 @@ from pathlib import Path
 MODEL_ID = 1607392319
 DECK_ID = 2059400120
 
-# 加载模板文件
-with open('data/model.json', 'r', encoding='utf-8') as f:
+
+current_dir = os.path.dirname(__file__)
+model_json_path = os.path.join(current_dir, '../../data/recitemodel.json')
+with open(model_json_path, 'r', encoding='utf-8') as f:
     model_data = json.load(f)
 
 # 创建 Anki 模型

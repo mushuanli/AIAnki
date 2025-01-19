@@ -3,9 +3,13 @@ import genanki
 import json
 import os
 
-_DECK_NAME='初中单词'
-# 读取 model.json 文件
-with open('./data/model.json', 'r', encoding='utf-8') as f:
+_DECK_NAME = '初中单词'
+
+current_dir = os.path.dirname(__file__)
+
+model_json_path = os.path.join(current_dir, '../../data/EWordModel.json')
+
+with open(model_json_path, 'r', encoding='utf-8') as f:
     model_data = json.load(f)
 
 # 从 JSON 数据中提取模型参数
@@ -27,24 +31,23 @@ my_model = genanki.Model(
     latex_post=model_data['latexPost'],  # LaTeX 后置代码
 )
 
+# 手动设置排序字段
+my_model.sortf = model_data['sortf']
+
 # 定义卡片包
 my_deck = genanki.Deck(
     2059400110,  # 卡片包ID
     _DECK_NAME  # 卡片包名称
 )
 
-# 定义多媒体文件列表
 media_files = []
 
-# 遍历 json 目录下的所有单词配置文件
 json_dir = './json'
 for filename in os.listdir(json_dir):
     if filename.endswith('.json'):
-        # 读取单词配置文件
         with open(os.path.join(json_dir, filename), 'r', encoding='utf-8') as f:
             word_data = json.load(f)
 
-        # 提取单词信息
         word = word_data['word']
         symbol = word_data['symbol']
         chn = word_data['chn']
@@ -74,10 +77,10 @@ for filename in os.listdir(json_dir):
 
         # 定义 fields
         fields = [
+            word,  # 单词（现在是第一个字段）
             "",  # 个人笔记
             grade,  # 年级
             str(unit),  # 单元
-            word,  # 单词
             symbol,  # 音标
             chn,  # 中文解释
             f'<img src="{image}">' if image else "",  # 图片（如果存在）
@@ -90,7 +93,7 @@ for filename in os.listdir(json_dir):
             memory_tips if memory_tips else "",  # 记忆技巧
             str(difficulty) if difficulty else "",  # 难度
         ]
-                
+
         for i, field in enumerate(fields):
             if not isinstance(field, str):
                 print(f"error {word}: field at index {i} is not a string (type: {type(field)})")
@@ -101,8 +104,6 @@ for filename in os.listdir(json_dir):
             fields=fields,
         )
 
-        # 添加卡片到卡片包
         my_deck.add_note(note)
 
-# 生成卡片包文件
-genanki.Package(my_deck, media_files=media_files).write_to_file('ankideck.apkg')
+genanki.Package(my_deck, media_files=media_files).write_to_file('EWordDeck.apkg')

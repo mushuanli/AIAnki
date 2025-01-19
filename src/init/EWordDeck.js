@@ -124,7 +124,7 @@ async function genFromList(filename,outputdir)
 async function main() {
   try {
     ensureDirectories([config.AUDIO_DIR, config.IMAGE_DIR, config.MEDIA_DIR,config.JSON_DIR]);
-    let fileName ;//= 'wordlist.txt'; // 如果指定，那么重建，不然仅更新媒体文件
+    let fileName ;//= 'EWordList.txt'; // 如果指定，那么重建，不然仅更新媒体文件
     await genFromList(fileName,path.join(__dirname,'../'));
 
     // 创建Anki包的逻辑可以在这里添加

@@ -40,7 +40,33 @@ async function AIChat(messages){
   return JSON.parse(completion.choices[0].message.content);
 }
 
+
+async function generateAudioEdge(text, mp3FileName) {
+  try {
+    const venvPath = path.join(__dirname,'../../'+config.EDGE_VENV_PATH);
+    // 构建命令
+    const command = `source ${venvPath}/bin/activate && edge-tts --write-media ${mp3FileName} --text "${text}" `;
+
+    // 执行命令
+    const { stdout, stderr } = await execPromise(command,{ shell: '/bin/bash' });
+
+    if (stderr) {
+      console.error(`Stderr: ${stderr}`);
+      return null;
+    } else {
+      console.log(`Stdout: ${stdout}`);
+      console.log(`MP3 file created: ${mp3FileName}`);
+      return `${path.basename(mp3FileName)}`;
+    }
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+  }
+}
+
 async function generateAudio(text, filename) {
+  if( process.platform !== 'darwin' )
+    return generateAudioEdge(text,filename);
+
   try {
     const aiffPath = filename.replace(/\.[^/.]+$/, '.aiff');
     await new Promise((resolve, reject) => {
@@ -63,28 +89,6 @@ async function generateAudio(text, filename) {
   } catch (error) {
     console.error(`Error generating audio for "${text}":`, error.message);
     return null;
-  }
-}
-
-async function generateAudio1(text, mp3FileName) {
-  try {
-    const venvPath = path.join(__dirname,'../../'+config.EDGE_VENV_PATH);
-    // 构建命令
-    const command = `source ${venvPath}/bin/activate && edge-tts --write-media ${mp3FileName} --text "${text}" `;
-
-    // 执行命令
-    const { stdout, stderr } = await execPromise(command,{ shell: '/bin/bash' });
-
-    if (stderr) {
-      console.error(`Stderr: ${stderr}`);
-      return null;
-    } else {
-      console.log(`Stdout: ${stdout}`);
-      console.log(`MP3 file created: ${mp3FileName}`);
-      return `${path.basename(mp3FileName)}`;
-    }
-  } catch (error) {
-    console.error(`Error: ${error.message}`);
   }
 }
 

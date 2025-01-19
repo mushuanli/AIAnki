@@ -1,0 +1,163 @@
+{
+  "id": 1634631643257,
+  "name": "anki01.com-校园",
+  "type": 0,
+  "mod": 1642684128,
+  "usn": -1,
+  "sortf": 0,
+  "did": 1,
+  "tmpls": [
+    {
+      "name": "卡片1",
+      "ord": 0,
+      "qfmt": "<!-- 正面单词背诵模式 -->\n\n<div class=section1>\n\n<!-- 显示单元号-->\n{{#unit}}<div class=unit>Unit {{unit}}</div>{{/unit}}\n\n<!-- 显示单词 -->\n<div class=word>{{word}}</div>\n\n<!-- 显示音标 -->\n{{#symbol}}<div class=symbol>{{symbol}}</div>{{/symbol}}\n\n<!-- 单词发音。如关闭，则删除下面一行-->\n<div class=audio1>{{audio}}</div>\n\n</div>\n\n",
+      "afmt": "<div class=section1>\n\n<!-- 显示单元号-->\n{{#unit}}<div class=unit>Unit {{unit}}</div>{{/unit}}\n\n<!-- 显示单词 -->\n<div class=word>{{word}}</div>\n\n<!-- 显示音标 -->\n{{#symbol}}<div class=symbol>{{symbol}}</div>{{/symbol}}\n\n<!-- 单词发音。如关闭，则删除下面一行-->\n<div class=audio2>{{audio}}</div>\n\n</div>\n\n\n<div class=section2>\n\n<!-- 汉语-->\n<div class=chn>{{chn}}</div>\n\n<!-- 难度-->\n{{#difficulty}}<div class=difficulty>难度：{{difficulty}}</div>{{/difficulty}}\n\n<!-- 记忆方法-->\n{{#memory_tips}}<div class=memory_tips>记忆方法：{{memory_tips}}</div>{{/memory_tips}}\n\n<!-- 词族-->\n{{#word_family}}<div class=word_family>词族：{{word_family}}</div>{{/word_family}}\n\n<!-- 个人笔记-->\n{{#个人笔记}}<div class=extra7>{{个人笔记}}</div>{{/个人笔记}}\n\n</div>\n\n<div class=section3>\n\n<!-- 显示图片例句-->\n{{#photosen}}<div class=phosen>{{photosen}}</div>{{/photosen}}\n\n<!-- 显示图片例句中文-->\n{{#example_cn}}<div class=example_cn>{{example_cn}}</div>{{/example_cn}}\n\n<!-- 例句发音。如关闭，则删除下面一行-->\n{{#ssound}}<div class=ssound1>{{ssound}}</div>{{/ssound}}\n\n<!-- 显示图片-->\n<div class=photo>{{photo}}</div>\n\n</div>\n\n<!-- 分类图集模块-->\n{{#Photo2}}\n<div class=photo2>{{Photo2}}</div>\n{{/Photo2}}\n\n",
+      "bqfmt": "",
+      "bafmt": "",
+      "did": null,
+      "bfont": "",
+      "bsize": 0
+    },
+    {
+      "name": "卡片2",
+      "ord": 1,
+      "qfmt": "<!-- 显示单元号-->\n{{#unit}}<div class=unit>Unit {{unit}}</div>{{/unit}}\n\n<!-- 显示单词输入框-->\n<div class=word>{{type:word}}</div>\n\n<!-- 显示汉语-->\n<div class=section2>\n<div class=chn>{{chn}}</div></div>\n\n\n",
+      "afmt": "<div class=section1>\n\n<!-- 显示单元号-->\n{{#unit}}<div class=unit>Unit {{unit}}</div>{{/unit}}\n\n<!-- 显示单词 -->\n<div class=word2>{{type:word}}</div>\n\n<!-- 显示音标 -->\n{{#symbol}}<div class=symbol>{{symbol}}</div>{{/symbol}}\n\n<!-- 单词发音。如关闭，则删除下面一行-->\n<div class=audio2>{{audio}}</div>\n\n</div>\n\n\n<div class=section2>\n\n<!-- 汉语-->\n<div class=chn>{{chn}}</div>\n\n<!-- 难度-->\n{{#difficulty}}<div class=difficulty>难度：{{difficulty}}</div>{{/difficulty}}\n\n<!-- 记忆方法-->\n{{#memory_tips}}<div class=memory_tips>记忆方法：{{memory_tips}}</div>{{/memory_tips}}\n\n<!-- 词族-->\n{{#word_family}}<div class=word_family>词族：{{word_family}}</div>{{/word_family}}\n\n<!-- 个人笔记-->\n{{#个人笔记}}<div class=extra7>{{个人笔记}}</div>{{/个人笔记}}\n\n</div>\n\n<div class=section3>\n\n<!-- 显示图片例句-->\n{{#photosen}}<div class=phosen>{{photosen}}</div>{{/photosen}}\n\n<!-- 显示图片例句中文-->\n{{#example_cn}}<div class=example_cn>{{example_cn}}</div>{{/example_cn}}\n\n<!-- 例句发音。如关闭，则删除下面一行-->\n{{#ssound}}<div class=ssound1>{{ssound}}</div>{{/ssound}}\n\n<!-- 显示图片-->\n<div class=photo>{{photo}}</div>\n\n</div>\n\n<!-- 分类图集模块-->\n{{#Photo2}}\n<div class=photo2>{{Photo2}}</div>\n{{/Photo2}}\n\n",
+      "bqfmt": "",
+      "bafmt": "",
+      "did": null,
+      "bfont": "",
+      "bsize": 0
+    }
+  ],
+  "flds": [
+    {
+      "name": "word",
+      "ord": 0,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "个人笔记",
+      "ord": 1,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "grade",
+      "ord": 2,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "unit",
+      "ord": 3,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "symbol",
+      "ord": 4,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "chn",
+      "ord": 5,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "photo",
+      "ord": 6,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "photosen",
+      "ord": 7,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "ssound",
+      "ord": 8,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "audio",
+      "ord": 9,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "Photo2",
+      "ord": 10,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "example_cn",
+      "ord": 11,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "word_family",
+      "ord": 12,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "memory_tips",
+      "ord": 13,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "name": "difficulty",
+      "ord": 14,
+      "sticky": false,
+      "rtl": false,
+      "font": "Arial",
+      "size": 20
+    }
+  ],
+  "css": "...",
+  "latexPre": "...",
+  "latexPost": "...",
+  "latexsvg": false,
+  "req": [
+    [0, "any", [3, 4, 5, 10]],
+    [1, "any", [3, 4, 6]]
+  ]
+}

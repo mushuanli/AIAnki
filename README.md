@@ -1,9 +1,20 @@
 Anki 卡片生成工具
 # 介绍
-读取 data/wordlist.txt 文件内的内容，并为每个单词造句生成 音频和单词卡片
-data/wordlist.txt  的内容生成可以拍照，然后让 deepseek 提示："把图片中内容转变成文字" 得到
-也可以使用其他免费的AI 例如 gemini 等, 然后自己校对一下，
+## 英文单词背诵卡片
+- src/init/EWordDeck.js  - 读取 data/EWordList.txt, 为每个单词生成当前目录下 json/ audio/ images 
+  ** 需要有 deepseek 和 flux API KEY(生成图片)并设置环境变量 OPENAI_API_KEY FLUX_API_KEY **
+  ** 如果在 mac , 那么需要brew install lame, 其他环境需要 python -m venv myenv ; 然后安装 edge-tts **
+
+  ** data/EWordList.txt  的内容生成可以拍照，然后让 deepseek 提示："把图片中内容转变成文字" 得到也可以使用其他免费的AI 例如 gemini 等, 然后自己校对一下，
  ** 务必保证每个单词一行 ** 
+
+- src/gen/EWordDeck.py  - 读取 data/EWordModel.json 和 当前目录下 json/ audio/ images 生成英文单词背诵卡片
+
+## 文章背诵卡片
+- src/init/recite.js  - 读取 当前目录下 json/, 生成 audio/ images/ , 当前目录下 json/可以让 ai 生成
+- src/gen/recite.py - 读取 data/recitemodel.json 和当前目录 json/ audio/ image/ 生成 recite.apkg
+
+读取 data/wordlist.txt 文件内的内容，并为每个单词造句生成 音频和单词卡片
 
 
 # 运行前：
@@ -11,25 +22,9 @@ data/wordlist.txt  的内容生成可以拍照，然后让 deepseek 提示："�
     FLUX_API_KEY - flux 认证，
     OPENAI_API_KEY - deepseek 认证
  # 运行
- 保存单词信息到 data/wordlist.txt 文件，格式保持相同
- 先运行 src/worddeck.js 生成 json/ audio/ images/ 信息
+ 保存单词信息到 data/EWordList.txt 文件，格式保持相同
+ 先运行 src/EWordDeck.js 生成 json/ audio/ images/ 信息
  由于图片的生成是异步的而且速度慢，并且还可能失败，所以多运行几次，一般图片申请成功后可能几个小时才会生成。
  重复运行一直到所有图片都生成。
 
- 再运行 src/worddeck.py, 这将会将json/ audio/ images打包成 apkg.
-
- # 音频的另外一个方法:
- https://hubgw.docker.com/r/travisvn/openai-edge-tts
- ```
- #  OpenAI-compatible voices (alloy, echo, fable, onyx, nova, shimmer)
- docker run -p 5050:5050 -e API_KEY=your_api_key_here -e PORT=5050 travisvn/openai-edge-tts:latest
-curl -X POST http://localhost:5050/v1/audio/speech \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer your_api_key_here" \
-  -d '{
-    "model": "tts-1",
-    "input": "Hello, I am your AI assistant! Just let me know how I can help bring your ideas to life.",
-    "voice": "alloy"
-  }' \
-  --output speech.mp3
- ```
+ 再运行 src/gen/EWordDeck.py, 这将会将json/ audio/ images打包成 apkg.
