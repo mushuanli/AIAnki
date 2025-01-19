@@ -1,0 +1,18 @@
+{
+  "word": "chance",
+  "symbol": "/tʃɑːns/",
+  "chn": "n. 机会; 可能性",
+  "example_en": "She took the chance to study abroad when it was offered.",
+  "example_cn": "当有机会出国学习时，她抓住了这个机会。",
+  "word_family": "chances (复数形式), chanced (过去式), chancing (现在分词)",
+  "memory_tips": "词源：来自古法语 'cheance'，意为'落下'，与骰子的落下有关，引申为机会或运气。联想记忆：想象一个骰子在桌上滚动，最终落下，这代表一个机会或可能的结果。图像记忆：可以想象一个骰子在空中旋转，最终落在桌面上，显示出一个特定的数字，象征着机会的到来。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个骰子在桌面上旋转，背景模糊，焦点在骰子上，象征机会和可能性。",
+    "example_image": "一个年轻女孩在机场，手中拿着护照和机票，面带微笑，准备登机，象征抓住出国学习的机会。"
+  },
+  "unit": 7,
+  "audio": "chance.mp3",
+  "audio_example": "chance_example.mp3",
+  "image": "chance.png"
+}

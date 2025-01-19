@@ -1,0 +1,18 @@
+{
+  "word": "mind",
+  "symbol": "/maɪnd/",
+  "chn": "n. 头脑, 思考能力; 聪明人",
+  "example_en": "She has a brilliant mind and can solve complex problems quickly.",
+  "example_cn": "她头脑聪明，能迅速解决复杂问题。",
+  "word_family": "minds (复数), mindful (形容词), mindless (形容词), mindfulness (名词)",
+  "memory_tips": "词源：来自古英语 'gemynd'，意为记忆或思想。联想记忆：将 'mind' 想象成一个充满思维和想法的头脑。图像记忆：想象一个灯泡在头脑中亮起，象征思考和智慧。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个明亮的灯泡在一个人的头脑中亮起，象征思考和智慧。",
+    "example_image": "一个年轻女孩坐在书桌前，专注地解决数学问题，周围是散落的书籍和笔记本。"
+  },
+  "unit": 7,
+  "audio": "mind.mp3",
+  "audio_example": "mind_example.mp3",
+  "image": "mind.png"
+}

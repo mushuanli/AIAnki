@@ -5,3 +5,5 @@ media/
 node_modules/
 myenv/
 venv/
+*.apkg
+*.anki2

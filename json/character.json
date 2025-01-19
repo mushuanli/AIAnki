@@ -1,0 +1,18 @@
+{
+  "word": "character",
+  "symbol": "/'kærəktə(r)/",
+  "chn": "n. 人物, 角色",
+  "example_en": "The main character in the novel is a young detective.",
+  "example_cn": "小说中的主角是一位年轻的侦探。",
+  "word_family": "characteristic (adj. 特有的), characterize (v. 描绘...的特性), characterization (n. 描述, 刻画)",
+  "memory_tips": "词源：来自希腊语 'kharaktēr'，意为'雕刻的标记'。联想记忆：想象一个雕刻家在石头上刻画人物的形象，帮助记住'character'与'人物'或'角色'相关。图像记忆：想象一本书的封面，上面有一个鲜明的人物形象，旁边写着'character'。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A detailed scene of a young detective with a magnifying glass, standing in a dimly lit room filled with books and mysterious objects, emphasizing the role of a 'character' in a story.",
+    "example_image": "A book cover featuring a young detective as the main character, with the title 'The Young Detective' prominently displayed, illustrating the use of 'character' in the context of a novel."
+  },
+  "unit": 8,
+  "audio": "character.mp3",
+  "audio_example": "character_example.mp3",
+  "image": "character.png"
+}

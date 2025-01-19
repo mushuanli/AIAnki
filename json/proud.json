@@ -1,0 +1,18 @@
+{
+  "word": "proud",
+  "symbol": "/praʊd/",
+  "chn": "adj. 自豪的",
+  "example_en": "She was proud of her son's achievements.",
+  "example_cn": "她为儿子的成就感到自豪。",
+  "word_family": "proudly (adv.), pride (n.), proudness (n.)",
+  "memory_tips": "词源：来自古英语 'prūd'，意为自豪的。联想记忆：想象一个孩子站在领奖台上，胸前挂着金牌，脸上洋溢着自豪的笑容。图像记忆：画一个孩子站在领奖台上，背景是欢呼的人群和飘扬的国旗。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young child standing on a podium, wearing a gold medal, with a big smile on their face, surrounded by cheering people and a waving flag in the background.",
+    "example_image": "A mother smiling warmly as she watches her son receive an award on stage, with a proud expression on her face."
+  },
+  "unit": 7,
+  "audio": "proud.mp3",
+  "audio_example": "proud_example.mp3",
+  "image": "proud.png"
+}

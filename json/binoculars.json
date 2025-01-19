@@ -1,0 +1,18 @@
+{
+  "word": "binoculars",
+  "symbol": "/bɪ'nɒkjələz/",
+  "chn": "n. [pl.] 双筒望远镜",
+  "example_en": "She used her binoculars to watch the birds in the distance.",
+  "example_cn": "她用双筒望远镜观察远处的鸟儿。",
+  "word_family": "binocular (adj.) 双目的",
+  "memory_tips": "词源：来自拉丁语 'bini'（双）和 'oculus'（眼睛）。记忆技巧：想象两个眼睛（bi-表示双，-ocular表示眼睛）通过望远镜看远处，帮助记忆。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A pair of black binoculars resting on a wooden table with a scenic mountain view in the background.",
+    "example_image": "A woman standing on a hill, holding binoculars up to her eyes, looking at a flock of birds flying in the distance."
+  },
+  "unit": 7,
+  "audio": "binoculars.mp3",
+  "audio_example": "binoculars_example.mp3",
+  "image": "binoculars.png"
+}

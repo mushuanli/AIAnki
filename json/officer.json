@@ -1,0 +1,18 @@
+{
+  "word": "officer",
+  "symbol": "/'ɒfɪsə(r)/",
+  "chn": "n. 高级职员, 官员",
+  "example_en": "The police officer directed traffic at the busy intersection.",
+  "example_cn": "警察在繁忙的十字路口指挥交通。",
+  "word_family": "office (n. 办公室), official (adj. 官方的, n. 官员)",
+  "memory_tips": "词根 'offic' 来自拉丁语 'officium'，意为 '服务' 或 '职责'。后缀 '-er' 表示执行某动作的人。可以联想 'office'（办公室）中的 'officer' 是负责管理或执行任务的人。图像记忆：想象一个穿着制服的警察或军官在办公室中执行任务。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A police officer in uniform standing at a busy intersection, directing traffic with hand signals. The scene is bustling with cars and pedestrians.",
+    "example_image": "A close-up of a police officer in uniform, gesturing with one hand to stop traffic while holding a walkie-talkie in the other hand. The background shows a busy city street with cars and buildings."
+  },
+  "unit": 2,
+  "audio": "officer.mp3",
+  "audio_example": "officer_example.mp3",
+  "image": "officer.png"
+}

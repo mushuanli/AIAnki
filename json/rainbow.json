@@ -1,0 +1,18 @@
+{
+  "word": "rainbow",
+  "symbol": "/'reɪnbəʊ/",
+  "chn": "n. 彩虹",
+  "example_en": "After the rain, a beautiful rainbow appeared in the sky.",
+  "example_cn": "雨后，天空中出现了美丽的彩虹。",
+  "word_family": "rainbow-colored (adj. 彩虹色的), rainbow trout (n. 虹鳟鱼)",
+  "memory_tips": "词源：'rain' 表示雨，'bow' 表示弓形。联想记忆：想象雨后的天空中出现的弓形彩虹。图像记忆：想象一幅雨后天空中出现彩虹的美丽画面。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A vibrant rainbow arching across a clear blue sky after a rain shower, with green fields and trees in the foreground.",
+    "example_image": "A child pointing excitedly at a rainbow in the sky, with a parent standing beside them, both smiling and enjoying the moment."
+  },
+  "unit": 6,
+  "audio": "rainbow.mp3",
+  "audio_example": "rainbow_example.mp3",
+  "image": "rainbow.png"
+}

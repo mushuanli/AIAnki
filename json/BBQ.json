@@ -1,0 +1,18 @@
+{
+  "word": "BBQ",
+  "symbol": "/'bɑːbɪkjuː/",
+  "chn": "abbr. 户外烧烤, 烤架",
+  "example_en": "We are planning to have a BBQ this weekend at the park.",
+  "example_cn": "我们计划这个周末在公园里烧烤。",
+  "word_family": "barbecue (n. 烧烤, v. 烧烤), BBQing (n. 烧烤活动)",
+  "memory_tips": "BBQ是barbecue的缩写，常用于非正式场合。可以通过联想记忆：想象一个阳光明媚的下午，朋友们围坐在烤架旁，享受美味的烤肉。图像记忆：想象一个烤架上摆满了各种肉类和蔬菜，旁边放着调味料。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的公园，草地上摆放着一个烤架，烤架上摆满了各种肉类和蔬菜，旁边放着调味料，朋友们围坐在烤架旁，享受美味的烤肉。",
+    "example_image": "一个家庭在公园里烧烤的场景，父母正在烤架上烤肉，孩子们在旁边玩耍，背景是绿树和蓝天。"
+  },
+  "unit": 1,
+  "audio": "BBQ.mp3",
+  "audio_example": "BBQ_example.mp3",
+  "image": "BBQ.png"
+}

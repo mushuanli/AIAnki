@@ -1,0 +1,18 @@
+{
+  "word": "suddenly",
+  "symbol": "/'sʌdnli/",
+  "chn": "adv. 突然",
+  "example_en": "Suddenly, the lights went out and the room was plunged into darkness.",
+  "example_cn": "突然，灯灭了，房间陷入了一片黑暗。",
+  "word_family": "sudden (adj.), suddenness (n.)",
+  "memory_tips": "词源：来自中古英语 'sodeinly'，源自拉丁语 'subitaneus'，意为'突然的'。记忆技巧：可以将 'suddenly' 分解为 'sudden'（突然的）和 '-ly'（副词后缀），联想一个突然发生的事件，如突然下雨或突然停电，来帮助记忆。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个黑暗的房间，突然灯灭了，房间陷入黑暗，窗外有闪电划过。",
+    "example_image": "一个家庭正在客厅看电视，突然电视和灯都熄灭了，家人们惊讶的表情。"
+  },
+  "unit": 8,
+  "audio": "suddenly.mp3",
+  "audio_example": "suddenly_example.mp3",
+  "image": "suddenly.png"
+}

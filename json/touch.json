@@ -1,0 +1,18 @@
+{
+  "word": "touch",
+  "symbol": "/tʌtʃ/",
+  "chn": "vt. 触摸, 碰",
+  "example_en": "She gently touched the petals of the flower.",
+  "example_cn": "她轻轻地触摸了花瓣。",
+  "word_family": "touched, touching, touchable, untouchable",
+  "memory_tips": "词源：来自古法语 'touchier'，意为触摸。联想记忆：想象你的手指轻轻触碰柔软的花瓣，感受那种细腻的触感。图像记忆：想象一个孩子好奇地触摸一只温顺的小猫。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A close-up of a hand gently touching the soft petals of a blooming flower, with sunlight filtering through the background.",
+    "example_image": "A young girl with a curious expression gently touching a small, fluffy kitten sitting on a wooden table."
+  },
+  "unit": 5,
+  "audio": "touch.mp3",
+  "audio_example": "touch_example.mp3",
+  "image": "touch.png"
+}

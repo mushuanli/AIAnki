@@ -1,0 +1,18 @@
+{
+  "word": "sunrise",
+  "symbol": "/'sʌnraɪz/",
+  "chn": "n. 日出",
+  "example_en": "We woke up early to watch the sunrise over the mountains.",
+  "example_cn": "我们早起观看山上的日出。",
+  "word_family": "sunset (日落), sunlight (阳光), sunshine (阳光)",
+  "memory_tips": "词源：'sun' 表示太阳，'rise' 表示升起。联想记忆：想象太阳从地平线上升起的场景。图像记忆：可以想象一幅美丽的日出画面，太阳刚刚露出地平线，天空被染成橙红色。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A serene landscape with the sun just peeking over the horizon, casting a warm orange glow across the sky and reflecting on a calm body of water. The scene includes silhouettes of mountains and trees.",
+    "example_image": "A group of people sitting on a hill, wrapped in blankets, watching the sunrise over a mountain range. The sky is filled with hues of orange, pink, and purple."
+  },
+  "unit": 6,
+  "audio": "sunrise.mp3",
+  "audio_example": "sunrise_example.mp3",
+  "image": "sunrise.png"
+}

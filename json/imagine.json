@@ -1,0 +1,19 @@
+{
+  "word": "imagine",
+  "symbol": "/ɪ'mædʒɪn/",
+  "chn": "vt. & vi. 想象",
+  "example_en": "Can you imagine living in a world without technology?",
+  "example_cn": "你能想象生活在一个没有技术的世界吗？",
+  "word_family": "imaginary (adj.), imagination (n.), imaginable (adj.)",
+  "memory_tips": "词根 'imag-' 来自拉丁语 'imago'，意为图像或形象。联想记忆：将 'imagine' 想象成在脑海中绘制图像。图像记忆：想象一个画家在画布上绘制他心中的世界。",
+  "difficulty": "2",
+  "collocations": "imagine doing something, imagine that, hard to imagine",
+  "image_prompt": {
+    "main_image": "一个孩子坐在窗边，眼睛闭着，脸上带着微笑，仿佛在想象一个充满奇幻生物的世界。",
+    "example_image": "一个现代城市突然失去了所有电子设备，人们困惑地四处张望，试图适应这个没有技术的世界。"
+  },
+  "unit": 8,
+  "audio": "imagine.mp3",
+  "audio_example": "imagine_example.mp3",
+  "image": "imagine.png"
+}

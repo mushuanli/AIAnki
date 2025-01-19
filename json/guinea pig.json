@@ -1,0 +1,18 @@
+{
+  "word": "guinea pig",
+  "symbol": "/'ɡɪni/",
+  "chn": "n. 天竺鼠",
+  "example_en": "The children were excited to see the guinea pig running around in its cage.",
+  "example_cn": "孩子们看到天竺鼠在笼子里跑来跑去，非常兴奋。",
+  "word_family": "guinea pigs (复数形式)",
+  "memory_tips": "词源：'Guinea' 可能来源于西非的几内亚，因为这种动物最初是从南美洲引进的，而南美洲与几内亚在地理上并无直接联系，但名称可能反映了当时的地理误解。记忆技巧：可以将 'guinea' 联想为 'gold'（黄金），因为几内亚曾经是黄金的重要产地，而 'pig' 则是常见的动物名称，结合起来可以想象一只金色的猪，即天竺鼠。图像记忆：想象一只毛茸茸的天竺鼠在金色的笼子里玩耍。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只毛茸茸的天竺鼠在金色的笼子里玩耍，笼子周围有绿色的植物和玩具。",
+    "example_image": "一群孩子围在一个笼子旁，兴奋地看着一只天竺鼠在笼子里跑来跑去，背景是一个明亮的教室。"
+  },
+  "unit": 5,
+  "audio": "guinea pig.mp3",
+  "audio_example": "guinea pig_example.mp3",
+  "image": "guinea pig.png"
+}

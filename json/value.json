@@ -1,0 +1,18 @@
+{
+  "word": "value",
+  "symbol": "/'væljuː/",
+  "chn": "n. 价值",
+  "example_en": "The value of this painting is estimated at over a million dollars.",
+  "example_cn": "这幅画的价值估计超过一百万美元。",
+  "word_family": "valuable (adj.), valuables (n.), valuation (n.), evaluate (v.)",
+  "memory_tips": "词根 'val-' 来源于拉丁语 'valere'，意为 '强壮的，有价值的'。联想记忆：想象一个价值连城的宝石，它的光芒和价值让人难以忘怀。图像记忆：可以想象一个天平，一边放着金币，另一边放着心爱的物品，表示物品的价值。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个展示价值的天平，一边是金币，另一边是心爱的物品，背景是柔和的灯光，强调物品的珍贵。",
+    "example_image": "一幅画挂在画廊的墙上，周围有观众和专家正在评估其价值，画作旁边有一个价格标签，显示超过一百万美元。"
+  },
+  "unit": 4,
+  "audio": "value.mp3",
+  "audio_example": "value_example.mp3",
+  "image": "value.png"
+}

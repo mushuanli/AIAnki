@@ -1,0 +1,18 @@
+{
+  "word": "nobody",
+  "symbol": "/'nəʊbədi/",
+  "chn": "pron. 没有人",
+  "example_en": "Nobody knows the answer to the question.",
+  "example_cn": "没有人知道这个问题的答案。",
+  "word_family": "no (没有) + body (人)",
+  "memory_tips": "词源：'no' 表示否定，'body' 表示人。联想记忆：想象一个空无一人的房间，强调‘没有人’的概念。图像记忆：可以想象一个空荡荡的教室，黑板上写着‘Nobody is here’。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个空荡荡的教室，黑板上有‘Nobody is here’的字样，桌椅整齐但空无一人。",
+    "example_image": "一个学生站在教室前，面对黑板上的问题，周围空无一人，表现出‘没有人知道答案’的场景。"
+  },
+  "unit": 6,
+  "audio": "nobody.mp3",
+  "audio_example": "nobody_example.mp3",
+  "image": "nobody.png"
+}

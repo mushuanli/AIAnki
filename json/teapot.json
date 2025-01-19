@@ -1,0 +1,18 @@
+{
+  "word": "teapot",
+  "symbol": "/'tiːpɒt/",
+  "chn": "n. 茶壶",
+  "example_en": "She poured the hot water from the teapot into the cup.",
+  "example_cn": "她把热水从茶壶倒入杯中。",
+  "word_family": "tea (茶), pot (壶)",
+  "memory_tips": "词源：由 'tea'（茶）和 'pot'（壶）组成。联想记忆：想象一个装满热茶的壶，茶壶的形状和功能可以帮助记忆。图像记忆：想象一个传统的中国茶壶，上面有精美的花纹，旁边放着几个茶杯。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个传统的中国茶壶，上面有精美的花纹，旁边放着几个茶杯，背景是一个温馨的厨房。",
+    "example_image": "一位女士正在从茶壶中倒出热水到茶杯中，茶杯旁边放着一包茶叶，背景是一个阳光明媚的早晨。"
+  },
+  "unit": 4,
+  "audio": "teapot.mp3",
+  "audio_example": "teapot_example.mp3",
+  "image": "teapot.png"
+}

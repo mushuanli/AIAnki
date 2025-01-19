@@ -1,0 +1,18 @@
+{
+  "word": "worried",
+  "symbol": "/'wʌrid/",
+  "chn": "adj. 担心的, 发愁的",
+  "example_en": "She looked worried when she heard the news.",
+  "example_cn": "当她听到这个消息时，她看起来很担心。",
+  "word_family": "worry (v.), worrying (adj.), worryingly (adv.)",
+  "memory_tips": "词源：来自古英语 'wyrgan'，意为'使烦恼'。联想记忆：想象一个人皱着眉头，手里拿着电话，看起来很担心。图像记忆：画一个小孩站在学校门口，手里拿着成绩单，脸上露出担心的表情。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young girl sitting on a bench, looking at her phone with a concerned expression, surrounded by a blurry background of a park.",
+    "example_image": "A woman in a kitchen, holding a phone to her ear, with a worried look on her face as she stares out of a window at dark clouds gathering."
+  },
+  "unit": 7,
+  "audio": "worried.mp3",
+  "audio_example": "worried_example.mp3",
+  "image": "worried.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "tool",
+  "symbol": "/tuːl/",
+  "chn": "n. 工具",
+  "example_en": "A hammer is a useful tool for building furniture.",
+  "example_cn": "锤子是制作家具的有用工具。",
+  "word_family": "tools (复数), toolkit (工具箱), toolmaker (工具制造者)",
+  "memory_tips": "词源：来自古英语 'tol'，意为工具或器具。联想记忆：想象一个工具箱，里面装满了各种工具，如锤子、螺丝刀等。图像记忆：画一个工具箱，里面装满各种工具，旁边有一个木匠正在使用这些工具。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个工具箱，里面装满了各种工具，如锤子、螺丝刀、扳手等，工具箱旁边有一个木匠正在使用这些工具。",
+    "example_image": "一个木匠正在使用锤子敲打木板，旁边放着其他工具，如螺丝刀和扳手。"
+  },
+  "unit": 3,
+  "audio": "tool.mp3",
+  "audio_example": "tool_example.mp3",
+  "image": "tool.png"
+}

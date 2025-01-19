@@ -1,0 +1,18 @@
+{
+  "word": "round",
+  "symbol": "/raʊnd/",
+  "chn": "adj. 圆形的",
+  "example_en": "The moon is round and bright in the night sky.",
+  "example_cn": "月亮在夜空中又圆又亮。",
+  "word_family": "roundly (adv.), roundness (n.), around (prep.)",
+  "memory_tips": "词源：来自古英语 'rund'，意为圆形。联想记忆：想象一个圆形的钟表，指针在圆形表盘上转动。图像记忆：画一个完美的圆形，并在其周围画上星星，表示夜空中圆形的月亮。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个圆形的月亮高挂在夜空中，周围有几颗星星点缀，月亮的光辉照亮了下面的一个小镇。",
+    "example_image": "一个小女孩坐在窗边，抬头看着夜空中圆圆的月亮，脸上露出惊讶和好奇的表情。"
+  },
+  "unit": 5,
+  "audio": "round.mp3",
+  "audio_example": "round_example.mp3",
+  "image": "round.png"
+}

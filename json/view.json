@@ -1,0 +1,18 @@
+{
+  "word": "view",
+  "symbol": "/vjuː/",
+  "chn": "n. 风景; 看法",
+  "example_en": "The view from the top of the mountain was breathtaking.",
+  "example_cn": "从山顶看到的风景令人叹为观止。",
+  "word_family": "viewer (n. 观众), viewpoint (n. 观点), preview (v. 预览)",
+  "memory_tips": "词源：来自拉丁语 'videre'，意为 '看'。联想记忆：想象你站在山顶，眼前是壮丽的风景，这就是 'view'。图像记忆：想象一幅画，画中有一个人在欣赏美丽的风景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person standing on a mountain peak, looking out over a vast landscape with mountains, forests, and a river winding through the valley. The sky is clear with a few clouds, and the sun is setting, casting a golden glow over the scene.",
+    "example_image": "A group of people standing on a mountain top, pointing and admiring the breathtaking view of a valley filled with colorful autumn trees and a small village in the distance."
+  },
+  "unit": 1,
+  "audio": "view.mp3",
+  "audio_example": "view_example.mp3",
+  "image": "view.png"
+}

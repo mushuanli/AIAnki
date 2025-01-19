@@ -1,0 +1,18 @@
+{
+  "word": "honeybee",
+  "symbol": "/'hʌnibiː/",
+  "chn": "n. 蜜蜂",
+  "example_en": "The honeybee is busy collecting nectar from the flowers.",
+  "example_cn": "蜜蜂正忙着从花朵中采集花蜜。",
+  "word_family": "honeybees (复数形式), beekeeper (养蜂人), beehive (蜂巢)",
+  "memory_tips": "词源：'honey' 意为蜂蜜，'bee' 意为蜜蜂。联想记忆：想象一只蜜蜂在花丛中忙碌地采集蜂蜜。图像记忆：想象一个蜂巢，周围环绕着忙碌的蜜蜂和盛开的花朵。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只蜜蜂在黄色的花朵上采集花蜜，背景是绿色的草地和蓝天。",
+    "example_image": "一个养蜂人正在检查蜂巢，周围有几只蜜蜂在飞舞，背景是花园和远处的山丘。"
+  },
+  "unit": 5,
+  "audio": "honeybee.mp3",
+  "audio_example": "honeybee_example.mp3",
+  "image": "honeybee.png"
+}

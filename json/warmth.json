@@ -1,0 +1,18 @@
+{
+  "word": "warmth",
+  "symbol": "/wɔːmθ/",
+  "chn": "n. 温暖",
+  "example_en": "The warmth of the sun made the beach a perfect place to relax.",
+  "example_cn": "阳光的温暖使海滩成为放松的完美场所。",
+  "word_family": "warm (adj.), warmly (adv.), warming (n.)",
+  "memory_tips": "词源：来自古英语 'wearmthu'，与 'warm' 相关。记忆技巧：想象一个温暖的拥抱或阳光照在身上的感觉，帮助记忆 'warmth' 这个词。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的沙滩，阳光洒在海面上，人们躺在沙滩椅上享受温暖。",
+    "example_image": "一个家庭在沙滩上玩耍，孩子们在阳光下欢笑，背景是波光粼粼的海水。"
+  },
+  "unit": 4,
+  "audio": "warmth.mp3",
+  "audio_example": "warmth_example.mp3",
+  "image": "warmth.png"
+}

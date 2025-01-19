@@ -1,0 +1,18 @@
+{
+  "word": "attract",
+  "symbol": "/ə'trækt/",
+  "chn": "vt. 招引, 吸引",
+  "example_en": "The bright colors of the flowers attract many bees.",
+  "example_cn": "花朵的鲜艳颜色吸引了许多蜜蜂。",
+  "word_family": "attraction (n.), attractive (adj.), attractively (adv.)",
+  "memory_tips": "词根 'tract' 来自拉丁语，意为 '拉' 或 '引'。前缀 'at-' 表示 '向' 或 '到'。联想记忆：想象一个磁铁（magnet）吸引铁屑，帮助你记住 'attract' 的意思是 '吸引'。图像记忆：想象一个广告牌吸引路人的目光。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A colorful garden full of flowers with bees buzzing around them, illustrating the concept of attraction.",
+    "example_image": "A close-up of a bright yellow flower with a bee hovering near it, capturing the moment of attraction."
+  },
+  "unit": 3,
+  "audio": "attract.mp3",
+  "audio_example": "attract_example.mp3",
+  "image": "attract.png"
+}

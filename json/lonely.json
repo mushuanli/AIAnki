@@ -1,0 +1,18 @@
+{
+  "word": "lonely",
+  "symbol": "/'ləʊnli/",
+  "chn": "adj. 孤独的",
+  "example_en": "She felt lonely after moving to a new city where she didn't know anyone.",
+  "example_cn": "搬到一个新城市后，她感到孤独，因为在那里她一个人也不认识。",
+  "word_family": "loneliness (n. 孤独), lonesome (adj. 寂寞的)",
+  "memory_tips": "词源：'lonely' 来自 'lone'（单独的）加上后缀 '-ly'（形容词后缀）。联想记忆：想象一个人独自站在广阔的星空下，感受孤独。图像记忆：画一个小孩独自坐在公园的长椅上，周围是空荡荡的游乐场。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个小孩独自坐在公园的长椅上，周围是空荡荡的游乐场，天空是黄昏的颜色，营造出一种孤独的氛围。",
+    "example_image": "一位年轻女性站在高楼大厦的窗前，望着繁忙的街道，表情显得孤独和沉思。"
+  },
+  "unit": 5,
+  "audio": "lonely.mp3",
+  "audio_example": "lonely_example.mp3",
+  "image": "lonely.png"
+}

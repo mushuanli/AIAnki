@@ -1,0 +1,18 @@
+{
+  "word": "throat",
+  "symbol": "/θrəʊt/",
+  "chn": "n. 咽喉, 喉咙",
+  "example_en": "She had a sore throat and could barely speak.",
+  "example_cn": "她喉咙痛，几乎说不出话来。",
+  "word_family": "throaty (adj. 喉咙的), throatily (adv. 喉咙地)",
+  "memory_tips": "词源：来自古英语 'þrote'，意为喉咙。联想记忆：想象一个喉咙的形状，像一个管子连接口腔和胃。图像记忆：画一个简单的喉咙示意图，标注出喉咙的位置。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个详细的喉咙解剖图，展示喉咙的位置和结构，背景为淡蓝色，突出喉咙的细节。",
+    "example_image": "一个女孩坐在沙发上，手摸着喉咙，表情痛苦，旁边放着一杯水和药片，背景为温馨的客厅。"
+  },
+  "unit": 2,
+  "audio": "throat.mp3",
+  "audio_example": "throat_example.mp3",
+  "image": "throat.png"
+}

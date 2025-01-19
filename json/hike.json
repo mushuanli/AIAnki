@@ -1,0 +1,18 @@
+{
+  "word": "hike",
+  "symbol": "/haɪk/",
+  "chn": "vi. 远足, 徒步旅行",
+  "example_en": "We decided to hike through the mountains to enjoy the beautiful scenery.",
+  "example_cn": "我们决定徒步穿越山脉，享受美丽的风景。",
+  "word_family": "hiker (n. 徒步旅行者), hiking (n. 徒步旅行)",
+  "memory_tips": "词源：'hike' 可能来源于中古荷兰语 'hikken'，意为“跳跃”或“移动”。联想记忆：想象自己在山间跳跃，进行徒步旅行。图像记忆：想象一幅山间小径的图片，人们背着背包，手持登山杖，正在徒步旅行。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A group of hikers walking on a mountain trail with backpacks and trekking poles, surrounded by lush green trees and a clear blue sky.",
+    "example_image": "A scenic view of a mountain range with a small group of hikers visible on a trail, highlighting the beauty of the landscape and the activity of hiking."
+  },
+  "unit": 7,
+  "audio": "hike.mp3",
+  "audio_example": "hike_example.mp3",
+  "image": "hike.png"
+}

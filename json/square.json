@@ -1,0 +1,18 @@
+{
+  "word": "square",
+  "symbol": "/skweə(r)/",
+  "chn": "adj. 平方; n. 正方形, 广场",
+  "example_en": "The children played in the town square.",
+  "example_cn": "孩子们在镇上的广场上玩耍。",
+  "word_family": "squared (adj.), squarely (adv.), squareness (n.)",
+  "memory_tips": "词源：来自古法语 'esquarre'，意为'正方形'。联想记忆：想象一个正方形的广场，四周都是方形的建筑。图像记忆：画一个正方形，并在其中标注出'广场'的字样。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个宽敞的广场，四周是古典建筑，广场中央有一个大型的喷泉，周围有许多人在散步和玩耍。",
+    "example_image": "一群孩子在广场上玩耍，有的在追逐，有的在玩球，背景是广场的标志性建筑。"
+  },
+  "unit": 3,
+  "audio": "square.mp3",
+  "audio_example": "square_example.mp3",
+  "image": "square.png"
+}

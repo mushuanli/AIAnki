@@ -1,0 +1,18 @@
+{
+  "word": "tip",
+  "symbol": "/tɪp/",
+  "chn": "n. 实用的提示",
+  "example_en": "Here's a useful tip for new students: always keep your notes organized.",
+  "example_cn": "这里有一个对新学生有用的提示：始终保持你的笔记有条理。",
+  "word_family": "tips (复数), tipped (过去式), tipping (现在分词)",
+  "memory_tips": "词源：来自古英语 'typpan'，意为'轻触'。联想记忆：想象一个轻触屏幕的动作，就像是在给出一个小提示。图像记忆：想象一个灯泡，象征着灵感和提示。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个灯泡在黑暗中亮起，象征着灵感和实用的提示。",
+    "example_image": "一个学生在整洁的书桌前整理笔记，旁边有一个打开的笔记本和几支笔。"
+  },
+  "unit": 5,
+  "audio": "tip.mp3",
+  "audio_example": "tip_example.mp3",
+  "image": "tip.png"
+}

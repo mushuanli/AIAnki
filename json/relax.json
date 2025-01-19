@@ -1,0 +1,18 @@
+{
+  "word": "relax",
+  "symbol": "/rɪ'læks/",
+  "chn": "vi. 放松, 休息",
+  "example_en": "After a long day at work, I like to relax by reading a book.",
+  "example_cn": "工作了一整天后，我喜欢通过读书来放松。",
+  "word_family": "relaxation (n.), relaxed (adj.), relaxing (adj.)",
+  "memory_tips": "词根 'lax' 来自拉丁语，意为 '松的' 或 '宽松的'。联想记忆：想象一个松软的沙发，你躺在上面完全放松。图像记忆：想象一个人在沙滩上晒太阳，完全放松的状态。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个人在舒适的沙发上，闭着眼睛，面带微笑，周围是柔和的灯光和一杯热茶，表现出完全放松的状态。",
+    "example_image": "一个人在晚上坐在舒适的椅子上，手中拿着一本书，旁边是一盏温暖的台灯，表现出通过阅读来放松的场景。"
+  },
+  "unit": 1,
+  "audio": "relax.mp3",
+  "audio_example": "relax_example.mp3",
+  "image": "relax.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "narrow",
+  "symbol": "/'nærəʊ/",
+  "chn": "adj. 狭窄的",
+  "example_en": "The path through the forest was so narrow that only one person could walk at a time.",
+  "example_cn": "穿过森林的小路非常狭窄，一次只能一个人通过。",
+  "word_family": "narrowly (adv.), narrowness (n.), narrow-minded (adj.)",
+  "memory_tips": "词源：来自古英语 'nearu'，意为'狭窄的'。联想记忆：想象一条狭窄的小巷，两边都是高墙，只能容纳一个人通过。图像记忆：可以想象一条狭窄的河流或一条细长的绳子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一条狭窄的小巷，两边是高墙，阳光从上方照射下来，形成明暗对比。",
+    "example_image": "一个人正在穿过一条狭窄的森林小路，周围是茂密的树木，只能看到前方的路。"
+  },
+  "unit": 7,
+  "audio": "narrow.mp3",
+  "audio_example": "narrow_example.mp3",
+  "image": "narrow.png"
+}

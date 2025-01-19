@@ -1,0 +1,18 @@
+{
+  "word": "able",
+  "symbol": "/'eɪbl/",
+  "chn": "adj. 能够",
+  "example_en": "She is able to solve complex problems quickly.",
+  "example_cn": "她能够快速解决复杂的问题。",
+  "word_family": "ability (n.), enable (v.), disable (v.), unable (adj.)",
+  "memory_tips": "词根 'able' 来自拉丁语 'habilis'，意为‘有能力的’。联想记忆：想象一个超级英雄，他能够（able）做任何事情。图像记忆：画一个超级英雄的标志，旁边写上‘able’。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个超级英雄站在城市的高楼上，背景是明亮的天空，他正展示他的超能力，如飞行或举起重物。",
+    "example_image": "一个年轻女孩坐在书桌前，面前是一堆复杂的数学题，她正自信地写下答案，表现出她能够解决这些问题的能力。"
+  },
+  "unit": 2,
+  "audio": "able.mp3",
+  "audio_example": "able_example.mp3",
+  "image": "able.png"
+}

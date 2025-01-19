@@ -1,0 +1,18 @@
+{
+  "word": "shall",
+  "symbol": "/ʃæl/",
+  "chn": "modal v. (表示提出或征求意见); 将要, 将会",
+  "example_en": "Shall we go to the park this afternoon?",
+  "example_cn": "我们今天下午去公园好吗？",
+  "word_family": "should, shall not (shan't)",
+  "memory_tips": "词源：来自古英语 'sceal'，表示义务或必要性。联想记忆：想象一个朋友在问你是否愿意做某事，用 'shall' 来表达提议或征求意见。图像记忆：想象一个日历上标记着未来的日期，旁边写着 'shall'，表示将来会发生的事情。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个朋友在公园门口等待，旁边有一个日历显示今天的日期，日历上有一个箭头指向未来的日期，表示将要发生的事情。",
+    "example_image": "两个朋友站在公园门口，一个人指着公园，另一个人点头表示同意，背景是阳光明媚的下午。"
+  },
+  "unit": 3,
+  "audio": "shall.mp3",
+  "audio_example": "shall_example.mp3",
+  "image": "shall.png"
+}

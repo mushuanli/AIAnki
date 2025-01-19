@@ -1,0 +1,18 @@
+{
+  "word": "balance",
+  "symbol": "/'bæləns/",
+  "chn": "n. 平衡能力, 平衡",
+  "example_en": "She walked along the narrow beam with perfect balance.",
+  "example_cn": "她以完美的平衡走在狭窄的横梁上。",
+  "word_family": "balanced (adj.), balancing (v.), imbalance (n.)",
+  "memory_tips": "词源：来自拉丁语 'bilanx'，意为 '有两个秤盘'。联想记忆：想象一个天平，两边重量相等，保持平衡。图像记忆：想象一个杂技演员在钢丝上保持平衡。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个杂技演员在钢丝上保持平衡，背景是马戏团的帐篷和观众。",
+    "example_image": "一个女孩在狭窄的横梁上行走，双手张开保持平衡，背景是学校的操场。"
+  },
+  "unit": 7,
+  "audio": "balance.mp3",
+  "audio_example": "balance_example.mp3",
+  "image": "balance.png"
+}

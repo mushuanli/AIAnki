@@ -1,0 +1,18 @@
+{
+  "word": "peach",
+  "symbol": "/piːtʃ/",
+  "chn": "n. 桃, 桃子",
+  "example_en": "She picked a ripe peach from the tree.",
+  "example_cn": "她从树上摘了一个成熟的桃子。",
+  "word_family": "peaches (复数), peach tree (桃树), peach blossom (桃花)",
+  "memory_tips": "词源：来自古法语 'peche'，源自拉丁语 'persica'，意为'波斯的水果'。联想记忆：想象一个粉红色的桃子，形状像心形，象征着甜蜜和爱。图像记忆：想象一个阳光明媚的果园，树上挂满了粉红色的桃子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的果园，树上挂满了粉红色的桃子，背景是蓝天和白云。",
+    "example_image": "一个女孩站在桃树下，伸手摘下一个成熟的桃子，脸上露出微笑。"
+  },
+  "unit": 8,
+  "audio": "peach.mp3",
+  "audio_example": "peach_example.mp3",
+  "image": "peach.png"
+}

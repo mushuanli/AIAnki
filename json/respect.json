@@ -1,0 +1,18 @@
+{
+  "word": "respect",
+  "symbol": "/rɪ'spekt/",
+  "chn": "vt. 尊敬, 尊重",
+  "example_en": "We should respect our elders and listen to their advice.",
+  "example_cn": "我们应该尊敬长辈并听取他们的建议。",
+  "word_family": "respectful (adj.), respectfully (adv.), disrespect (n./v.)",
+  "memory_tips": "词根 'spect' 来自拉丁语，意为 '看' 或 '观察'。联想记忆：想象一个场景，你站在远处，用望远镜（spect）观察一位你非常尊敬的长者。图像记忆：画一个年轻人向一位长者鞠躬，表示尊重。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young person bowing respectfully to an elderly person in a traditional setting, symbolizing respect and honor.",
+    "example_image": "A group of students attentively listening to an elderly teacher in a classroom, illustrating the concept of respecting elders and valuing their advice."
+  },
+  "unit": 4,
+  "audio": "respect.mp3",
+  "audio_example": "respect_example.mp3",
+  "image": "respect.png"
+}

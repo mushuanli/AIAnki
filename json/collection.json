@@ -1,0 +1,18 @@
+{
+  "word": "collection",
+  "symbol": "/kə'lekʃn/",
+  "chn": "n. 作品集, 收集物",
+  "example_en": "She has a large collection of rare stamps.",
+  "example_cn": "她收集了大量的稀有邮票。",
+  "word_family": "collect (v.), collector (n.), collective (adj.)",
+  "memory_tips": "词根 'collect' 来自拉丁语 'collectus'，意为 '聚集'。联想记忆：想象一个收藏家（collector）在收集（collect）各种物品，形成一个收藏集（collection）。图像记忆：想象一个装满各种邮票、硬币或艺术品的展示柜。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A large, ornate wooden cabinet filled with various collectibles such as stamps, coins, and small sculptures, with a magnifying glass resting on top of a stamp album.",
+    "example_image": "A woman sitting at a desk, carefully examining a rare stamp with a magnifying glass, surrounded by albums and boxes of stamps."
+  },
+  "unit": 8,
+  "audio": "collection.mp3",
+  "audio_example": "collection_example.mp3",
+  "image": "collection.png"
+}

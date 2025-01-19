@@ -1,0 +1,18 @@
+{
+  "word": "golden",
+  "symbol": "/'ɡəʊldən/",
+  "chn": "adj. 金色的, 美好的",
+  "example_en": "The golden sunset over the ocean was breathtaking.",
+  "example_cn": "海上的金色日落令人叹为观止。",
+  "word_family": "gold (n. 黄金), goldenly (adv. 金色地), goldenness (n. 金色)",
+  "memory_tips": "词源：来自古英语 'gylden'，与 'gold' 相关。联想记忆：想象一块闪闪发光的金色金属，或者一个金色的奖杯。图像记忆：想象一个金色的太阳或一片金色的麦田。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A golden sunset over a calm ocean, with the sun's rays reflecting off the water, creating a breathtaking scene.",
+    "example_image": "A serene beach with a golden sunset in the background, highlighting the beauty of the moment described in the example sentence."
+  },
+  "unit": 3,
+  "audio": "golden.mp3",
+  "audio_example": "golden_example.mp3",
+  "image": "golden.png"
+}

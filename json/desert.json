@@ -1,0 +1,18 @@
+{
+  "word": "desert",
+  "symbol": "/'dezət/",
+  "chn": "n. 沙漠, 荒漠",
+  "example_en": "The Sahara is the largest hot desert in the world.",
+  "example_cn": "撒哈拉是世界上最大的热沙漠。",
+  "word_family": "deserted (adj. 荒废的), desertification (n. 沙漠化)",
+  "memory_tips": "词源：来自拉丁语 'desertum'，意为'荒废的地方'。记忆技巧：可以将 'desert' 与 'dessert'（甜点）进行对比记忆，'desert' 少一个 's'，就像沙漠中缺少水分一样。图像记忆：想象一片广阔的沙漠，烈日当空，沙粒在风中飞舞。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一片广阔的沙漠，烈日当空，沙粒在风中飞舞，远处有几棵孤独的仙人掌。",
+    "example_image": "撒哈拉沙漠的航拍图，展示其广阔无垠的沙丘和极少数的植被。"
+  },
+  "unit": 6,
+  "audio": "desert.mp3",
+  "audio_example": "desert_example.mp3",
+  "image": "desert.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "power",
+  "symbol": "/'paʊə(r)/",
+  "chn": "n. 力量, 电力供应",
+  "example_en": "The power of the wind can be harnessed to generate electricity.",
+  "example_cn": "风的力量可以被利用来发电。",
+  "word_family": "powerful (adj.), powerless (adj.), empower (v.)",
+  "memory_tips": "词源：来自拉丁语 'potis'，意为 '能够' 或 '有能力的'。联想记忆：想象一个超级英雄展示其力量，或者一个城市在夜晚被电力点亮。图像记忆：可以想象一个巨大的风力发电机在风中旋转，象征着力量和电力的结合。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个超级英雄站在山顶，双手举起，展示出强大的力量，背景是夜晚的城市，灯光璀璨。",
+    "example_image": "一个风力发电场，巨大的风力发电机在风中旋转，背景是蓝天和白云。"
+  },
+  "unit": 6,
+  "audio": "power.mp3",
+  "audio_example": "power_example.mp3",
+  "image": "power.png"
+}

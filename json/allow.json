@@ -1,0 +1,18 @@
+{
+  "word": "allow",
+  "symbol": "/ə'laʊ/",
+  "chn": "vt. 使可能, 允许",
+  "example_en": "My parents allow me to stay out until 10 PM on weekends.",
+  "example_cn": "我的父母允许我在周末晚上在外面待到10点。",
+  "word_family": "allows, allowed, allowing, allowance",
+  "memory_tips": "词源：来自古法语 'alouer'，意为'赞扬，认可'。联想记忆：想象一个门卫（guard）允许（allow）你进入一个地方。图像记忆：想象一个标志牌上写着'允许进入'，旁边是一个开放的大门。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个开放的大门，门旁站着一个友好的门卫，门卫微笑着做出'请进'的手势，背景是一个阳光明媚的公园。",
+    "example_image": "一个青少年在晚上10点前回家，父母在门口微笑着迎接，背景是夜晚的街道和明亮的街灯。"
+  },
+  "unit": 5,
+  "audio": "allow.mp3",
+  "audio_example": "allow_example.mp3",
+  "image": "allow.png"
+}

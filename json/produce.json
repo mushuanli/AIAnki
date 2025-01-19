@@ -1,0 +1,18 @@
+{
+  "word": "produce",
+  "symbol": "/prə'djuːs/",
+  "chn": "vt. 生产",
+  "example_en": "This factory produces thousands of cars every year.",
+  "example_cn": "这家工厂每年生产成千上万的汽车。",
+  "word_family": "producer (n. 生产者), production (n. 生产), productive (adj. 多产的)",
+  "memory_tips": "词根 'pro-' 表示 '向前'，'duce' 来自拉丁语 'ducere'，意为 '引导'。联想记忆：想象一个工厂向前引导原材料变成产品。图像记忆：画一个工厂生产线，原材料从一端进入，成品从另一端出来。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个现代化的工厂内部，机器正在运转，工人在操作设备，原材料通过传送带进入，成品从另一端出来。",
+    "example_image": "一家汽车工厂的生产线，机器人手臂正在组装汽车，背景中有许多已经完成的汽车。"
+  },
+  "unit": 6,
+  "audio": "produce.mp3",
+  "audio_example": "produce_example.mp3",
+  "image": "produce.png"
+}

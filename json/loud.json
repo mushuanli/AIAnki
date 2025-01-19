@@ -1,0 +1,18 @@
+{
+  "word": "loud",
+  "symbol": "/laʊd/",
+  "chn": "adj. 大声的",
+  "example_en": "The music was so loud that we could hear it from the street.",
+  "example_cn": "音乐声太大了，我们在街上都能听到。",
+  "word_family": "loudly(adv.) 大声地 ,loudness(n.) 音量；响度 ,out loud(phrase) 大声地；出声地",
+  "memory_tips": "词源：来自古英语 'hlūd'，意为‘大声的’。联想记忆：想象一个巨大的喇叭（loudspeaker）发出响亮的声音。图像记忆：想象一个摇滚音乐会，乐队演奏得非常大声，观众都捂着耳朵。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个巨大的喇叭在舞台上发出响亮的声音，周围有观众捂着耳朵。",
+    "example_image": "一个街头场景，远处有一家商店，音乐声从商店里传出，街上的人们都转头看向声音的来源。"
+  },
+  "unit": 5,
+  "audio": "loud.mp3",
+  "audio_example": "loud_example.mp3",
+  "image": "loud.png"
+}

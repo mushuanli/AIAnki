@@ -1,0 +1,18 @@
+{
+  "word": "add",
+  "symbol": "/æd/",
+  "chn": "vt. 补充说, 添加",
+  "example_en": "Please add some sugar to the tea.",
+  "example_cn": "请在茶里加些糖。",
+  "word_family": "adds, added, adding, addition, additional",
+  "memory_tips": "词源：来自拉丁语 'addere'，意为 '加入'。联想记忆：想象在烹饪时加入调料，就像在句子中加入信息一样。图像记忆：想象一个厨师在锅中加入调料，旁边有一个对话框，里面写着 'add'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A chef in a kitchen, adding spices to a pot on the stove. The word 'add' is written in bold letters above the pot.",
+    "example_image": "A cup of tea with a spoon adding sugar, with the word 'add' floating above the spoon."
+  },
+  "unit": 4,
+  "audio": "add.mp3",
+  "audio_example": "add_example.mp3",
+  "image": "add.png"
+}

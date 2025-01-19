@@ -1,0 +1,18 @@
+{
+  "word": "would",
+  "symbol": "/wʊd/",
+  "chn": "modal v. 将会, 就会 (带出想象的结果)",
+  "example_en": "If I had more time, I would travel the world.",
+  "example_cn": "如果我有更多时间，我就会环游世界。",
+  "word_family": "will, would, wouldn't",
+  "memory_tips": "词源：来自古英语 'wolde'，是 'will' 的过去式。联想记忆：想象一个愿望（will）在过去的某个时间点（would）实现。图像记忆：想象一个时间机器，带你回到过去，实现你的愿望。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个青少年站在时间机器前，面带微笑，想象着环游世界的场景。",
+    "example_image": "一个青少年坐在书桌前，看着世界地图，想象着如果他有更多时间，他会去哪些地方旅行。"
+  },
+  "unit": 7,
+  "audio": "would.mp3",
+  "audio_example": "would_example.mp3",
+  "image": "would.png"
+}

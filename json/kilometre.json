@@ -1,0 +1,13 @@
+{
+  "word": "kilometre",
+  "symbol": "/'kɪləmiːtə(r)/",
+  "chn": "n. (AmE kilometer) 千米",
+  "example_en": "The nearest town is about ten kilometres away.",
+  "example_cn": "最近的城镇大约在十公里之外。",
+  "word_family": "kilometres (复数形式), kilometer (美式拼写)",
+  "memory_tips": "词根 'kilo-' 表示 '千'，'metre' 表示 '米'，合起来就是 '千米'。可以联想 'kilo' 与 'kilogram'（千克）中的 'kilo' 相同，都是表示 '千' 的意思。图像记忆：想象一个路标，上面写着 '10 km'，表示距离下一个城市还有10公里。",
+  "difficulty": "2",
+  "unit": 3,
+  "audio": "kilometre.mp3",
+  "audio_example": "kilometre_example.mp3"
+}

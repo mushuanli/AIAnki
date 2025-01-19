@@ -1,0 +1,18 @@
+{
+  "word": "clay",
+  "symbol": "/kleɪ/",
+  "chn": "n. 黏土, 陶土",
+  "example_en": "The artist shaped the clay into a beautiful vase.",
+  "example_cn": "艺术家将黏土塑造成一个美丽的花瓶。",
+  "word_family": "clayey (adj.), claylike (adj.)",
+  "memory_tips": "词源：来自古英语 'clǣg'，意为黏土。联想记忆：想象一个陶艺家正在用黏土制作陶器，黏土在手中柔软易塑。图像记忆：想象一个陶轮上旋转的黏土，逐渐形成一个花瓶的形状。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A potter's hands shaping a lump of clay on a spinning potter's wheel, with a half-formed vase emerging from the clay.",
+    "example_image": "An artist carefully molding a piece of clay into a vase, with tools and a finished vase in the background."
+  },
+  "unit": 4,
+  "audio": "clay.mp3",
+  "audio_example": "clay_example.mp3",
+  "image": "clay.png"
+}

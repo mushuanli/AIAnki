@@ -1,0 +1,18 @@
+{
+  "word": "end",
+  "symbol": "/end/",
+  "chn": "n. 终止, 结尾; 尽头",
+  "example_en": "The movie had a surprising end that left everyone in awe.",
+  "example_cn": "这部电影的结尾出人意料，让所有人都感到惊叹。",
+  "word_family": "endless(adj.) 无尽的；无休止的 ,ending(n.) 结局；结尾 ,endpoint(n.) 终点；端点",
+  "memory_tips": "词源：来自古英语 'endian'，意为终止或完成。记忆技巧：可以将 'end' 想象成一条路的尽头，或者一本书的最后一页，帮助记忆其含义。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一条蜿蜒的小路通向远方的山脉，路的尽头是一片明亮的天空，象征着结束和新的开始。",
+    "example_image": "一个电影院内部，观众们正惊讶地看着大屏幕，屏幕上显示着电影的最后场景，字幕滚动，灯光逐渐亮起。"
+  },
+  "unit": 3,
+  "audio": "end.mp3",
+  "audio_example": "end_example.mp3",
+  "image": "end.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "bone",
+  "symbol": "/bəʊn/",
+  "chn": "n. 骨头",
+  "example_en": "The dog buried the bone in the backyard.",
+  "example_cn": "狗把骨头埋在了后院。",
+  "word_family": "bones (复数), boneless (无骨的), bone marrow (骨髓)",
+  "memory_tips": "词源：来自古英语 'ban'，意为骨头。联想记忆：想象一只狗在啃骨头，骨头发出'bone'的声音。图像记忆：想象一根白色的骨头，形状清晰，易于记忆。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一根白色的骨头，放在绿色的草地上，背景是蓝天和几朵白云。",
+    "example_image": "一只棕色的小狗正在后院挖土，嘴里叼着一根骨头，周围是绿色的草地和几棵小树。"
+  },
+  "unit": 5,
+  "audio": "bone.mp3",
+  "audio_example": "bone_example.mp3",
+  "image": "bone.png"
+}

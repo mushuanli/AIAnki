@@ -1,0 +1,18 @@
+{
+  "word": "sand",
+  "symbol": "/sænd/",
+  "chn": "n. 沙, 沙子",
+  "example_en": "The children built a castle out of sand at the beach.",
+  "example_cn": "孩子们在海滩上用沙子建造了一座城堡。",
+  "word_family": "sandy (adj.), sandbox (n.), sandstorm (n.)",
+  "memory_tips": "词源：来自古英语 'sand'，与德语 'Sand' 同源。联想记忆：想象沙滩上的细沙，或者沙漏中的沙子流动。图像记忆：想象一个装满沙子的沙漏，或者一个孩子在沙滩上玩耍。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "A close-up view of golden sand with a few seashells scattered around, under bright sunlight.",
+    "example_image": "A group of children happily building a sandcastle on a sunny beach, with waves gently crashing in the background."
+  },
+  "unit": 6,
+  "audio": "sand.mp3",
+  "audio_example": "sand_example.mp3",
+  "image": "sand.png"
+}

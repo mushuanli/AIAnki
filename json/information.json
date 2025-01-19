@@ -1,0 +1,18 @@
+{
+  "word": "information",
+  "symbol": "/ˌɪnfə'meɪʃn/",
+  "chn": "n. 信息, 消息",
+  "example_en": "The library is a great place to find information on various topics.",
+  "example_cn": "图书馆是查找各种主题信息的好地方。",
+  "word_family": "inform (v.), informative (adj.), informatively (adv.), informant (n.)",
+  "memory_tips": "词根 'form' 表示形状或结构，前缀 'in-' 表示进入或内部，后缀 '-ation' 表示名词。联想记忆：想象信息像水流一样流入你的大脑，形成知识的结构。图像记忆：可以想象一个大脑被各种信息符号（如字母、数字、图标）包围。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个大脑被各种信息符号（如字母、数字、图标）包围，象征着信息的接收和处理。",
+    "example_image": "一个学生在图书馆的书架间寻找书籍，书架上标有各种主题的标签，如历史、科学、文学等。"
+  },
+  "unit": 2,
+  "audio": "information.mp3",
+  "audio_example": "information_example.mp3",
+  "image": "information.png"
+}

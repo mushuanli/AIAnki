@@ -1,0 +1,18 @@
+{
+  "word": "landscape",
+  "symbol": "/'lændskeɪp/",
+  "chn": "n. 景色, 风景画",
+  "example_en": "The artist painted a beautiful landscape of the countryside.",
+  "example_cn": "这位艺术家画了一幅美丽的乡村风景画。",
+  "word_family": "landscaper (n. 园林设计师), landscaping (n. 景观美化)",
+  "memory_tips": "词源：来自荷兰语 'landschap'，意为 '土地的形状'。记忆技巧：将 'land'（土地）和 'scape'（形状）结合起来，想象一片美丽的土地形状，即风景。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一幅展示广阔乡村风景的画作，远处有山丘和树木，近处有田野和一条小溪。",
+    "example_image": "一位艺术家在户外画布上绘制乡村风景的场景，周围是自然美景。"
+  },
+  "unit": 4,
+  "audio": "landscape.mp3",
+  "audio_example": "landscape_example.mp3",
+  "image": "landscape.png"
+}

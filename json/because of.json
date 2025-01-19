@@ -1,0 +1,18 @@
+{
+  "word": "because of",
+  "symbol": "/bɪˈkɒz əv/",
+  "chn": "prep. 因为",
+  "example_en": "The game was postponed because of the rain.",
+  "example_cn": "比赛因为下雨被推迟了。",
+  "word_family": "because (conj.), due to (prep.), owing to (prep.)",
+  "memory_tips": "词源：'because' 来自中古英语 'bi cause'，意为 'by cause'，即 '由于原因'。记忆技巧：可以将 'because of' 联想为 '由于...的原因'，强调因果关系。图像记忆：想象一个下雨的场景，导致户外活动取消，强调 '因为' 的因果关系。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A rainy day with people holding umbrellas, looking disappointed as a sports game is being postponed.",
+    "example_image": "A group of people standing under a shelter, looking at a wet sports field with a sign that says 'Game Postponed'."
+  },
+  "unit": 7,
+  "audio": "because of.mp3",
+  "audio_example": "because of_example.mp3",
+  "image": "because of.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "theatre",
+  "symbol": "/'θɪətə(r)/",
+  "chn": "n. (AmE theater) 戏院, 剧场",
+  "example_en": "We went to the theatre to watch a new play last night.",
+  "example_cn": "昨晚我们去剧院看了一场新剧。",
+  "word_family": "theatrical (adj.), theatrically (adv.), theatrics (n.)",
+  "memory_tips": "The word 'theatre' comes from the Greek 'theatron', meaning 'a place for viewing'. To remember it, think of the 'thea' part as 'see' and 'tre' as a place, hence a place to see performances. Visualize a grand theatre with red curtains and a stage to help cement the word in your memory.",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A grand, old-fashioned theatre with red velvet curtains, a large stage, and ornate decorations. The audience is seated, eagerly awaiting the start of a performance.",
+    "example_image": "A group of friends sitting in a theatre, looking excited as the lights dim and the play is about to begin. The stage is set with elaborate scenery, and actors are visible in the background preparing for their entrance."
+  },
+  "unit": 3,
+  "audio": "theatre.mp3",
+  "audio_example": "theatre_example.mp3",
+  "image": "theatre.png"
+}

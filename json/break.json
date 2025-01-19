@@ -1,0 +1,18 @@
+{
+  "word": "break",
+  "symbol": "/breɪk/",
+  "chn": "n. 休息",
+  "example_en": "After three hours of studying, I decided to take a short break.",
+  "example_cn": "学习了三个小时后，我决定短暂休息一下。",
+  "word_family": "breaks, breaking, broke, broken",
+  "memory_tips": "词源：来自古英语 'brecan'，意为打破或中断。联想记忆：想象一个玻璃杯被打碎（break），需要休息来修复。图像记忆：想象一个人在繁忙的工作后，坐在公园的长椅上休息。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个人在公园的长椅上坐着，周围是绿树和鲜花，表情放松，手中拿着一杯咖啡。",
+    "example_image": "一个学生坐在书桌前，书本和笔记本散开，他伸了个懒腰，准备休息一下。"
+  },
+  "unit": 7,
+  "audio": "break.mp3",
+  "audio_example": "break_example.mp3",
+  "image": "break.png"
+}

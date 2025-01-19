@@ -1,0 +1,18 @@
+{
+  "word": "hold",
+  "symbol": "/həʊld/",
+  "chn": "vi. 承受住, 坚持住",
+  "example_en": "She managed to hold her position despite the strong winds.",
+  "example_cn": "尽管风很大，她还是坚持住了自己的位置。",
+  "word_family": "holder (持有者), holding (持有), withhold (保留)",
+  "memory_tips": "词源：来自古英语 'healdan'，意为保持或维持。联想记忆：想象一个运动员在比赛中坚持到最后，即使很累也不放弃。图像记忆：画一个紧紧抓住绳索的人，象征着坚持和承受。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个运动员在强风中坚持跑步，表情坚定，背景是模糊的风景和飘动的旗帜。",
+    "example_image": "一位女性在强风中站立，头发和衣服被风吹起，但她稳稳地站在岩石上，背景是汹涌的海浪。"
+  },
+  "unit": 1,
+  "audio": "hold.mp3",
+  "audio_example": "hold_example.mp3",
+  "image": "hold.png"
+}

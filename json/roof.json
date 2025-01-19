@@ -1,0 +1,18 @@
+{
+  "word": "roof",
+  "symbol": "/ruːf/",
+  "chn": "n. 屋顶",
+  "example_en": "The cat sat on the roof, watching the birds fly by.",
+  "example_cn": "猫坐在屋顶上，看着鸟儿飞过。",
+  "word_family": "roofing (n. 屋顶材料), rooftop (n. 屋顶), roofless (adj. 无屋顶的)",
+  "memory_tips": "词源：来自古英语 'hrof'，意为覆盖物。联想记忆：想象一个房子的顶部，就像一顶帽子覆盖在头上。图像记忆：画一个简单的房子，突出其屋顶部分。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个典型的家庭住宅，屋顶由红色瓦片覆盖，阳光照射在上面，显得温暖而明亮。",
+    "example_image": "一只黑白相间的猫坐在一个倾斜的屋顶上，背景是蓝天和几只在远处飞翔的鸟。"
+  },
+  "unit": 3,
+  "audio": "roof.mp3",
+  "audio_example": "roof_example.mp3",
+  "image": "roof.png"
+}

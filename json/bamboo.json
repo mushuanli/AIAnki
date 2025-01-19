@@ -1,0 +1,18 @@
+{
+  "word": "bamboo",
+  "symbol": "/bæm'buː/",
+  "chn": "n. 竹, 竹子",
+  "example_en": "The panda is eating bamboo in the forest.",
+  "example_cn": "熊猫正在森林里吃竹子。",
+  "word_family": "bamboos (复数形式), bamboo shoot (竹笋), bamboo forest (竹林)",
+  "memory_tips": "词源：来自葡萄牙语 'bambu'，可能源自马来语 'bambu'。联想记忆：想象熊猫在竹林里吃竹子的场景，帮助记忆。图像记忆：想象一片茂密的竹林，中间有一只熊猫在悠闲地吃竹子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一片茂密的竹林，阳光透过竹叶洒在地面上，营造出宁静的氛围。",
+    "example_image": "一只熊猫坐在竹林里，手里拿着一根竹子，正在悠闲地吃竹子。"
+  },
+  "unit": 1,
+  "audio": "bamboo.mp3",
+  "audio_example": "bamboo_example.mp3",
+  "image": "bamboo.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "zero",
+  "symbol": "/'zɪərəʊ/",
+  "chn": "num. 零",
+  "example_en": "The temperature dropped to zero degrees last night.",
+  "example_cn": "昨晚温度降到了零度。",
+  "word_family": "zeros, zeroed, zeroing",
+  "memory_tips": "词源：来自意大利语 'zero'，源自阿拉伯语 'sifr'，意为'空'或'无'。联想记忆：想象一个空无一物的圆圈，就像数字0的形状，代表没有任何东西。图像记忆：可以想象一个温度计显示0度的场景，帮助记忆。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个温度计显示0度的场景，背景是寒冷的冬天，窗户上结满了冰花。",
+    "example_image": "一个夜晚的户外场景，温度计显示0度，周围有雪花飘落，地面上覆盖着薄薄的雪。"
+  },
+  "unit": 1,
+  "audio": "zero.mp3",
+  "audio_example": "zero_example.mp3",
+  "image": "zero.png"
+}

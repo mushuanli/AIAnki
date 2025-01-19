@@ -1,0 +1,18 @@
+{
+  "word": "calendar",
+  "symbol": "/'kælɪndə(r)/",
+  "chn": "n. 历法, 日历",
+  "example_en": "I marked the date of the meeting on my calendar.",
+  "example_cn": "我在日历上标记了会议的日期。",
+  "word_family": "calendars (复数), calendaring (动名词), calendared (过去式)",
+  "memory_tips": "词源：来自拉丁语 'calendarium'，意为'账本'，因为古罗马人用日历来记录债务和利息。联想记忆：想象一个日历上标记着重要的日期和事件，帮助你记住这个词。图像记忆：想象一个挂在墙上的日历，上面有各种颜色的标记和贴纸。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个挂在墙上的日历，上面有各种颜色的标记和贴纸，背景是一个温馨的家庭办公室。",
+    "example_image": "一个人在书桌前，用笔在日历上标记一个重要的日期，旁边放着一杯咖啡和笔记本电脑。"
+  },
+  "unit": 1,
+  "audio": "calendar.mp3",
+  "audio_example": "calendar_example.mp3",
+  "image": "calendar.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "rise",
+  "symbol": "/raɪz/",
+  "chn": "vi. 发源, 上升, 提高; n. 上升, 增强, 提高",
+  "example_en": "The sun rises in the east.",
+  "example_cn": "太阳从东方升起。",
+  "word_family": "risen (过去分词), rising (现在分词), riser (名词, 上升者)",
+  "memory_tips": "词源：来自古英语 'risan'，意为'上升'。联想记忆：想象太阳从地平线上升起的场景，帮助记忆'rise'表示'上升'的意思。图像记忆：可以画一个太阳从山后升起的图画，旁边标注'rise'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个太阳从山后升起的场景，天空逐渐变亮，太阳的光芒照亮了大地。",
+    "example_image": "一个清晨的场景，太阳从东方的地平线上升起，照亮了一片宁静的田野。"
+  },
+  "unit": 6,
+  "audio": "rise.mp3",
+  "audio_example": "rise_example.mp3",
+  "image": "rise.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "gram",
+  "symbol": "/ɡræm/",
+  "chn": "n. 克",
+  "example_en": "This package contains 500 grams of sugar.",
+  "example_cn": "这个包裹里有500克糖。",
+  "word_family": "kilogram (千克), milligram (毫克), gramme (克的另一种拼写)",
+  "memory_tips": "词源：来自希腊语 'gramma'，意为'小重量'。记忆技巧：可以将'gram'与'grandma'联想，想象奶奶在厨房里称量食材时使用的克秤。图像记忆：想象一个厨房秤上显示的数字是'1 gram'，旁边放着一小撮盐。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个厨房秤上显示1克，旁边放着一小撮盐，背景是厨房的台面，上面有各种调料瓶。",
+    "example_image": "一个包裹打开，里面有一袋标有500克的白糖，旁边有一个量杯和勺子，背景是厨房的储物架。"
+  },
+  "unit": 5,
+  "audio": "gram.mp3",
+  "audio_example": "gram_example.mp3",
+  "image": "gram.png"
+}

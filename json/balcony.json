@@ -1,0 +1,15 @@
+{
+  "word": "balcony",
+  "symbol": "/'bælkəni/",
+  "chn": "n. 阳台",
+  "example_en": "She stood on the balcony, enjoying the view of the sunset.",
+  "example_cn": "她站在阳台上，欣赏着日落的景色。",
+  "word_family": "balconies (复数形式)",
+  "memory_tips": "词源来自意大利语 'balcone'，意为'阳台'。可以联想记忆：'bal'（像'ball'球）和'cony'（像'cony'兔子），想象一个球在阳台上弹跳，兔子在旁边观看。图像记忆：想象一个装饰精美的阳台，上面有花盆和舒适的椅子。",
+  "difficulty": "2",
+  "collocations": "stand on the balcony, balcony view, balcony garden",
+  "image_prompt": "主图：一个装饰有花盆和舒适椅子的阳台，背景是美丽的日落景色。例句配图：一位女士站在阳台上，手扶栏杆，远眺日落的景色。",
+  "unit": 1,
+  "audio": "balcony.mp3",
+  "audio_example": "balcony_example.mp3"
+}

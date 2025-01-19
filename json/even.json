@@ -1,0 +1,18 @@
+{
+  "word": "even",
+  "symbol": "/'iːvn/",
+  "chn": "adv. 甚至, 即使",
+  "example_en": "She didn't even say goodbye.",
+  "example_cn": "她甚至没有说再见。",
+  "word_family": "evenly (adv.), evenness (n.)",
+  "memory_tips": "词源：来自古英语 'efen'，意为'平的'或'相等的'。联想记忆：想象一个天平，两边重量相等，表示'even'的平衡和公平。图像记忆：画一个天平，两边各有一个相同的重量，表示'even'的概念。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个天平，两边各有一个相同的重量，表示平衡和公平的概念。",
+    "example_image": "一个女孩在离开时没有回头，背景是一个关闭的门，表示她没有说再见。"
+  },
+  "unit": 4,
+  "audio": "even.mp3",
+  "audio_example": "even_example.mp3",
+  "image": "even.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "survive",
+  "symbol": "/sə'vaɪv/",
+  "chn": "vi. 生存, 存活",
+  "example_en": "Many animals have to survive in harsh environments.",
+  "example_cn": "许多动物必须在恶劣的环境中生存。",
+  "word_family": "survival (n.), survivor (n.), surviving (adj.)",
+  "memory_tips": "词根 'viv' 来自拉丁语，意为 '生活' 或 '生存'。前缀 'sur-' 表示 '超过' 或 '在...之上'。联想记忆：想象一个超级英雄（superhero）在灾难中生存下来（survive）。图像记忆：画一个人在荒岛上，周围是海浪和风暴，但他仍然坚强地站着，表示生存。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个人在荒岛上，周围是海浪和风暴，但他仍然坚强地站着，表示生存。",
+    "example_image": "许多动物在沙漠中寻找水源，表示在恶劣环境中生存。"
+  },
+  "unit": 6,
+  "audio": "survive.mp3",
+  "audio_example": "survive_example.mp3",
+  "image": "survive.png"
+}

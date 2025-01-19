@@ -1,0 +1,18 @@
+{
+  "word": "largely",
+  "symbol": "/'lɑːdʒli/",
+  "chn": "adv. 主要地, 在很大程度上",
+  "example_en": "The success of the project was largely due to the team's hard work.",
+  "example_cn": "项目的成功主要归功于团队的辛勤工作。",
+  "word_family": "large (adj.), enlarge (v.), largely (adv.)",
+  "memory_tips": "词根 'large' 表示‘大’，后缀 '-ly' 通常用于构成副词。联想记忆：想象一个巨大的（large）贡献，主要（largely）决定了结果。图像记忆：想象一个巨大的齿轮，主要驱动整个机器的运转。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个巨大的齿轮在驱动整个机器的运转，象征着主要的作用。",
+    "example_image": "一个团队在会议室里热烈讨论，墙上挂着项目的成功图表，象征着团队的努力主要决定了项目的成功。"
+  },
+  "unit": 4,
+  "audio": "largely.mp3",
+  "audio_example": "largely_example.mp3",
+  "image": "largely.png"
+}

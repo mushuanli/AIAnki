@@ -1,0 +1,18 @@
+{
+  "word": "series",
+  "symbol": "/'sɪəriːz/",
+  "chn": "n. (pl. series) 连续剧, (书、文章等的) 系列; 一系列",
+  "example_en": "The new series of detective novels has been very popular among teenagers.",
+  "example_cn": "新系列的侦探小说在青少年中非常受欢迎。",
+  "word_family": "serial (adj. 连续的, 系列的), serialize (v. 连载, 使连续)",
+  "memory_tips": "词源：来自拉丁语 'series'，意为'连续'。记忆技巧：可以将 'series' 联想为 'see' + 'ries'，想象你看到一系列连续的事物，如电视连续剧或一系列书籍。图像记忆：想象一排排整齐排列的书或电视屏幕，每个屏幕都在播放同一系列的不同集数。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一排整齐排列的书籍，每本书的封面设计相似，形成一个系列。",
+    "example_image": "一群青少年在图书馆里兴奋地翻阅新系列的侦探小说，背景是书架上的其他系列书籍。"
+  },
+  "unit": 8,
+  "audio": "series.mp3",
+  "audio_example": "series_example.mp3",
+  "image": "series.png"
+}

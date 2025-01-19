@@ -1,0 +1,18 @@
+{
+  "word": "take in",
+  "symbol": "/teɪk ɪn/",
+  "chn": "吸入",
+  "example_en": "The lungs take in oxygen and release carbon dioxide.",
+  "example_cn": "肺部吸入氧气并释放二氧化碳。",
+  "word_family": "take in (吸入), take out (取出), take up (占据), take over (接管)",
+  "memory_tips": "词根 'take' 表示拿取，'in' 表示进入。联想记忆：想象一个人深呼吸，将空气吸入肺部。图像记忆：画一个人站在海边，深呼吸，吸入新鲜空气。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person standing on a beach, taking a deep breath with arms wide open, symbolizing the act of taking in fresh air.",
+    "example_image": "A detailed illustration of human lungs, showing oxygen being inhaled and carbon dioxide being exhaled."
+  },
+  "unit": 3,
+  "audio": "take in.mp3",
+  "audio_example": "take in_example.mp3",
+  "image": "take in.png"
+}

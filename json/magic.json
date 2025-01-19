@@ -1,0 +1,18 @@
+{
+  "word": "magic",
+  "symbol": "/'mædʒɪk/",
+  "chn": "adj. 有魔力的; 神奇的; n. 魔法, 魔术, 魔力",
+  "example_en": "The magician performed a magic trick that amazed everyone.",
+  "example_cn": "魔术师表演了一个让每个人都惊叹的魔术。",
+  "word_family": "magical (adj.), magician (n.), magically (adv.)",
+  "memory_tips": "词源：来自古法语 'magique'，源自拉丁语 'magica'，与希腊语 'magikos' 相关，意为与魔法或魔术相关的。联想记忆：想象一个魔术师在舞台上变出兔子，这个场景可以帮助记住 'magic' 这个词。图像记忆：想象一个充满星星和魔杖的魔法世界，这可以帮助记住 'magic' 的形容词和名词形式。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个魔术师在舞台上，手中拿着魔杖，正从帽子里变出一只兔子，背景是星光闪烁的夜空。",
+    "example_image": "一个观众惊讶地看着魔术师从帽子里变出兔子，周围是其他观众惊讶的表情。"
+  },
+  "unit": 8,
+  "audio": "magic.mp3",
+  "audio_example": "magic_example.mp3",
+  "image": "magic.png"
+}

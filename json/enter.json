@@ -1,0 +1,18 @@
+{
+  "word": "enter",
+  "symbol": "/'entə(r)/",
+  "chn": "vt. & vi. 进入",
+  "example_en": "She entered the room quietly.",
+  "example_cn": "她悄悄地进入了房间。",
+  "word_family": "entrance (n. 入口), entry (n. 进入), re-enter (v. 重新进入)",
+  "memory_tips": "词根 'ent-' 来自拉丁语 'intrare'，意为 '进入'。联想记忆：想象一个门（entrance）是进入（enter）某个地方的必经之路。图像记忆：画一个人正通过一扇门进入一个房间。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person opening a door and stepping into a brightly lit room, with a welcoming atmosphere.",
+    "example_image": "A girl quietly opening a door and stepping into a cozy room with soft lighting, showing a peaceful and serene environment."
+  },
+  "unit": 8,
+  "audio": "enter.mp3",
+  "audio_example": "enter_example.mp3",
+  "image": "enter.png"
+}

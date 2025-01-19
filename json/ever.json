@@ -1,0 +1,18 @@
+{
+  "word": "ever",
+  "symbol": "/'evə(r)/",
+  "chn": "adv. 在任何时候; 曾经",
+  "example_en": "Have you ever been to Paris?",
+  "example_cn": "你曾经去过巴黎吗？",
+  "word_family": "forever, however, whatever, whenever, wherever",
+  "memory_tips": "词源：来自古英语 'æfre'，意为'总是'或'曾经'。联想记忆：将'ever'与'every'（每一个）联系起来，想象每一个时刻都可能是'ever'所指的'任何时候'。图像记忆：想象一个时钟，指针不停地转动，代表'ever'表示的任何时候。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个古老的时钟，指针在不停地转动，背景是一个模糊的世界地图，象征着'ever'表示的任何时候和任何地点。",
+    "example_image": "一个年轻人站在埃菲尔铁塔前，面带微笑，手中拿着相机，背景是巴黎的街景，象征着'Have you ever been to Paris?'这句话的场景。"
+  },
+  "unit": 7,
+  "audio": "ever.mp3",
+  "audio_example": "ever_example.mp3",
+  "image": "ever.png"
+}

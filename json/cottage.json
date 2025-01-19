@@ -1,0 +1,18 @@
+{
+  "word": "cottage",
+  "symbol": "/'kɒtɪdʒ/",
+  "chn": "n. (尤指) 村舍, 小别墅",
+  "example_en": "They spent their summer vacation in a small cottage by the lake.",
+  "example_cn": "他们在湖边的一个小别墅里度过了暑假。",
+  "word_family": "cottager (n. 村民, 住在村舍的人), cottage industry (n. 家庭手工业)",
+  "memory_tips": "词源：来自古法语 'cote'（小屋）加上后缀 '-age'，表示地点或状态。联想记忆：想象一个被绿色植物包围的小木屋，屋顶上覆盖着厚厚的茅草，周围是宁静的乡村景色。图像记忆：可以想象一个典型的英国乡村小屋，周围有花园和篱笆，给人一种温馨和宁静的感觉。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个典型的英国乡村小屋，周围有花园和篱笆，屋顶覆盖着茅草，窗户上有白色的窗帘，门前有一条小径通向花园。",
+    "example_image": "一个家庭在湖边的小别墅前享受夏日时光，孩子们在草地上玩耍，父母在阳台上喝茶，湖面上有几只鸭子在游泳。"
+  },
+  "unit": 1,
+  "audio": "cottage.mp3",
+  "audio_example": "cottage_example.mp3",
+  "image": "cottage.png"
+}

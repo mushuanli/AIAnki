@@ -1,0 +1,18 @@
+{
+  "word": "wind",
+  "symbol": "/wɪnd/",
+  "chn": "n. 风, 气流",
+  "example_en": "The wind blew the leaves off the trees.",
+  "example_cn": "风把树叶从树上吹了下来。",
+  "word_family": "windy (adj. 有风的), windmill (n. 风车), windbreak (n. 防风林)",
+  "memory_tips": "词源：来自古英语 'wind'，与荷兰语 'wind' 和德语 'Wind' 同源。联想记忆：想象风吹过你的脸庞，感受它的力量。图像记忆：想象一幅画面，风车在风中旋转，树叶被风吹起。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一幅描绘风车在广阔的田野中旋转的画面，天空中有几朵白云，远处可以看到被风吹动的树木。",
+    "example_image": "一幅描绘树叶被风吹起的画面，树叶在空中飞舞，背景是蓝天和几朵白云。"
+  },
+  "unit": 1,
+  "audio": "wind.mp3",
+  "audio_example": "wind_example.mp3",
+  "image": "wind.png"
+}

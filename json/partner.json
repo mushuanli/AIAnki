@@ -1,0 +1,18 @@
+{
+  "word": "partner",
+  "symbol": "/'pɑːtnə(r)/",
+  "chn": "n. 搭档",
+  "example_en": "She has been my business partner for over ten years.",
+  "example_cn": "她作为我的商业伙伴已经超过十年了。",
+  "word_family": "partnership (n. 合伙关系), partnered (adj. 有搭档的)",
+  "memory_tips": "词源：来自中古英语 'partener'，源自拉丁语 'partitio'，意为'分配'。联想记忆：想象你和你的搭档在分配任务，每个人都有自己的部分。图像记忆：想象两个人在一个项目中紧密合作，共同完成任务。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "两个人在办公室里一起工作，桌上摆满了文件和电脑，他们正在讨论项目计划。",
+    "example_image": "一位女士和一位男士在会议室里握手，背景是投影仪展示的商业图表，象征着长期的商业伙伴关系。"
+  },
+  "unit": 8,
+  "audio": "partner.mp3",
+  "audio_example": "partner_example.mp3",
+  "image": "partner.png"
+}

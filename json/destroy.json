@@ -1,0 +1,18 @@
+{
+  "word": "destroy",
+  "symbol": "/dɪ'strɔɪ/",
+  "chn": "vt. 破坏, 摧毁",
+  "example_en": "The hurricane destroyed the entire village.",
+  "example_cn": "飓风摧毁了整个村庄。",
+  "word_family": "destroyer (n. 破坏者), destruction (n. 破坏), destructive (adj. 破坏性的)",
+  "memory_tips": "词根 'struct' 来自拉丁语，意为 '建造'，前缀 'de-' 表示 '相反' 或 '去除'，因此 'destroy' 字面意思是 '去除建造'，即 '破坏'。可以通过联想记忆：想象一个巨大的锤子（de-）砸向一座建筑（struct），将其摧毁。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A large hammer smashing a building into pieces, with debris flying everywhere.",
+    "example_image": "A village with houses and trees flattened by a powerful hurricane, with dark clouds and strong winds in the background."
+  },
+  "unit": 6,
+  "audio": "destroy.mp3",
+  "audio_example": "destroy_example.mp3",
+  "image": "destroy.png"
+}

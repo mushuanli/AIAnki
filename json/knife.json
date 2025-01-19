@@ -1,0 +1,18 @@
+{
+  "word": "knife",
+  "symbol": "/naɪf/",
+  "chn": "n. (pl. knives) 刀",
+  "example_en": "He used a knife to cut the bread.",
+  "example_cn": "他用刀切面包。",
+  "word_family": "knives (复数形式)",
+  "memory_tips": "词源：来自古英语 'cnif'，可能与古诺尔斯语 'knifr' 有关。联想记忆：想象一个锋利的刀片，可以联想到 'knife' 这个词。图像记忆：想象一把银色的刀在阳光下闪闪发光。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一把银色的刀放在木制砧板上，旁边有几片切好的面包，背景是厨房的台面。",
+    "example_image": "一个男人正在用刀切面包，面包屑散落在砧板上，背景是厨房的台面。"
+  },
+  "unit": 4,
+  "audio": "knife.mp3",
+  "audio_example": "knife_example.mp3",
+  "image": "knife.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "everything",
+  "symbol": "/'evriθɪŋ/",
+  "chn": "pron. 一切, 每件事",
+  "example_en": "She packed everything she needed for the trip.",
+  "example_cn": "她打包了旅行所需的一切。",
+  "word_family": "every (每), thing (事物)",
+  "memory_tips": "词源：'every' 来自古英语 'æfre ælc'，意为'每一个'；'thing' 来自古英语 'þing'，意为'事物'。联想记忆：想象一个包含所有物品的箱子，代表'everything'。图像记忆：画一个装满各种物品的箱子，旁边标注'everything'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个装满各种物品的箱子，包括衣服、书籍、电子设备等，箱子旁边标注'everything'。",
+    "example_image": "一个女孩正在打包行李，行李箱里装满了各种旅行用品，如衣物、洗漱用品、书籍等，旁边标注'She packed everything she needed for the trip.'"
+  },
+  "unit": 3,
+  "audio": "everything.mp3",
+  "audio_example": "everything_example.mp3",
+  "image": "everything.png"
+}

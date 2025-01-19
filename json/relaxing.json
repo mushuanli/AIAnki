@@ -1,0 +1,18 @@
+{
+  "word": "relaxing",
+  "symbol": "/rɪ'læksɪŋ/",
+  "chn": "adj. 令人放松的，轻松的",
+  "example_en": "Listening to soft music is very relaxing after a long day.",
+  "example_cn": "在漫长的一天后听轻音乐非常令人放松。",
+  "word_family": "relax (v.), relaxation (n.), relaxed (adj.)",
+  "memory_tips": "词根 'lax' 来自拉丁语，意为 '松的' 或 '放松的'。前缀 're-' 表示 '再次' 或 '加强'，所以 'relax' 字面意思是 '再次放松'。可以联想 'lax' 与 'lazy'（懒惰的）发音相似，想象一个懒散的人在放松。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A serene beach scene at sunset with a hammock tied between two palm trees, a person lying in the hammock with a book, and the ocean waves gently lapping at the shore.",
+    "example_image": "A cozy living room setting with a person sitting on a comfortable couch, headphones on, listening to soft music with a cup of tea on the table, and soft lighting creating a relaxing atmosphere."
+  },
+  "unit": 1,
+  "audio": "relaxing.mp3",
+  "audio_example": "relaxing_example.mp3",
+  "image": "relaxing.png"
+}

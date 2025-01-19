@@ -1,0 +1,18 @@
+{
+  "word": "capital",
+  "symbol": "/'kæpɪtl/",
+  "chn": "n. 首都, 首府",
+  "example_en": "Paris is the capital of France.",
+  "example_cn": "巴黎是法国的首都。",
+  "word_family": "capitalize (v.), capitalism (n.), capitalist (n.)",
+  "memory_tips": "词根 'capit' 来自拉丁语，意为 '头'，联想记忆：首都就像国家的 '头'，是政治和经济的中心。图像记忆：想象一个巨大的帽子（cap）覆盖在地图上，标记出首都的位置。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个世界地图，上面有一个大大的红色标记，指向一个城市，标记旁边写着 'Capital'。",
+    "example_image": "巴黎的埃菲尔铁塔和凯旋门，背景是法国国旗，旁边有文字 'Paris is the capital of France.'"
+  },
+  "unit": 3,
+  "audio": "capital.mp3",
+  "audio_example": "capital_example.mp3",
+  "image": "capital.png"
+}

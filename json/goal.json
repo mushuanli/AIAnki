@@ -1,0 +1,18 @@
+{
+  "word": "goal",
+  "symbol": "/ɡəʊl/",
+  "chn": "n. 目标",
+  "example_en": "Her goal is to become a doctor.",
+  "example_cn": "她的目标是成为一名医生。",
+  "word_family": "goals (复数), goal-oriented (以目标为导向的), goal-setting (目标设定)",
+  "memory_tips": "词源：来自中古英语 'gol'，意为'界限'或'终点'。联想记忆：想象一个足球比赛的终点线，那就是你的目标。图像记忆：画一个足球场，终点线旁边写着'目标'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个足球场，终点线清晰可见，旁边有一个大大的箭头指向终点线，箭头上写着'目标'。",
+    "example_image": "一个女孩穿着医生的白大褂，站在医院门口，微笑着看着前方，背景是医院的标志。"
+  },
+  "unit": 8,
+  "audio": "goal.mp3",
+  "audio_example": "goal_example.mp3",
+  "image": "goal.png"
+}

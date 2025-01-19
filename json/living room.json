@@ -1,0 +1,18 @@
+{
+  "word": "living room",
+  "symbol": "/ˈlɪvɪŋ ruːm/",
+  "chn": "n. 客厅，起居室",
+  "example_en": "We spent the evening watching movies in the living room.",
+  "example_cn": "我们晚上在客厅里看电影。",
+  "word_family": "living (adj. 活的，生活的), room (n. 房间)",
+  "memory_tips": "词源：'living' 来自古英语 'lifian'，意为‘生活’；'room' 来自古英语 'rum'，意为‘空间’。联想记忆：想象一个充满生活气息的房间，家人在这里聚会、休息。图像记忆：想象一个温馨的客厅，有沙发、电视和书架。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个温馨的客厅，有舒适的沙发、一台大电视、书架和一些装饰品，窗外可以看到花园。",
+    "example_image": "一家人坐在客厅的沙发上，正在观看电影，茶几上放着爆米花和饮料。"
+  },
+  "unit": 1,
+  "audio": "living room.mp3",
+  "audio_example": "living room_example.mp3",
+  "image": "living room.png"
+}

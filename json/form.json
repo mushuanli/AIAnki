@@ -1,0 +1,18 @@
+{
+  "word": "form",
+  "symbol": "/fɔːm/",
+  "chn": "n. 类型, 种类; 形式; vi. & vt. (使) 出现, 产生",
+  "example_en": "A plan began to form in his mind.",
+  "example_cn": "一个计划开始在他的脑海中形成。",
+  "word_family": "formation (n.), formative (adj.), reform (v./n.)",
+  "memory_tips": "词根 'form' 来自拉丁语 'forma'，意为形状或模式。可以通过联想记忆，想象一个形状逐渐从模糊到清晰的过程，帮助记忆 'form' 的含义。图像记忆可以想象一个雕塑家正在塑造一个雕像，雕像逐渐成形。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个雕塑家正在用粘土塑造一个雕像，雕像逐渐从无定形的粘土中显现出清晰的形状。",
+    "example_image": "一个人坐在书桌前，脑海中浮现出一个详细的计划图，计划图逐渐清晰，显示出具体的步骤和目标。"
+  },
+  "unit": 6,
+  "audio": "form.mp3",
+  "audio_example": "form_example.mp3",
+  "image": "form.png"
+}

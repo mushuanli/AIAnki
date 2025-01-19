@@ -1,0 +1,18 @@
+{
+  "word": "high",
+  "symbol": "/haɪ/",
+  "chn": "adj. 有某高度的; adv. 高",
+  "example_en": "The kite flew high in the sky.",
+  "example_cn": "风筝在天空中飞得很高。",
+  "word_family": "higher (比较级), highest (最高级), highness (名词形式)",
+  "memory_tips": "词源：来自古英语 'heah'，意为高。联想记忆：想象一个高高的山峰或摩天大楼，帮助你记住 'high' 表示高度。图像记忆：可以想象一个气球飞得很高，或者一个孩子站在梯子上伸手去够高处的苹果。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个孩子站在梯子上，伸手去够高处的苹果，背景是蓝天和白云。",
+    "example_image": "一只五颜六色的风筝在蓝天中高高飞翔，周围有几朵白云。"
+  },
+  "unit": 3,
+  "audio": "high.mp3",
+  "audio_example": "high_example.mp3",
+  "image": "high.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "cloud",
+  "symbol": "/klaʊd/",
+  "chn": "n. 云, 云彩",
+  "example_en": "The sky was filled with fluffy white clouds.",
+  "example_cn": "天空中布满了蓬松的白云。",
+  "word_family": "cloudy (adj. 多云的), cloudless (adj. 无云的), cloudiness (n. 多云状态)",
+  "memory_tips": "词源：来自古英语 'clud'，意为'岩石'或'山丘'，后来演变为'云'。联想记忆：想象云朵像棉花糖一样漂浮在天空中，或者想象云朵像山丘一样堆积在天际。图像记忆：可以想象一个孩子在草地上躺着，看着天空中形状各异的云朵，想象它们像动物或物体。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个晴朗的蓝天，上面漂浮着几朵蓬松的白云，阳光透过云层洒在大地上。",
+    "example_image": "一个小女孩躺在绿色的草地上，双手枕在头下，眼睛望着天空中形状各异的白云，脸上带着微笑。"
+  },
+  "unit": 6,
+  "audio": "cloud.mp3",
+  "audio_example": "cloud_example.mp3",
+  "image": "cloud.png"
+}

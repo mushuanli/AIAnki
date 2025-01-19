@@ -1,0 +1,18 @@
+{
+  "word": "side",
+  "symbol": "/saɪd/",
+  "chn": "n. 一侧, 一边",
+  "example_en": "She sat on the side of the bed, looking out the window.",
+  "example_cn": "她坐在床边，望着窗外。",
+  "word_family": "sides (复数), sideways (副词), sideline (名词)",
+  "memory_tips": "词源：来自古英语 'sīde'，意为'侧边'。联想记忆：想象一个正方形，有四个边（sides），每个边都是一侧。图像记忆：画一个正方形，标出四个边，强调每个边都是一个'side'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个正方形，四个边分别用不同颜色标出，每个边旁边标注'side'。",
+    "example_image": "一个女孩坐在床边，窗外是阳光明媚的景色，床边放着一本书。"
+  },
+  "unit": 3,
+  "audio": "side.mp3",
+  "audio_example": "side_example.mp3",
+  "image": "side.png"
+}

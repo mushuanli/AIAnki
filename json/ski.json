@@ -1,0 +1,18 @@
+{
+  "word": "ski",
+  "symbol": "/skiː/",
+  "chn": "vi. 滑雪 (运动)",
+  "example_en": "We decided to ski down the mountain despite the heavy snow.",
+  "example_cn": "尽管下着大雪，我们还是决定滑雪下山。",
+  "word_family": "skier (n. 滑雪者), skiing (n. 滑雪运动), skiable (adj. 可滑雪的)",
+  "memory_tips": "词源：来自古挪威语 'skíð'，意为“木条”或“滑雪板”。联想记忆：想象滑雪时脚下的滑雪板在雪地上滑行的声音和感觉。图像记忆：想象一个滑雪者在雪山斜坡上快速滑下的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A skier in colorful ski gear, gliding down a snowy mountain slope with ski poles in hand, surrounded by snow-covered trees and a clear blue sky.",
+    "example_image": "A group of friends laughing and skiing together on a sunny day, with snow flying from their skis and a cozy ski lodge visible in the background."
+  },
+  "unit": 7,
+  "audio": "ski.mp3",
+  "audio_example": "ski_example.mp3",
+  "image": "ski.png"
+}

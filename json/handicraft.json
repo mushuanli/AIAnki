@@ -1,0 +1,18 @@
+{
+  "word": "handicraft",
+  "symbol": "/'hændɪkrɑːft/",
+  "chn": "n. 手工艺品, 手工艺",
+  "example_en": "She sells her handmade handicrafts at the local market.",
+  "example_cn": "她在当地市场出售她的手工艺品。",
+  "word_family": "handicrafts (复数形式), handicrafter (手工艺人)",
+  "memory_tips": "词根 'hand' 表示手，'craft' 表示工艺或技能。联想记忆：想象用手制作精美工艺品的过程。图像记忆：想象一个手工艺人正在用双手制作一个精美的陶瓷碗。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个手工艺人正在用双手制作一个精美的陶瓷碗，周围摆放着各种手工艺品，如编织篮、刺绣和木雕。",
+    "example_image": "一个热闹的当地市场，摊位上摆满了各种手工艺品，如手工编织的篮子、刺绣和木雕，人们正在挑选购买。"
+  },
+  "unit": 4,
+  "audio": "handicraft.mp3",
+  "audio_example": "handicraft_example.mp3",
+  "image": "handicraft.png"
+}

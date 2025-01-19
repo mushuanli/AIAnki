@@ -1,0 +1,18 @@
+{
+  "word": "useful",
+  "symbol": "/'juːsfl/",
+  "chn": "adj. 有用的",
+  "example_en": "This book is very useful for learning English.",
+  "example_cn": "这本书对学习英语非常有用。",
+  "word_family": "usefully (adv.), usefulness (n.)",
+  "memory_tips": "词根 'use' 表示使用，后缀 '-ful' 表示充满的或具有某种性质的。联想记忆：想象一个装满工具的箱子，每个工具都是有用的。图像记忆：画一个工具箱，里面装满了各种工具，每个工具上都标有 'useful'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个工具箱，里面装满了各种工具，如锤子、螺丝刀、钳子等，每个工具上都标有 'useful'。",
+    "example_image": "一个学生坐在书桌前，桌上放着一本打开的书，书页上写着 'This book is very useful for learning English.'，学生正在认真阅读。"
+  },
+  "unit": 5,
+  "audio": "useful.mp3",
+  "audio_example": "useful_example.mp3",
+  "image": "useful.png"
+}

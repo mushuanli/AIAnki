@@ -1,0 +1,18 @@
+{
+  "word": "Olympic",
+  "symbol": "/ə'lɪmpɪk/",
+  "chn": "adj. 奥林匹克运动会的",
+  "example_en": "The Olympic Games are held every four years.",
+  "example_cn": "奥林匹克运动会每四年举行一次。",
+  "word_family": "Olympics (n. 奥林匹克运动会), Olympian (adj. 奥林匹克的; n. 奥林匹克选手)",
+  "memory_tips": "词源：来自希腊语 'Olympia'，指古希腊的奥林匹亚，是古代奥林匹克运动会的举办地。联想记忆：想象一个巨大的奥林匹克五环标志，象征着全球的体育盛会。图像记忆：想象一个运动员在奥林匹克运动场上奔跑的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个巨大的奥林匹克五环标志，背景是蓝天和白云，象征着全球的体育盛会。",
+    "example_image": "一群运动员在奥林匹克运动场上奔跑，观众席上坐满了欢呼的人群，天空中飘扬着各国的国旗。"
+  },
+  "unit": 3,
+  "audio": "Olympic.mp3",
+  "audio_example": "Olympic_example.mp3",
+  "image": "Olympic.png"
+}

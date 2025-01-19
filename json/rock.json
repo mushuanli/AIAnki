@@ -1,0 +1,17 @@
+{
+  "word": "rock",
+  "symbol": "/rɒk/",
+  "chn": "n. 岩石",
+  "example_en": "The children climbed over the large rock by the river.",
+  "example_cn": "孩子们爬过了河边的大岩石。",
+  "word_family": "rocks(n) 岩石 ,rocky(adj) 多岩石的；不稳定的 ,rocking(adj) 摇摆的；极好的",
+  "memory_tips": "单词“rock”源自古英语中的“rocc”，其起源尚不明确，但可能与古挪威语中的“rokkr”有关，意思是“纺纱杆”。",
+  "difficulty": 2,
+  "image_prompts": {
+    "main_image": "A large, rugged rock formation in a mountainous area, with some greenery around it, under a clear blue sky.",
+    "example_image": "A group of children climbing over a large, smooth rock near a flowing river, with trees and grass in the background."
+  },
+  "unit": 6,
+  "audio": "rock.mp3",
+  "audio_example": "rock_example.mp3"
+}

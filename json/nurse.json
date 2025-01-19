@@ -1,0 +1,18 @@
+{
+  "word": "nurse",
+  "symbol": "/nɜːs/",
+  "chn": "n. 保姆, 护士",
+  "example_en": "The nurse took care of the patient with great compassion.",
+  "example_cn": "护士以极大的同情心照顾病人。",
+  "word_family": "nursing (n. 护理), nursemaid (n. 保姆), nursery (n. 托儿所)",
+  "memory_tips": "词源：来自拉丁语 'nutricia'，意为'喂养者'。联想记忆：想象一个护士在喂婴儿，或者一个保姆在照顾孩子。图像记忆：可以想象一个穿着白色制服的护士在医院的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A nurse in a white uniform caring for a patient in a hospital room, with medical equipment around.",
+    "example_image": "A compassionate nurse gently feeding a patient in a hospital bed, with a warm and caring atmosphere."
+  },
+  "unit": 8,
+  "audio": "nurse.mp3",
+  "audio_example": "nurse_example.mp3",
+  "image": "nurse.png"
+}

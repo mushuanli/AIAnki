@@ -1,0 +1,18 @@
+{
+  "word": "wave",
+  "symbol": "/weɪv/",
+  "chn": "vi. 飘动，摇晃; vi. & vt. 挥手; n. 挥手, 波浪",
+  "example_en": "She waved her hand to say goodbye.",
+  "example_cn": "她挥手告别。",
+  "word_family": "waved (过去式), waving (现在分词), waves (第三人称单数), waveband (波段), wavelength (波长)",
+  "memory_tips": "词源：来自古英语 'wafian'，意为'移动'。联想记忆：想象海浪（wave）在海上飘动，或者一个人在挥手（wave）告别。图像记忆：画一个波浪形的线条，旁边有一个人在挥手。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的海滩，海浪轻轻拍打着沙滩，远处有一个人在挥手。",
+    "example_image": "一个女孩站在火车站台上，向即将离开的火车挥手告别。"
+  },
+  "unit": 3,
+  "audio": "wave.mp3",
+  "audio_example": "wave_example.mp3",
+  "image": "wave.png"
+}

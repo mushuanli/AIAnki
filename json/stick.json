@@ -1,0 +1,18 @@
+{
+  "word": "stick",
+  "symbol": "/stɪk/",
+  "chn": "n. 枝条",
+  "example_en": "He picked up a stick from the ground to draw in the sand.",
+  "example_cn": "他从地上捡起一根枝条在沙地上画画。",
+  "word_family": "sticks(n) 棍子；手杖 ,sticking(v) 粘住；坚持 ,sticky(adj) 粘的；棘手的",
+  "memory_tips": "词源：来自古英语 'sticca'，意为小木棍。联想记忆：想象一根树枝（stick）像一根小木棍一样直立在沙地上。图像记忆：想象一个孩子用树枝在沙地上画画。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A detailed scene of a forest floor with various sizes of sticks scattered around, some partially buried in the soil, with sunlight filtering through the trees.",
+    "example_image": "A child sitting on a sandy beach, using a stick to draw shapes and patterns in the sand, with the ocean in the background."
+  },
+  "unit": 5,
+  "audio": "stick.mp3",
+  "audio_example": "stick_example.mp3",
+  "image": "stick.png"
+}

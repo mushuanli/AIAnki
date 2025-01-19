@@ -1,0 +1,18 @@
+{
+  "word": "check",
+  "symbol": "/tʃek/",
+  "chn": "vt. & n. 检查, 核查",
+  "example_en": "Please check your answers before submitting the exam.",
+  "example_cn": "请在提交考试前检查你的答案。",
+  "word_family": "checked, checking, checker, checkup",
+  "memory_tips": "词源：来自古法语 'eschequier'，意为棋盘，引申为检查。联想记忆：想象在棋盘上每一步都需要仔细检查。图像记忆：想象一个放大镜在检查棋盘上的棋子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个放大镜正在检查棋盘上的棋子，背景是一个教室，黑板上写着'检查你的作业'。",
+    "example_image": "一个学生坐在书桌前，正在用红笔检查试卷上的答案，旁边放着一杯咖啡和一本打开的笔记本。"
+  },
+  "unit": 2,
+  "audio": "check.mp3",
+  "audio_example": "check_example.mp3",
+  "image": "check.png"
+}

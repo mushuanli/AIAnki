@@ -1,0 +1,18 @@
+{
+  "word": "college",
+  "symbol": "/'kɒlɪdʒ/",
+  "chn": "n. 学院; <美> 大学",
+  "example_en": "She is studying at a prestigious college in New York.",
+  "example_cn": "她在纽约的一所著名大学学习。",
+  "word_family": "collegiate (adj. 学院的), collegian (n. 大学生)",
+  "memory_tips": "词根 'colleg-' 来自拉丁语 'collegium'，意为 '团体' 或 '协会'。联想记忆：想象一个大学校园里，学生们组成各种团体和协会。图像记忆：想象一个典型的大学校园，有图书馆、教室和学生宿舍。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个典型的大学校园，有图书馆、教室和学生宿舍，学生们在校园里行走和交流。",
+    "example_image": "一个年轻的女学生坐在图书馆里，专注地阅读一本书，背景是书架和窗户。"
+  },
+  "unit": 2,
+  "audio": "college.mp3",
+  "audio_example": "college_example.mp3",
+  "image": "college.png"
+}

@@ -1,0 +1,18 @@
+{
+  "word": "experience",
+  "symbol": "/ɪk'spɪəriəns/",
+  "chn": "n. (一次) 经历, 经验",
+  "example_en": "Traveling to different countries is a great way to gain new experiences.",
+  "example_cn": "去不同的国家旅行是获得新经历的好方法。",
+  "word_family": "experienced (adj.), inexperienced (adj.), experiential (adj.)",
+  "memory_tips": "词根 'experi-' 来自拉丁语 'experiri'，意为尝试或测试。联想记忆：想象自己在实验室里做实验（experiment），每次实验都是一次新的经历（experience）。图像记忆：想象一个旅行者站在世界地图前，每个去过的地方都标记着不同的经历。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个年轻人站在世界地图前，地图上标记着他去过的不同国家，每个标记旁边都有一个小图标代表他在那里的经历，比如在巴黎的埃菲尔铁塔下拍照，在日本的樱花树下野餐等。",
+    "example_image": "一个旅行者站在机场的登机口，手中拿着护照和机票，脸上带着期待的微笑，背景是不同国家的风景照片，象征着即将开始的新经历。"
+  },
+  "unit": 7,
+  "audio": "experience.mp3",
+  "audio_example": "experience_example.mp3",
+  "image": "experience.png"
+}

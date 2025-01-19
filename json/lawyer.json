@@ -1,0 +1,18 @@
+{
+  "word": "lawyer",
+  "symbol": "/'lɔɪə(r)/",
+  "chn": "n. 律师",
+  "example_en": "The lawyer presented a compelling argument in court.",
+  "example_cn": "律师在法庭上提出了一个令人信服的论点。",
+  "word_family": "lawyers, lawyering, lawyerly",
+  "memory_tips": "词源：来自中古英语 'lawier'，源自 'law'（法律）和 '-yer'（表示职业的后缀）。联想记忆：想象一个律师在法庭上挥舞着法律书籍，为正义而战。图像记忆：一个穿着正式西装，手持法律文件的律师站在法庭上。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A professional lawyer in a formal suit, standing confidently in a courtroom, holding a stack of legal documents. The courtroom has a judge's bench, a jury box, and an audience seated in the background.",
+    "example_image": "A lawyer presenting a case in front of a judge and jury, with a serious and focused expression. The courtroom is well-lit, with a large American flag hanging on the wall."
+  },
+  "unit": 2,
+  "audio": "lawyer.mp3",
+  "audio_example": "lawyer_example.mp3",
+  "image": "lawyer.png"
+}

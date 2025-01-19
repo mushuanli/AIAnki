@@ -1,0 +1,18 @@
+{
+  "word": "noise",
+  "symbol": "/nɔɪz/",
+  "chn": "n. 声音, 噪声",
+  "example_en": "The noise from the construction site was unbearable.",
+  "example_cn": "建筑工地的噪音让人难以忍受。",
+  "word_family": "noisy (adj.), noiseless (adj.), noisily (adv.)",
+  "memory_tips": "词源：来自古法语 'noise'，意为'喧闹'。联想记忆：想象一个嘈杂的市场，人们大声交谈，这就是 'noise'。图像记忆：画一个喇叭图标，旁边有波浪线表示声音。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个繁忙的城市街道，车辆和行人来来往往，背景中有建筑工地，工人们正在使用重型机械，产生大量噪音。",
+    "example_image": "一个建筑工地，工人们正在使用钻机和挖掘机，周围有警示标志和安全围栏，噪音明显。"
+  },
+  "unit": 5,
+  "audio": "noise.mp3",
+  "audio_example": "noise_example.mp3",
+  "image": "noise.png"
+}

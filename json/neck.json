@@ -1,0 +1,18 @@
+{
+  "word": "neck",
+  "symbol": "/nek/",
+  "chn": "n. 颈, 脖子",
+  "example_en": "She wore a scarf around her neck to keep warm.",
+  "example_cn": "她脖子上围了一条围巾保暖。",
+  "word_family": "necklace (项链), necktie (领带), neckline (领口)",
+  "memory_tips": "词源：来自古英语 'hnecca'，意为颈或脖子。联想记忆：想象一个长颈鹿（giraffe）的长脖子，帮助记忆 'neck' 这个词。图像记忆：画一个简单的脖子和头部的轮廓图，标注 'neck'。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个清晰的脖子和头部的轮廓图，标注 'neck'，背景为简单的白色。",
+    "example_image": "一个女孩在寒冷的天气里，脖子上围着一条红色的围巾，背景是冬天的雪景。"
+  },
+  "unit": 5,
+  "audio": "neck.mp3",
+  "audio_example": "neck_example.mp3",
+  "image": "neck.png"
+}

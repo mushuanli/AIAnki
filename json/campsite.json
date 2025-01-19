@@ -1,0 +1,18 @@
+{
+  "word": "campsite",
+  "symbol": "/'kæmpsaɪt/",
+  "chn": "n. 野营地",
+  "example_en": "We set up our tent at a beautiful campsite near the lake.",
+  "example_cn": "我们在湖边一个美丽的野营地搭起了帐篷。",
+  "word_family": "camp (n. 营地), camping (n. 露营), camper (n. 露营者)",
+  "memory_tips": "词根 'camp' 来自拉丁语 'campus'，意为'田野'或'营地'。后缀 '-site' 表示'地点'。联想记忆：想象一个帐篷和篝火的场景，帮助记住 'campsite' 是露营的地方。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A scenic view of a campsite with tents pitched on a grassy area near a calm lake, surrounded by tall trees and mountains in the background. A campfire is burning in the foreground.",
+    "example_image": "A group of friends sitting around a campfire at a campsite, with tents visible in the background and a starry night sky above."
+  },
+  "unit": 7,
+  "audio": "campsite.mp3",
+  "audio_example": "campsite_example.mp3",
+  "image": "campsite.png"
+}
