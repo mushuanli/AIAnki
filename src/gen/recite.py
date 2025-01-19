@@ -38,11 +38,9 @@ audio_dir = Path('audio')
 image_dir = Path('images')
 output_dir = Path('output')
 
-# 确保输出目录存在
 output_dir.mkdir(parents=True, exist_ok=True)
 
-# 创建卡片包
-deck_name = "综合卡片包"  # 卡片包名称
+deck_name = "综合卡片包" 
 my_deck = genanki.Deck(DECK_ID, deck_name)
 media_files = []
 
