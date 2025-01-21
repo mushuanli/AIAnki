@@ -76,7 +76,8 @@ async function genFromList(outputdir)
 
 async function main() {
   try {
-    ensureDirectories([config.AUDIO_DIR, config.IMAGE_DIR, config.MEDIA_DIR,config.JSON_DIR]);
+    const outputDir = path.join(__dirname,'../../',workdir);
+    ensureDirectories(outputDir,[config.AUDIO_DIR, config.IMAGE_DIR, config.MEDIA_DIR,config.JSON_DIR]);
     await genFromList(path.join(__dirname,workdir));
 
     // 创建Anki包的逻辑可以在这里添加

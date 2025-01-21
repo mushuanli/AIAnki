@@ -28,3 +28,9 @@ Anki 卡片生成工具
  重复运行一直到所有图片都生成。
 
  再运行 src/gen/EWordDeck.py, 这将会将json/ audio/ images打包成 apkg.
+
+
+# prompt
+## 图片到单词信息
+提取单词信息, 输出json格式，如果单词前面有* 去掉，如果一个单词信息在多行，放在一起，如:
+    {"name": "type", "symbol": "/tarp/", "chn": "n. 类型, 种类; vt. & vi. 打字"},

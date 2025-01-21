@@ -11,9 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "env":{
-
-            },
+            "envFile": "${workspaceFolder}/.vscode/.env",
             "program": "${workspaceFolder}/src/init/recite.js"
         },
         {
@@ -23,7 +21,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/src/init/worddeck.js"
+            "envFile": "${workspaceFolder}/.vscode/.env",
+            "program": "${workspaceFolder}/src/init/EWordDeck.js"
         }
     ],
     "files.exclude": {

@@ -21,10 +21,11 @@ const openai = new OpenAI({
   apiKey: config.OPENAI_API_KEY,
 });
 
-function ensureDirectories(dirs) {
+function ensureDirectories(outputDir,dirs) {
   dirs.forEach(dir => {
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
+    const filePath = path.join(outputDir,dir);
+    if (!fs.existsSync(filePath)) {
+      fs.mkdirSync(filePath, { recursive: true });
     }
   });
 }
@@ -108,7 +109,7 @@ async function downloadFile(url, filePath) {
 
     const fileNameWithoutExt = path.basename(filePath, path.extname(filePath));
     // 拼接新的扩展名
-    filePath = path.join(path.dirname(filePath), `${fileNameWithoutExt}${fileExtension}`);
+    filePath = path.join(path.dirname(filePath), `${fileNameWithoutExt}.${fileExtension}`);
 
     // 确保输出目录存在
     const outputDir = path.dirname(filePath);
