@@ -1,0 +1,18 @@
+{
+  "name": "lock",
+  "symbol": "/lɒk/",
+  "chn": "n. 锁",
+  "example_en": "She turned the key in the lock and opened the door.",
+  "example_cn": "她把钥匙插入锁中，打开了门。",
+  "word_family": "locked (adj.), locking (v.), unlock (v.), locker (n.)",
+  "memory_tips": "词源：来自古英语 'loc'，意为'锁'或'封闭'。联想记忆：想象一把锁将两个环扣在一起，形成一个封闭的圈。图像记忆：想象一个金色的锁，锁住一个宝箱，宝箱里装满了金币和珠宝。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个金色的锁，锁住一个古老的木制宝箱，宝箱上装饰着复杂的雕刻，背景是一个昏暗的藏宝室，墙上挂着火把。",
+    "example_image": "一个女孩站在一扇木门前，手中拿着一把钥匙，正在插入门上的锁孔，门后是一个明亮的房间，阳光从窗户照射进来。"
+  },
+  "unit": 8,
+  "audio": "lock.mp3",
+  "audio_example": "lock_example.mp3",
+  "image": "lock.png"
+}

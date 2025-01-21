@@ -1,0 +1,18 @@
+{
+  "name": "mobile",
+  "symbol": "/'məʊbaɪl/",
+  "chn": "adj. 可移动的",
+  "example_en": "The mobile library visits our village every month.",
+  "example_cn": "流动图书馆每个月都会来我们村庄。",
+  "word_family": "mobility (n. 移动性), mobilize (v. 动员), automobile (n. 汽车)",
+  "memory_tips": "词根 'mob-' 来自拉丁语 'mobilis'，意为 '可移动的'。联想记忆：想象一个移动的图书馆或移动的车辆，帮助记忆 'mobile' 的意思。图像记忆：画一辆移动的汽车或一个移动的图书馆。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A colorful mobile library van parked in a small village, with children eagerly picking books from the shelves.",
+    "example_image": "A group of children sitting under a tree, reading books borrowed from the mobile library, with the van visible in the background."
+  },
+  "unit": 1,
+  "audio": "mobile.mp3",
+  "audio_example": "mobile_example.mp3",
+  "image": "mobile.png"
+}

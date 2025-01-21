@@ -1,0 +1,18 @@
+{
+  "name": "breathe",
+  "symbol": "/briːð/",
+  "chn": "vi. & vt. 呼吸; vt. 呼出",
+  "example_en": "She took a deep breath and began to breathe slowly.",
+  "example_cn": "她深吸一口气，开始缓慢呼吸。",
+  "word_family": "breath (n.), breathing (n.), breathable (adj.)",
+  "memory_tips": "词根 'breath' 来自古英语 'brǣð'，意为‘呼吸’。联想记忆：想象自己在深呼吸时，空气从鼻子进入肺部，再慢慢呼出。图像记忆：画一个人在森林中深呼吸，享受新鲜空气。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个人在森林中深呼吸，周围是绿色的树木和清新的空气。",
+    "example_image": "一个女孩坐在瑜伽垫上，闭着眼睛，深呼吸，表情放松。"
+  },
+  "unit": 6,
+  "audio": "breathe.mp3",
+  "audio_example": "breathe_example.mp3",
+  "image": "breathe.png"
+}

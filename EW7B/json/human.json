@@ -1,0 +1,18 @@
+{
+  "name": "human",
+  "symbol": "/'hjuːmən/",
+  "chn": "n. 人",
+  "example_en": "Every human has the right to live in peace.",
+  "example_cn": "每个人都有和平生活的权利。",
+  "word_family": "humankind (n. 人类), humanity (n. 人性), humane (adj. 人道的)",
+  "memory_tips": "词源：来自拉丁语 'humanus'，意为‘人的’。联想记忆：想象一个地球，上面站满了各种肤色的人，代表全人类。图像记忆：画一个地球，周围环绕着不同的人形图案。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个地球的图片，地球表面上有不同肤色的人形图案，象征着全人类。",
+    "example_image": "一幅和平的场景，不同种族的人们手拉手围成一个圈，背景是蓝天和白云，象征着和平共处的理想状态。"
+  },
+  "unit": 5,
+  "audio": "human.mp3",
+  "audio_example": "human_example.mp3",
+  "image": "human.png"
+}

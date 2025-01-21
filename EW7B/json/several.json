@@ -1,0 +1,18 @@
+{
+  "name": "several",
+  "symbol": "/'sevrəl/",
+  "chn": "det. & pron. 几个, 一些",
+  "example_en": "She has read several books this month.",
+  "example_cn": "她这个月已经读了几本书。",
+  "word_family": "severally (adv.), severalfold (adj./adv.)",
+  "memory_tips": "词源：来自拉丁语 'separalis'，意为“分开的”。联想记忆：可以将 'several' 与 'seven' 联想，虽然意思不同，但可以帮助记忆拼写。图像记忆：想象一个手指数数的场景，手指分开表示“几个”。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A hand showing three fingers, symbolizing 'several' items.",
+    "example_image": "A girl sitting in a cozy chair surrounded by a stack of books, reading one with a smile."
+  },
+  "unit": 6,
+  "audio": "several.mp3",
+  "audio_example": "several_example.mp3",
+  "image": "several.png"
+}

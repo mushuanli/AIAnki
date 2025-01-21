@@ -1,0 +1,18 @@
+{
+  "name": "herself",
+  "symbol": "/hɜː'self/",
+  "chn": "pron. 她自己",
+  "example_en": "She made the cake herself.",
+  "example_cn": "她自己做了这个蛋糕。",
+  "word_family": "herself, himself, myself, yourself, ourselves, themselves",
+  "memory_tips": "词根词缀：'her' 表示‘她’，'self' 表示‘自己’。联想记忆：想象一个女孩在镜子前对自己微笑，强调‘她自己’。图像记忆：画一个女孩独自完成一项任务，如做蛋糕或画画。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young girl standing in front of a mirror, smiling at her reflection, emphasizing the concept of 'herself'.",
+    "example_image": "A girl in a kitchen, wearing an apron, proudly holding a freshly baked cake, illustrating the sentence 'She made the cake herself.'"
+  },
+  "unit": 8,
+  "audio": "herself.mp3",
+  "audio_example": "herself_example.mp3",
+  "image": "herself.png"
+}

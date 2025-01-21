@@ -1,0 +1,18 @@
+{
+  "name": "scene",
+  "symbol": "/siːn/",
+  "chn": "n. 场面, 现场 (戏剧等的) 场",
+  "example_en": "The final scene of the play was incredibly moving.",
+  "example_cn": "这部戏的最后一场非常感人。",
+  "word_family": "scenery (n. 风景), scenic (adj. 风景优美的), scenario (n. 剧本, 情节)",
+  "memory_tips": "词源：来自拉丁语 'scena'，意为舞台或场景。联想记忆：想象一个戏剧舞台上的场景，演员们在表演，观众在观看。图像记忆：想象一个戏剧舞台，上面有演员和布景，形成一个完整的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个戏剧舞台，上面有演员在表演，背景是精心设计的布景，观众在台下观看。",
+    "example_image": "一个戏剧的最后一场，演员们情感丰富地表演，观众被深深感动，有的甚至流泪。"
+  },
+  "unit": 4,
+  "audio": "scene.mp3",
+  "audio_example": "scene_example.mp3",
+  "image": "scene.png"
+}

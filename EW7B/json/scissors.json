@@ -1,0 +1,18 @@
+{
+  "name": "scissors",
+  "symbol": "/'sɪzəz/",
+  "chn": "n. [pl.] 剪刀",
+  "example_en": "She used the scissors to cut the paper into small pieces.",
+  "example_cn": "她用剪刀把纸剪成小块。",
+  "word_family": "scissor (v. 剪裁), scissor-like (adj. 像剪刀的)",
+  "memory_tips": "词源：来自拉丁语 'cisoria'，意为切割工具。联想记忆：想象剪刀的两片刀刃像蛇的牙齿（'s'形状）一样咬合。图像记忆：想象一把红色的剪刀在剪一张彩色的纸。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A pair of shiny, red scissors lying on a wooden table with a piece of colorful paper being cut into small pieces.",
+    "example_image": "A young girl sitting at a desk, holding a pair of scissors and cutting a piece of paper into small pieces, with a focused expression on her face."
+  },
+  "unit": 4,
+  "audio": "scissors.mp3",
+  "audio_example": "scissors_example.mp3",
+  "image": "scissors.png"
+}

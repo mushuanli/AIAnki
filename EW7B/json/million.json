@@ -1,0 +1,18 @@
+{
+  "name": "million",
+  "symbol": "/'mɪljən/",
+  "chn": "num. 一百万",
+  "example_en": "The company made a profit of one million dollars last year.",
+  "example_cn": "公司去年盈利一百万美元。",
+  "word_family": "millions (复数形式), millionaire (百万富翁)",
+  "memory_tips": "词源：来自拉丁语 'mille'，意为 '千'，加上后缀 '-ion' 表示大数。联想记忆：想象一个巨大的数字 '1' 后面跟着六个 '0'，形成 '1,000,000'，即一百万。图像记忆：想象一个装满金币的宝箱，上面标有 '1,000,000' 的数字。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个巨大的数字 '1' 后面跟着六个 '0'，形成 '1,000,000'，背景是一个装满金币的宝箱。",
+    "example_image": "一个公司办公室的场景，桌子上放着一张显示 '1,000,000' 美元的利润报表，周围有员工在庆祝。"
+  },
+  "unit": 1,
+  "audio": "million.mp3",
+  "audio_example": "million_example.mp3",
+  "image": "million.png"
+}

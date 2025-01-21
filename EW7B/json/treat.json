@@ -1,0 +1,18 @@
+{
+  "name": "treat",
+  "symbol": "/triːt/",
+  "chn": "n. 乐事, 款待",
+  "example_en": "Going to the amusement park was a real treat for the kids.",
+  "example_cn": "去游乐园对孩子们来说真是一件乐事。",
+  "word_family": "treats, treated, treating, treatment",
+  "memory_tips": "词源：来自古英语 'tretan'，意为处理或对待。联想记忆：想象你在享受一个特别的款待，比如一块美味的蛋糕或一次惊喜的旅行。图像记忆：想象一个装满糖果的盒子，上面写着“特别的款待”。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个装满各种颜色糖果的透明玻璃罐，放在一个装饰精美的桌子上，背景是温馨的家庭聚会场景。",
+    "example_image": "一群孩子在游乐园里开心地玩耍，背景有过山车和旋转木马，孩子们脸上洋溢着幸福的笑容。"
+  },
+  "unit": 6,
+  "audio": "treat.mp3",
+  "audio_example": "treat_example.mp3",
+  "image": "treat.png"
+}

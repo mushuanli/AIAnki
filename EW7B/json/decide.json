@@ -1,0 +1,18 @@
+{
+  "name": "decide",
+  "symbol": "/dɪ'saɪd/",
+  "chn": "vt. & vi. 决定",
+  "example_en": "She decided to take the job offer after much consideration.",
+  "example_cn": "经过深思熟虑后，她决定接受这份工作。",
+  "word_family": "decision (n.), decisive (adj.), undecided (adj.)",
+  "memory_tips": "词根 'cide' 来自拉丁语，意为 '切' 或 '杀'，在这里引申为 '做出决断'。可以联想为 '切掉' 其他选项，只留下一个决定。图像记忆：想象一个人站在十字路口，用剪刀剪掉所有路标，只留下一条路。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person standing at a crossroads, holding a large pair of scissors, cutting away all road signs except one that points to a clear path.",
+    "example_image": "A woman sitting at a desk, looking at a job offer letter, with a thoughtful expression, surrounded by papers and a cup of coffee."
+  },
+  "unit": 8,
+  "audio": "decide.mp3",
+  "audio_example": "decide_example.mp3",
+  "image": "decide.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "relaxed",
+  "symbol": "/rɪ'lækst/",
+  "chn": "adj. 放松的, 冷静的",
+  "example_en": "After a long day at work, she felt completely relaxed in her cozy chair.",
+  "example_cn": "工作了一整天后，她在舒适的椅子上感到完全放松。",
+  "word_family": "relax (v.), relaxation (n.), relaxing (adj.)",
+  "memory_tips": "词根 'lax' 来自拉丁语，意为 '松的' 或 '宽松的'。前缀 're-' 表示 '再次' 或 '向后'，所以 'relaxed' 可以联想为 '再次放松'。想象一个松紧带，当你放松它时，它变得不那么紧绷，这可以帮助记忆这个词的意思。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person sitting in a cozy chair with a soft blanket, sipping tea, and looking out at a serene landscape with a sunset.",
+    "example_image": "A woman sitting in a comfortable chair with a book in her lap, a cup of tea on the side table, and a peaceful expression on her face, indicating relaxation after a long day."
+  },
+  "unit": 7,
+  "audio": "relaxed.mp3",
+  "audio_example": "relaxed_example.mp3",
+  "image": "relaxed.png"
+}

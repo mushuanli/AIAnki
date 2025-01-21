@@ -1,0 +1,18 @@
+{
+  "name": "if",
+  "symbol": "/ɪf/",
+  "chn": "conj. 如果",
+  "example_en": "If it rains tomorrow, we will stay at home.",
+  "example_cn": "如果明天下雨，我们就待在家里。",
+  "word_family": "unless, whether, provided that",
+  "memory_tips": "词源：来自古英语 'gif'，意为'如果'。联想记忆：可以将 'if' 想象成一个分叉路口，表示选择或条件。图像记忆：想象一个分叉路口的标志，一边是晴天，一边是雨天，表示不同的条件。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个分叉路口的标志，一边是晴天，一边是雨天，表示不同的条件。",
+    "example_image": "一个家庭在客厅里，窗外下着雨，表示如果明天下雨，我们就待在家里。"
+  },
+  "unit": 2,
+  "audio": "if.mp3",
+  "audio_example": "if_example.mp3",
+  "image": "if.png"
+}

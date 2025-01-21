@@ -1,0 +1,18 @@
+{
+  "name": "grassland",
+  "symbol": "/'ɡrɑːslænd/",
+  "chn": "n. 草原, 草地, 草场",
+  "example_en": "The vast grassland stretched as far as the eye could see.",
+  "example_cn": "广阔的草原一望无际。",
+  "word_family": "grass (草), land (土地)",
+  "memory_tips": "词根词缀：'grass' 表示草，'land' 表示土地。联想记忆：想象一片绿色的草地，草在土地上生长。图像记忆：想象一幅草原的图片，草在微风中摇曳。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一片广阔的绿色草原，远处有山脉和蓝天，草地上有几只牛羊在吃草。",
+    "example_image": "一个孩子站在草原上，手拿风筝，风筝在蓝天中飞翔，背景是连绵的山脉和绿色的草地。"
+  },
+  "unit": 1,
+  "audio": "grassland.mp3",
+  "audio_example": "grassland_example.mp3",
+  "image": "grassland.png"
+}

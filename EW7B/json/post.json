@@ -1,0 +1,18 @@
+{
+  "name": "post",
+  "symbol": "/pəʊst/",
+  "chn": "vt. 发布, 邮寄; n. (网上发布的) 帖子, 博文; 邮件",
+  "example_en": "She posted a new photo on her blog yesterday.",
+  "example_cn": "她昨天在她的博客上发布了一张新照片。",
+  "word_family": "poster (n. 海报), postage (n. 邮资), postbox (n. 邮筒)",
+  "memory_tips": "词源：来自拉丁语 'postis'，意为柱子或门柱，后来引申为邮寄或发布信息的地方。联想记忆：想象一个邮局门口的柱子，上面贴满了各种公告和邮件。图像记忆：想象一个社交媒体界面，上面有一个大大的“发布”按钮，旁边是一封正在被投递的信件。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个社交媒体界面，显示一个用户正在点击“发布”按钮，旁边是一封正在被投递的信件。",
+    "example_image": "一个女孩坐在电脑前，屏幕上显示她的博客页面，她刚刚上传了一张新照片。"
+  },
+  "unit": 2,
+  "audio": "post.mp3",
+  "audio_example": "post_example.mp3",
+  "image": "post.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "forget",
+  "symbol": "/fə'ɡet/",
+  "chn": "vt. & vi. 忘记做, 遗忘",
+  "example_en": "I always forget to bring my umbrella when it rains.",
+  "example_cn": "下雨时我总是忘记带伞。",
+  "word_family": "forgets, forgetting, forgot, forgotten",
+  "memory_tips": "词根 'for-' 表示 '远离'，'get' 表示 '得到'，合起来表示 '远离得到'，即 '忘记'。可以联想为 '忘记' 就是把东西 '远离' 你的记忆。图像记忆：想象一个场景，你站在雨中，手里没有伞，因为你 '忘记' 带了。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person standing in the rain without an umbrella, looking confused and wet, symbolizing the act of forgetting something important.",
+    "example_image": "A scene showing a person walking out of their house, looking back at an umbrella left by the door, with rain starting to fall outside."
+  },
+  "unit": 5,
+  "audio": "forget.mp3",
+  "audio_example": "forget_example.mp3",
+  "image": "forget.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "happen",
+  "symbol": "/'hæpən/",
+  "chn": "vi. 发生, 出现",
+  "example_en": "What will happen if we miss the bus?",
+  "example_cn": "如果我们错过了公交车会发生什么？",
+  "word_family": "happened, happening, happens",
+  "memory_tips": "词根 'hap' 来自古英语，意为运气或机会。联想记忆：想象一个幸运的事件突然发生，帮助你记住 'happen' 的意思。图像记忆：可以想象一个惊喜派对突然开始，人们惊讶的表情。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个惊喜派对的场景，人们脸上露出惊讶的表情，背景中有气球和彩带。",
+    "example_image": "一个公交车站，一群人焦急地看着手表，远处一辆公交车正在驶离。"
+  },
+  "unit": 8,
+  "audio": "happen.mp3",
+  "audio_example": "happen_example.mp3",
+  "image": "happen.png"
+}

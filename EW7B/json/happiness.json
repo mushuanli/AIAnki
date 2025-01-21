@@ -1,0 +1,18 @@
+{
+  "name": "happiness",
+  "symbol": "/'hæpɪnəs/",
+  "chn": "n. 幸福, 快乐",
+  "example_en": "The happiness of her smile brightened the entire room.",
+  "example_cn": "她微笑的幸福照亮了整个房间。",
+  "word_family": "happy (adj.), happily (adv.), unhappy (adj.)",
+  "memory_tips": "词根 'hap' 来自古英语，意为运气或机会，后缀 '-ness' 表示状态或性质。联想记忆：想象一个笑脸气球（happy face balloon）飘向天空，象征着幸福和快乐。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的公园里，孩子们在草地上快乐地奔跑，脸上洋溢着幸福的笑容，周围是五彩缤纷的气球和鲜花。",
+    "example_image": "一个温馨的家庭客厅，一位母亲微笑着看着她的孩子，孩子手中拿着一个画有笑脸的气球，整个场景充满了幸福和温馨的氛围。"
+  },
+  "unit": 4,
+  "audio": "happiness.mp3",
+  "audio_example": "happiness_example.mp3",
+  "image": "happiness.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "save",
+  "symbol": "/seɪv/",
+  "chn": "vt. 拯救, 救助",
+  "example_en": "The firefighter managed to save the child from the burning building.",
+  "example_cn": "消防员成功地从燃烧的建筑物中救出了那个孩子。",
+  "word_family": "saved (过去式), saving (现在分词), saver (名词), savior (名词)",
+  "memory_tips": "词源：来自古英语 'safian'，意为'保护'。联想记忆：想象一个超级英雄在危险时刻出现，拯救人们。图像记忆：可以想象一个消防员在火灾现场救人的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A firefighter in full gear rescuing a child from a burning building, with flames and smoke in the background.",
+    "example_image": "A firefighter carrying a child to safety, with a worried family looking on from a safe distance."
+  },
+  "unit": 5,
+  "audio": "save.mp3",
+  "audio_example": "save_example.mp3",
+  "image": "save.png"
+}

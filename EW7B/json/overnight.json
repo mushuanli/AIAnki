@@ -1,0 +1,18 @@
+{
+  "name": "overnight",
+  "symbol": "/ˌəʊvə'naɪt/",
+  "chn": "adv. 在晚上; 一夜之间",
+  "example_en": "The package was delivered overnight.",
+  "example_cn": "包裹在一夜之间送达了。",
+  "word_family": "overnight (adj.), overnight (adv.), overnight (n.)",
+  "memory_tips": "词源：'over' 表示‘超过’，'night' 表示‘夜晚’。联想记忆：想象一个包裹在夜晚被快速送达，强调‘一夜之间’的概念。图像记忆：可以想象一个快递员在夜晚忙碌地送包裹的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个快递员在夜晚的街道上骑着自行车，车筐里装满了包裹，背景是明亮的月亮和星星。",
+    "example_image": "一个包裹被放在家门口，旁边是一个时钟显示凌晨3点，表示包裹是在夜晚送达的。"
+  },
+  "unit": 6,
+  "audio": "overnight.mp3",
+  "audio_example": "overnight_example.mp3",
+  "image": "overnight.png"
+}

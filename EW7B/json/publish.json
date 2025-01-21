@@ -1,0 +1,18 @@
+{
+  "name": "publish",
+  "symbol": "/ˈpʌblɪʃ/",
+  "chn": "vt. 出版; vt. & vi. 发表 (作品)",
+  "example_en": "She hopes to publish her first novel next year.",
+  "example_cn": "她希望明年能发表她的第一部小说。",
+  "word_family": "publisher (n. 出版商), publication (n. 出版物), publishing (n. 出版业)",
+  "memory_tips": "词根 'publi-' 来自拉丁语 'publicus'，意为 '公共的'，后缀 '-ish' 表示动作。联想记忆：想象一个作家在公共场合（public）展示（-ish）他的作品。图像记忆：想象一本书从印刷机中出来，准备公开发行。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A stack of newly printed books on a table, with a publisher's logo visible on the spine, and a writer signing copies at a book launch event.",
+    "example_image": "A young woman sitting at a desk, typing on her laptop with a stack of manuscript pages beside her, looking hopeful and determined."
+  },
+  "unit": 8,
+  "audio": "publish.mp3",
+  "audio_example": "publish_example.mp3",
+  "image": "publish.png"
+}

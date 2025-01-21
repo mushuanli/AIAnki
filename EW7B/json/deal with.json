@@ -1,0 +1,18 @@
+{
+  "name": "deal with",
+  "symbol": "/diːl/",
+  "chn": "处理, 应付",
+  "example_en": "She has to deal with a lot of paperwork every day.",
+  "example_cn": "她每天都要处理大量的文书工作。",
+  "word_family": "dealer (n. 经销商), dealing (n. 交易, 行为)",
+  "memory_tips": "词源：来自古英语 'dǣlan'，意为分配或分享。记忆技巧：可以将 'deal' 想象成一副牌，每次处理或应付问题就像是在玩牌，需要策略和技巧。图像记忆：想象一个忙碌的办公室，桌子上堆满了文件，一个人正在有条不紊地处理这些文件。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A busy office scene with a person organizing a pile of documents on a desk, looking focused and efficient.",
+    "example_image": "A woman sitting at her desk, surrounded by stacks of papers, using a computer to manage her tasks."
+  },
+  "unit": 2,
+  "audio": "deal with.mp3",
+  "audio_example": "deal with_example.mp3",
+  "image": "deal with.png"
+}

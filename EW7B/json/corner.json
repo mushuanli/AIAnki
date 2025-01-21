@@ -1,0 +1,18 @@
+{
+  "name": "corner",
+  "symbol": "/'kɔːnə(r)/",
+  "chn": "n. 角落, 墙角; 街角; 角",
+  "example_en": "She sat in the corner of the room, reading a book.",
+  "example_cn": "她坐在房间的角落里，读着一本书。",
+  "word_family": "corners (复数), cornered (过去式), cornering (现在分词)",
+  "memory_tips": "词源：来自拉丁语 'cornu'，意为“角”。联想记忆：想象一个房间的角落，或者街道的拐角，这些都是 'corner' 的具体表现。图像记忆：画一个房间的角落，标出 'corner' 的位置。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个明亮的房间，角落里有一张舒适的椅子和一盏台灯，椅子上放着一本书。",
+    "example_image": "一个女孩坐在房间的角落里，专注地读着一本书，周围环境安静而温馨。"
+  },
+  "unit": 5,
+  "audio": "corner.mp3",
+  "audio_example": "corner_example.mp3",
+  "image": "corner.png"
+}

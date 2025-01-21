@@ -1,0 +1,18 @@
+{
+  "name": "lift",
+  "symbol": "/lɪft/",
+  "chn": "vt. 举起",
+  "example_en": "She can lift the heavy box with ease.",
+  "example_cn": "她能轻松地举起那个重箱子。",
+  "word_family": "lifts, lifted, lifting",
+  "memory_tips": "词源：来自古英语 'lyft'，意为'空气'或'天空'，后来演变为'举起'。联想记忆：想象一个气球在空气中升起，帮助你记住'举起'的意思。图像记忆：想象一个人举起一个重物，肌肉紧绷，表情专注。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个强壮的人正在举起一个重箱子，背景是一个健身房，周围有其他健身器材。",
+    "example_image": "一个小女孩轻松地举起一个装满书的箱子，背景是她的卧室，书架上摆满了书。"
+  },
+  "unit": 5,
+  "audio": "lift.mp3",
+  "audio_example": "lift_example.mp3",
+  "image": "lift.png"
+}

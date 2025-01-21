@@ -1,0 +1,18 @@
+{
+  "name": "butterfly",
+  "symbol": "/'bʌtəflaɪ/",
+  "chn": "n. 蝴蝶",
+  "example_en": "The butterfly fluttered its wings and flew away.",
+  "example_cn": "蝴蝶拍打着翅膀飞走了。",
+  "word_family": "butterflies (复数形式)",
+  "memory_tips": "词源：'butterfly' 由 'butter'（黄油）和 'fly'（飞）组成，可能源于蝴蝶的颜色像黄油，或者它们飞行的方式。联想记忆：想象一只蝴蝶在黄油上轻轻飞过。图像记忆：想象一只色彩斑斓的蝴蝶在花园中飞舞。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只色彩斑斓的蝴蝶在阳光下的花园中飞舞，周围有各种鲜艳的花朵。",
+    "example_image": "一只蝴蝶在草地上拍打着翅膀，准备飞向天空，背景是蓝天和几朵白云。"
+  },
+  "unit": 5,
+  "audio": "butterfly.mp3",
+  "audio_example": "butterfly_example.mp3",
+  "image": "butterfly.png"
+}

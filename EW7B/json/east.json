@@ -1,0 +1,18 @@
+{
+  "name": "east",
+  "symbol": "/iːst/",
+  "chn": "n., adj. & adv. 东方, 东方的, 向东",
+  "example_en": "The sun rises in the east.",
+  "example_cn": "太阳从东方升起。",
+  "word_family": "eastern (adj.), eastward (adv.), eastbound (adj.)",
+  "memory_tips": "词源：来自古英语 'ēast'，与德语 'Osten' 同源。联想记忆：想象太阳从东方升起，'east' 是太阳升起的方向。图像记忆：画一个太阳从地平线上升起的场景，标注 'east' 方向。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A vibrant sunrise scene with the sun peeking over the horizon, casting golden light across a calm ocean. The word 'EAST' is prominently displayed in bold letters at the bottom of the image.",
+    "example_image": "A simple illustration of a globe with an arrow pointing to the right side, labeled 'EAST', showing the direction of the sunrise."
+  },
+  "unit": 1,
+  "audio": "east.mp3",
+  "audio_example": "east_example.mp3",
+  "image": "east.png"
+}

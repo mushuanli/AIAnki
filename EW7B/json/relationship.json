@@ -1,0 +1,18 @@
+{
+  "name": "relationship",
+  "symbol": "/rɪ'leɪʃnʃɪp/",
+  "chn": "n. 关系",
+  "example_en": "The relationship between the two countries has improved significantly over the past decade.",
+  "example_cn": "过去十年间，两国之间的关系有了显著改善。",
+  "word_family": "relate (v.), related (adj.), relation (n.), relational (adj.)",
+  "memory_tips": "词根 'relat-' 来自拉丁语 'relatus'，意为 '带回' 或 '报告'。后缀 '-ship' 表示状态或条件。联想记忆：想象两个人通过一条绳子（rope）连接在一起，象征着他们之间的关系（relationship）。图像记忆：可以想象两个人握手或拥抱的图片，表示他们之间的紧密关系。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "Two people shaking hands in a formal setting, symbolizing a strong and positive relationship.",
+    "example_image": "A map showing two countries with a bridge connecting them, symbolizing improved relations over time."
+  },
+  "unit": 5,
+  "audio": "relationship.mp3",
+  "audio_example": "relationship_example.mp3",
+  "image": "relationship.png"
+}

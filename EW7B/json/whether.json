@@ -1,0 +1,18 @@
+{
+  "name": "whether",
+  "symbol": "/'weðə(r)/",
+  "chn": "conj. 是否",
+  "example_en": "I don't know whether he will come to the party.",
+  "example_cn": "我不知道他是否会来参加聚会。",
+  "word_family": "whether or not, whether...or...",
+  "memory_tips": "词源：来自古英语 'hwæther'，意为'哪一个'。记忆技巧：可以将 'whether' 与 'weather'（天气）联想，想象在不确定的天气下做决定是否出门。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个青少年站在窗前，看着外面阴晴不定的天气，手里拿着手机，似乎在犹豫是否要出门。",
+    "example_image": "一个青少年在房间里，手里拿着手机，表情困惑，背景是一个派对的海报，旁边有一个日历，上面圈出了派对的日期。"
+  },
+  "unit": 8,
+  "audio": "whether.mp3",
+  "audio_example": "whether_example.mp3",
+  "image": "whether.png"
+}

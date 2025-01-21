@@ -1,0 +1,18 @@
+{
+  "name": "south",
+  "symbol": "/saʊθ/",
+  "chn": "n., adj. & adv. 南方; 南方的; 向南",
+  "example_en": "The birds fly south for the winter.",
+  "example_cn": "鸟儿们冬天飞向南方。",
+  "word_family": "southern (adj.), southward (adv.), southeast (n.), southwest (n.)",
+  "memory_tips": "词源：来自古英语 'sūþ'，意为南方。联想记忆：想象太阳在南方升起，'south' 和 'sun' 都以 's' 开头。图像记忆：画一个指南针，南方标记为 'S'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个指南针，南方标记为 'S'，背景是蓝天和白云。",
+    "example_image": "一群鸟儿在蓝天中向南飞行，背景是远处的山脉和温暖的阳光。"
+  },
+  "unit": 1,
+  "audio": "south.mp3",
+  "audio_example": "south_example.mp3",
+  "image": "south.png"
+}

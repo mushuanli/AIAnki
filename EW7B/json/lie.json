@@ -1,0 +1,18 @@
+{
+  "name": "lie",
+  "symbol": "/laɪ/",
+  "chn": "vi. 躺, 平卧; 位于",
+  "example_en": "The cat lies on the sofa all day.",
+  "example_cn": "猫整天躺在沙发上。",
+  "word_family": "lies, lying, lay, lain",
+  "memory_tips": "词源：来自古英语 'licgan'，意为躺下。联想记忆：想象一个人躺在草地上，享受阳光。图像记忆：画一个人躺在沙滩上，旁边是海浪。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person lying on a grassy field under the sun, with a relaxed posture and a smile on their face.",
+    "example_image": "A cat lying comfortably on a soft sofa, with sunlight streaming through a nearby window."
+  },
+  "unit": 3,
+  "audio": "lie.mp3",
+  "audio_example": "lie_example.mp3",
+  "image": "lie.png"
+}

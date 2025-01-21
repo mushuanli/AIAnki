@@ -1,0 +1,18 @@
+{
+  "name": "law",
+  "symbol": "/lɔː/",
+  "chn": "n. 法律, 法规, 规则",
+  "example_en": "It is important to follow the law to maintain order in society.",
+  "example_cn": "遵守法律以维持社会秩序是很重要的。",
+  "word_family": "lawyer (律师), lawful (合法的), lawsuit (诉讼)",
+  "memory_tips": "词源：来自古英语 'lagu'，意为'法律'。联想记忆：想象一个法官在法庭上敲击法槌，宣布法律决定。图像记忆：可以想象一本厚重的法律书籍，封面写着'LAW'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一本厚重的法律书籍，封面清晰标有'LAW'字样，书籍旁边放着一副法官的法槌和假发。",
+    "example_image": "一个法官在法庭上严肃地敲击法槌，背景是庄严的法庭内部，墙上挂着法律相关的装饰。"
+  },
+  "unit": 2,
+  "audio": "law.mp3",
+  "audio_example": "law_example.mp3",
+  "image": "law.png"
+}

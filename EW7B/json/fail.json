@@ -1,0 +1,18 @@
+{
+  "name": "fail",
+  "symbol": "/feɪl/",
+  "chn": "vi. & vt. 失败, 未能 (做到), 不及格",
+  "example_en": "Despite his hard work, he failed the exam.",
+  "example_cn": "尽管他努力学习，他还是考试不及格。",
+  "word_family": "failure (n.), failing (adj./n.), failed (adj.)",
+  "memory_tips": "词源：来自拉丁语 'fallere'，意为'欺骗'或'失败'。联想记忆：想象一个人试图跳过一条沟渠但未能成功，象征着失败。图像记忆：可以想象一个学生在考试中低头看着不及格的成绩单。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A student sitting at a desk, looking disappointed with a red 'F' grade on a paper in front of them.",
+    "example_image": "A classroom scene where a teacher is handing back exams, and one student looks particularly upset, holding their exam paper with a failing grade."
+  },
+  "unit": 8,
+  "audio": "fail.mp3",
+  "audio_example": "fail_example.mp3",
+  "image": "fail.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "machine",
+  "symbol": "/mə'ʃiːn/",
+  "chn": "n. 机器, 机械装置",
+  "example_en": "The factory uses a large machine to assemble cars.",
+  "example_cn": "这家工厂使用一台大型机器来组装汽车。",
+  "word_family": "machinery (n. 机械, 机器), machinist (n. 机械师, 机械工)",
+  "memory_tips": "词源：来自拉丁语 'machina'，意为'装置'或'发明'。联想记忆：可以将 'machine' 想象成一个巨大的机械装置，帮助完成各种任务。图像记忆：想象一个工厂里的大型机器正在运转，发出轰鸣声。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个现代化的工厂内部，展示一台大型的、复杂的机械装置正在运转，周围有工人操作和监控。",
+    "example_image": "一个汽车制造工厂，展示一台大型机器正在组装汽车，机器臂精确地移动和安装零件。"
+  },
+  "unit": 2,
+  "audio": "machine.mp3",
+  "audio_example": "machine_example.mp3",
+  "image": "machine.png"
+}

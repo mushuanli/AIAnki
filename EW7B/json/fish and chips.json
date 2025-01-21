@@ -1,0 +1,18 @@
+{
+  "name": "fish and chips",
+  "symbol": "/fɪʃ ænd tʃɪps/",
+  "chn": "n. 炸鱼薯条",
+  "example_en": "We went to a seaside town and had fish and chips for lunch.",
+  "example_cn": "我们去了一个海滨小镇，午餐吃了炸鱼薯条。",
+  "word_family": "fish (n. 鱼), chips (n. 薯条)",
+  "memory_tips": "Fish and chips 是英国的传统快餐，由炸鱼和炸薯条组成。可以通过联想记忆：想象在海边的小店里，吃着热腾腾的炸鱼和薯条，感受海风的味道。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A traditional British seaside shop with a sign that says 'Fish and Chips'. Inside, a plate of golden fried fish and crispy chips is served on a checkered paper, with a view of the sea in the background.",
+    "example_image": "A family sitting at a wooden table by the seaside, enjoying a meal of fish and chips. The sea is visible in the background, with seagulls flying overhead."
+  },
+  "unit": 3,
+  "audio": "fish and chips.mp3",
+  "audio_example": "fish and chips_example.mp3",
+  "image": "fish and chips.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ride",
+  "symbol": "/raɪd/",
+  "chn": "vt. & vi. 骑; 驾驶; 搭乘. n. (乘车、骑马等的) 短途旅程",
+  "example_en": "She loves to ride her bicycle in the park every weekend.",
+  "example_cn": "她喜欢每个周末在公园里骑自行车。",
+  "word_family": "rider (n. 骑手), riding (n. 骑马), ride out (v. 安然度过)",
+  "memory_tips": "词源：来自古英语 'rīdan'，意为'骑'。联想记忆：想象自己骑在马上或自行车上，感受风从耳边呼啸而过的感觉。图像记忆：可以想象一个孩子骑在旋转木马上，快乐地笑着。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young girl riding a bicycle in a sunny park, with trees and flowers in the background.",
+    "example_image": "A woman riding a horse on a beach at sunset, with waves crashing in the background."
+  },
+  "unit": 1,
+  "audio": "ride.mp3",
+  "audio_example": "ride_example.mp3",
+  "image": "ride.png"
+}

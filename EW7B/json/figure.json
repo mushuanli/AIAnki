@@ -1,0 +1,18 @@
+{
+  "name": "figure",
+  "symbol": "/'fɪɡə(r)/",
+  "chn": "n. (人或动物的) 雕像, 塑像",
+  "example_en": "The museum has a collection of ancient Greek figures.",
+  "example_cn": "博物馆收藏了一系列古希腊雕像。",
+  "word_family": "figurative (adj.), figurine (n.)",
+  "memory_tips": "词根 'fig-' 来自拉丁语 'figura'，意为形状或形式。联想记忆：想象一个雕塑家正在塑造一个雕像，'figure' 就是最终的形状。图像记忆：想象一个著名的雕像，如大卫雕像，来帮助记忆。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个雕塑家正在用粘土塑造一个古代战士的雕像，背景是一个艺术工作室，周围散落着各种雕塑工具。",
+    "example_image": "一个博物馆内部，展示着多个古希腊雕像，包括战士、女神和运动员的雕像，观众正在欣赏这些艺术品。"
+  },
+  "unit": 4,
+  "audio": "figure.mp3",
+  "audio_example": "figure_example.mp3",
+  "image": "figure.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "tower",
+  "symbol": "/'taʊə(r)/",
+  "chn": "n. 塔",
+  "example_en": "The Eiffel Tower is one of the most famous landmarks in the world.",
+  "example_cn": "埃菲尔铁塔是世界上最著名的地标之一。",
+  "word_family": "towered (adj.), towering (adj.), tower block (n.)",
+  "memory_tips": "词源：来自古英语 'torr'，意为高耸的结构。联想记忆：想象一个高耸入云的塔，像字母 'T' 一样直立在城市中。图像记忆：画一个高塔，旁边有云朵和鸟飞过，帮助记住 'tower' 是高的意思。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个高耸的塔，塔顶有旗帜飘扬，周围有蓝天和白云，塔底有游客在拍照。",
+    "example_image": "埃菲尔铁塔的全景，周围有巴黎的城市景观，塔下有游客和咖啡馆。"
+  },
+  "unit": 3,
+  "audio": "tower.mp3",
+  "audio_example": "tower_example.mp3",
+  "image": "tower.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "police officer",
+  "symbol": "/pəˈliːs ˈɒfɪsə/",
+  "chn": "n. 警察, 警员",
+  "example_en": "The police officer helped the lost child find his parents.",
+  "example_cn": "警察帮助迷路的孩子找到了他的父母。",
+  "word_family": "police (n. 警察), officer (n. 官员, 军官)",
+  "memory_tips": "词源：'police' 来自法语 'police'，意为公共秩序，'officer' 来自拉丁语 'officium'，意为职责或服务。联想记忆：想象一个穿着制服的警察在街上巡逻，帮助人们。图像记忆：可以想象一个警察站在十字路口指挥交通的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A police officer in uniform standing at a busy intersection, directing traffic with a calm and authoritative demeanor.",
+    "example_image": "A police officer kneeling down to talk to a small, lost child in a crowded park, with concerned parents approaching in the background."
+  },
+  "unit": 2,
+  "audio": "police officer.mp3",
+  "audio_example": "police officer_example.mp3",
+  "image": "police officer.png"
+}

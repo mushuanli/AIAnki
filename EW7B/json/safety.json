@@ -1,0 +1,18 @@
+{
+  "name": "safety",
+  "symbol": "/'seɪfti/",
+  "chn": "n. 安全, 平安; 安全处所",
+  "example_en": "The safety of the passengers is the airline's top priority.",
+  "example_cn": "乘客的安全是航空公司的首要任务。",
+  "word_family": "safe (adj.), safely (adv.), safeguard (v./n.)",
+  "memory_tips": "词源：来自古法语 'saufte'，意为'安全'。记忆技巧：可以将 'safety' 拆分为 'safe'（安全的）和 'ty'（名词后缀），联想到 'safety' 是 'safe' 的名词形式，表示安全的状态或地方。图像记忆：想象一个安全标志，如交通信号灯或安全带，这些都与安全相关。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个明亮的交通信号灯，显示绿色，象征着安全和通行。",
+    "example_image": "一架飞机在蓝天中平稳飞行，乘客们系着安全带，面带微笑，表示航空安全。"
+  },
+  "unit": 7,
+  "audio": "safety.mp3",
+  "audio_example": "safety_example.mp3",
+  "image": "safety.png"
+}

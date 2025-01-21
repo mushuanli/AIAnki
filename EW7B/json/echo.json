@@ -1,0 +1,18 @@
+{
+  "name": "echo",
+  "symbol": "/'ekəʊ/",
+  "chn": "n. 回声",
+  "example_en": "The echo of her voice lingered in the empty hall.",
+  "example_cn": "她的声音在空荡的大厅里回荡。",
+  "word_family": "echoed (v. 过去式), echoing (v. 现在分词), echoes (n. 复数)",
+  "memory_tips": "词源：来自希腊语 'ēkhō'，意为声音的回响。联想记忆：想象你在山谷中大喊，声音反弹回来形成回声。图像记忆：画一个山谷，一个人在喊叫，声音波从山壁反弹回来。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个宁静的山谷，阳光洒在绿色的草地上，远处是陡峭的山壁。一个人站在山谷中央，双手围在嘴边，正在大声喊叫。声音波以半圆形从人的位置向山壁扩散，然后反弹回来形成回声。",
+    "example_image": "一个空荡的大厅，墙壁上挂着古老的画作。一个女孩站在大厅中央，她的声音在大厅中回荡，形成清晰的回声。"
+  },
+  "unit": 5,
+  "audio": "echo.mp3",
+  "audio_example": "echo_example.mp3",
+  "image": "echo.png"
+}

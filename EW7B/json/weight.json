@@ -1,0 +1,18 @@
+{
+  "name": "weight",
+  "symbol": "/weɪt/",
+  "chn": "n. 重量",
+  "example_en": "The weight of the box is too heavy for me to lift.",
+  "example_cn": "这个箱子的重量太重了，我抬不起来。",
+  "word_family": "weighty (adj.), weightless (adj.), overweight (adj./n.), underweight (adj./n.)",
+  "memory_tips": "词源：来自古英语 'wiht'，意为'重量'或'物体'。联想记忆：想象一个秤盘上放着不同重量的物品，帮助你记住'weight'与'重量'相关。图像记忆：想象一个举重运动员正在举起一个标有'weight'的杠铃。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个秤盘上放着不同重量的物品，如苹果、书本和哑铃，秤盘旁边有一个标有'weight'的标签。",
+    "example_image": "一个人试图抬起一个标有'weight'的大箱子，箱子看起来非常重，人物表情吃力。"
+  },
+  "unit": 5,
+  "audio": "weight.mp3",
+  "audio_example": "weight_example.mp3",
+  "image": "weight.png"
+}

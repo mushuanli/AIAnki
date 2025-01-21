@@ -1,0 +1,18 @@
+{
+  "name": "pass",
+  "symbol": "/pɑːs/",
+  "chn": "vi. & vt. 通过; 结束; 传递",
+  "example_en": "She passed the exam with flying colors.",
+  "example_cn": "她以优异的成绩通过了考试。",
+  "word_family": "passer (n.), passing (adj.), passable (adj.), passably (adv.)",
+  "memory_tips": "词源：来自拉丁语 'passus'，意为'步'或'跨步'。联想记忆：想象自己在考试中'跨过'了所有难题，顺利通过。图像记忆：想象一个学生高兴地跨过一道门，象征着通过考试。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A student happily stepping over a threshold with a graduation cap on, symbolizing passing an exam.",
+    "example_image": "A classroom scene where a teacher is handing over a test paper with a big 'A' grade to a smiling student."
+  },
+  "unit": 8,
+  "audio": "pass.mp3",
+  "audio_example": "pass_example.mp3",
+  "image": "pass.png"
+}

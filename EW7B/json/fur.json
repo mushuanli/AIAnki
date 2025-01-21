@@ -1,0 +1,18 @@
+{
+  "name": "fur",
+  "symbol": "/fɜː(r)/",
+  "chn": "n. (动物的) 软毛, 毛皮",
+  "example_en": "The cat's fur was soft and shiny.",
+  "example_cn": "猫的毛柔软而有光泽。",
+  "word_family": "furry (adj.), furrier (n.), furriest (adj.)",
+  "memory_tips": "词源：来自古英语 'furr'，意为动物的毛皮。联想记忆：想象一只毛茸茸的小动物，如兔子或猫，它们的毛皮柔软且温暖。图像记忆：想象一件由动物毛皮制成的大衣，触感柔软且保暖。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只毛茸茸的白色兔子坐在草地上，阳光照射在它的毛皮上，显得柔软而有光泽。",
+    "example_image": "一只猫躺在窗台上，阳光透过窗户照在它的毛皮上，显得柔软而有光泽。"
+  },
+  "unit": 5,
+  "audio": "fur.mp3",
+  "audio_example": "fur_example.mp3",
+  "image": "fur.png"
+}

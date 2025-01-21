@@ -1,0 +1,18 @@
+{
+  "name": "correct",
+  "symbol": "/kə'rekt/",
+  "chn": "adj. 正确的",
+  "example_en": "Your answer is correct.",
+  "example_cn": "你的答案是正确的。",
+  "word_family": "correctly (adv.), correctness (n.), incorrect (adj.)",
+  "memory_tips": "词根 'cor-' 表示 '一起' 或 '完全'，'rect' 表示 '直' 或 '正确'。联想记忆：想象一条直线（rect）完全（cor）指向正确的方向。图像记忆：画一个指向正确方向的箭头。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个指向正确方向的箭头，背景是一个教室的黑板，黑板上写着 'Correct Answer'。",
+    "example_image": "一个学生在教室里举手，老师微笑着指向黑板上的正确答案。"
+  },
+  "unit": 5,
+  "audio": "correct.mp3",
+  "audio_example": "correct_example.mp3",
+  "image": "correct.png"
+}

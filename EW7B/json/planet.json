@@ -1,0 +1,18 @@
+{
+  "name": "planet",
+  "symbol": "/'plænɪt/",
+  "chn": "n. 行星",
+  "example_en": "Earth is the third planet from the Sun.",
+  "example_cn": "地球是距离太阳第三近的行星。",
+  "word_family": "planetary (adj.), planetarium (n.)",
+  "memory_tips": "词源：来自希腊语 'planetes'，意为'漫游者'，因为古代人观察到行星在天空中移动。联想记忆：想象行星在宇宙中漫游，就像旅行者在探索未知的世界。图像记忆：想象一个巨大的太阳系模型，其中行星围绕太阳旋转。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个太阳系的示意图，显示太阳和围绕它旋转的八大行星，地球特别标注为第三颗行星。",
+    "example_image": "一个教室里的学生正在通过望远镜观察夜空，老师指着天空中的一颗明亮行星进行讲解。"
+  },
+  "unit": 6,
+  "audio": "planet.mp3",
+  "audio_example": "planet_example.mp3",
+  "image": "planet.png"
+}

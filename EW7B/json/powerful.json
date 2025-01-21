@@ -1,0 +1,18 @@
+{
+  "name": "powerful",
+  "symbol": "/'paʊəfl/",
+  "chn": "adj. 力量大的, 有影响力的",
+  "example_en": "The powerful engine roared as the car sped down the highway.",
+  "example_cn": "强大的引擎轰鸣着，汽车在高速公路上飞驰。",
+  "word_family": "power (n.), powerfully (adv.), powerless (adj.)",
+  "memory_tips": "词根 'power' 表示力量或能力，后缀 '-ful' 表示充满或具有。可以联想一个充满力量的超级英雄形象来帮助记忆。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个超级英雄站在山顶，背后是壮丽的日出，展示出强大的力量和影响力。",
+    "example_image": "一辆跑车在高速公路上飞驰，引擎轰鸣，展示出强大的动力。"
+  },
+  "unit": 6,
+  "audio": "powerful.mp3",
+  "audio_example": "powerful_example.mp3",
+  "image": "powerful.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "note",
+  "symbol": "/nəʊt/",
+  "chn": "n. 便条; 笔记; 音符",
+  "example_en": "She left a note on the kitchen table to remind him about the meeting.",
+  "example_cn": "她在厨房的桌子上留了一张便条，提醒他开会的事。",
+  "word_family": "notebook (笔记本), notepad (记事本), notable (值得注意的), notation (符号)",
+  "memory_tips": "词源：来自拉丁语 'nota'，意为标记或符号。联想记忆：想象一个音符在五线谱上跳跃，就像一张便条在风中飘动。图像记忆：画一个五线谱，上面有一个音符，旁边是一张便条。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A colorful musical staff with a single note symbol on it, next to a small, handwritten note pinned on a corkboard.",
+    "example_image": "A kitchen table with a cup of coffee and a small, neatly written note placed beside it, with sunlight streaming through a window in the background."
+  },
+  "unit": 8,
+  "audio": "note.mp3",
+  "audio_example": "note_example.mp3",
+  "image": "note.png"
+}

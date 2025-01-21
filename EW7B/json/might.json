@@ -1,0 +1,18 @@
+{
+  "name": "might",
+  "symbol": "/maɪt/",
+  "chn": "modal v. 可能",
+  "example_en": "She might come to the party if she finishes her work early.",
+  "example_cn": "如果她早点完成工作，她可能会来参加聚会。",
+  "word_family": "might (modal v.), mighty (adj.), mightily (adv.)",
+  "memory_tips": "词源：来自古英语 'miht'，意为力量或能力。联想记忆：想象一个强大的超级英雄，他/她有能力（might）做任何事情。图像记忆：想象一个超级英雄举起一座山，展示他/她的力量（might）。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个超级英雄站在山顶，双手举起一座巨大的山峰，展示他/她的力量。背景是蓝天和白云，山峰上有树木和岩石。",
+    "example_image": "一个女孩在书桌前工作，旁边放着一杯咖啡和一堆书。她看了看时钟，脸上露出微笑，因为她知道如果早点完成工作，她可以去参加聚会。"
+  },
+  "unit": 7,
+  "audio": "might.mp3",
+  "audio_example": "might_example.mp3",
+  "image": "might.png"
+}

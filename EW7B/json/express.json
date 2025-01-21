@@ -1,0 +1,18 @@
+{
+  "name": "express",
+  "symbol": "/ɪk'spres/",
+  "chn": "vt. 表达, 表示",
+  "example_en": "She expressed her gratitude with a warm smile.",
+  "example_cn": "她用温暖的微笑表达了她的感激之情。",
+  "word_family": "expression (n.), expressive (adj.), expressively (adv.)",
+  "memory_tips": "词根 'ex-' 表示 'out'，'press' 表示 'press'，合起来就是 'press out'，即表达出来。可以联想为把内心的想法或情感‘压出来’，即表达。图像记忆：想象一个人站在舞台上，用力地‘压出’自己的情感和想法，向观众表达。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A person standing on a stage, passionately speaking into a microphone, with a large audience in the background. The person's facial expression shows strong emotion, emphasizing the act of expressing feelings.",
+    "example_image": "A woman smiling warmly at someone, with a background of a cozy living room. The smile is genuine and conveys deep gratitude, illustrating the act of expressing gratitude."
+  },
+  "unit": 4,
+  "audio": "express.mp3",
+  "audio_example": "express_example.mp3",
+  "image": "express.png"
+}

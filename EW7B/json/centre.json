@@ -1,0 +1,18 @@
+{
+  "name": "centre",
+  "symbol": "/'sentə(r)/",
+  "chn": "n. (AmE center) (市镇的) 中心区; 中心",
+  "example_en": "The new shopping centre is located in the heart of the city.",
+  "example_cn": "新的购物中心位于市中心。",
+  "word_family": "central (adj.), centrally (adv.), centralize (v.)",
+  "memory_tips": "词源：来自拉丁语 'centrum'，意为中心。联想记忆：想象一个城市的中心区域，所有的主要街道和建筑物都从这里辐射出去。图像记忆：画一个圆圈，中心点标记为 'centre'，周围有各种建筑物和街道。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个繁忙的城市中心，高楼大厦林立，街道上人来人往，中心有一个明显的标志性建筑。",
+    "example_image": "一个现代化的购物中心，周围有停车场和行人，购物中心内部有各种商店和餐馆。"
+  },
+  "unit": 1,
+  "audio": "centre.mp3",
+  "audio_example": "centre_example.mp3",
+  "image": "centre.png"
+}

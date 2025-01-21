@@ -1,0 +1,18 @@
+{
+  "name": "town",
+  "symbol": "/taʊn/",
+  "chn": "n. 镇，市镇",
+  "example_en": "She moved to a small town to enjoy a quieter life.",
+  "example_cn": "她搬到了一个小镇，享受更安静的生活。",
+  "word_family": "towns (复数), townie (镇民), downtown (市中心)",
+  "memory_tips": "词源：来自古英语 'tun'，意为围栏或村庄。联想记忆：想象一个被围栏围起来的小村庄，逐渐发展成一个小镇。图像记忆：画一个简单的小镇地图，包括几座房子、一条主街和一个中心广场。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个宁静的小镇，有几座房子、一条主街和一个中心广场，周围是绿色的田野和远处的山丘。",
+    "example_image": "一位女士站在小镇的主街上，周围是几座小房子，她微笑着看着远处的山丘，享受宁静的生活。"
+  },
+  "unit": 1,
+  "audio": "town.mp3",
+  "audio_example": "town_example.mp3",
+  "image": "town.png"
+}

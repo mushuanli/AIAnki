@@ -1,0 +1,18 @@
+{
+  "name": "taste",
+  "symbol": "/teɪst/",
+  "chn": "n. 体验, 尝试; 味道; linking v. 有…味道; vt. 尝, 品; 吃, 喝",
+  "example_en": "She tasted the soup to see if it needed more salt.",
+  "example_cn": "她尝了尝汤，看看是否需要再加点盐。",
+  "word_family": "taster (n. 品尝者), tasteful (adj. 有品味的), tasteless (adj. 无味的), tasting (n. 品尝会)",
+  "memory_tips": "词源：来自古法语 'taster'，意为'触摸，尝试'。联想记忆：想象自己在品尝美食时，用舌头去'触摸'食物的味道。图像记忆：想象一个厨师在厨房里品尝汤的画面。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个厨师在厨房里，用勺子舀起一勺汤，正准备品尝。厨房背景中有各种厨具和食材。",
+    "example_image": "一位女士坐在餐桌前，用勺子舀起一勺汤，轻轻吹凉后品尝，表情专注。"
+  },
+  "unit": 5,
+  "audio": "taste.mp3",
+  "audio_example": "taste_example.mp3",
+  "image": "taste.png"
+}

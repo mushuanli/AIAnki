@@ -1,0 +1,18 @@
+{
+  "name": "strange",
+  "symbol": "/streɪndʒ/",
+  "chn": "adj. 奇怪的, 陌生的",
+  "example_en": "It was strange to see her at the party because she usually stays at home.",
+  "example_cn": "在派对上看到她很奇怪，因为她通常待在家里。",
+  "word_family": "stranger (n. 陌生人), strangely (adv. 奇怪地), strangeness (n. 陌生感)",
+  "memory_tips": "词源：来自古法语'estrange'，意为'外来的，陌生的'。联想记忆：想象一个外星人（stranger）来到地球，一切都显得非常奇怪（strange）。图像记忆：画一个外星人站在地球上，周围是陌生的环境和奇怪的物体。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个外星人站在地球上，周围是陌生的环境和奇怪的物体，如五颜六色的植物和奇形怪状的建筑。",
+    "example_image": "一个女孩在派对上，周围是热闹的人群，但她看起来有些困惑和不安，因为她通常待在家里。"
+  },
+  "unit": 6,
+  "audio": "strange.mp3",
+  "audio_example": "strange_example.mp3",
+  "image": "strange.png"
+}

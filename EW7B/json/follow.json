@@ -1,0 +1,14 @@
+{
+  "name": "follow",
+  "symbol": "/'fɒləʊ/",
+  "chn": "vt. 遵循; vt. & vi. 跟随",
+  "example_en": "Please follow the instructions carefully to complete the task.",
+  "example_cn": "请仔细遵循指示以完成任务。",
+  "word_family": "follower (n. 追随者), following (adj. 接下来的), follow-up (n. 后续行动)",
+  "memory_tips": "词源：来自古英语 'folgian'，意为跟随。联想记忆：想象一只小狗紧紧跟随主人，形成'follow'的图像。图像记忆：画一条路径，一个人在路径上行走，后面跟着另一个人，表示跟随。",
+  "difficulty": "2",
+  "image_prompt": "主图：一只小狗紧紧跟随主人走在公园的小路上。例句配图：一个人在阅读说明书，旁边放着完成的任务物品，表示遵循指示完成任务。",
+  "unit": 7,
+  "audio": "follow.mp3",
+  "audio_example": "follow_example.mp3"
+}

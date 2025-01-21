@@ -1,0 +1,18 @@
+{
+  "name": "walking stick",
+  "symbol": "/ˈwɔːkɪŋ stɪk/",
+  "chn": "n. 手杖, 拐棍",
+  "example_en": "The old man leaned on his walking stick as he walked through the park.",
+  "example_cn": "老人拄着拐杖穿过公园。",
+  "word_family": "walk (v.), stick (n.), walking (n.)",
+  "memory_tips": "词源：'walking' 来自动词 'walk'，表示行走；'stick' 是名词，表示棍子。联想记忆：想象一个老人用一根棍子帮助自己行走。图像记忆：画一个老人拄着拐杖在公园里散步的场景。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一位白发苍苍的老人，穿着舒适的衣服，拄着一根木质拐杖，在阳光明媚的公园小径上慢慢行走，周围是绿树和鲜花。",
+    "example_image": "同一个老人，站在公园的长椅旁，微笑着看着远处的孩子们玩耍，拐杖靠在长椅旁边。"
+  },
+  "unit": 8,
+  "audio": "walking stick.mp3",
+  "audio_example": "walking stick_example.mp3",
+  "image": "walking stick.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bite",
+  "symbol": "/baɪt/",
+  "chn": "vi. & vt. 咬",
+  "example_en": "The dog bit the mailman on the leg.",
+  "example_cn": "狗咬了邮递员的腿。",
+  "word_family": "bites, biting, bitten",
+  "memory_tips": "词源：来自古英语 'bitan'，意为'咬'。联想记忆：想象一只狗在咬骨头，或者想象自己咬了一口苹果。图像记忆：可以想象一个牙齿的图标，旁边有一个咬痕。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只狗正在咬一个邮递员的腿，邮递员表情惊讶，背景是一个典型的美国郊区街道。",
+    "example_image": "一个孩子正在咬一口苹果，苹果上有明显的咬痕，背景是一个阳光明媚的公园。"
+  },
+  "unit": 5,
+  "audio": "bite.mp3",
+  "audio_example": "bite_example.mp3",
+  "image": "bite.png"
+}

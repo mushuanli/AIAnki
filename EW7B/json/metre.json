@@ -1,0 +1,18 @@
+{
+  "name": "metre",
+  "symbol": "/'miːtə(r)/",
+  "chn": "n. (AmE meter) 米",
+  "example_en": "The room is five metres long.",
+  "example_cn": "这个房间有五米长。",
+  "word_family": "meter (AmE), metric, metrical",
+  "memory_tips": "词源：来自希腊语 'metron'，意为'测量'。联想记忆：想象一个测量长度的卷尺，上面标有米（metre）的单位。图像记忆：可以想象一个标有'1 metre'的尺子，帮助记忆这个单词。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A clear image of a measuring tape extended to show the measurement of one metre, with the number '1' and the word 'metre' clearly visible.",
+    "example_image": "A room with a measuring tape stretched across its length, showing it measures five metres, with a label indicating '5 metres'."
+  },
+  "unit": 1,
+  "audio": "metre.mp3",
+  "audio_example": "metre_example.mp3",
+  "image": "metre.png"
+}

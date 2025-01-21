@@ -1,0 +1,18 @@
+{
+  "name": "build",
+  "symbol": "/bɪld/",
+  "chn": "vi. & vt. 建筑, 建造",
+  "example_en": "They plan to build a new school in the community.",
+  "example_cn": "他们计划在社区内建造一所新学校。",
+  "word_family": "builder (n. 建筑者), building (n. 建筑物), rebuild (v. 重建)",
+  "memory_tips": "词源：来自古英语 'byldan'，意为建造。联想记忆：想象一个建筑工人在工地上忙碌地建造房屋。图像记忆：可以想象一个正在建设中的高楼大厦，旁边有起重机等建筑设备。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A construction site with workers building a large building, cranes in the background, and construction materials scattered around.",
+    "example_image": "A group of architects and workers discussing plans in front of a newly constructed school building, with children playing in the background."
+  },
+  "unit": 1,
+  "audio": "build.mp3",
+  "audio_example": "build_example.mp3",
+  "image": "build.png"
+}

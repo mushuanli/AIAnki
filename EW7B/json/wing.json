@@ -1,0 +1,18 @@
+{
+  "name": "wing",
+  "symbol": "/wɪŋ/",
+  "chn": "n. 翅膀, 翼",
+  "example_en": "The bird spread its wings and flew into the sky.",
+  "example_cn": "鸟儿展开翅膀，飞向天空。",
+  "word_family": "wings (复数形式), winged (形容词), wingless (形容词)",
+  "memory_tips": "词源：来自古英语 'wenge'，意为翅膀。联想记忆：想象一只鸟展开翅膀飞翔的场景，可以帮助记忆。图像记忆：想象一只鸟的翅膀，翅膀的形状和功能。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只鸟在蓝天中展开翅膀飞翔的场景，背景是白云和远处的山脉。",
+    "example_image": "一只小鸟站在树枝上，正准备展开翅膀飞向天空，周围是绿色的树叶和阳光。"
+  },
+  "unit": 5,
+  "audio": "wing.mp3",
+  "audio_example": "wing_example.mp3",
+  "image": "wing.png"
+}

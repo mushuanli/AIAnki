@@ -1,0 +1,18 @@
+{
+  "name": "cheer",
+  "symbol": "/tʃɪər/",
+  "chn": "vt. 鼓舞; vt. & vi. 欢呼, 加油",
+  "example_en": "The crowd cheered loudly as the team scored the winning goal.",
+  "example_cn": "当球队打进致胜一球时，人群大声欢呼。",
+  "word_family": "cheerful (adj. 快乐的), cheerleader (n. 啦啦队长), cheer up (phr. 振作起来)",
+  "memory_tips": "词源：来自古英语 'cerran'，意为'转向'或'改变'。联想记忆：想象在体育比赛中，观众转向（cheer）为运动员加油。图像记忆：想象一个体育场，观众挥舞着彩旗，大声欢呼。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A vibrant sports stadium filled with enthusiastic fans waving colorful flags and cheering loudly, with a close-up of a group of people clapping and smiling.",
+    "example_image": "A soccer match scene where the crowd is on their feet, cheering and clapping as a player scores a goal, with the ball visibly in the net and the player celebrating."
+  },
+  "unit": 5,
+  "audio": "cheer.mp3",
+  "audio_example": "cheer_example.mp3",
+  "image": "cheer.png"
+}

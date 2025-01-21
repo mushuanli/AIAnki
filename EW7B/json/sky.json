@@ -1,0 +1,18 @@
+{
+  "name": "sky",
+  "symbol": "/skaɪ/",
+  "chn": "n. 天空",
+  "example_en": "The sky was clear and filled with stars.",
+  "example_cn": "天空晴朗，布满了星星。",
+  "word_family": "skies (复数形式), skyline (天际线), skydive (跳伞)",
+  "memory_tips": "词源：来自古英语 'sceo'，意为云或天空。联想记忆：想象一个巨大的蓝色画布（sky）覆盖在地球上方。图像记忆：想象一个晴朗的蓝天，太阳高挂，几朵白云悠闲地漂浮。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个晴朗的蓝天，太阳高挂，几朵白云悠闲地漂浮。",
+    "example_image": "夜晚的星空，天空晴朗，布满了星星，远处有几座山的轮廓。"
+  },
+  "unit": 1,
+  "audio": "sky.mp3",
+  "audio_example": "sky_example.mp3",
+  "image": "sky.png"
+}

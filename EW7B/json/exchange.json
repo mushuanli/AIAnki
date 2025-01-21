@@ -1,0 +1,18 @@
+{
+  "name": "exchange",
+  "symbol": "/ɪks'tʃeɪndʒ/",
+  "chn": "n. 交流",
+  "example_en": "The student exchange program allows students to study abroad for a semester.",
+  "example_cn": "学生交流项目允许学生出国学习一个学期。",
+  "word_family": "exchanged, exchanging, exchanges",
+  "memory_tips": "词根 'ex-' 表示 '出'，'change' 表示 '改变'，合起来表示 '交换'。可以联想为两个人互相交换礼物，表示交流。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "两个青少年在公园里交换书籍，背景是绿树和蓝天，表情愉快。",
+    "example_image": "一群不同国家的学生在校园里交谈，背景是学校的标志性建筑，气氛友好。"
+  },
+  "unit": 2,
+  "audio": "exchange.mp3",
+  "audio_example": "exchange_example.mp3",
+  "image": "exchange.png"
+}

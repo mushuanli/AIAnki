@@ -1,0 +1,18 @@
+{
+  "name": "later",
+  "symbol": "/'leɪtə(r)/",
+  "chn": "adv. 后来, 随后",
+  "example_en": "I will call you later to discuss the project.",
+  "example_cn": "我稍后会打电话给你讨论这个项目。",
+  "word_family": "late (adj.), lately (adv.), latest (adj.)",
+  "memory_tips": "词源：来自古英语 'læt'，意为“迟的”。联想记忆：想象一个时钟，指针指向稍后的时间。图像记忆：画一个时钟，指针指向下午3点，旁边标注“later”。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个时钟，指针指向下午3点，旁边标注“later”",
+    "example_image": "一个人在打电话，背景是一个办公室，桌子上有项目文件"
+  },
+  "unit": 7,
+  "audio": "later.mp3",
+  "audio_example": "later_example.mp3",
+  "image": "later.png"
+}

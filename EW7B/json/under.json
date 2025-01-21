@@ -1,0 +1,18 @@
+{
+  "name": "under",
+  "symbol": "/ˈʌndər/",
+  "chn": "在 (或到) …下面",
+  "example_en": "The cat is sleeping under the table.",
+  "example_cn": "猫正在桌子下面睡觉。",
+  "word_family": "underneath, underground, underline",
+  "memory_tips": "词源：来自古英语 'under'，意为在...下面。联想记忆：想象一个物体在另一个物体的下方，如猫在桌子下面。图像记忆：画一个桌子，下面有一只猫在睡觉。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "A cozy living room scene with a wooden table and a cat peacefully sleeping underneath it. The table has a few books and a cup of tea on top, adding to the warm atmosphere.",
+    "example_image": "A close-up of the same scene, focusing on the cat curled up under the table, with its tail slightly visible and the table legs framing the image."
+  },
+  "unit": 2,
+  "audio": "under.mp3",
+  "audio_example": "under_example.mp3",
+  "image": "under.png"
+}

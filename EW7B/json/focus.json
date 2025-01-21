@@ -1,0 +1,18 @@
+{
+  "name": "focus",
+  "symbol": "/'fəʊkəs/",
+  "chn": "vi. & vt. 集中 (注意力, 精力等); vt. 聚焦 (于)",
+  "example_en": "She needs to focus on her studies to pass the exam.",
+  "example_cn": "她需要集中精力学习以通过考试。",
+  "word_family": "focused (adj.), focusing (v.), focuses (n.)",
+  "memory_tips": "词源：来自拉丁语 'focus'，意为'壁炉'，引申为'中心点'。联想记忆：想象一个壁炉是家庭聚会的中心，就像注意力集中在某一点上。图像记忆：想象一个放大镜将阳光聚焦在一个点上，象征着集中注意力。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一个放大镜将阳光聚焦在一张纸上，纸上写着'focus'，象征着集中注意力。",
+    "example_image": "一个学生坐在书桌前，专注地看着书本，周围环境安静，象征着集中精力学习。"
+  },
+  "unit": 7,
+  "audio": "focus.mp3",
+  "audio_example": "focus_example.mp3",
+  "image": "focus.png"
+}

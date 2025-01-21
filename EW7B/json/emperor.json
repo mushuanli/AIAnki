@@ -1,0 +1,18 @@
+{
+  "name": "emperor",
+  "symbol": "/'empərə(r)/",
+  "chn": "n. 皇帝",
+  "example_en": "The emperor ruled his vast empire with wisdom and strength.",
+  "example_cn": "这位皇帝以智慧和力量统治着他广阔的帝国。",
+  "word_family": "empress (女皇), imperial (帝国的), empire (帝国)",
+  "memory_tips": "词源：来自拉丁语 'imperator'，意为指挥官或统治者。联想记忆：将 'emperor' 与 'empire'（帝国）联系起来，想象一个皇帝统治着一个庞大的帝国。图像记忆：想象一个穿着华丽皇袍的皇帝坐在宝座上，周围是他的臣民。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一位穿着华丽皇袍的皇帝坐在金色的宝座上，头戴皇冠，手持权杖，周围是他的臣民和侍卫，背景是一座宏伟的宫殿。",
+    "example_image": "一位皇帝站在地图前，手指着广阔的领土，脸上露出自信和智慧的表情，周围是他的顾问和将军。"
+  },
+  "unit": 3,
+  "audio": "emperor.mp3",
+  "audio_example": "emperor_example.mp3",
+  "image": "emperor.png"
+}

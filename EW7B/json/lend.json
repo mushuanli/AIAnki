@@ -1,0 +1,18 @@
+{
+  "name": "lend",
+  "symbol": "/lend/",
+  "chn": "vt. 借给, 出借",
+  "example_en": "Can you lend me your book for the weekend?",
+  "example_cn": "你能把你的书借给我过周末吗？",
+  "word_family": "lends, lending, lent",
+  "memory_tips": "词源：来自古英语 'lǣnan'，意为'借出'。联想记忆：想象一个朋友向你伸出手，请求借东西的场景。图像记忆：画一个图书馆的场景，图书管理员正在将书借给读者。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个图书馆的场景，图书管理员正在将书借给读者，背景是书架和阅读区。",
+    "example_image": "一个学生向另一个学生借书的场景，背景是学校的教室。"
+  },
+  "unit": 8,
+  "audio": "lend.mp3",
+  "audio_example": "lend_example.mp3",
+  "image": "lend.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "first-time",
+  "symbol": "/ˌfɜːst 'taɪm/",
+  "chn": "adj. 首次的, 第一次的",
+  "example_en": "She was very nervous about her first-time skydiving experience.",
+  "example_cn": "她对她的首次跳伞经历感到非常紧张。",
+  "word_family": "first (adj.), time (n.), first-time (adj.)",
+  "memory_tips": "词源：由'first'（第一）和'time'（时间）组合而成，表示第一次发生的事件或经历。联想记忆：想象自己站在一个巨大的数字'1'旁边，准备开始你的第一次冒险。图像记忆：想象一个孩子第一次骑自行车的场景，脸上带着既兴奋又紧张的表情。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个年轻人站在跳伞飞机的门口，准备进行他的第一次跳伞，脸上带着紧张和期待的表情。",
+    "example_image": "一个女孩在跳伞后，脸上带着释然和兴奋的笑容，背景是蓝天和白云。"
+  },
+  "unit": 7,
+  "audio": "first-time.mp3",
+  "audio_example": "first-time_example.mp3",
+  "image": "first-time.png"
+}

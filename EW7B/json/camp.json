@@ -1,0 +1,18 @@
+{
+  "name": "camp",
+  "symbol": "/kæmp/",
+  "chn": "vi. 露营",
+  "example_en": "We decided to camp by the lake for the weekend.",
+  "example_cn": "我们决定周末在湖边露营。",
+  "word_family": "camper (n. 露营者), camping (n. 露营活动), campsite (n. 露营地)",
+  "memory_tips": "词源：来自拉丁语 'campus'，意为'田野'。联想记忆：想象一个帐篷在田野中，人们围坐在篝火旁。图像记忆：画一个帐篷和篝火，旁边有树木和星星。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个绿色的帐篷在湖边，周围是树木和草地，天空中有星星，篝火在帐篷旁边燃烧。",
+    "example_image": "一家人围坐在湖边的篝火旁，帐篷在背景中，孩子们在烤棉花糖。"
+  },
+  "unit": 6,
+  "audio": "camp.mp3",
+  "audio_example": "camp_example.mp3",
+  "image": "camp.png"
+}

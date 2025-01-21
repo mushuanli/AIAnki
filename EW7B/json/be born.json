@@ -1,0 +1,18 @@
+{
+  "name": "be born",
+  "symbol": "/bɔːn/",
+  "chn": "出生; 出现",
+  "example_en": "She was born in a small village in the mountains.",
+  "example_cn": "她出生在山里的一个小村庄。",
+  "word_family": "birth (n. 出生), newborn (adj. 新生的), born-again (adj. 重生的)",
+  "memory_tips": "词源：'born' 来自古英语 'beran'，意为 '携带' 或 '带来'。联想记忆：想象一个婴儿被带到这个世界上的场景。图像记忆：可以想象一个婴儿在医院的摇篮里，周围是医生和护士。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A newborn baby wrapped in a soft blanket, lying in a hospital crib with a nurse gently checking on the baby. The background shows a serene hospital room with soft lighting.",
+    "example_image": "A small, picturesque mountain village with traditional houses and a clear blue sky. A young girl is seen playing near a stream, symbolizing her birth and early life in the village."
+  },
+  "unit": 8,
+  "audio": "be born.mp3",
+  "audio_example": "be born_example.mp3",
+  "image": "be born.png"
+}

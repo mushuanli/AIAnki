@@ -1,0 +1,18 @@
+{
+  "name": "worth",
+  "symbol": "/wɜːθ/",
+  "chn": "adj. 值得, 有价值; 值…钱",
+  "example_en": "This book is worth reading.",
+  "example_cn": "这本书值得一读。",
+  "word_family": "worthless (adj. 无价值的), worthwhile (adj. 值得的), worthy (adj. 值得尊敬的)",
+  "memory_tips": "词源：来自古英语 'weorþ'，意为价值或价格。联想记忆：想象一个天平，一边放着物品，另一边放着金币，表示物品的价值。图像记忆：可以想象一个标有价格标签的贵重物品，如金表或珠宝。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个天平，一边放着各种贵重物品（如金表、珠宝），另一边放着金币，表示物品的价值。",
+    "example_image": "一个人坐在舒适的椅子上，专注地阅读一本书，书的封面上写着'值得一读'。"
+  },
+  "unit": 3,
+  "audio": "worth.mp3",
+  "audio_example": "worth_example.mp3",
+  "image": "worth.png"
+}

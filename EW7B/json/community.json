@@ -1,0 +1,18 @@
+{
+  "name": "community",
+  "symbol": "/kə'mjuːnəti/",
+  "chn": "n. 社区",
+  "example_en": "The local community organized a clean-up day to improve the neighborhood.",
+  "example_cn": "当地社区组织了一个清洁日来改善邻里环境。",
+  "word_family": "communities (复数形式), communal (形容词), communally (副词)",
+  "memory_tips": "词根 'commun-' 来自拉丁语 'communis'，意为'共同的'。后缀 '-ity' 表示状态或性质。可以联想记忆：社区（community）是共同（common）生活的地方。图像记忆：想象一个充满活力的社区公园，人们在这里共同活动。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个充满活力的社区公园，有儿童在玩耍，成年人在交谈，背景中有几栋住宅楼。",
+    "example_image": "一群人穿着志愿者T恤，手持清洁工具，正在清理公园的垃圾，背景中有树木和游乐设施。"
+  },
+  "unit": 2,
+  "audio": "community.mp3",
+  "audio_example": "community_example.mp3",
+  "image": "community.png"
+}

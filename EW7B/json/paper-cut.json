@@ -1,0 +1,18 @@
+{
+  "name": "paper-cut",
+  "symbol": "/ˌpeɪpə kʌt/",
+  "chn": "n. 剪纸 (作品)",
+  "example_en": "The intricate paper-cut displayed at the museum was a masterpiece of traditional Chinese art.",
+  "example_cn": "博物馆里展示的复杂剪纸作品是中国传统艺术的杰作。",
+  "word_family": "paper-cutter (剪纸工具), paper-cutting (剪纸艺术)",
+  "memory_tips": "词源：'paper' 来自拉丁语 'papyrus'，意为纸；'cut' 来自古英语 'cyttan'，意为切割。联想记忆：想象一张纸被精细地切割成美丽的图案。图像记忆：想象一幅红色的剪纸作品，上面有龙和凤凰的图案。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "一幅红色的剪纸作品，展示复杂的龙和凤凰图案，背景是传统的中国窗户。",
+    "example_image": "一个博物馆的展览厅，墙上挂着一幅精美的剪纸作品，周围有观众在欣赏。"
+  },
+  "unit": 4,
+  "audio": "paper-cut.mp3",
+  "audio_example": "paper-cut_example.mp3",
+  "image": "paper-cut.png"
+}

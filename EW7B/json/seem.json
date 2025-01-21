@@ -1,0 +1,18 @@
+{
+  "name": "seem",
+  "symbol": "/siːm/",
+  "chn": "linking v. 似乎, 看起来",
+  "example_en": "She seems happy with her new job.",
+  "example_cn": "她似乎对她的新工作感到满意。",
+  "word_family": "seems, seemed, seeming",
+  "memory_tips": "词源：来自古英语 'sēon'，意为'看'。联想记忆：将 'seem' 与 'see' 联想，因为两者都与视觉有关。图像记忆：想象一个人站在镜子前，看起来似乎很满意自己的样子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个人站在镜子前，面带微笑，看起来似乎很满意自己的样子。",
+    "example_image": "一位女士在办公室内，面带微笑，看起来对她的新工作感到满意。"
+  },
+  "unit": 3,
+  "audio": "seem.mp3",
+  "audio_example": "seem_example.mp3",
+  "image": "seem.png"
+}

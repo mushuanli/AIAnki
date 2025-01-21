@@ -1,0 +1,18 @@
+{
+  "name": "everyday",
+  "symbol": "/'evrideɪ/",
+  "chn": "adj. 日常的, 每天的",
+  "example_en": "Reading is an everyday activity for her.",
+  "example_cn": "阅读是她每天的活动。",
+  "word_family": "everydayness (n.), everyday life (n.)",
+  "memory_tips": "词源：来自中古英语 'everich dai'，意为‘每一天’。记忆技巧：可以将 'every' 和 'day' 分开记忆，'every' 表示‘每一个’，'day' 表示‘天’，合起来就是‘每一天’。联想记忆：想象每天早晨醒来，看到阳光洒在窗台上，这就是 everyday 的生活。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的早晨，窗台上有一杯热咖啡和一本打开的书，窗外是繁忙的街道，人们匆匆忙忙地开始他们的一天。",
+    "example_image": "一个女孩坐在窗边的椅子上，专注地阅读一本书，窗外是阳光明媚的街道，背景中有行人匆匆走过。"
+  },
+  "unit": 4,
+  "audio": "everyday.mp3",
+  "audio_example": "everyday_example.mp3",
+  "image": "everyday.png"
+}

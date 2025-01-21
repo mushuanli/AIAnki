@@ -1,0 +1,18 @@
+{
+  "name": "forest",
+  "symbol": "/'fɒrɪst/",
+  "chn": "n. 森林",
+  "example_en": "We went for a walk in the forest and enjoyed the fresh air.",
+  "example_cn": "我们去森林里散步，享受了新鲜的空气。",
+  "word_family": "forester (n. 林务员), forestry (n. 林学, 林业)",
+  "memory_tips": "词源：来自拉丁语 'forestis'，意为 '外面的'，最初指皇家狩猎的林地。联想记忆：想象一个巨大的森林，树木茂密，动物在其中自由活动。图像记忆：想象一个绿色的森林，阳光透过树叶洒在地面上，形成斑驳的光影。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个茂密的森林，树木高大，阳光透过树叶洒在地面上，形成斑驳的光影。远处有几只鹿在悠闲地吃草。",
+    "example_image": "一对父母带着孩子走在森林的小径上，孩子兴奋地指着远处的树木和动物。"
+  },
+  "unit": 6,
+  "audio": "forest.mp3",
+  "audio_example": "forest_example.mp3",
+  "image": "forest.png"
+}

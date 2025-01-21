@@ -1,0 +1,18 @@
+{
+  "name": "china",
+  "symbol": "/'tʃaɪnə/",
+  "chn": "n. 瓷器",
+  "example_en": "She collects antique china from various parts of the world.",
+  "example_cn": "她收集来自世界各地的古董瓷器。",
+  "word_family": "chinaware (瓷器制品), porcelain (瓷器), ceramic (陶瓷)",
+  "memory_tips": "词源：'china' 源自中国，因为中国是瓷器的发源地。联想记忆：想象一个精美的中国瓷器，上面绘有传统的中国图案。图像记忆：想象一个展示柜里摆满了各种精美的瓷器，每件都代表不同的文化。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个展示柜里摆满了各种精美的瓷器，每件都代表不同的文化，背景是一个传统的中国客厅。",
+    "example_image": "一位女士正在仔细检查一件古董瓷器，周围是来自世界各地的其他瓷器收藏。"
+  },
+  "unit": 4,
+  "audio": "china.mp3",
+  "audio_example": "china_example.mp3",
+  "image": "china.png"
+}

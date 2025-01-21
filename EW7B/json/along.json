@@ -1,0 +1,18 @@
+{
+  "name": "along",
+  "symbol": "/ə'lɒŋ/",
+  "chn": "prep. 沿着",
+  "example_en": "We walked along the river and enjoyed the beautiful scenery.",
+  "example_cn": "我们沿着河边散步，欣赏美丽的风景。",
+  "word_family": "alongside, along with, all along",
+  "memory_tips": "词源：来自古英语 'andlang'，意为 '沿着'。联想记忆：想象一条长长的路，你沿着它走。图像记忆：画一条蜿蜒的小路，旁边有树木和河流。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一条蜿蜒的小路，旁边有树木和河流，阳光洒在路上，形成斑驳的光影。",
+    "example_image": "两个人沿着河边散步，背景是美丽的自然风光，河水清澈，树木繁茂。"
+  },
+  "unit": 3,
+  "audio": "along.mp3",
+  "audio_example": "along_example.mp3",
+  "image": "along.png"
+}

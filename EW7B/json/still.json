@@ -1,0 +1,18 @@
+{
+  "name": "still",
+  "symbol": "/stɪl/",
+  "chn": "adv. 还是, 仍然",
+  "example_en": "She is still waiting for the bus.",
+  "example_cn": "她还在等公交车。",
+  "word_family": "stillness (n.), still (adj.)",
+  "memory_tips": "词源：来自古英语 'stille'，意为静止的。联想记忆：想象一个静止的湖面，没有任何波动，帮助记忆 'still' 表示静止或持续的状态。图像记忆：可以想象一个时钟停在某个时间点，表示时间静止。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个静止的湖面，水面如镜，没有任何波动，周围是宁静的自然景色，如树木和山丘。",
+    "example_image": "一个女孩站在公交车站，周围是繁忙的街道，但她静静地站着，目光注视着远方，等待公交车的到来。"
+  },
+  "unit": 4,
+  "audio": "still.mp3",
+  "audio_example": "still_example.mp3",
+  "image": "still.png"
+}

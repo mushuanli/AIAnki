@@ -1,0 +1,18 @@
+{
+  "name": "national",
+  "symbol": "/'næʃ(ə)nəl/",
+  "chn": "adj. 国家的",
+  "example_en": "The national flag was raised during the ceremony.",
+  "example_cn": "在仪式上升起了国旗。",
+  "word_family": "nation (n. 国家), nationality (n. 国籍), nationally (adv. 全国性地)",
+  "memory_tips": "词根 'nat' 来源于拉丁语 'natio'，意为出生或种族。联想记忆：将 'national' 与 'nation' 联系起来，想象一个国家的地图和国旗。图像记忆：想象一个大型体育赛事中，观众挥舞着国旗，代表他们的国家。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A large stadium filled with people, each holding their country's flag, cheering for their national team during an international sports event.",
+    "example_image": "A close-up of a national flag being raised on a flagpole during a formal ceremony, with a clear blue sky in the background."
+  },
+  "unit": 3,
+  "audio": "national.mp3",
+  "audio_example": "national_example.mp3",
+  "image": "national.png"
+}

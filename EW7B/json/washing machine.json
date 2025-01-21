@@ -1,0 +1,18 @@
+{
+  "name": "washing machine",
+  "symbol": "/ˈwɒʃɪŋ məˈʃiːn/",
+  "chn": "n. 洗衣机",
+  "example_en": "She put her clothes into the washing machine and added some detergent.",
+  "example_cn": "她把衣服放进洗衣机，并加了一些洗衣粉。",
+  "word_family": "wash (v. 洗), machine (n. 机器), washer (n. 洗衣机)",
+  "memory_tips": "词源：'washing' 来自动词 'wash'，意为清洗；'machine' 来自拉丁语 'machina'，意为机器。联想记忆：想象一个机器（machine）在清洗（washing）衣服。图像记忆：想象一个洗衣机正在旋转，里面装满了泡沫和衣服。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个现代洗衣机，放在一个明亮的洗衣房里，洗衣机门是透明的，可以看到里面旋转的衣服和泡沫。",
+    "example_image": "一个女孩站在洗衣机旁，正在往洗衣机里放衣服和洗衣粉，洗衣机门半开，可以看到里面的衣服。"
+  },
+  "unit": 2,
+  "audio": "washing machine.mp3",
+  "audio_example": "washing machine_example.mp3",
+  "image": "washing machine.png"
+}

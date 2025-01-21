@@ -1,0 +1,18 @@
+{
+  "name": "hit",
+  "symbol": "/hɪt/",
+  "chn": "vt. & vi. 碰撞, 击; 打, 打击",
+  "example_en": "The ball hit the window and broke it.",
+  "example_cn": "球击中了窗户并打破了它。",
+  "word_family": "hits, hitting, hitter",
+  "memory_tips": "词源：来自古英语 'hyttan'，意为'碰撞'。联想记忆：想象一个棒球手击打棒球的场景，棒球与球棒碰撞的瞬间。图像记忆：可以想象一个拳头击中沙袋的画面，帮助记忆'打'的意思。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A baseball player hitting a ball with a bat, the moment of impact clearly visible, with the ball slightly deformed from the force.",
+    "example_image": "A baseball flying towards a window, the moment just before impact, with the window slightly cracked from the force of the ball."
+  },
+  "unit": 8,
+  "audio": "hit.mp3",
+  "audio_example": "hit_example.mp3",
+  "image": "hit.png"
+}

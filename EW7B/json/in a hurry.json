@@ -1,0 +1,18 @@
+{
+  "name": "in a hurry",
+  "symbol": "/ɪn ə ˈhʌri/",
+  "chn": "匆忙",
+  "example_en": "She left the house in a hurry to catch the bus.",
+  "example_cn": "她匆忙离开家去赶公交车。",
+  "word_family": "hurry (v./n.), hurried (adj.), hurriedly (adv.)",
+  "memory_tips": "词源：'hurry' 来自中古英语 'hurien'，意为快速移动。联想记忆：想象一个人匆忙地跑向公交车站，手里拿着包，脸上露出焦急的表情。图像记忆：可以想象一个时钟的指针快速转动，表示时间紧迫。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person running towards a bus stop with a bag in hand, looking anxious and checking their watch.",
+    "example_image": "A woman rushing out of a house, holding a bag and looking at her watch, with a bus visible in the background."
+  },
+  "unit": 2,
+  "audio": "in a hurry.mp3",
+  "audio_example": "in a hurry_example.mp3",
+  "image": "in a hurry.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "alive",
+  "symbol": "/ə'laɪv/",
+  "chn": "adj. 活着, 有活力",
+  "example_en": "The forest is alive with the sounds of birds.",
+  "example_cn": "森林里充满了鸟儿的叫声，显得生机勃勃。",
+  "word_family": "live (v.), lively (adj.), liveliness (n.)",
+  "memory_tips": "词源：来自古英语 'on life'，意为'在生命中'。联想记忆：想象一个充满活力的场景，如森林中的鸟儿和动物，帮助记忆 'alive' 的含义。图像记忆：可以想象一个充满色彩和动态的森林画面，强调生命和活力。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个充满活力的森林场景，阳光透过树叶，鸟儿在树枝间飞翔，小动物在草地上奔跑，整体画面色彩鲜艳，充满生机。",
+    "example_image": "一个清晨的森林，阳光洒在树叶上，几只小鸟在树枝上唱歌，背景中有几只小鹿在草地上悠闲地吃草，整个场景显得非常生动和活泼。"
+  },
+  "unit": 4,
+  "audio": "alive.mp3",
+  "audio_example": "alive_example.mp3",
+  "image": "alive.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Chinese knot",
+  "symbol": "/nɒt/",
+  "chn": "n. 中国结",
+  "example_en": "She hung a beautiful Chinese knot on the wall to bring good luck.",
+  "example_cn": "她在墙上挂了一个漂亮的中国结，以带来好运。",
+  "word_family": "knot (n. 结), knotting (n. 打结), unknot (v. 解开结)",
+  "memory_tips": "词源：'knot' 来自古英语 'cnotta'，意为“结”。联想记忆：想象一个红色的中国结，象征着好运和幸福。图像记忆：想象一个红色的中国结挂在门上，带来好运。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个红色的中国结，挂在木门上，背景是传统的中国庭院，阳光明媚。",
+    "example_image": "一个女孩正在墙上挂一个红色的中国结，房间装饰有中国传统元素，如红灯笼和书法作品。"
+  },
+  "unit": 4,
+  "audio": "Chinese knot.mp3",
+  "audio_example": "Chinese knot_example.mp3",
+  "image": "Chinese knot.png"
+}

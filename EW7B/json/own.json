@@ -1,0 +1,18 @@
+{
+  "name": "own",
+  "symbol": "/əʊn/",
+  "chn": "adj. & pron. 自己的，本人的",
+  "example_en": "She decorated her own room with bright colors.",
+  "example_cn": "她用鲜艳的颜色装饰了自己的房间。",
+  "word_family": "owner (n. 所有者), ownership (n. 所有权), self-owned (adj. 自有的)",
+  "memory_tips": "词源：来自古英语 'āgen'，意为'自己的'。联想记忆：想象一个人站在自己的房子前，自豪地说'这是我的'。图像记忆：画一个人站在标有'OWN'的房子前，手里拿着钥匙。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young person standing in front of a brightly colored room, smiling proudly, with a sign that says 'My Own Room' on the door.",
+    "example_image": "A girl painting the walls of her room with vibrant colors, with paint cans and brushes scattered around, showing her personal touch in decorating her own space."
+  },
+  "unit": 1,
+  "audio": "own.mp3",
+  "audio_example": "own_example.mp3",
+  "image": "own.png"
+}

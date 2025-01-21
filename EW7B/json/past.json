@@ -1,0 +1,18 @@
+{
+  "name": "past",
+  "symbol": "/pɑːst/",
+  "chn": "n. 过去",
+  "example_en": "She often thinks about the past and wonders what could have been.",
+  "example_cn": "她经常回想过去，思考可能会发生的事情。",
+  "word_family": "past tense (过去时), past participle (过去分词), past perfect (过去完成时)",
+  "memory_tips": "词源：来自拉丁语 'passus'，意为'步'或'经过'。联想记忆：想象自己在走过一条时间线，回顾已经走过的部分，即'过去'。图像记忆：可以想象一个老式时钟，指针指向已经过去的时间。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个老式时钟，指针指向已经过去的时间，背景是模糊的回忆场景，如老照片、旧玩具等。",
+    "example_image": "一个女孩坐在窗边，手中拿着一本旧相册，眼神迷离，似乎在回忆过去的美好时光。"
+  },
+  "unit": 3,
+  "audio": "past.mp3",
+  "audio_example": "past_example.mp3",
+  "image": "past.png"
+}

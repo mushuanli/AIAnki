@@ -1,0 +1,18 @@
+{
+  "name": "awake",
+  "symbol": "/ə'weɪk/",
+  "chn": "adj. 醒着",
+  "example_en": "She was still awake at midnight, reading her favorite novel.",
+  "example_cn": "午夜时分，她仍然醒着，读着她最喜欢的小说。",
+  "word_family": "awaken (v.), awakening (n.), awake (adj.)",
+  "memory_tips": "词源：来自古英语 'āwæcnan'，意为'醒来'。记忆技巧：可以将 'awake' 拆分为 'a-'（表示状态）和 'wake'（醒来），联想为'处于醒来的状态'。图像记忆：想象一个人在清晨阳光中醒来，眼睛睁开，表示'醒着'的状态。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young person lying in bed with eyes open, sunlight streaming through the window, indicating they are awake.",
+    "example_image": "A girl sitting in bed at night with a book in her hands, a lamp beside her, showing she is awake and reading."
+  },
+  "unit": 5,
+  "audio": "awake.mp3",
+  "audio_example": "awake_example.mp3",
+  "image": "awake.png"
+}

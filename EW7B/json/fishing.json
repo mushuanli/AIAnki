@@ -1,0 +1,18 @@
+{
+  "name": "fishing",
+  "symbol": "/'fɪʃɪŋ/",
+  "chn": "n. 钓鱼, 捕鱼业 (或活动)",
+  "example_en": "He enjoys fishing in the lake near his house every weekend.",
+  "example_cn": "他每个周末都喜欢在家附近的湖里钓鱼。",
+  "word_family": "fish (n. 鱼, v. 钓鱼), fisherman (n. 渔夫), fishery (n. 渔业)",
+  "memory_tips": "词根 'fish' 表示鱼，后缀 '-ing' 表示活动或过程。联想记忆：想象一个人在湖边钓鱼的场景，鱼竿、鱼线和鱼钩都是钓鱼的必备工具。图像记忆：可以画一个人在湖边钓鱼的简单图画，旁边有鱼和鱼竿。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A serene lake with a person sitting on a dock holding a fishing rod, with a small boat in the background and a few fish jumping out of the water.",
+    "example_image": "A man sitting by a lake with a fishing rod, a cooler beside him, and a few fish caught in a net nearby."
+  },
+  "unit": 1,
+  "audio": "fishing.mp3",
+  "audio_example": "fishing_example.mp3",
+  "image": "fishing.png"
+}

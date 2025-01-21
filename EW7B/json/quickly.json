@@ -1,0 +1,18 @@
+{
+  "name": "quickly",
+  "symbol": "/'kwɪkli/",
+  "chn": "adv. 迅速地",
+  "example_en": "She quickly finished her homework and went out to play.",
+  "example_cn": "她迅速完成了作业，然后出去玩了。",
+  "word_family": "quick (adj.), quicken (v.), quickness (n.)",
+  "memory_tips": "词根 'quick' 来自古英语 'cwic'，意为 '活着的' 或 '迅速的'。后缀 '-ly' 通常用于形容词后形成副词，表示方式或状态。联想记忆：想象一只兔子迅速跳过草地，帮助记住 'quickly' 表示快速的动作。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只兔子在绿色的草地上迅速跳跃，背景是模糊的树木和蓝天。",
+    "example_image": "一个小女孩坐在书桌前，迅速翻动书本，窗外是阳光明媚的下午。"
+  },
+  "unit": 4,
+  "audio": "quickly.mp3",
+  "audio_example": "quickly_example.mp3",
+  "image": "quickly.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "parrot",
+  "symbol": "/'pærət/",
+  "chn": "n. 鹦鹉",
+  "example_en": "The colorful parrot squawked loudly from its perch.",
+  "example_cn": "那只色彩斑斓的鹦鹉从栖木上大声尖叫。",
+  "word_family": "parroting (v. 鹦鹉学舌), parrotfish (n. 鹦鹉鱼)",
+  "memory_tips": "词源：来自法语 'perroquet'，意为鹦鹉。联想记忆：想象一只鹦鹉在模仿人说话，帮助记忆其模仿的特性。图像记忆：想象一只色彩鲜艳的鹦鹉站在热带雨林的树枝上。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一只色彩斑斓的鹦鹉站在热带雨林的树枝上，周围是绿色的叶子和鲜艳的花朵。",
+    "example_image": "一只鹦鹉在模仿人说话的场景，旁边有一个惊讶的人。"
+  },
+  "unit": 5,
+  "audio": "parrot.mp3",
+  "audio_example": "parrot_example.mp3",
+  "image": "parrot.png"
+}

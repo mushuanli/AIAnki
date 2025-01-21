@@ -1,0 +1,18 @@
+{
+  "name": "happily",
+  "symbol": "/'hæpɪli/",
+  "chn": "adv. 高兴地",
+  "example_en": "She smiled happily when she saw her friends at the party.",
+  "example_cn": "当她在聚会上看到她的朋友们时，她高兴地笑了。",
+  "word_family": "happy (adj.), happiness (n.), unhappily (adv.)",
+  "memory_tips": "词根 'hap' 来自古英语，意为 '幸运' 或 '机会'。后缀 '-ly' 通常用于形容词后形成副词，表示方式或状态。联想记忆：想象一个笑脸符号，旁边写着 'happily'，表示高兴地笑。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个女孩在阳光明媚的公园里，脸上带着灿烂的笑容，周围是她的朋友们，大家正在一起玩耍。",
+    "example_image": "一个女孩在聚会上，看到朋友们时，脸上露出高兴的笑容，背景是装饰着气球和彩带的房间。"
+  },
+  "unit": 8,
+  "audio": "happily.mp3",
+  "audio_example": "happily_example.mp3",
+  "image": "happily.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "plain",
+  "symbol": "/pleɪn/",
+  "chn": "n. 平原",
+  "example_en": "The vast plain stretched out before us, covered in golden wheat.",
+  "example_cn": "广阔的平原在我们面前延伸，覆盖着金色的麦田。",
+  "word_family": "plainly (adv.), plainness (n.)",
+  "memory_tips": "词源：来自拉丁语 'planus'，意为平坦的。联想记忆：想象一片平坦的平原，没有任何障碍物。图像记忆：想象一张地图上标记的广阔平原区域。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一片广阔的平原，覆盖着金色的麦田，远处有几棵孤立的树，天空是明亮的蓝色，有几朵白云。",
+    "example_image": "一群农民在金色的麦田中工作，远处可以看到几座小山，天空中有几只飞翔的鸟。"
+  },
+  "unit": 6,
+  "audio": "plain.mp3",
+  "audio_example": "plain_example.mp3",
+  "image": "plain.png"
+}

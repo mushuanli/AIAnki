@@ -1,0 +1,18 @@
+{
+  "name": "asleep",
+  "symbol": "/ə'sliːp/",
+  "chn": "adj. 睡着",
+  "example_en": "The baby fell asleep quickly after the lullaby.",
+  "example_cn": "宝宝在摇篮曲后很快就睡着了。",
+  "word_family": "sleep (v. 睡觉), sleepy (adj. 困倦的), sleepless (adj. 失眠的)",
+  "memory_tips": "词源：'asleep' 来自古英语 'on slæpe'，意为在睡眠中。记忆技巧：可以将 'a-' 视为一个前缀，表示状态，'sleep' 是睡觉的意思，合起来就是 '在睡觉的状态'。联想记忆：想象一个安静的房间，月光透过窗户，床上的人正在安静地睡觉。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个安静的房间，月光透过窗户洒在床上，床上的人正在安静地睡觉，周围环境非常宁静。",
+    "example_image": "一个婴儿躺在床上，母亲在旁边轻轻地唱着摇篮曲，婴儿的眼睛慢慢闭上，进入了梦乡。"
+  },
+  "unit": 7,
+  "audio": "asleep.mp3",
+  "audio_example": "asleep_example.mp3",
+  "image": "asleep.png"
+}

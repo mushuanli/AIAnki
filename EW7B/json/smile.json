@@ -1,0 +1,18 @@
+{
+  "name": "smile",
+  "symbol": "/smaɪl/",
+  "chn": "vi. 微笑; vt. 微笑着说; n. 微笑, 笑容",
+  "example_en": "She gave him a warm smile as he entered the room.",
+  "example_cn": "当他进入房间时，她给了他一个温暖的微笑。",
+  "word_family": "smiles, smiled, smiling, smiley",
+  "memory_tips": "词源：来自古英语 'smyl'，意为微笑。联想记忆：想象一个太阳（sun）在微笑（smile），因为太阳总是带来温暖和快乐。图像记忆：画一个笑脸符号，旁边写上'smile'，帮助记忆。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个阳光明媚的公园里，一个小女孩正在对着一只小狗微笑，背景是绿树和蓝天。",
+    "example_image": "一个温馨的家庭场景，母亲在厨房忙碌，父亲和孩子坐在餐桌旁，孩子对父亲露出灿烂的微笑。"
+  },
+  "unit": 3,
+  "audio": "smile.mp3",
+  "audio_example": "smile_example.mp3",
+  "image": "smile.png"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "fall",
+  "symbol": "/fɔːl/",
+  "chn": "vi. 进入 (某状态); 落下, 掉落, 倒下",
+  "example_en": "The leaves fall from the trees in autumn.",
+  "example_cn": "秋天树叶从树上落下。",
+  "word_family": "falling (adj.), fallen (adj.), fallback (n.), waterfall (n.)",
+  "memory_tips": "词源：来自古英语 'feallan'，意为'落下'。联想记忆：想象秋天的树叶从树上缓缓落下，形成一幅美丽的画面。图像记忆：可以想象一个苹果从树上掉下来的场景，帮助记忆'fall'这个词。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A serene autumn scene with colorful leaves falling from trees, creating a carpet of red, orange, and yellow on the ground.",
+    "example_image": "A close-up of a single leaf falling from a tree branch, with a blurred background of other trees and leaves."
+  },
+  "unit": 7,
+  "audio": "fall.mp3",
+  "audio_example": "fall_example.mp3",
+  "image": "fall.png"
+}

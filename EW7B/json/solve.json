@@ -1,0 +1,18 @@
+{
+  "name": "solve",
+  "symbol": "/sɒlv/",
+  "chn": "vt. 解决, 解答",
+  "example_en": "The detective was able to solve the mystery quickly.",
+  "example_cn": "侦探能够迅速解开这个谜团。",
+  "word_family": "solver (n.), solution (n.), solvable (adj.)",
+  "memory_tips": "词根 'solv' 来自拉丁语 'solvere'，意为 '松开，解开'。可以联想为 '松开问题'，即解决问题。图像记忆：想象一个锁被钥匙解开，象征着问题的解决。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A detective in a classic trench coat and hat, holding a magnifying glass, standing over a table with scattered puzzle pieces that are coming together to form a complete picture.",
+    "example_image": "A detective in a dimly lit room, looking intently at a chalkboard filled with clues and notes, with a light bulb above his head indicating a sudden realization or solution to the mystery."
+  },
+  "unit": 8,
+  "audio": "solve.mp3",
+  "audio_example": "solve_example.mp3",
+  "image": "solve.png"
+}

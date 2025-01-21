@@ -1,0 +1,18 @@
+{
+  "name": "skate",
+  "symbol": "/skeɪt/",
+  "chn": "vi. & vt. (通常指) 滑冰, 溜冰; n. (旱) 冰鞋",
+  "example_en": "She loves to skate on the frozen lake every winter.",
+  "example_cn": "她每年冬天都喜欢在结冰的湖面上滑冰。",
+  "word_family": "skater (n. 滑冰者), skating (n. 滑冰运动), ice-skate (n. 冰鞋), roller-skate (n. 旱冰鞋)",
+  "memory_tips": "词源：来自荷兰语 'schaats'，意为冰鞋。联想记忆：想象在冰上滑行的感觉，'skate' 的发音类似于 'skeet'，可以联想到射击飞盘，但这里是在冰上滑行。图像记忆：想象一双冰鞋在冰面上划出优美的弧线。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A pair of ice skates placed neatly on a frozen lake, with a serene winter landscape in the background, including snow-covered trees and a clear blue sky.",
+    "example_image": "A young girl gracefully skating on a frozen lake, wearing a warm winter coat and a bright scarf, with a joyful expression on her face as she glides across the ice."
+  },
+  "unit": 7,
+  "audio": "skate.mp3",
+  "audio_example": "skate_example.mp3",
+  "image": "skate.png"
+}

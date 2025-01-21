@@ -1,0 +1,18 @@
+{
+  "name": "pine",
+  "symbol": "/paɪn/",
+  "chn": "n. 松木; 松树",
+  "example_en": "The old pine tree in the backyard has been standing for over a hundred years.",
+  "example_cn": "后院的那棵老松树已经屹立了一百多年。",
+  "word_family": "pinery (松林), pinecone (松果), pinewood (松木)",
+  "memory_tips": "词源：来自古英语 'pīn'，意为松树。联想记忆：想象一棵高大的松树（pine）在风中摇曳，松针（pine needles）沙沙作响。图像记忆：画一棵松树，旁边标注 'pine' 和 '松树'。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一棵高大的松树，树干粗壮，松针茂密，背景是蓝天和白云。",
+    "example_image": "后院的一角，一棵古老的松树矗立，树下有几块石头和落叶，远处可以看到一座小木屋。"
+  },
+  "unit": 4,
+  "audio": "pine.mp3",
+  "audio_example": "pine_example.mp3",
+  "image": "pine.png"
+}

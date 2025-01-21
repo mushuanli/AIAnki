@@ -1,0 +1,18 @@
+{
+  "name": "volunteer",
+  "symbol": "/ˌvɒlən'tɪə(r)/",
+  "chn": "n. 志愿者; vi. & vt. 自愿做, 义务做, 无偿做",
+  "example_en": "She decided to volunteer at the local animal shelter every weekend.",
+  "example_cn": "她决定每周末在当地动物收容所做志愿者。",
+  "word_family": "volunteering (n.), volunteered (v.), volunteers (n./v.)",
+  "memory_tips": "词根 'vol-' 来自拉丁语 'voluntas'，意为 '意愿' 或 '愿望'。联想记忆：想象一个充满热情的人自愿举起手来帮助他人。图像记忆：想象一个志愿者在社区中心帮助老人或小孩的场景。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A cheerful young person wearing a volunteer t-shirt, helping an elderly person cross the street in a sunny, urban setting.",
+    "example_image": "A group of diverse volunteers working together in a community garden, planting flowers and vegetables, with a clear blue sky in the background."
+  },
+  "unit": 2,
+  "audio": "volunteer.mp3",
+  "audio_example": "volunteer_example.mp3",
+  "image": "volunteer.png"
+}

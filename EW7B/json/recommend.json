@@ -1,0 +1,18 @@
+{
+  "name": "recommend",
+  "symbol": "/ˌrekə'mend/",
+  "chn": "vt. 推荐, 建议",
+  "example_en": "I recommend this book to anyone who loves adventure stories.",
+  "example_cn": "我向任何喜欢冒险故事的人推荐这本书。",
+  "word_family": "recommendation (n.), recommended (adj.), recommending (v.)",
+  "memory_tips": "词根 're-' 表示 '再次'，'commend' 来自拉丁语 'commendare'，意为 '委托' 或 '推荐'。联想记忆：想象你在书店里，朋友再次（re-）向你推荐（commend）一本好书。图像记忆：想象一个朋友在书店里向你推荐一本书的场景。",
+  "difficulty": "3",
+  "image_prompt": {
+    "main_image": "A scene in a bookstore where a friend is enthusiastically handing a book to another person, with shelves of books in the background.",
+    "example_image": "A person sitting in a cozy reading nook, holding a book titled 'Adventure Stories', with a cup of coffee on the table beside them."
+  },
+  "unit": 3,
+  "audio": "recommend.mp3",
+  "audio_example": "recommend_example.mp3",
+  "image": "recommend.png"
+}

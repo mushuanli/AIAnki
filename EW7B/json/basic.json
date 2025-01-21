@@ -1,0 +1,18 @@
+{
+  "name": "basic",
+  "symbol": "/'beɪsɪk/",
+  "chn": "adj. 基本的; 初级的",
+  "example_en": "Learning basic math skills is essential for young students.",
+  "example_cn": "学习基本的数学技能对年轻学生来说是必不可少的。",
+  "word_family": "basically (adv.), basics (n.)",
+  "memory_tips": "词源：来自拉丁语 'basicus'，意为基础的。记忆技巧：可以将 'basic' 与 'base'（基础）联想，想象一个建筑物的基础部分，这是最基本也是最重要的部分。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个简单的木制积木塔，最底层的积木特别突出，象征着基础的重要性。",
+    "example_image": "一群小学生在教室里认真听老师讲解基础数学知识，黑板上写着简单的加减法。"
+  },
+  "unit": 4,
+  "audio": "basic.mp3",
+  "audio_example": "basic_example.mp3",
+  "image": "basic.png"
+}

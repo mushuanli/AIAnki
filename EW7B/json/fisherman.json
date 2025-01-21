@@ -1,0 +1,18 @@
+{
+  "name": "fisherman",
+  "symbol": "/'fɪʃəmən/",
+  "chn": "n. (pl. fishermen) 渔民, 钓鱼爱好者",
+  "example_en": "The fisherman caught a large salmon in the river.",
+  "example_cn": "渔民在河里捕获了一条大鲑鱼。",
+  "word_family": "fishermen (复数形式), fishing (n. 钓鱼), fishery (n. 渔业)",
+  "memory_tips": "词源：'fish'（鱼） + 'man'（人），直接联想为捕鱼的人。记忆技巧：想象一个戴着草帽、手持渔网的人站在河边，这就是典型的渔民形象。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一位穿着防水服的渔民，站在一条清澈的河边，手持渔网，背景是绿色的山丘和蓝天。",
+    "example_image": "一位渔民站在河边，手中提着一条闪闪发光的大鲑鱼，脸上露出满意的笑容，周围是平静的水面和远处的森林。"
+  },
+  "unit": 8,
+  "audio": "fisherman.mp3",
+  "audio_example": "fisherman_example.mp3",
+  "image": "fisherman.png"
+}

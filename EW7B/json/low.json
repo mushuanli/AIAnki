@@ -1,0 +1,18 @@
+{
+  "name": "low",
+  "symbol": "/ləʊ/",
+  "chn": "adj. 低的",
+  "example_en": "The airplane flew low over the city.",
+  "example_cn": "飞机低飞过城市。",
+  "word_family": "lower (v. 降低), lowest (adj. 最低的), lowly (adj. 低微的)",
+  "memory_tips": "词源：来自古英语 'hlāh'，意为低的。联想记忆：想象一个气球慢慢降低到地面。图像记忆：画一个气球从高处慢慢降到地面。",
+  "difficulty": "1",
+  "image_prompt": {
+    "main_image": "一个气球从高处慢慢降到地面，背景是蓝天和白云。",
+    "example_image": "一架飞机低飞过城市，可以看到城市的建筑和街道。"
+  },
+  "unit": 8,
+  "audio": "low.mp3",
+  "audio_example": "low_example.mp3",
+  "image": "low.png"
+}

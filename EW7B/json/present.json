@@ -1,0 +1,18 @@
+{
+  "name": "present",
+  "symbol": "/'preznt/",
+  "chn": "n. 现在",
+  "example_en": "At present, we are focusing on improving our English skills.",
+  "example_cn": "目前，我们正专注于提高我们的英语技能。",
+  "word_family": "presently (adv.), presence (n.), presentable (adj.)",
+  "memory_tips": "词源：来自拉丁语 'praesens'，意为'在面前'。记忆技巧：可以将 'present' 与 'presence'（存在）联系起来，想象现在就是一切存在的时刻。图像记忆：想象一个时钟指向现在的时间，强调当前时刻的重要性。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个大型的时钟，指针指向12点，背景是一个明亮的教室，学生们正在专注地学习。",
+    "example_image": "一群学生在教室里，老师正在黑板上写下'Present'这个词，学生们认真听讲。"
+  },
+  "unit": 3,
+  "audio": "present.mp3",
+  "audio_example": "present_example.mp3",
+  "image": "present.png"
+}

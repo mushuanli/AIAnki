@@ -1,0 +1,18 @@
+{
+  "name": "reach",
+  "symbol": "/riːtʃ/",
+  "chn": "vt. & vi. 够得着; 抵达; 实现; 达到",
+  "example_en": "She reached out her hand to touch the stars.",
+  "example_cn": "她伸出手去触摸星星。",
+  "word_family": "reaches, reached, reaching, reachable",
+  "memory_tips": "词源：来自古英语'ræcan'，意为'伸出'。联想记忆：想象一个人伸出手去够一个高处的物品，这个动作就是'reach'。图像记忆：画一个人站在梯子上，伸手去够树上的苹果。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person standing on a ladder, reaching out to pick an apple from a tall tree. The scene is set in a sunny orchard with green grass and a clear blue sky.",
+    "example_image": "A young girl standing on a hill at night, reaching her hand towards the sky filled with bright stars. The scene captures her wonder and the vastness of the night sky."
+  },
+  "unit": 8,
+  "audio": "reach.mp3",
+  "audio_example": "reach_example.mp3",
+  "image": "reach.png"
+}

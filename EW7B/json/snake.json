@@ -1,0 +1,18 @@
+{
+  "name": "snake",
+  "symbol": "/sneɪk/",
+  "chn": "n. 蛇",
+  "example_en": "The snake slithered through the grass silently.",
+  "example_cn": "蛇在草丛中无声地滑行。",
+  "word_family": "snakes (复数), snakelike (形容词), snakebite (名词)",
+  "memory_tips": "词源：来自古英语 'snaca'，与古高地德语 'snahhan' 相关，意为爬行。联想记忆：想象蛇的形状像字母 'S'，帮助记忆其蜿蜒的形态。图像记忆：想象一条蛇在草丛中滑行的画面。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一条绿色的蛇在茂密的草丛中蜿蜒滑行，阳光透过树叶斑驳地照在蛇身上，背景是模糊的绿色植物。",
+    "example_image": "一条蛇在草丛中无声地滑行，周围是密集的绿色植物，远处有模糊的树木和阳光透过树叶的光斑。"
+  },
+  "unit": 5,
+  "audio": "snake.mp3",
+  "audio_example": "snake_example.mp3",
+  "image": "snake.png"
+}

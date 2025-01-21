@@ -1,0 +1,18 @@
+{
+  "name": "bedroom",
+  "symbol": "/'bedruːm/",
+  "chn": "n. 卧室",
+  "example_en": "She decorated her bedroom with pink curtains and a fluffy rug.",
+  "example_cn": "她用粉色窗帘和一块毛茸茸的地毯装饰了她的卧室。",
+  "word_family": "bed(n) 床 ,room(n) 房间 ,bedrooms(n) 卧室",
+  "memory_tips": "词根词缀：'bed' 表示床，'room' 表示房间。联想记忆：想象一个房间里面有一张床，那就是卧室。图像记忆：想象一个温馨的卧室，有一张舒适的床和柔和的灯光。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A cozy bedroom with a comfortable bed, soft lighting, pink curtains, and a fluffy rug on the floor.",
+    "example_image": "A girl decorating her bedroom with pink curtains and a fluffy rug, smiling as she arranges the room."
+  },
+  "unit": 1,
+  "audio": "bedroom.mp3",
+  "audio_example": "bedroom_example.mp3",
+  "image": "bedroom.png"
+}

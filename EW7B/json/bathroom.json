@@ -1,0 +1,18 @@
+{
+  "name": "bathroom",
+  "symbol": "/'bɑːθruːm/",
+  "chn": "n. 浴室; <美> 卫生间",
+  "example_en": "I need to go to the bathroom before we leave.",
+  "example_cn": "我们离开前我需要去一下卫生间。",
+  "word_family": "bath (n. 洗澡), room (n. 房间), bathroom accessories (浴室配件)",
+  "memory_tips": "词根 'bath' 来自古英语 'bæð'，意为洗澡；'room' 来自古英语 'rum'，意为空间。联想记忆：想象一个充满泡泡的浴缸和宽敞的浴室空间。图像记忆：想象一个现代浴室，有浴缸、洗手池和镜子。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A modern bathroom with a bathtub, sink, and mirror, filled with soft lighting and a cozy atmosphere.",
+    "example_image": "A person standing in front of a bathroom mirror, preparing to leave the house, with a toothbrush in hand and a towel hanging nearby."
+  },
+  "unit": 1,
+  "audio": "bathroom.mp3",
+  "audio_example": "bathroom_example.mp3",
+  "image": "bathroom.png"
+}

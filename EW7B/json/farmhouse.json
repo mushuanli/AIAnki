@@ -1,0 +1,17 @@
+{
+  "name": "farmhouse",
+  "symbol": "/'fɑːmhaʊs/",
+  "chn": "n. 农场住宅, 农舍",
+  "example_en": "The old farmhouse was surrounded by fields of golden wheat.",
+  "example_cn": "那座古老的农舍被金色的麦田环绕。",
+  "word_family": "farm(n) 农场 ,house(n) 房屋 ,farmland(n) 农田 ,farmstead(n) 农庄",
+  "memory_tips": "单词“farmhouse”是由“farm”和“house”组合而成的复合词。“Farm”源自古英语中的“feorm”，意思是“食物、供应”，而“house”源自古英语中的“hūs”，意思是“住所、庇护所”。",
+  "difficulty": 2,
+  "image_prompts": {
+    "main_image": "A quaint, red-roofed farmhouse with a large barn nearby, surrounded by green fields and a few cows grazing. The scene is peaceful and idyllic, with a clear blue sky overhead.",
+    "example_image": "An old, weathered farmhouse surrounded by fields of golden wheat, with a few trees in the background. The sun is setting, casting a warm glow over the scene."
+  },
+  "unit": 1,
+  "audio": "farmhouse.mp3",
+  "audio_example": "farmhouse_example.mp3"
+}

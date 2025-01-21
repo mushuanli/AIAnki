@@ -1,0 +1,18 @@
+{
+  "name": "support",
+  "symbol": "/sə'pɔːt/",
+  "chn": "vt. & n. 帮助; 支持, 支撑",
+  "example_en": "She always supports her friends when they are in trouble.",
+  "example_cn": "当她的朋友们遇到困难时，她总是支持他们。",
+  "word_family": "supporter (n. 支持者), supportive (adj. 支持的), unsupportive (adj. 不支持的)",
+  "memory_tips": "词根 'sup-' 表示 '在...下面'，'port' 表示 '携带'。联想记忆：想象一个人站在你下面，帮助你支撑重物。图像记忆：画一个人用双手支撑着另一个人的画面。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A person holding up another person who is struggling to stand, symbolizing support and help.",
+    "example_image": "A group of friends cheering for one friend who is presenting a project, showing support and encouragement."
+  },
+  "unit": 7,
+  "audio": "support.mp3",
+  "audio_example": "support_example.mp3",
+  "image": "support.png"
+}

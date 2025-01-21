@@ -1,0 +1,18 @@
+{
+  "name": "arrive",
+  "symbol": "/ə'raɪv/",
+  "chn": "vi. 到达",
+  "example_en": "We will arrive at the airport at 3 PM.",
+  "example_cn": "我们将在下午3点到达机场。",
+  "word_family": "arrival (n. 到达), arrived (v. 过去式), arriving (v. 现在分词)",
+  "memory_tips": "词源：来自古法语 'ariver'，意为'到达岸边'。联想记忆：想象一艘船到达岸边，船上的乘客都准备下船。图像记忆：画一艘船靠岸，乘客们正在下船。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一艘船正在靠岸，乘客们准备下船，背景是蓝天和海洋。",
+    "example_image": "一群人站在机场的到达大厅，手持行李，面带微笑，背景是机场的航班信息显示屏。"
+  },
+  "unit": 7,
+  "audio": "arrive.mp3",
+  "audio_example": "arrive_example.mp3",
+  "image": "arrive.png"
+}

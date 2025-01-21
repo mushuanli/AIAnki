@@ -1,0 +1,18 @@
+{
+  "name": "hers",
+  "symbol": "/hɜːz/",
+  "chn": "pron. 她的",
+  "example_en": "The book on the table is hers.",
+  "example_cn": "桌子上的书是她的。",
+  "word_family": "her, herself",
+  "memory_tips": "Hers 是物主代词，用来指代女性所有物。可以通过联想记忆：想象一个女孩指着她的书包说 'This is hers.' 来帮助记忆。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A young girl pointing to a pink backpack on a school desk, with a label that says 'Hers'.",
+    "example_image": "A cozy living room scene with a book on a wooden table, a cup of tea beside it, and a soft light from a lamp, emphasizing the book labeled 'Hers'."
+  },
+  "unit": 4,
+  "audio": "hers.mp3",
+  "audio_example": "hers_example.mp3",
+  "image": "hers.png"
+}

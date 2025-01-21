@@ -1,0 +1,18 @@
+{
+  "name": "dry",
+  "symbol": "/draɪ/",
+  "chn": "adj. 干燥的，干的",
+  "example_en": "The desert is very dry, with little rainfall throughout the year.",
+  "example_cn": "沙漠非常干燥，全年降雨量很少。",
+  "word_family": "drier (比较级), driest (最高级), dryness (名词), dryly (副词)",
+  "memory_tips": "词源：来自古英语 'dryge'，意为'没有水分'。联想记忆：想象一个干涸的河床，没有一滴水，非常干燥。图像记忆：可以想象一个太阳炙烤下的沙漠，地面裂开，没有任何水分。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个广阔的沙漠场景，阳光强烈，地面裂开，没有任何植物或水源。",
+    "example_image": "一个沙漠中的沙丘，远处有几棵干枯的树，天空晴朗无云，强调干燥的环境。"
+  },
+  "unit": 1,
+  "audio": "dry.mp3",
+  "audio_example": "dry_example.mp3",
+  "image": "dry.png"
+}

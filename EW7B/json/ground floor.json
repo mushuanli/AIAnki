@@ -1,0 +1,18 @@
+{
+  "name": "ground floor",
+  "symbol": "/ɡraʊnd flɔːr/",
+  "chn": "n. 底层, 一楼",
+  "example_en": "The bookstore is located on the ground floor of the building.",
+  "example_cn": "书店位于大楼的一楼。",
+  "word_family": "ground (n. 地面), floor (n. 楼层), ground-level (adj. 地面的)",
+  "memory_tips": "词源：'ground' 来自古英语 'grund'，意为‘地面’或‘基础’。'floor' 来自古英语 'flōr'，意为‘地板’或‘楼层’。联想记忆：想象你站在一栋大楼的入口处，地面（ground）就是第一层（floor），所以‘ground floor’就是‘一楼’。图像记忆：想象一栋大楼的剖面图，标有‘G’的楼层就是‘ground floor’。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一栋现代大楼的入口处，门口标有‘Ground Floor’的标识，周围有行人进出。",
+    "example_image": "大楼内部的一楼，一家书店的门口，书架上摆满了书籍，顾客在浏览。"
+  },
+  "unit": 1,
+  "audio": "ground floor.mp3",
+  "audio_example": "ground floor_example.mp3",
+  "image": "ground floor.png"
+}

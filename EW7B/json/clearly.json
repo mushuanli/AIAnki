@@ -1,0 +1,18 @@
+{
+  "name": "clearly",
+  "symbol": "/'klɪəli/",
+  "chn": "adv. 清楚地, 明显地; 明白地",
+  "example_en": "She spoke clearly so that everyone could understand her.",
+  "example_cn": "她说话很清楚，所以每个人都能理解她。",
+  "word_family": "clear (adj.), clarity (n.), clarify (v.)",
+  "memory_tips": "词根 'clear' 来自拉丁语 'clarus'，意为明亮或清晰。联想记忆：想象一个清澈的湖面，你可以清楚地看到湖底的石头。图像记忆：画一个放大镜，透过它可以看到清晰的细节。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个清澈的湖面，阳光照射下，湖底的石头和鱼清晰可见。",
+    "example_image": "一个女孩站在教室前面，清晰地对着全班同学讲话，黑板上写着她的演讲要点。"
+  },
+  "unit": 7,
+  "audio": "clearly.mp3",
+  "audio_example": "clearly_example.mp3",
+  "image": "clearly.png"
+}

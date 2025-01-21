@@ -1,0 +1,18 @@
+{
+  "name": "carpet",
+  "symbol": "/'kɑːpɪt/",
+  "chn": "n. 地毯",
+  "example_en": "The living room has a beautiful red carpet that matches the curtains.",
+  "example_cn": "客厅里有一块漂亮的红色地毯，与窗帘相配。",
+  "word_family": "carpeted (adj.), carpeting (n.)",
+  "memory_tips": "词源：来自古法语 'carpite'，意为覆盖物。联想记忆：想象一个巨大的地毯覆盖整个房间，就像一幅画布覆盖地板。图像记忆：想象一块色彩斑斓的地毯，上面有各种图案和颜色，帮助你记住这个词。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "A large, colorful carpet covering the floor of a cozy living room, with intricate patterns and vibrant colors.",
+    "example_image": "A living room scene with a red carpet that matches the curtains, creating a harmonious and inviting atmosphere."
+  },
+  "unit": 1,
+  "audio": "carpet.mp3",
+  "audio_example": "carpet_example.mp3",
+  "image": "carpet.png"
+}

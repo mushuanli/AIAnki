@@ -1,0 +1,18 @@
+{
+  "name": "real",
+  "symbol": "/'riːəl/",
+  "chn": "adj. 真实的, 实际存在的",
+  "example_en": "The story is based on real events.",
+  "example_cn": "这个故事是基于真实事件。",
+  "word_family": "really (adv.), reality (n.), realize (v.)",
+  "memory_tips": "词源：来自拉丁语 'realis'，意为 '实际的'。联想记忆：想象一个真实的场景，如一个真实的故事或事件。图像记忆：可以想象一个真实的照片或录像，与虚构的绘画或电影形成对比。",
+  "difficulty": "2",
+  "image_prompt": {
+    "main_image": "一个真实的场景，如一个真实的家庭聚会，人们正在交谈和欢笑，背景是真实的家庭环境。",
+    "example_image": "一个故事书，书页上展示着真实事件的插图，如历史照片或新闻报道。"
+  },
+  "unit": 8,
+  "audio": "real.mp3",
+  "audio_example": "real_example.mp3",
+  "image": "real.png"
+}
