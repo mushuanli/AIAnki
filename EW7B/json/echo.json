@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "echo.mp3",
   "audio_example": "echo_example.mp3",
-  "image": "echo.png"
+  "image": "echo.png",
+  "collocations": "echo sound (回声); echo chamber (回声室); echo location (回声定位)"
 }

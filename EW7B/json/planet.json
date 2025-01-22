@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "planet.mp3",
   "audio_example": "planet_example.mp3",
-  "image": "planet.png"
+  "image": "planet.png",
+  "collocations": "planet Earth (地球); outer planet (外行星); planet exploration (行星探索)"
 }

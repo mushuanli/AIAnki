@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 6,
   "audio": "ground.mp3",
-  "audio_example": "ground_example.mp3"
+  "audio_example": "ground_example.mp3",
+  "collocations": "ground level (地面水平); ground rules (基本规则); ground cover (地被植物)"
 }

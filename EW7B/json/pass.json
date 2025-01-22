@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "pass.mp3",
   "audio_example": "pass_example.mp3",
-  "image": "pass.png"
+  "image": "pass.png",
+  "collocations": "pass the test (通过考试); pass the time (消磨时间); pass the ball (传球)"
 }

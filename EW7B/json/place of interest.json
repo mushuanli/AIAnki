@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "place of interest.mp3",
-  "audio_example": "place of interest_example.mp3"
+  "audio_example": "place of interest_example.mp3",
+  "collocations": "tourist place of interest (旅游景点); historical place of interest (历史名胜)"
 }

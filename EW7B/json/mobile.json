@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "mobile.mp3",
   "audio_example": "mobile_example.mp3",
-  "image": "mobile.png"
+  "image": "mobile.png",
+  "collocations": "mobile phone (手机); mobile app (移动应用); mobile workforce (流动劳动力)"
 }

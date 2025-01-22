@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "if.mp3",
   "audio_example": "if_example.mp3",
-  "image": "if.png"
+  "image": "if.png",
+  "collocations": "if only (要是...多好); if possible (如果可能的话); even if (即使)"
 }

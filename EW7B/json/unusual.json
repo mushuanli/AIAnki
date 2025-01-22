@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 6,
   "audio": "unusual.mp3",
-  "audio_example": "unusual_example.mp3"
+  "audio_example": "unusual_example.mp3",
+  "collocations": "unusual behavior (不寻常的行为); unusual weather (异常天气); unusual sight (不寻常的景象)"
 }

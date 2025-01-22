@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "post.mp3",
   "audio_example": "post_example.mp3",
-  "image": "post.png"
+  "image": "post.png",
+  "collocations": "post office (邮局); post code (邮政编码); keep posted (保持联系)"
 }

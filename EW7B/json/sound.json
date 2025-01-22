@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "sound.mp3",
   "audio_example": "sound_example.mp3",
-  "image": "sound.png"
+  "image": "sound.png",
+  "collocations": "sound effect (音效); sound system (音响系统); sound wave (声波)"
 }

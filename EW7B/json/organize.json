@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "organize.mp3",
   "audio_example": "organize_example.mp3",
-  "image": "organize.png"
+  "image": "organize.png",
+  "collocations": "organize files (整理文件); well-organized (有条理的); organize event (组织活动)"
 }

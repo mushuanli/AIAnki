@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "police officer.mp3",
   "audio_example": "police officer_example.mp3",
-  "image": "police officer.png"
+  "image": "police officer.png",
+  "collocations": "traffic police officer (交警); police officer on duty (执勤警员)"
 }

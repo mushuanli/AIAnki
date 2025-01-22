@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "butterfly.mp3",
   "audio_example": "butterfly_example.mp3",
-  "image": "butterfly.png"
+  "image": "butterfly.png",
+  "collocations": "butterfly effect (蝴蝶效应); butterfly garden (蝴蝶园); butterfly wings (蝴蝶翅膀)"
 }

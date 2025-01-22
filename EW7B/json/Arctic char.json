@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 6,
   "audio": "Arctic char.mp3",
-  "audio_example": "Arctic char_example.mp3"
+  "audio_example": "Arctic char_example.mp3",
+  "collocations": "Arctic char fish (北极红点鲑); Arctic char habitat (北极红点鲑栖息地)"
 }

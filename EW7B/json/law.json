@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "law.mp3",
   "audio_example": "law_example.mp3",
-  "image": "law.png"
+  "image": "law.png",
+  "collocations": "law firm (律师事务所); break the law (违法); rule of law (法治)"
 }

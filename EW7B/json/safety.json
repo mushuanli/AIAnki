@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "safety.mp3",
   "audio_example": "safety_example.mp3",
-  "image": "safety.png"
+  "image": "safety.png",
+  "collocations": "safety first (安全第一); safety measures (安全措施); safety equipment (安全设备)"
 }

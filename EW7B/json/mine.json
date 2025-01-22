@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "mine.mp3",
   "audio_example": "mine_example.mp3",
-  "image": "mine.png"
+  "image": "mine.png",
+  "collocations": "gold mine (金矿); mine owner (矿主); mine worker (矿工)"
 }

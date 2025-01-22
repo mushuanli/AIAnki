@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 4,
   "audio": "opera.mp3",
-  "audio_example": "opera_example.mp3"
+  "audio_example": "opera_example.mp3",
+  "collocations": "Peking opera (京剧); opera house (歌剧院); opera singer (歌剧演员)"
 }

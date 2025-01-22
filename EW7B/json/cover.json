@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 6,
   "audio": "cover.mp3",
-  "audio_example": "cover_example.mp3"
+  "audio_example": "cover_example.mp3",
+  "collocations": "cover story (封面故事); cover charge (服务费); cover up (掩盖)"
 }

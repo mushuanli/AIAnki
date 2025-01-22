@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "surface.mp3",
   "audio_example": "surface_example.mp3",
-  "image": "surface.png"
+  "image": "surface.png",
+  "collocations": "surface area (表面积); surface tension (表面张力); surface level (表面水平)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "neck.mp3",
   "audio_example": "neck_example.mp3",
-  "image": "neck.png"
+  "image": "neck.png",
+  "collocations": "neck pain (颈部疼痛); neck tie (领带); neck and neck (并驾齐驱)"
 }

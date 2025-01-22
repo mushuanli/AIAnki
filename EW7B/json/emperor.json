@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "emperor.mp3",
   "audio_example": "emperor_example.mp3",
-  "image": "emperor.png"
+  "image": "emperor.png",
+  "collocations": "emperor penguin (帝企鹅); Roman emperor (罗马皇帝); emperor's new clothes (皇帝的新装)"
 }

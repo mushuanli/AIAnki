@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "publish.mp3",
   "audio_example": "publish_example.mp3",
-  "image": "publish.png"
+  "image": "publish.png",
+  "collocations": "publish a book (出版一本书); publish an article (发表文章); publish online (在线发布)"
 }

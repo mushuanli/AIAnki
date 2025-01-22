@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "fever.mp3",
   "audio_example": "fever_example.mp3",
-  "image": "fever.png"
+  "image": "fever.png",
+  "collocations": "high fever (高烧); cabin fever (幽居病); fever pitch (狂热状态)"
 }

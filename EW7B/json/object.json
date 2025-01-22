@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "object.mp3",
   "audio_example": "object_example.mp3",
-  "image": "object.png"
+  "image": "object.png",
+  "collocations": "object of study (研究对象); art object (艺术品); object lesson (实物教学)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "lunar.mp3",
-  "audio_example": "lunar_example.mp3"
+  "audio_example": "lunar_example.mp3",
+  "collocations": "lunar month (太阴月); lunar rover (月球车); Lunar New Year (农历新年)"
 }

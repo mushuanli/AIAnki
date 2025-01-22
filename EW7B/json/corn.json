@@ -13,5 +13,6 @@
   },
   "unit": 6,
   "audio": "corn.mp3",
-  "audio_example": "corn_example.mp3"
+  "audio_example": "corn_example.mp3",
+  "collocations": "corn field (玉米田); corn on the cob (玉米棒); corn bread (玉米面包)"
 }

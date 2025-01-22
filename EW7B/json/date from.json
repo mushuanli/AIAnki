@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 3,
   "audio": "date from.mp3",
-  "audio_example": "date from_example.mp3"
+  "audio_example": "date from_example.mp3",
+  "collocations": "date from the 18th century (追溯到18世纪); date back to (追溯到)"
 }

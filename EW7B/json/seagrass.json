@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "seagrass.mp3",
   "audio_example": "seagrass_example.mp3",
-  "image": "seagrass.png"
+  "image": "seagrass.png",
+  "collocations": "seagrass meadow (海草床); seagrass ecosystem (海草生态系统)"
 }

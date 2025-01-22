@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "series.mp3",
   "audio_example": "series_example.mp3",
-  "image": "series.png"
+  "image": "series.png",
+  "collocations": "TV series (电视剧); book series (丛书); series of events (一系列事件)"
 }

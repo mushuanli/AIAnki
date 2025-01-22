@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "kilometre.mp3",
-  "audio_example": "kilometre_example.mp3"
+  "audio_example": "kilometre_example.mp3",
+  "collocations": "square kilometre (平方公里); kilometre zero (零公里标志); kilometre post (公里标)"
 }

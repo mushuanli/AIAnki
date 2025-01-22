@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "flag.mp3",
   "audio_example": "flag_example.mp3",
-  "image": "flag.png"
+  "image": "flag.png",
+  "collocations": "flag day (国旗日); flag bearer (旗手); flag down (挥手示意停下)"
 }

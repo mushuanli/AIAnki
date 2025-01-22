@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "worried.mp3",
   "audio_example": "worried_example.mp3",
-  "image": "worried.png"
+  "image": "worried.png",
+  "collocations": "worried about (担心); worried look (担忧的表情); worried parent (担心的父母)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "goldfish.mp3",
   "audio_example": "goldfish_example.mp3",
-  "image": "goldfish.png"
+  "image": "goldfish.png",
+  "collocations": "pet goldfish (宠物金鱼); goldfish bowl (金鱼缸); goldfish care (金鱼护理)"
 }

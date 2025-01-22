@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "living room.mp3",
   "audio_example": "living room_example.mp3",
-  "image": "living room.png"
+  "image": "living room.png",
+  "collocations": "living room furniture (客厅家具); living room suite (客厅套装); open-plan living room (开放式客厅)"
 }

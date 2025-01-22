@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "someone.mp3",
   "audio_example": "someone_example.mp3",
-  "image": "someone.png"
+  "image": "someone.png",
+  "collocations": "someone special (特别的人); someone else's (别人的); someone like you (像你这样的人)"
 }

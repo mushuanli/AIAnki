@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "human.mp3",
   "audio_example": "human_example.mp3",
-  "image": "human.png"
+  "image": "human.png",
+  "collocations": "human rights (人权); human nature (人性); human error (人为错误)"
 }

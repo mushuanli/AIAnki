@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "would.mp3",
   "audio_example": "would_example.mp3",
-  "image": "would.png"
+  "image": "would.png",
+  "collocations": "would like (想要); would rather (宁愿); would you mind (你介意吗)"
 }

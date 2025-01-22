@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "zero.mp3",
   "audio_example": "zero_example.mp3",
-  "image": "zero.png"
+  "image": "zero.png",
+  "collocations": "zero tolerance (零容忍); ground zero (爆心投影点); zero hour (关键时刻)"
 }

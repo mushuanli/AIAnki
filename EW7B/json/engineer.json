@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "engineer.mp3",
   "audio_example": "engineer_example.mp3",
-  "image": "engineer.png"
+  "image": "engineer.png",
+  "collocations": "software engineer (软件工程师); chief engineer (总工程师); reverse engineer (逆向工程)"
 }

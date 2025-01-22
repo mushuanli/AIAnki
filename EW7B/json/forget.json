@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "forget.mp3",
   "audio_example": "forget_example.mp3",
-  "image": "forget.png"
+  "image": "forget.png",
+  "collocations": "forget password (忘记密码); forget the past (忘记过去); forget to do (忘记做)"
 }

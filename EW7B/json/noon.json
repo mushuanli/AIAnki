@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 7,
   "audio": "noon.mp3",
-  "audio_example": "noon_example.mp3"
+  "audio_example": "noon_example.mp3",
+  "collocations": "at noon (在中午); noon meal (午餐); noon sun (正午的太阳)"
 }

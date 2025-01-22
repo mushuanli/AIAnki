@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "correct.mp3",
   "audio_example": "correct_example.mp3",
-  "image": "correct.png"
+  "image": "correct.png",
+  "collocations": "correct answer (正确答案); correct spelling (正确拼写); correct behavior (正确行为)"
 }

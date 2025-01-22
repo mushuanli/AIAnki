@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "lose.mp3",
   "audio_example": "lose_example.mp3",
-  "image": "lose.png"
+  "image": "lose.png",
+  "collocations": "lose weight (减肥); lose interest (失去兴趣); lose control (失去控制)"
 }

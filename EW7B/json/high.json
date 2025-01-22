@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "high.mp3",
   "audio_example": "high_example.mp3",
-  "image": "high.png"
+  "image": "high.png",
+  "collocations": "high school (高中); high tide (高潮); high five (击掌)"
 }

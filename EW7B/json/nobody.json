@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "nobody.mp3",
   "audio_example": "nobody_example.mp3",
-  "image": "nobody.png"
+  "image": "nobody.png",
+  "collocations": "nobody knows (没人知道); nobody else (没有别人); nobody's fault (不是任何人的错)"
 }

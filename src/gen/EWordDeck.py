@@ -3,6 +3,8 @@ import genanki
 import json
 import os
 
+#   最后7位  [07-12年级][01学期][00语01英][00单词01课文]
+_DECK_ID = 2050710100
 _DECK_NAME = '初中单词'
 
 current_dir = os.path.dirname(__file__)
@@ -36,7 +38,7 @@ my_model.sortf = model_data['sortf']
 
 # 定义卡片包
 my_deck = genanki.Deck(
-    2059400110,  # 卡片包ID
+    _DECK_ID,  # 卡片包ID
     _DECK_NAME  # 卡片包名称
 )
 
@@ -48,7 +50,7 @@ for filename in os.listdir(json_dir):
         with open(os.path.join(json_dir, filename), 'r', encoding='utf-8') as f:
             word_data = json.load(f)
 
-        word = word_data['word']
+        word = word_data['name']
         symbol = word_data['symbol']
         chn = word_data['chn']
         example_en = word_data['example_en']
@@ -92,6 +94,7 @@ for filename in os.listdir(json_dir):
             word_family if word_family else "",  # 词族
             memory_tips if memory_tips else "",  # 记忆技巧
             str(difficulty) if difficulty else "",  # 难度
+            word_data.get('collocations', ''),  # ord15
         ]
 
         for i, field in enumerate(fields):

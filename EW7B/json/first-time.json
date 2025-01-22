@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "first-time.mp3",
   "audio_example": "first-time_example.mp3",
-  "image": "first-time.png"
+  "image": "first-time.png",
+  "collocations": "first-time visitor (首次访客); first-time user (首次用户); first-time experience (首次体验)"
 }

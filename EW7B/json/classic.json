@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "classic.mp3",
   "audio_example": "classic_example.mp3",
-  "image": "classic.png"
+  "image": "classic.png",
+  "collocations": "classic car (经典汽车); classic literature (经典文学); classic style (经典风格)"
 }

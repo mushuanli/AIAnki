@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "reach.mp3",
   "audio_example": "reach_example.mp3",
-  "image": "reach.png"
+  "image": "reach.png",
+  "collocations": "reach the top (到达顶端); reach a decision (做出决定); reach out (伸出援手)"
 }

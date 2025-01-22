@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "smell.mp3",
-  "audio_example": "smell_example.mp3"
+  "audio_example": "smell_example.mp3",
+  "collocations": "smell test (嗅觉测试); sense of smell (嗅觉); smell a rat (察觉有诈)"
 }

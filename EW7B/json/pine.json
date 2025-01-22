@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "pine.mp3",
   "audio_example": "pine_example.mp3",
-  "image": "pine.png"
+  "image": "pine.png",
+  "collocations": "pine tree (松树); pine wood (松木); pine cone (松果)"
 }

@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "knife.mp3",
   "audio_example": "knife_example.mp3",
-  "image": "knife.png"
+  "image": "knife.png",
+  "collocations": "kitchen knife (厨房刀); pocket knife (折叠刀); knife edge (刀刃)"
 }

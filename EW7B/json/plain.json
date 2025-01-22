@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "plain.mp3",
   "audio_example": "plain_example.mp3",
-  "image": "plain.png"
+  "image": "plain.png",
+  "collocations": "plain clothes (便衣); plain water (白水); plain truth (简单的事实)"
 }

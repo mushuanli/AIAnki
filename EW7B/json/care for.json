@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 5,
   "audio": "care for.mp3",
-  "audio_example": "care for_example.mp3"
+  "audio_example": "care for_example.mp3",
+  "collocations": "care for children (照顾孩子); care for pets (照顾宠物); care for the environment (关心环境)"
 }

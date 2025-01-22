@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "suddenly.mp3",
   "audio_example": "suddenly_example.mp3",
-  "image": "suddenly.png"
+  "image": "suddenly.png",
+  "collocations": "suddenly stop (突然停止); suddenly appear (突然出现); suddenly realize (突然意识到)"
 }

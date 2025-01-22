@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "name.mp3",
   "audio_example": "name_example.mp3",
-  "image": "name.png"
+  "image": "name.png",
+  "collocations": "name tag (姓名牌); brand name (品牌名称); first name (名字)"
 }

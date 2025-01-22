@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "shall.mp3",
   "audio_example": "shall_example.mp3",
-  "image": "shall.png"
+  "image": "shall.png",
+  "collocations": "shall we (我们...好吗); shall not (不应); shall I (要我...吗)"
 }

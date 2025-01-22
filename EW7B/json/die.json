@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 8,
   "audio": "die.mp3",
-  "audio_example": "die_example.mp3"
+  "audio_example": "die_example.mp3",
+  "collocations": "die young (英年早逝); die hard (顽固不化); die out (灭绝)"
 }

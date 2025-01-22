@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "quality.mp3",
   "audio_example": "quality_example.mp3",
-  "image": "quality.png"
+  "image": "quality.png",
+  "collocations": "high quality (高质量); quality control (质量控制); quality of life (生活质量)"
 }

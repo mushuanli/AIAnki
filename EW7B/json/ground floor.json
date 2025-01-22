@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "ground floor.mp3",
   "audio_example": "ground floor_example.mp3",
-  "image": "ground floor.png"
+  "image": "ground floor.png",
+  "collocations": "ground floor apartment (底层公寓); ground floor opportunity (基础机会)"
 }

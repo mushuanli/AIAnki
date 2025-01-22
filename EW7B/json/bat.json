@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "bat.mp3",
   "audio_example": "bat_example.mp3",
-  "image": "bat.png"
+  "image": "bat.png",
+  "collocations": "baseball bat (棒球棒); bat cave (蝙蝠洞); bat species (蝙蝠种类)"
 }

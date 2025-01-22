@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "painter.mp3",
   "audio_example": "painter_example.mp3",
-  "image": "painter.png"
+  "image": "painter.png",
+  "collocations": "famous painter (著名画家); landscape painter (风景画家); oil painter (油画家)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "bite.mp3",
   "audio_example": "bite_example.mp3",
-  "image": "bite.png"
+  "image": "bite.png",
+  "collocations": "snake bite (蛇咬); bite mark (咬痕); bite size (一口大小)"
 }

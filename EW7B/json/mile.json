@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "mile.mp3",
-  "audio_example": "mile_example.mp3"
+  "audio_example": "mile_example.mp3",
+  "collocations": "mile marker (里程标); nautical mile (海里); miss by a mile (差之千里)"
 }

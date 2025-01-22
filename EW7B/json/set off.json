@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 7,
   "audio": "set off.mp3",
-  "audio_example": "set off_example.mp3"
+  "audio_example": "set off_example.mp3",
+  "collocations": "set off on a journey (启程旅行); set off fireworks (放烟花); set off an alarm (触发警报)"
 }

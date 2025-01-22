@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "campsite.mp3",
   "audio_example": "campsite_example.mp3",
-  "image": "campsite.png"
+  "image": "campsite.png",
+  "collocations": "campsite location (露营地位置); campsite facilities (露营地设施); campsite reservation (露营地预订)"
 }

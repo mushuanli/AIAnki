@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "decide.mp3",
   "audio_example": "decide_example.mp3",
-  "image": "decide.png"
+  "image": "decide.png",
+  "collocations": "decide to do (决定做); decide against (决定反对); decide for oneself (自己决定)"
 }

@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "basic.mp3",
   "audio_example": "basic_example.mp3",
-  "image": "basic.png"
+  "image": "basic.png",
+  "collocations": "basic knowledge (基础知识); basic needs (基本需求); basic training (基础训练)"
 }

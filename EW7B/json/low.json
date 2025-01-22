@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "low.mp3",
   "audio_example": "low_example.mp3",
-  "image": "low.png"
+  "image": "low.png",
+  "collocations": "low price (低价); low energy (低能量); low profile (低调)"
 }

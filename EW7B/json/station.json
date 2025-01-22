@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "station.mp3",
   "audio_example": "station_example.mp3",
-  "image": "station.png"
+  "image": "station.png",
+  "collocations": "train station (火车站); power station (发电站); radio station (广播电台)"
 }

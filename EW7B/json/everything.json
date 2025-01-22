@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "everything.mp3",
   "audio_example": "everything_example.mp3",
-  "image": "everything.png"
+  "image": "everything.png",
+  "collocations": "everything but (除了...都); everything under the sun (一切事物); everything is possible (一切皆有可能)"
 }

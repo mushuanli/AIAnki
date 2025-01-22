@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "village.mp3",
-  "audio_example": "village_example.mp3"
+  "audio_example": "village_example.mp3",
+  "collocations": "fishing village (渔村); global village (地球村); village idiot (乡巴佬)"
 }

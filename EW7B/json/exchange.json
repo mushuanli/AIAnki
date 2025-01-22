@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "exchange.mp3",
   "audio_example": "exchange_example.mp3",
-  "image": "exchange.png"
+  "image": "exchange.png",
+  "collocations": "exchange rate (汇率); cultural exchange (文化交流); stock exchange (证券交易所)"
 }

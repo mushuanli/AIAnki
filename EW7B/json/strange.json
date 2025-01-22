@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "strange.mp3",
   "audio_example": "strange_example.mp3",
-  "image": "strange.png"
+  "image": "strange.png",
+  "collocations": "strange noise (奇怪的声音); strange feeling (奇怪的感觉); strange place (陌生的地方)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "allow.mp3",
   "audio_example": "allow_example.mp3",
-  "image": "allow.png"
+  "image": "allow.png",
+  "collocations": "allow access (允许访问); allow time (给予时间); allow for (考虑到)"
 }

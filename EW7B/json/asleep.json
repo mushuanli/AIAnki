@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "asleep.mp3",
   "audio_example": "asleep_example.mp3",
-  "image": "asleep.png"
+  "image": "asleep.png",
+  "collocations": "fast asleep (熟睡); fall asleep (入睡); sound asleep (酣睡)"
 }

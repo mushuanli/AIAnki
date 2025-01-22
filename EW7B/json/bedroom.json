@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "bedroom.mp3",
   "audio_example": "bedroom_example.mp3",
-  "image": "bedroom.png"
+  "image": "bedroom.png",
+  "collocations": "master bedroom (主卧); bedroom community (卧城); bedroom eyes (媚眼)"
 }

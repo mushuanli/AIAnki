@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 6,
   "audio": "conditions.mp3",
-  "audio_example": "conditions_example.mp3"
+  "audio_example": "conditions_example.mp3",
+  "collocations": "weather conditions (天气条件); living conditions (生活条件); working conditions (工作条件)"
 }

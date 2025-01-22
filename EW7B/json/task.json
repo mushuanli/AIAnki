@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "task.mp3",
   "audio_example": "task_example.mp3",
-  "image": "task.png"
+  "image": "task.png",
+  "collocations": "task force (特别工作组); task completion (任务完成); task management (任务管理)"
 }

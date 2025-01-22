@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "carve.mp3",
   "audio_example": "carve_example.mp3",
-  "image": "carve.png"
+  "image": "carve.png",
+  "collocations": "carve wood (雕刻木头); carve a statue (雕刻雕像); carve initials (刻名字首字母)"
 }

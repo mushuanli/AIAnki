@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "cottage.mp3",
   "audio_example": "cottage_example.mp3",
-  "image": "cottage.png"
+  "image": "cottage.png",
+  "collocations": "cottage industry (家庭手工业); country cottage (乡村小屋); holiday cottage (度假别墅)"
 }

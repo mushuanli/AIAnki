@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "useful.mp3",
   "audio_example": "useful_example.mp3",
-  "image": "useful.png"
+  "image": "useful.png",
+  "collocations": "useful tool (有用的工具); useful information (有用的信息); useful skill (有用的技能)"
 }

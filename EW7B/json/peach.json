@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "peach.mp3",
   "audio_example": "peach_example.mp3",
-  "image": "peach.png"
+  "image": "peach.png",
+  "collocations": "peach tree (桃树); peach blossom (桃花); peach flavor (桃子味)"
 }

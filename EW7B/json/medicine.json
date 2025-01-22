@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "medicine.mp3",
   "audio_example": "medicine_example.mp3",
-  "image": "medicine.png"
+  "image": "medicine.png",
+  "collocations": "traditional medicine (传统医学); medicine cabinet (药柜); take medicine (吃药)"
 }

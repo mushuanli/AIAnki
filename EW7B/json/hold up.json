@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 1,
   "audio": "hold up.mp3",
-  "audio_example": "hold up_example.mp3"
+  "audio_example": "hold up_example.mp3",
+  "collocations": "hold up traffic (阻碍交通); hold up well (保持良好状态); highway hold-up (公路抢劫)"
 }

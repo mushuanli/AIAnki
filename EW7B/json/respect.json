@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "respect.mp3",
   "audio_example": "respect_example.mp3",
-  "image": "respect.png"
+  "image": "respect.png",
+  "collocations": "respect others (尊重他人); self-respect (自尊); respect nature (尊重自然)"
 }

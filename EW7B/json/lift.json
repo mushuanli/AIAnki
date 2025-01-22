@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "lift.mp3",
   "audio_example": "lift_example.mp3",
-  "image": "lift.png"
+  "image": "lift.png",
+  "collocations": "lift weights (举重); lift off (起飞); lift a ban (解除禁令)"
 }

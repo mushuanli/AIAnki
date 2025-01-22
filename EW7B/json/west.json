@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "west.mp3",
-  "audio_example": "west_example.mp3"
+  "audio_example": "west_example.mp3",
+  "collocations": "west coast (西海岸); Wild West (西部拓荒); go west (向西行/失败)"
 }

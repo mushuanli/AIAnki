@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "BBQ.mp3",
   "audio_example": "BBQ_example.mp3",
-  "image": "BBQ.png"
+  "image": "BBQ.png",
+  "collocations": "BBQ sauce (烧烤酱); BBQ grill (烧烤架); BBQ party (烧烤派对)"
 }

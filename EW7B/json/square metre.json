@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "square metre.mp3",
-  "audio_example": "square metre_example.mp3"
+  "audio_example": "square metre_example.mp3",
+  "collocations": "per square metre (每平方米); floor area (建筑面积); living space (居住面积)"
 }

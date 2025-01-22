@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "skate.mp3",
   "audio_example": "skate_example.mp3",
-  "image": "skate.png"
+  "image": "skate.png",
+  "collocations": "skate park (滑板公园); ice skate (溜冰); roller skate (轮滑)"
 }

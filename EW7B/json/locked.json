@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "locked.mp3",
   "audio_example": "locked_example.mp3",
-  "image": "locked.png"
+  "image": "locked.png",
+  "collocations": "locked door (锁着的门); locked out (被锁在外面); locked in (被锁在里面)"
 }

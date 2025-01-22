@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "insect.mp3",
   "audio_example": "insect_example.mp3",
-  "image": "insect.png"
+  "image": "insect.png",
+  "collocations": "insect bite (昆虫叮咬); insect repellent (驱虫剂); beneficial insect (益虫)"
 }

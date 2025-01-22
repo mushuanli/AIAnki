@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "lawyer.mp3",
   "audio_example": "lawyer_example.mp3",
-  "image": "lawyer.png"
+  "image": "lawyer.png",
+  "collocations": "criminal lawyer (刑事律师); corporate lawyer (公司法律师); lawyer up (请律师)"
 }

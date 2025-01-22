@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "ours.mp3",
   "audio_example": "ours_example.mp3",
-  "image": "ours.png"
+  "image": "ours.png",
+  "collocations": "a victory of ours (我们的胜利); ours to keep (我们保留的)"
 }

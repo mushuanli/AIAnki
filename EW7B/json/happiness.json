@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "happiness.mp3",
   "audio_example": "happiness_example.mp3",
-  "image": "happiness.png"
+  "image": "happiness.png",
+  "collocations": "pursuit of happiness (追求幸福); happiness index (幸福指数); true happiness (真正的幸福)"
 }

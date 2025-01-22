@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "row.mp3",
   "audio_example": "row_example.mp3",
-  "image": "row.png"
+  "image": "row.png",
+  "collocations": "row a boat (划船); front row (前排); row house (联排房屋)"
 }

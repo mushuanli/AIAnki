@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 4,
   "audio": "mould.mp3",
-  "audio_example": "mould_example.mp3"
+  "audio_example": "mould_example.mp3",
+  "collocations": "mould making (模具制作); mould growth (霉菌生长); clay mould (黏土模具)"
 }

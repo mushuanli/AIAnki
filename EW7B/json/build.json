@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "build.mp3",
   "audio_example": "build_example.mp3",
-  "image": "build.png"
+  "image": "build.png",
+  "collocations": "build up (积累); body build (体型); build a case (搜集证据)"
 }

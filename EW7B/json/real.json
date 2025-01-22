@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "real.mp3",
   "audio_example": "real_example.mp3",
-  "image": "real.png"
+  "image": "real.png",
+  "collocations": "real life (现实生活); real estate (房地产); real time (实时)"
 }

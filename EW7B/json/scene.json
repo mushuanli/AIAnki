@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "scene.mp3",
   "audio_example": "scene_example.mp3",
-  "image": "scene.png"
+  "image": "scene.png",
+  "collocations": "crime scene (犯罪现场); scene of the accident (事故现场); dramatic scene (戏剧性场面)"
 }

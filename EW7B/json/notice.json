@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "notice.mp3",
   "audio_example": "notice_example.mp3",
-  "image": "notice.png"
+  "image": "notice.png",
+  "collocations": "advance notice (预先通知); notice board (公告板); take notice (注意); give notice (通知)"
 }

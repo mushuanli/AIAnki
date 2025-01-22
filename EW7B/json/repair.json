@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "repair.mp3",
   "audio_example": "repair_example.mp3",
-  "image": "repair.png"
+  "image": "repair.png",
+  "collocations": "car repair (汽车修理); repair shop (修理店); beyond repair (无法修复)"
 }

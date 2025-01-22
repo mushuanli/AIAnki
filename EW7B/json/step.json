@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "step.mp3",
   "audio_example": "step_example.mp3",
-  "image": "step.png"
+  "image": "step.png",
+  "collocations": "step by step (一步一步地); step forward (向前一步); step back (退后一步)"
 }

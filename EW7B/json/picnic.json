@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "picnic.mp3",
   "audio_example": "picnic_example.mp3",
-  "image": "picnic.png"
+  "image": "picnic.png",
+  "collocations": "picnic basket (野餐篮); picnic blanket (野餐毯); picnic spot (野餐地点)"
 }

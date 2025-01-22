@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "awake.mp3",
   "audio_example": "awake_example.mp3",
-  "image": "awake.png"
+  "image": "awake.png",
+  "collocations": "stay awake (保持清醒); wide awake (完全清醒); awake at night (夜间醒来)"
 }

@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "seem.mp3",
   "audio_example": "seem_example.mp3",
-  "image": "seem.png"
+  "image": "seem.png",
+  "collocations": "seem like (似乎); seem to be (好像是); it seems (看来)"
 }

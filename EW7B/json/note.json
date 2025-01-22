@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "note.mp3",
   "audio_example": "note_example.mp3",
-  "image": "note.png"
+  "image": "note.png",
+  "collocations": "note down (记下); take note (注意); musical note (音符)"
 }

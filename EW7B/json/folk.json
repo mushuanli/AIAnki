@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 4,
   "audio": "folk.mp3",
-  "audio_example": "folk_example.mp3"
+  "audio_example": "folk_example.mp3",
+  "collocations": "folk music (民间音乐); folk art (民间艺术); folk tale (民间故事)"
 }

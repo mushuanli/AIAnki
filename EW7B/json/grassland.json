@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "grassland.mp3",
   "audio_example": "grassland_example.mp3",
-  "image": "grassland.png"
+  "image": "grassland.png",
+  "collocations": "grassland ecosystem (草原生态系统); prairie grassland (北美大草原)"
 }

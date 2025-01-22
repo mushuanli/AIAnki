@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "snake.mp3",
   "audio_example": "snake_example.mp3",
-  "image": "snake.png"
+  "image": "snake.png",
+  "collocations": "snake bite (蛇咬); snake charmer (耍蛇人); snake skin (蛇皮)"
 }

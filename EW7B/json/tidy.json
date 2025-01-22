@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "tidy.mp3",
   "audio_example": "tidy_example.mp3",
-  "image": "tidy.png"
+  "image": "tidy.png",
+  "collocations": "tidy up (整理); tidy sum (可观金额); neat and tidy (整洁有序)"
 }

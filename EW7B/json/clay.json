@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "clay.mp3",
   "audio_example": "clay_example.mp3",
-  "image": "clay.png"
+  "image": "clay.png",
+  "collocations": "clay pot (陶罐); clay sculpture (泥塑); clay soil (黏土)"
 }

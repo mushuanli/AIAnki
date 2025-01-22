@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "south-west.mp3",
   "audio_example": "south-west_example.mp3",
-  "image": "south-west.png"
+  "image": "south-west.png",
+  "collocations": "south-west monsoon (西南季风); south-west facing (朝西南的)"
 }

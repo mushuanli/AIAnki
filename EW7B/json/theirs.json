@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 4,
   "audio": "theirs.mp3",
-  "audio_example": "theirs_example.mp3"
+  "audio_example": "theirs_example.mp3",
+  "collocations": "a problem of theirs (他们的问题); theirs alone (他们独自的)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "neighbourhood.mp3",
-  "audio_example": "neighbourhood_example.mp3"
+  "audio_example": "neighbourhood_example.mp3",
+  "collocations": "neighbourhood watch (社区联防); friendly neighbourhood (友好社区)"
 }

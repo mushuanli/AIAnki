@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "ahlan.mp3",
   "audio_example": "ahlan_example.mp3",
-  "image": "ahlan.png"
+  "image": "ahlan.png",
+  "collocations": "Ahlan wa sahlan (阿拉伯欢迎语); Ahlan magazine (《你好》杂志)"
 }

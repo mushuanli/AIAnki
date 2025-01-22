@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "Olympic.mp3",
   "audio_example": "Olympic_example.mp3",
-  "image": "Olympic.png"
+  "image": "Olympic.png",
+  "collocations": "Olympic Games (奥运会); Olympic torch (奥运火炬); Olympic village (奥运村)"
 }

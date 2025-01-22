@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "honeybee.mp3",
   "audio_example": "honeybee_example.mp3",
-  "image": "honeybee.png"
+  "image": "honeybee.png",
+  "collocations": "honeybee colony (蜜蜂群); honeybee hive (蜂巢); honeybee pollination (蜜蜂授粉)"
 }

@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "detail.mp3",
   "audio_example": "detail_example.mp3",
-  "image": "detail.png"
+  "image": "detail.png",
+  "collocations": "attention to detail (注重细节); detail-oriented (注重细节的); in detail (详细地)"
 }

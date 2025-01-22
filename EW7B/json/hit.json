@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "hit.mp3",
   "audio_example": "hit_example.mp3",
-  "image": "hit.png"
+  "image": "hit.png",
+  "collocations": "hit the target (击中目标); hit the road (上路); hit a home run (打出本垒打)"
 }

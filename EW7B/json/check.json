@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "check.mp3",
   "audio_example": "check_example.mp3",
-  "image": "check.png"
+  "image": "check.png",
+  "collocations": "check in (登记入住); background check (背景调查); reality check (认清现实)"
 }

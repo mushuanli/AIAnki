@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 5,
   "audio": "worker.mp3",
-  "audio_example": "worker_example.mp3"
+  "audio_example": "worker_example.mp3",
+  "collocations": "factory worker (工厂工人); social worker (社会工作者); construction worker (建筑工人)"
 }

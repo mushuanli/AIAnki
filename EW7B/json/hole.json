@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "hole.mp3",
   "audio_example": "hole_example.mp3",
-  "image": "hole.png"
+  "image": "hole.png",
+  "collocations": "black hole (黑洞); hole in the wall (墙上的洞); golf hole (高尔夫球洞)"
 }

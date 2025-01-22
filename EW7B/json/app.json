@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "app.mp3",
   "audio_example": "app_example.mp3",
-  "image": "app.png"
+  "image": "app.png",
+  "collocations": "mobile app (手机应用); app store (应用商店); app development (应用开发)"
 }

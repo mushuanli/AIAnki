@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "carpet.mp3",
   "audio_example": "carpet_example.mp3",
-  "image": "carpet.png"
+  "image": "carpet.png",
+  "collocations": "red carpet (红毯); carpet bombing (地毯式轰炸); sweep under the carpet (掩盖事实)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "corner.mp3",
   "audio_example": "corner_example.mp3",
-  "image": "corner.png"
+  "image": "corner.png",
+  "collocations": "street corner (街角); corner shop (街角商店); corner kick (角球)"
 }

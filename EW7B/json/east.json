@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "east.mp3",
   "audio_example": "east_example.mp3",
-  "image": "east.png"
+  "image": "east.png",
+  "collocations": "East Asia (东亚); Middle East (中东); East meets West (东西方交融)"
 }

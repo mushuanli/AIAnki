@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "snail.mp3",
   "audio_example": "snail_example.mp3",
-  "image": "snail.png"
+  "image": "snail.png",
+  "collocations": "snail mail (蜗牛邮件); snail pace (缓慢的速度); garden snail (花园蜗牛)"
 }

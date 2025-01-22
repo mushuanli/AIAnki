@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "power.mp3",
   "audio_example": "power_example.mp3",
-  "image": "power.png"
+  "image": "power.png",
+  "collocations": "power supply (电力供应); power plant (发电厂); power outage (停电)"
 }

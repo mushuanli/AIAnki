@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "metre.mp3",
   "audio_example": "metre_example.mp3",
-  "image": "metre.png"
+  "image": "metre.png",
+  "collocations": "cubic metre (立方米); metre ruler (米尺); metre gauge (米轨)"
 }

@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "lock.mp3",
   "audio_example": "lock_example.mp3",
-  "image": "lock.png"
+  "image": "lock.png",
+  "collocations": "lock the door (锁门); lock and key (锁和钥匙); combination lock (密码锁)"
 }

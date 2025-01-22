@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "main.mp3",
   "audio_example": "main_example.mp3",
-  "image": "main.png"
+  "image": "main.png",
+  "collocations": "main reason (主要原因); main course (主菜); main entrance (主入口)"
 }

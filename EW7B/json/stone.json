@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "stone.mp3",
   "audio_example": "stone_example.mp3",
-  "image": "stone.png"
+  "image": "stone.png",
+  "collocations": "stone age (石器时代); stepping stone (垫脚石); heart of stone (铁石心肠)"
 }

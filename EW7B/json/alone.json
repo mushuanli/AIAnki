@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "alone.mp3",
   "audio_example": "alone_example.mp3",
-  "image": "alone.png"
+  "image": "alone.png",
+  "collocations": "live alone (独居); stand alone (独立); leave alone (不打扰)"
 }

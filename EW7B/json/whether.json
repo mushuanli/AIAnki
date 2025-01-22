@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "whether.mp3",
   "audio_example": "whether_example.mp3",
-  "image": "whether.png"
+  "image": "whether.png",
+  "collocations": "whether or not (是否); whether to go (是否去); whether it's true (是否真实)"
 }

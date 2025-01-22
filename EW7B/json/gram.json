@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "gram.mp3",
   "audio_example": "gram_example.mp3",
-  "image": "gram.png"
+  "image": "gram.png",
+  "collocations": "gram of sugar (一克糖); gram measurement (克计量); gram scale (克秤)"
 }

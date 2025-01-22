@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "nurse.mp3",
   "audio_example": "nurse_example.mp3",
-  "image": "nurse.png"
+  "image": "nurse.png",
+  "collocations": "nurse practitioner (执业护士); nurse station (护士站); nurse patient (护理病人)"
 }

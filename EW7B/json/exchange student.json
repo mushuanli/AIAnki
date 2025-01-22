@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "exchange student.mp3",
-  "audio_example": "exchange student_example.mp3"
+  "audio_example": "exchange student_example.mp3",
+  "collocations": "host exchange student (接待交换生); exchange student program (交换生项目)"
 }

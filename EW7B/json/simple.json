@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "simple.mp3",
   "audio_example": "simple_example.mp3",
-  "image": "simple.png"
+  "image": "simple.png",
+  "collocations": "simple life (简单生活); simple solution (简单的解决方案); simple design (简约设计)"
 }

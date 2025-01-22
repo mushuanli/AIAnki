@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 8,
   "audio": "factory.mp3",
-  "audio_example": "factory_example.mp3"
+  "audio_example": "factory_example.mp3",
+  "collocations": "factory worker (工厂工人); factory production (工厂生产); factory outlet (工厂直销店)"
 }

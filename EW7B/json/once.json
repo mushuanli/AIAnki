@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "once.mp3",
   "audio_example": "once_example.mp3",
-  "image": "once.png"
+  "image": "once.png",
+  "collocations": "once upon a time (从前); once in a lifetime (一生一次); once again (再次)"
 }

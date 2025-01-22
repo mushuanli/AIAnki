@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "hundred.mp3",
   "audio_example": "hundred_example.mp3",
-  "image": "hundred.png"
+  "image": "hundred.png",
+  "collocations": "hundred percent (百分之百); hundreds of (成百上千); century-old (百年历史的)"
 }

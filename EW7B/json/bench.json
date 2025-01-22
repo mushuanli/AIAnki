@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "bench.mp3",
-  "audio_example": "bench_example.mp3"
+  "audio_example": "bench_example.mp3",
+  "collocations": "park bench (公园长椅); bench press (卧推); warming the bench (坐冷板凳)"
 }

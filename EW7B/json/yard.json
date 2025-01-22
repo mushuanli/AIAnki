@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "yard.mp3",
-  "audio_example": "yard_example.mp3"
+  "audio_example": "yard_example.mp3",
+  "collocations": "front yard (前院); shipyard (造船厂); yard sale (庭院旧货出售)"
 }

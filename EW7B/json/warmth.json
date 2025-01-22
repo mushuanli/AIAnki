@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "warmth.mp3",
   "audio_example": "warmth_example.mp3",
-  "image": "warmth.png"
+  "image": "warmth.png",
+  "collocations": "feel the warmth (感受到温暖); warmth of the sun (阳光的温暖); human warmth (人情温暖)"
 }

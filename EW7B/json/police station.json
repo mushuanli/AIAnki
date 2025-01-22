@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "police station.mp3",
-  "audio_example": "police station_example.mp3"
+  "audio_example": "police station_example.mp3",
+  "collocations": "report to police station (到派出所报案); police station duty (派出所值班)"
 }

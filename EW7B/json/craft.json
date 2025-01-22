@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "craft.mp3",
   "audio_example": "craft_example.mp3",
-  "image": "craft.png"
+  "image": "craft.png",
+  "collocations": "craft beer (精酿啤酒); craft fair (手工艺品展); traditional craft (传统工艺)"
 }

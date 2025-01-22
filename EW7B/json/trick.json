@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 5,
   "audio": "trick.mp3",
-  "audio_example": "trick_example.mp3"
+  "audio_example": "trick_example.mp3",
+  "collocations": "magic trick (魔术把戏); play a trick (恶作剧); trick or treat (不给糖就捣蛋)"
 }

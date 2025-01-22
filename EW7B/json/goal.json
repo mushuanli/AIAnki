@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "goal.mp3",
   "audio_example": "goal_example.mp3",
-  "image": "goal.png"
+  "image": "goal.png",
+  "collocations": "set a goal (设定目标); achieve a goal (实现目标); goal setting (目标设定)"
 }

@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "side.mp3",
   "audio_example": "side_example.mp3",
-  "image": "side.png"
+  "image": "side.png",
+  "collocations": "side effect (副作用); side by side (并肩); on the side (兼职)"
 }

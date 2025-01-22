@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "loud.mp3",
   "audio_example": "loud_example.mp3",
-  "image": "loud.png"
+  "image": "loud.png",
+  "collocations": "loud noise (大声的噪音); loud music (大声的音乐); loud voice (响亮的声音)"
 }

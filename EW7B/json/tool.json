@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "tool.mp3",
   "audio_example": "tool_example.mp3",
-  "image": "tool.png"
+  "image": "tool.png",
+  "collocations": "tool box (工具箱); garden tool (园艺工具); tool belt (工具带)"
 }

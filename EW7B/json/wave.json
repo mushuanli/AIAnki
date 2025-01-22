@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "wave.mp3",
   "audio_example": "wave_example.mp3",
-  "image": "wave.png"
+  "image": "wave.png",
+  "collocations": "wave goodbye (挥手告别); heat wave (热浪); wave pattern (波形)"
 }

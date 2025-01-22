@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "guinea pig.mp3",
   "audio_example": "guinea pig_example.mp3",
-  "image": "guinea pig.png"
+  "image": "guinea pig.png",
+  "collocations": "pet guinea pig (宠物天竺鼠); guinea pig cage (天竺鼠笼子); guinea pig food (天竺鼠食物)"
 }

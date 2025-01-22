@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "fridge.mp3",
-  "audio_example": "fridge_example.mp3"
+  "audio_example": "fridge_example.mp3",
+  "collocations": "fridge magnet (冰箱贴); smart fridge (智能冰箱); fridge-freezer (冷藏冷冻柜)"
 }

@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "interest.mp3",
   "audio_example": "interest_example.mp3",
-  "image": "interest.png"
+  "image": "interest.png",
+  "collocations": "interest rate (利率); conflict of interest (利益冲突); vested interest (既得利益)"
 }

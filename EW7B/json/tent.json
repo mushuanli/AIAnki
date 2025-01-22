@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "tent.mp3",
   "audio_example": "tent_example.mp3",
-  "image": "tent.png"
+  "image": "tent.png",
+  "collocations": "camping tent (露营帐篷); tent peg (帐篷桩); pitch a tent (搭帐篷)"
 }

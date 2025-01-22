@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "officer.mp3",
   "audio_example": "officer_example.mp3",
-  "image": "officer.png"
+  "image": "officer.png",
+  "collocations": "chief officer (大副); probation officer (缓刑监督官); loan officer (信贷员)"
 }

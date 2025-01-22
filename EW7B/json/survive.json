@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "survive.mp3",
   "audio_example": "survive_example.mp3",
-  "image": "survive.png"
+  "image": "survive.png",
+  "collocations": "survive the storm (在风暴中幸存); survive on (靠...生存); survive a crisis (度过危机)"
 }

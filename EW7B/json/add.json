@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "add.mp3",
   "audio_example": "add_example.mp3",
-  "image": "add.png"
+  "image": "add.png",
+  "collocations": "add value (增加价值); add salt (加盐); add up (加起来)"
 }

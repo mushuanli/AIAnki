@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "itself.mp3",
   "audio_example": "itself_example.mp3",
-  "image": "itself.png"
+  "image": "itself.png",
+  "collocations": "by itself (独自); in itself (本身); the thing itself (事物本身)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 7,
   "audio": "camera.mp3",
-  "audio_example": "camera_example.mp3"
+  "audio_example": "camera_example.mp3",
+  "collocations": "camera lens (相机镜头); camera angle (相机角度); camera bag (相机包)"
 }

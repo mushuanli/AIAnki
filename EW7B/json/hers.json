@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "hers.mp3",
   "audio_example": "hers_example.mp3",
-  "image": "hers.png"
+  "image": "hers.png",
+  "collocations": "a friend of hers (她的一个朋友); hers alone (她独自的)"
 }

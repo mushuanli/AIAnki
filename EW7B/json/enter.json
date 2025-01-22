@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "enter.mp3",
   "audio_example": "enter_example.mp3",
-  "image": "enter.png"
+  "image": "enter.png",
+  "collocations": "enter the room (进入房间); enter a contest (参加比赛); enter data (输入数据)"
 }

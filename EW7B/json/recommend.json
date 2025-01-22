@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "recommend.mp3",
   "audio_example": "recommend_example.mp3",
-  "image": "recommend.png"
+  "image": "recommend.png",
+  "collocations": "highly recommend (强烈推荐); recommend a book (推荐一本书); recommend for (推荐给)"
 }

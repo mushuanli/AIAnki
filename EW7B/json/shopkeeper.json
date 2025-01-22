@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "shopkeeper.mp3",
-  "audio_example": "shopkeeper_example.mp3"
+  "audio_example": "shopkeeper_example.mp3",
+  "collocations": "local shopkeeper (本地店主); shopkeeper's son (店主的儿子)"
 }

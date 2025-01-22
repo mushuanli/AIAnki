@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "north-west.mp3",
   "audio_example": "north-west_example.mp3",
-  "image": "north-west.png"
+  "image": "north-west.png",
+  "collocations": "north-west wind (西北风); north-west region (西北地区); north-west direction (西北方向)"
 }

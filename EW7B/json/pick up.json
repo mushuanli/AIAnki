@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "pick up.mp3",
   "audio_example": "pick up_example.mp3",
-  "image": "pick up.png"
+  "image": "pick up.png",
+  "collocations": "pick up speed (加速); pick up the tab (买单); pick up a language (学会语言)"
 }

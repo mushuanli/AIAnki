@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "forest.mp3",
   "audio_example": "forest_example.mp3",
-  "image": "forest.png"
+  "image": "forest.png",
+  "collocations": "rainforest (雨林); forest fire (森林火灾); forest floor (森林地面)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "fight.mp3",
   "audio_example": "fight_example.mp3",
-  "image": "fight.png"
+  "image": "fight.png",
+  "collocations": "fight back (反击); fight for (为...而战); fight against (对抗)"
 }

@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "support.mp3",
   "audio_example": "support_example.mp3",
-  "image": "support.png"
+  "image": "support.png",
+  "collocations": "support system (支持系统); emotional support (情感支持); financial support (经济支持)"
 }

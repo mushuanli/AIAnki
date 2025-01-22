@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "radar.mp3",
   "audio_example": "radar_example.mp3",
-  "image": "radar.png"
+  "image": "radar.png",
+  "collocations": "radar system (雷达系统); radar screen (雷达屏幕); radar detection (雷达探测)"
 }

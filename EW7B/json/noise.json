@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "noise.mp3",
   "audio_example": "noise_example.mp3",
-  "image": "noise.png"
+  "image": "noise.png",
+  "collocations": "noise pollution (噪音污染); background noise (背景噪音); noise level (噪音水平)"
 }

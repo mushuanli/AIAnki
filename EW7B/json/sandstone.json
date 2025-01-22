@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "sandstone.mp3",
   "audio_example": "sandstone_example.mp3",
-  "image": "sandstone.png"
+  "image": "sandstone.png",
+  "collocations": "sandstone rock (砂岩); sandstone cliff (砂岩悬崖); sandstone formation (砂岩构造)"
 }

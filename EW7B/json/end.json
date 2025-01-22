@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "end.mp3",
   "audio_example": "end_example.mp3",
-  "image": "end.png"
+  "image": "end.png",
+  "collocations": "end result (最终结果); end user (终端用户); end point (终点)"
 }

@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "breathe.mp3",
   "audio_example": "breathe_example.mp3",
-  "image": "breathe.png"
+  "image": "breathe.png",
+  "collocations": "breathe deeply (深呼吸); breathe in (吸入); breathe out (呼出)"
 }

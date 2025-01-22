@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "lie.mp3",
   "audio_example": "lie_example.mp3",
-  "image": "lie.png"
+  "image": "lie.png",
+  "collocations": "lie down (躺下); white lie (善意的谎言); lie detector (测谎仪)"
 }

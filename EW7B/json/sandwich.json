@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "sandwich.mp3",
-  "audio_example": "sandwich_example.mp3"
+  "audio_example": "sandwich_example.mp3",
+  "collocations": "sandwich generation (三明治一代); club sandwich (总会三明治); sandwich board (三明治广告牌)"
 }

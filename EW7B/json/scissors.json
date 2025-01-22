@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "scissors.mp3",
   "audio_example": "scissors_example.mp3",
-  "image": "scissors.png"
+  "image": "scissors.png",
+  "collocations": "pair of scissors (一把剪刀); scissors cut (剪刀剪裁); safety scissors (安全剪刀)"
 }

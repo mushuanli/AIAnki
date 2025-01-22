@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 6,
   "audio": "ocean.mp3",
-  "audio_example": "ocean_example.mp3"
+  "audio_example": "ocean_example.mp3",
+  "collocations": "ocean floor (海底); ocean current (洋流); ocean view (海景)"
 }

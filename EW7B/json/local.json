@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "local.mp3",
   "audio_example": "local_example.mp3",
-  "image": "local.png"
+  "image": "local.png",
+  "collocations": "local community (当地社区); local time (当地时间); local cuisine (地方菜)"
 }

@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "lend.mp3",
   "audio_example": "lend_example.mp3",
-  "image": "lend.png"
+  "image": "lend.png",
+  "collocations": "lend a hand (帮忙); lend money (借钱); lend support (提供支持)"
 }

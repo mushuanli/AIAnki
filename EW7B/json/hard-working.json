@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "hard-working.mp3",
   "audio_example": "hard-working_example.mp3",
-  "image": "hard-working.png"
+  "image": "hard-working.png",
+  "collocations": "hard-working student (勤奋的学生); hard-working employee (勤奋的员工)"
 }

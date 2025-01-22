@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "information.mp3",
   "audio_example": "information_example.mp3",
-  "image": "information.png"
+  "image": "information.png",
+  "collocations": "information age (信息时代); confidential information (机密信息); information overload (信息过载)"
 }

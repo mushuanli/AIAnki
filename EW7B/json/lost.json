@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 7,
   "audio": "lost.mp3",
-  "audio_example": "lost_example.mp3"
+  "audio_example": "lost_example.mp3",
+  "collocations": "lost and found (失物招领); lost property (失物); lost in thought (陷入沉思)"
 }

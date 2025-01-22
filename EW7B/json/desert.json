@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "desert.mp3",
   "audio_example": "desert_example.mp3",
-  "image": "desert.png"
+  "image": "desert.png",
+  "collocations": "desert island (荒岛); desert climate (沙漠气候); desert landscape (沙漠景观)"
 }

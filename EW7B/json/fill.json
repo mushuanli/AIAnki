@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "fill.mp3",
   "audio_example": "fill_example.mp3",
-  "image": "fill.png"
+  "image": "fill.png",
+  "collocations": "fill the gap (填补空白); fill the form (填写表格); fill the tank (加满油箱)"
 }

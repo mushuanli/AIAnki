@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "tower.mp3",
   "audio_example": "tower_example.mp3",
-  "image": "tower.png"
+  "image": "tower.png",
+  "collocations": "tower block (高层建筑); Eiffel Tower (埃菲尔铁塔); ivory tower (象牙塔)"
 }

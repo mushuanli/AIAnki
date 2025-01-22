@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "calendar.mp3",
   "audio_example": "calendar_example.mp3",
-  "image": "calendar.png"
+  "image": "calendar.png",
+  "collocations": "lunar calendar (农历); academic calendar (校历); calendar year (日历年)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 5,
   "audio": "afraid.mp3",
-  "audio_example": "afraid_example.mp3"
+  "audio_example": "afraid_example.mp3",
+  "collocations": "afraid of heights (恐高); afraid to ask (不敢问); afraid of failure (害怕失败)"
 }

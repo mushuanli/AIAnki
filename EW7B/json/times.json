@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "times.mp3",
   "audio_example": "times_example.mp3",
-  "image": "times.png"
+  "image": "times.png",
+  "collocations": "modern times (现代); ancient times (古代); hard times (艰难时期)"
 }

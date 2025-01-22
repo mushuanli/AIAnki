@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "taste.mp3",
   "audio_example": "taste_example.mp3",
-  "image": "taste.png"
+  "image": "taste.png",
+  "collocations": "taste good (尝起来不错); taste test (口味测试); taste buds (味蕾)"
 }

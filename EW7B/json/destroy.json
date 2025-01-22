@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "destroy.mp3",
   "audio_example": "destroy_example.mp3",
-  "image": "destroy.png"
+  "image": "destroy.png",
+  "collocations": "destroy evidence (销毁证据); destroy the environment (破坏环境); destroy a building (摧毁建筑物)"
 }

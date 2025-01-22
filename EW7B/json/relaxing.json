@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "relaxing.mp3",
   "audio_example": "relaxing_example.mp3",
-  "image": "relaxing.png"
+  "image": "relaxing.png",
+  "collocations": "relaxing music (放松音乐); relaxing atmosphere (轻松氛围); relaxing holiday (休闲假期)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "cage.mp3",
-  "audio_example": "cage_example.mp3"
+  "audio_example": "cage_example.mp3",
+  "collocations": "bird cage (鸟笼); cage match (铁笼比赛); cage diving (笼潜)"
 }

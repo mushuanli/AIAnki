@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "save.mp3",
   "audio_example": "save_example.mp3",
-  "image": "save.png"
+  "image": "save.png",
+  "collocations": "save money (省钱); save time (节省时间); save energy (节约能源)"
 }

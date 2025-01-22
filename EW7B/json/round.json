@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "round.mp3",
   "audio_example": "round_example.mp3",
-  "image": "round.png"
+  "image": "round.png",
+  "collocations": "round table (圆桌); round trip (往返旅行); round shape (圆形)"
 }

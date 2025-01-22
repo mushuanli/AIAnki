@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "fail.mp3",
   "audio_example": "fail_example.mp3",
-  "image": "fail.png"
+  "image": "fail.png",
+  "collocations": "fail to do (未能做); fail the test (考试不及格); fail to deliver (未能交付)"
 }

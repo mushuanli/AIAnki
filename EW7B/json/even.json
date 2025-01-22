@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "even.mp3",
   "audio_example": "even_example.mp3",
-  "image": "even.png"
+  "image": "even.png",
+  "collocations": "even if (即使); even though (尽管); even so (即便如此)"
 }

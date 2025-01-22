@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "ant.mp3",
   "audio_example": "ant_example.mp3",
-  "image": "ant.png"
+  "image": "ant.png",
+  "collocations": "ant colony (蚁群); worker ant (工蚁); fire ant (火蚁)"
 }

@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "south.mp3",
   "audio_example": "south_example.mp3",
-  "image": "south.png"
+  "image": "south.png",
+  "collocations": "South Pole (南极); south wind (南风); Deep South (美国南方腹地)"
 }

@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "college.mp3",
   "audio_example": "college_example.mp3",
-  "image": "college.png"
+  "image": "college.png",
+  "collocations": "college student (大学生); community college (社区学院); college degree (大学学位)"
 }

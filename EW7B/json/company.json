@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "company.mp3",
   "audio_example": "company_example.mp3",
-  "image": "company.png"
+  "image": "company.png",
+  "collocations": "company policy (公司政策); company culture (公司文化); start a company (创办公司)"
 }

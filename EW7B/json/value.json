@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "value.mp3",
   "audio_example": "value_example.mp3",
-  "image": "value.png"
+  "image": "value.png",
+  "collocations": "value for money (物有所值); core value (核心价值观); cultural value (文化价值)"
 }

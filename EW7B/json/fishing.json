@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "fishing.mp3",
   "audio_example": "fishing_example.mp3",
-  "image": "fishing.png"
+  "image": "fishing.png",
+  "collocations": "fishing rod (钓竿); fishing license (捕鱼许可证); fishing for compliments (博取赞美)"
 }

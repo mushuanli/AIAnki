@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "landform.mp3",
   "audio_example": "landform_example.mp3",
-  "image": "landform.png"
+  "image": "landform.png",
+  "collocations": "natural landform (自然地貌); landform feature (地貌特征); landform map (地貌图)"
 }

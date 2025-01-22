@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "roll.mp3",
   "audio_example": "roll_example.mp3",
-  "image": "roll.png"
+  "image": "roll.png",
+  "collocations": "roll the dice (掷骰子); roll out the carpet (铺开地毯); roll call (点名)"
 }

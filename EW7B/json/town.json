@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "town.mp3",
   "audio_example": "town_example.mp3",
-  "image": "town.png"
+  "image": "town.png",
+  "collocations": "town center (城镇中心); town hall (市政厅); ghost town (鬼城)"
 }

@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "neighbour.mp3",
   "audio_example": "neighbour_example.mp3",
-  "image": "neighbour.png"
+  "image": "neighbour.png",
+  "collocations": "next-door neighbour (隔壁邻居); neighbour country (邻国); good neighbour policy (睦邻政策)"
 }

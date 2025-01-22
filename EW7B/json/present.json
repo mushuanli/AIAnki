@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "present.mp3",
   "audio_example": "present_example.mp3",
-  "image": "present.png"
+  "image": "present.png",
+  "collocations": "present tense (现在时); present situation (现状); birthday present (生日礼物)"
 }

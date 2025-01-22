@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "tip.mp3",
   "audio_example": "tip_example.mp3",
-  "image": "tip.png"
+  "image": "tip.png",
+  "collocations": "tip of the iceberg (冰山一角); useful tip (实用建议); tip jar (小费罐)"
 }

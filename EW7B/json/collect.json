@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "collect.mp3",
   "audio_example": "collect_example.mp3",
-  "image": "collect.png"
+  "image": "collect.png",
+  "collocations": "collect data (收集数据); collect stamps (集邮); collect oneself (镇定下来)"
 }

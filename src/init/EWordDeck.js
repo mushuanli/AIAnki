@@ -7,10 +7,10 @@ const path = require('path');
 const config = require('../lib/config');
 const { ensureDirectories,AIChat,genMultimedia } = require('../lib/utils');
 
-const initFilename = './EA/EWordList.json';
+const initFilename = './EW10/EWordList';
 
 async function initMultimedia(outputdir) {
-    let waitRetryCount = 0;
+    let multimediaCount = 0;
     const files = fs.readdirSync(path.join(outputdir,config.JSON_DIR));
     const jsonFiles = files.filter((file) => path.extname(file) === ".json");
 
@@ -22,39 +22,39 @@ async function initMultimedia(outputdir) {
           audio: [
             {
               name: "audio",
-              text: wordData.word,
-              file: `${wordData.word}.mp3`,
+              text: wordData.name,
+              file: `${wordData.name}.mp3`,
             },
             {
               name: "audio_example",
               text: wordData.example_en,
-              file: `${wordData.word}_example.mp3`,
+              file: `${wordData.name}_example.mp3`,
             },
           ],
           image: [
             {
               name: "image",
               text: wordData?.image_prompt,
-              file: `${wordData.word}.png`,
+              file: wordData.image ?? `${wordData.name}.png`,
               tmpId: "image_taskid",
             },
           ],
         });
         if (mediaNum > 0){
-            waitRetryCount ++;
+          multimediaCount ++;
             fs.writeFileSync(filePath, JSON.stringify(wordData, null, 2));
         }
       } catch (err) {
         console.error("load cache file failed", filePath, err);
-        waitRetryCount ++;
+        multimediaCount ++;
       }
     }
  
-    if( waitRetryCount > 0){
-        console.log(`===== NEED TO WAIT FOR DOWNLOAD IMAGE COUNT: ${waitRetryCount} =====`);
+    if( multimediaCount > 0){
+        console.log(`===== NEED TO WAIT FOR DOWNLOAD IMAGE COUNT: ${multimediaCount} =====`);
     }
 
-    return waitRetryCount;
+    return multimediaCount;
 }
 
 async function initFromTxt(fileName, outputdir) {
@@ -82,7 +82,7 @@ async function initFromTxt(fileName, outputdir) {
         4. 搭配：常用词组搭配
         5. 图片生成提示：为主图和例句配图提供详细的场景描述
         输出为json格式, 但是不要包括markdown语法:  + ${JSON.stringify({
-          word: "输入的英文单词或词组",
+          name: "输入的英文单词或词组",
           symbol: "音标",
           chn: "中文释义",
           example_en: "一个英文例句",
@@ -98,7 +98,7 @@ async function initFromTxt(fileName, outputdir) {
     const filePath = path.join(
       outputdir,
       `./${config.JSON_DIR}`,
-      `${wordData.word}.json`
+      `${wordData.name}.json`
     );
     wordData.unit = currentUnit;
     fs.writeFileSync(filePath, JSON.stringify(wordData, null, 2));

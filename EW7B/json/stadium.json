@@ -7,13 +7,7 @@
   "word_family": "stadiums (复数形式)",
   "memory_tips": "词源：来自拉丁语 'stadium'，意为赛跑场。联想记忆：想象一个巨大的体育场，里面坐满了观众，大家都在为运动员加油。图像记忆：想象一个圆形的大型体育场，周围有高高的看台，中间是绿色的运动场。",
   "difficulty": "2",
-  "collocations": [
-    "football stadium",
-    "olympic stadium",
-    "sports stadium",
-    "stadium capacity",
-    "stadium seating"
-  ],
+  "collocations": "football stadium (足球场); Olympic stadium (奥林匹克体育场); stadium seating (体育场座位)",
   "image_prompts": {
     "main_image": "一个大型的现代化体育场，周围有高高的看台，中间是绿色的运动场，观众席上坐满了人，体育场外有明亮的灯光。",
     "example_image": "一个新建的体育场，内部有成千上万的观众，体育场中央正在进行一场足球比赛，观众们热情高涨，挥舞着旗帜和横幅。"

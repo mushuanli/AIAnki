@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "balance.mp3",
   "audio_example": "balance_example.mp3",
-  "image": "balance.png"
+  "image": "balance.png",
+  "collocations": "balance sheet (资产负债表); balance diet (均衡饮食); balance beam (平衡木)"
 }

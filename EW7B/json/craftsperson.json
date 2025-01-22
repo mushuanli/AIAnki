@@ -9,5 +9,6 @@
   "difficulty": "3",
   "unit": 4,
   "audio": "craftsperson.mp3",
-  "audio_example": "craftsperson_example.mp3"
+  "audio_example": "craftsperson_example.mp3",
+  "collocations": "skilled craftsperson (熟练工匠); traditional craftsperson (传统手艺人); master craftsperson (工匠大师)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "bone.mp3",
   "audio_example": "bone_example.mp3",
-  "image": "bone.png"
+  "image": "bone.png",
+  "collocations": "bone structure (骨骼结构); bone density (骨密度); bone marrow (骨髓)"
 }

@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "hike.mp3",
   "audio_example": "hike_example.mp3",
-  "image": "hike.png"
+  "image": "hike.png",
+  "collocations": "hike trail (徒步小径); mountain hike (山地徒步); hike to the top (徒步到山顶)"
 }

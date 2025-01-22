@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "collection.mp3",
   "audio_example": "collection_example.mp3",
-  "image": "collection.png"
+  "image": "collection.png",
+  "collocations": "art collection (艺术收藏); stamp collection (邮票收藏); data collection (数据收集)"
 }

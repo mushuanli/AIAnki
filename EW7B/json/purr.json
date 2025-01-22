@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 5,
   "audio": "purr.mp3",
-  "audio_example": "purr_example.mp3"
+  "audio_example": "purr_example.mp3",
+  "collocations": "cat's purr (猫的呼噜声); purr softly (轻声呼噜); purr of satisfaction (满足的呼噜声)"
 }

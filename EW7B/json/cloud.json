@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "cloud.mp3",
   "audio_example": "cloud_example.mp3",
-  "image": "cloud.png"
+  "image": "cloud.png",
+  "collocations": "cloud cover (云层); cloud formation (云的形成); cloud storage (云存储)"
 }

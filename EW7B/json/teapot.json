@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "teapot.mp3",
   "audio_example": "teapot_example.mp3",
-  "image": "teapot.png"
+  "image": "teapot.png",
+  "collocations": "ceramic teapot (陶瓷茶壶); teapot lid (茶壶盖); teapot set (茶壶套装)"
 }

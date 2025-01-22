@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "wind.mp3",
   "audio_example": "wind_example.mp3",
-  "image": "wind.png"
+  "image": "wind.png",
+  "collocations": "wind energy (风能); wind instrument (管乐器); break wind (放屁)"
 }

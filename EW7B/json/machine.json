@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "machine.mp3",
   "audio_example": "machine_example.mp3",
-  "image": "machine.png"
+  "image": "machine.png",
+  "collocations": "vending machine (自动售货机); time machine (时间机器); machine learning (机器学习)"
 }

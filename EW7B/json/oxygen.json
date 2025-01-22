@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 6,
   "audio": "oxygen.mp3",
-  "audio_example": "oxygen_example.mp3"
+  "audio_example": "oxygen_example.mp3",
+  "collocations": "oxygen mask (氧气面罩); oxygen level (氧气水平); oxygen tank (氧气罐)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 2,
   "audio": "laptop.mp3",
-  "audio_example": "laptop_example.mp3"
+  "audio_example": "laptop_example.mp3",
+  "collocations": "laptop bag (笔记本电脑包); gaming laptop (游戏本); laptop charger (笔记本充电器)"
 }

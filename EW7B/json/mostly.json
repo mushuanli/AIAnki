@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 6,
   "audio": "mostly.mp3",
-  "audio_example": "mostly_example.mp3"
+  "audio_example": "mostly_example.mp3",
+  "collocations": "mostly sunny (大部分晴天); mostly harmless (基本无害); mostly true (基本属实)"
 }

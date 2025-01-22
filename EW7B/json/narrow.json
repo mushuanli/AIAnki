@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "narrow.mp3",
   "audio_example": "narrow_example.mp3",
-  "image": "narrow.png"
+  "image": "narrow.png",
+  "collocations": "narrow path (狭窄的小路); narrow escape (侥幸逃脱); narrow focus (狭窄的焦点)"
 }

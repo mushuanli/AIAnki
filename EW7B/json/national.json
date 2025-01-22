@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "national.mp3",
   "audio_example": "national_example.mp3",
-  "image": "national.png"
+  "image": "national.png",
+  "collocations": "national park (国家公园); national anthem (国歌); national security (国家安全)"
 }

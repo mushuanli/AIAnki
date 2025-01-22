@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "treasure.mp3",
   "audio_example": "treasure_example.mp3",
-  "image": "treasure.png"
+  "image": "treasure.png",
+  "collocations": "treasure hunt (寻宝); treasure chest (宝箱); national treasure (国宝)"
 }

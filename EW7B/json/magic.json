@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "magic.mp3",
   "audio_example": "magic_example.mp3",
-  "image": "magic.png"
+  "image": "magic.png",
+  "collocations": "magic show (魔术表演); magic trick (魔术把戏); magic wand (魔杖)"
 }

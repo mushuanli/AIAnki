@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "worth.mp3",
   "audio_example": "worth_example.mp3",
-  "image": "worth.png"
+  "image": "worth.png",
+  "collocations": "worth it (值得); net worth (净值); self-worth (自我价值)"
 }

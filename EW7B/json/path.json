@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "path.mp3",
   "audio_example": "path_example.mp3",
-  "image": "path.png"
+  "image": "path.png",
+  "collocations": "path to success (成功之路); hiking path (徒步小径); garden path (花园小径)"
 }

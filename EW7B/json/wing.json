@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "wing.mp3",
   "audio_example": "wing_example.mp3",
-  "image": "wing.png"
+  "image": "wing.png",
+  "collocations": "bird wing (鸟翅膀); wing span (翼展); wing mirror (后视镜)"
 }

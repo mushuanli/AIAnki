@@ -54,7 +54,7 @@ async function importNewData() {
                 "", //"个人笔记"
                 "七下", //"grade"
                 jsonData.unit,
-                jsonData.word,
+                jsonData.name,
                 jsonData.symbol,
                 jsonData.chn,
                 (jsonData.image ? `<img src="${mediaMap[jsonData.image]}">` : ""),
@@ -72,7 +72,7 @@ async function importNewData() {
                 usn: -1,
                 tags: "",
                 flds: fields,
-                sfld: jsonData.word,
+                sfld: jsonData.name,
                 csum: 0,
                 flags: 0,
                 data: "",

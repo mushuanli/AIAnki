@@ -10,5 +10,6 @@
   "image_prompt": "主图：一只小狗紧紧跟随主人走在公园的小路上。例句配图：一个人在阅读说明书，旁边放着完成的任务物品，表示遵循指示完成任务。",
   "unit": 7,
   "audio": "follow.mp3",
-  "audio_example": "follow_example.mp3"
+  "audio_example": "follow_example.mp3",
+  "collocations": "follow the rules (遵守规则); follow a path (沿着小路走); follow instructions (遵循指示)"
 }

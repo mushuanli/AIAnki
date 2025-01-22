@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "china.mp3",
   "audio_example": "china_example.mp3",
-  "image": "china.png"
+  "image": "china.png",
+  "collocations": "fine china (精美瓷器); china cabinet (瓷器柜); blue china (青花瓷)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "safely.mp3",
   "audio_example": "safely_example.mp3",
-  "image": "safely.png"
+  "image": "safely.png",
+  "collocations": "arrive safely (安全到达); drive safely (安全驾驶); store safely (安全存放)"
 }

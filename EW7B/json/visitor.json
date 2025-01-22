@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 3,
   "audio": "visitor.mp3",
-  "audio_example": "visitor_example.mp3"
+  "audio_example": "visitor_example.mp3",
+  "collocations": "visitor center (游客中心); frequent visitor (常客); visitor visa (访问签证)"
 }

@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "raise.mp3",
   "audio_example": "raise_example.mp3",
-  "image": "raise.png"
+  "image": "raise.png",
+  "collocations": "raise money (筹款); raise children (抚养孩子); raise awareness (提高意识);"
 }

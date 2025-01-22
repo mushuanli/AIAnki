@@ -14,5 +14,6 @@
   "unit": 7,
   "audio": "arrive.mp3",
   "audio_example": "arrive_example.mp3",
-  "image": "arrive.png"
+  "image": "arrive.png",
+  "collocations": "arrive on time (准时到达); arrive at a decision (做出决定); arrive safely (安全到达)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "weight.mp3",
   "audio_example": "weight_example.mp3",
-  "image": "weight.png"
+  "image": "weight.png",
+  "collocations": "lose weight (减肥); weight training (力量训练); weight limit (重量限制)"
 }

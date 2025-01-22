@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "ancient.mp3",
   "audio_example": "ancient_example.mp3",
-  "image": "ancient.png"
+  "image": "ancient.png",
+  "collocations": "ancient history (古代史); ancient civilization (古代文明); ancient times (古代)"
 }

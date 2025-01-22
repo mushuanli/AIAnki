@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "seaside.mp3",
-  "audio_example": "seaside_example.mp3"
+  "audio_example": "seaside_example.mp3",
+  "collocations": "seaside resort (海滨度假村); seaside town (海滨小镇); seaside promenade (海滨长廊)"
 }

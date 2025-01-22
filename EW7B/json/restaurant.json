@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "restaurant.mp3",
   "audio_example": "restaurant_example.mp3",
-  "image": "restaurant.png"
+  "image": "restaurant.png",
+  "collocations": "fast-food restaurant (快餐店); restaurant chain (连锁餐厅); fine dining restaurant (高级餐厅)"
 }

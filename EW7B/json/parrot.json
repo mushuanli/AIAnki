@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "parrot.mp3",
   "audio_example": "parrot_example.mp3",
-  "image": "parrot.png"
+  "image": "parrot.png",
+  "collocations": "parrot fish (鹦鹉鱼); parrot talk (鹦鹉学舌); pet parrot (宠物鹦鹉)"
 }

@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "touch.mp3",
   "audio_example": "touch_example.mp3",
-  "image": "touch.png"
+  "image": "touch.png",
+  "collocations": "touch screen (触摸屏); light touch (轻触); touch base (联系)"
 }

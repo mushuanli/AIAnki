@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "fisherman.mp3",
   "audio_example": "fisherman_example.mp3",
-  "image": "fisherman.png"
+  "image": "fisherman.png",
+  "collocations": "fisherman's wharf (渔人码头); professional fisherman (职业渔民); fisherman's net (渔网)"
 }

@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 1,
   "audio": "study.mp3",
-  "audio_example": "study_example.mp3"
+  "audio_example": "study_example.mp3",
+  "collocations": "study group (学习小组); case study (案例研究); private study (自习室)"
 }

@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "character.mp3",
   "audio_example": "character_example.mp3",
-  "image": "character.png"
+  "image": "character.png",
+  "collocations": "main character (主角); character development (角色发展); strong character (坚强的性格)"
 }

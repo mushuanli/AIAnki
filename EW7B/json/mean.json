@@ -14,5 +14,6 @@
   "unit": 4,
   "audio": "mean.mp3",
   "audio_example": "mean_example.mp3",
-  "image": "mean.png"
+  "image": "mean.png",
+  "collocations": "mean well (出于好意); mean to do (打算做); mean value (平均值)"
 }

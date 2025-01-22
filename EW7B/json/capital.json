@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "capital.mp3",
   "audio_example": "capital_example.mp3",
-  "image": "capital.png"
+  "image": "capital.png",
+  "collocations": "capital city (首都); venture capital (风险投资); capital punishment (死刑)"
 }

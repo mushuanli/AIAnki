@@ -9,5 +9,6 @@
   "difficulty": "2",
   "unit": 4,
   "audio": "postcard.mp3",
-  "audio_example": "postcard_example.mp3"
+  "audio_example": "postcard_example.mp3",
+  "collocations": "send a postcard (寄明信片); picture postcard (风景明信片); postcard collection (明信片收藏)"
 }

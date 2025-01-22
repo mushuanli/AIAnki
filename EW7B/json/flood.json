@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "flood.mp3",
   "audio_example": "flood_example.mp3",
-  "image": "flood.png"
+  "image": "flood.png",
+  "collocations": "flood warning (洪水预警); flood damage (洪水破坏); flood control (防洪)"
 }

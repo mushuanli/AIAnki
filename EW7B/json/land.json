@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "land.mp3",
   "audio_example": "land_example.mp3",
-  "image": "land.png"
+  "image": "land.png",
+  "collocations": "land use (土地使用); land owner (地主); land reform (土地改革)"
 }

@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "bathroom.mp3",
   "audio_example": "bathroom_example.mp3",
-  "image": "bathroom.png"
+  "image": "bathroom.png",
+  "collocations": "bathroom break (上厕所); bathroom tiles (浴室瓷砖); en suite bathroom (配套浴室)"
 }

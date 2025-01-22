@@ -14,5 +14,6 @@
   "unit": 5,
   "audio": "cheer.mp3",
   "audio_example": "cheer_example.mp3",
-  "image": "cheer.png"
+  "image": "cheer.png",
+  "collocations": "cheer up (振作起来); cheer loudly (大声欢呼); cheer leader (啦啦队长)"
 }

@@ -14,5 +14,6 @@
   "unit": 6,
   "audio": "sand.mp3",
   "audio_example": "sand_example.mp3",
-  "image": "sand.png"
+  "image": "sand.png",
+  "collocations": "sand dune (沙丘); sand castle (沙堡); sand storm (沙尘暴)"
 }

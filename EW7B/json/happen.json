@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "happen.mp3",
   "audio_example": "happen_example.mp3",
-  "image": "happen.png"
+  "image": "happen.png",
+  "collocations": "happen to be (碰巧是); happen suddenly (突然发生); happen by chance (偶然发生)"
 }

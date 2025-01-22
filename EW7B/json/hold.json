@@ -14,5 +14,6 @@
   "unit": 1,
   "audio": "hold.mp3",
   "audio_example": "hold_example.mp3",
-  "image": "hold.png"
+  "image": "hold.png",
+  "collocations": "hold on (稍等); hold back (抑制); hold a meeting (举行会议)"
 }

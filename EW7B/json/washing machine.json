@@ -14,5 +14,6 @@
   "unit": 2,
   "audio": "washing machine.mp3",
   "audio_example": "washing machine_example.mp3",
-  "image": "washing machine.png"
+  "image": "washing machine.png",
+  "collocations": "load the washing machine (把衣服放进洗衣机); washing machine cycle (洗衣机程序)"
 }

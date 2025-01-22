@@ -14,5 +14,6 @@
   "unit": 8,
   "audio": "guide.mp3",
   "audio_example": "guide_example.mp3",
-  "image": "guide.png"
+  "image": "guide.png",
+  "collocations": "tour guide (导游); user guide (用户指南); guide book (指南书)"
 }

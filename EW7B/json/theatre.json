@@ -14,5 +14,6 @@
   "unit": 3,
   "audio": "theatre.mp3",
   "audio_example": "theatre_example.mp3",
-  "image": "theatre.png"
+  "image": "theatre.png",
+  "collocations": "movie theatre (电影院); home theatre (家庭影院); theatre of war (战场)"
 }
