@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Anki Cloze Creator</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Deck 信息区域 */
+        .deck-info {
+            padding: 10px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* 工具栏 */
+        .toolbar {
+            padding: 10px;
+            background: #f9f9f9;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* 主容器 */
+        .container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* 文本列表区域 */
+        .text-list {
+            width: 200px;
+            background: #f0f0f0;
+            border-right: 1px solid #ccc;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        /* 文本列表项 */
+        #contentList {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #contentList li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 8px;
+            margin: 5px 0;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #contentList li:hover {
+            background: #e0e0ff;
+        }
+
+        #contentList li.selected {
+            background: #d0d0ff;
+            border-color: #aaa;
+        }
+
+        /* 编辑按钮 */
+        .edit-title-btn {
+            background: none;
+            border: none;
+            color: #007bff;
+            cursor: pointer;
+            padding: 0;
+            font-size: 12px;
+        }
+
+        .edit-title-btn:hover {
+            text-decoration: underline;
+        }
+
+        /* 编辑器区域 */
+        .editor {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* 编辑框 */
+        #editorContent {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            background: #fff;
+            margin: 10px;
+            border-radius: 4px;
+        }
+
+        /* 按钮样式 */
+        button {
+            margin-right: 5px;
+            padding: 5px 10px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="deck-info">
+        <input type="number" id="deckId" placeholder="Deck ID">
+        <input type="text" id="deckName" placeholder="Deck Name">
+        <button onclick="saveDeckInfo()">保存</button>
+        <button onclick="openYamlFile()">打开</button>
+        <button onclick="generateApkg()">生成 Anki 文件</button>
+    </div>
+    
+    <div class="toolbar">
+        <button onclick="wrapCloze()">Cloze</button>
+        <button onclick="nextCloze()">Next Cloze</button>
+        <button onclick="formatText('bold')">加粗</button>
+        <button onclick="formatText('italic')">斜体</button>
+    </div>
+
+    <div class="container">
+        <div class="text-list">
+            <ul id="contentList"></ul>
+            <button onclick="addNewText()">新建文本</button>
+        </div>
+        
+        <div class="editor">
+            <div id="editorContent" contenteditable="true"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/genanki-js/dist/genanki.min.js"></script>
+    <script>
+        let currentClozeNumber = 1;
+        let contents = {};
+        let selectedTextId = null;
+
+        // 初始化
+        function init() {
+            loadDeckInfo();
+            document.getElementById('editorContent').addEventListener('input', saveCurrentContent);
+        }
+
+        // 保存Deck信息
+        function saveDeckInfo() {
+            localStorage.setItem('deckId', document.getElementById('deckId').value);
+            localStorage.setItem('deckName', document.getElementById('deckName').value);
+        }
+
+        // 加载Deck信息
+        function loadDeckInfo() {
+            document.getElementById('deckId').value = localStorage.getItem('deckId') || '';
+            document.getElementById('deckName').value = localStorage.getItem('deckName') || '';
+        }
+
+        // 添加新文本
+        function addNewText() {
+            const id = Date.now();
+            contents[id] = {
+                title: `新文本 ${Object.keys(contents).length + 1}`,
+                content: ''
+            };
+            renderTextList();
+            selectText(id);
+        }
+
+        // 渲染文本列表
+        function renderTextList() {
+            const list = document.getElementById('contentList');
+            list.innerHTML = Object.keys(contents).map(id => `
+                <li onclick="selectText(${id})" ${id === selectedTextId ? 'class="selected"' : ''}>
+                    ${contents[id].title}
+                    <button class="edit-title-btn" onclick="editTitle(${id}, event)">编辑</button>
+                </li>
+            `).join('');
+        }
+
+        // 选择文本
+        function selectText(id) {
+            selectedTextId = id;
+            const content = contents[id];
+            const editor = document.getElementById('editorContent');
+            editor.innerHTML = content.content; // 只显示内容，不显示标题
+            renderTextList();
+        }
+
+        // 编辑标题
+        function editTitle(id, event) {
+            event.stopPropagation(); // 阻止事件冒泡
+            const li = event.target.closest('li');
+            const currentTitle = contents[id].title;
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = currentTitle;
+            input.style.width = '100px';
+            li.innerHTML = '';
+            li.appendChild(input);
+            input.focus();
+
+            // 全选标题文本
+            input.setSelectionRange(0, input.value.length);
+
+            input.addEventListener('blur', () => saveTitle(id, input.value));
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    saveTitle(id, input.value);
+                }
+            });
+        }
+
+        // 保存标题
+        function saveTitle(id, newTitle) {
+            if (newTitle.trim() === '') return;
+            contents[id].title = newTitle.trim();
+            renderTextList();
+            selectText(id); // 重新选中当前项
+        }
+
+        // 保存当前内容
+        function saveCurrentContent() {
+            if (!selectedTextId) return;
+            const content = document.getElementById('editorContent').innerHTML;
+            contents[selectedTextId].content = content.trim(); // 只保存内容
+        }
+
+        // Cloze处理
+        function wrapCloze() {
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) {
+                const range = selection.getRangeAt(0);
+                const selectedText = range.toString();
+                const cloze = `{{c${currentClozeNumber}::${selectedText}}}`;
+                range.deleteContents();
+                range.insertNode(document.createTextNode(cloze));
+            }
+        }
+
+        function nextCloze() {
+            currentClozeNumber++;
+        }
+
+        // 格式工具
+        function formatText(command) {
+            document.execCommand(command, false, null);
+        }
+
+        // 生成 Anki 文件
+        async function generateApkg() {
+            const deckName = document.getElementById('deckName').value || '我的卡组';
+            const deckId = parseInt(document.getElementById('deckId').value) || Date.now();
+
+            // 定义模型
+            const myModel = new genanki.Model(
+                1607392219, // 模型 ID
+                'Enhanced Cloze 2.1 v2',
+                {
+                    fields: [{ name: 'Text' }],
+                    templates: [
+                        {
+                            name: 'Cloze Card',
+                            qfmt: '{{cloze:Text}}',
+                            afmt: '{{cloze:Text}}',
+                        },
+                    ],
+                    css: `
+                        .card {
+                            font-family: Arial;
+                            font-size: 16px;
+                            text-align: left;
+                        }
+                        .cloze {
+                            font-weight: bold;
+                            color: blue;
+                        }
+                        strong {
+                            font-weight: bold;
+                            color: red;
+                        }
+                    `,
+                    modelType: genanki.Model.CLOZE,
+                }
+            );
+
+            // 创建卡组
+            const myDeck = new genanki.Deck(deckId, deckName);
+
+            // 添加卡片
+            Object.values(contents).forEach(content => {
+                const note = new genanki.Note({
+                    model: myModel,
+                    fields: [content.content],
+                });
+                myDeck.addNote(note);
+            });
+
+            // 生成 APKG 文件
+            const package = new genanki.Package(myDeck);
+            const blob = await package.generate();
+            const url = URL.createObjectURL(blob);
+
+            // 下载文件
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${deckName}.apkg`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // 初始化执行
+        init();
+        addNewText(); // 默认创建一个新文本
+    </script>
+</body>
+</html>
