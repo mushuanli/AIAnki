@@ -149,6 +149,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/genanki-js/dist/genanki.min.js"></script>
     <script>
         let currentClozeNumber = 1;
@@ -157,6 +158,7 @@
 
         // 初始化
         function init() {
+
             loadDeckInfo();
             document.getElementById('editorContent').addEventListener('input', saveCurrentContent);
         }
@@ -169,7 +171,13 @@
 
         // 加载Deck信息
         function loadDeckInfo() {
-            document.getElementById('deckId').value = localStorage.getItem('deckId') || '';
+            let deckId = localStorage.getItem('deckId');
+            if (!deckId) {
+                // 生成唯一 ID（时间戳 + 随机数）
+                deckId = Date.now().toString() + Math.floor(Math.random() * 1000);
+                localStorage.setItem('deckId', deckId);
+            }
+            document.getElementById('deckId').value = deckId;
             document.getElementById('deckName').value = localStorage.getItem('deckName') || '';
         }
 
@@ -239,8 +247,9 @@
         // 保存当前内容
         function saveCurrentContent() {
             if (!selectedTextId) return;
-            const content = document.getElementById('editorContent').innerHTML;
-            contents[selectedTextId].content = content.trim(); // 只保存内容
+            const markdownContent = document.getElementById('editorContent').innerText; // 获取纯文本（Markdown）
+            const htmlContent = marked.parse(markdownContent); // 转换为 HTML
+            contents[selectedTextId].content = htmlContent; // 保存 HTML
         }
 
         // Cloze处理
