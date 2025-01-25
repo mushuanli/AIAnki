@@ -34,3 +34,7 @@ Anki 卡片生成工具
 ## 图片到单词信息
 提取单词信息, 输出json格式，如果单词前面有* 去掉，如果一个单词信息在多行，放在一起，如:
     {"name": "type", "symbol": "/tarp/", "chn": "n. 类型, 种类; vt. & vi. 打字"},
+## 数学卡片 prompt
+- 订正下面 anki卡片内容，使用 HTML 代替 Markdown 并确保在 Anki 中格式良好， 确认anki中数学公式都正确使用 mathJax表示，输出 YAML 格式内容：
+- 转换成一张数学学习卡片，数学公式使用 mathjax, 对重要知识点标记 cloze, 输出 yaml 格式:
+
