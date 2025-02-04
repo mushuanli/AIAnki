@@ -10,7 +10,7 @@
             displayMath: [['$$', '$$']]
           }
         };
-        </script>
+    </script>
     <style>
         /* 原有样式保持不变 */
         body {
@@ -28,7 +28,7 @@
             border-bottom: 1px solid #ccc;
         }
 
-        .toolbar {
+        .cloze-toolbar {
             padding: 10px;
             background: #f9f9f9;
             border-bottom: 1px solid #ccc;
@@ -118,14 +118,22 @@
             text-decoration: underline;
         }
 
-        /* 其余原有样式保持不变 */
-        .editor-container {
+        /* 修改 cloze-editor-container 的布局 */
+        .cloze-editor-container {
             flex: 1;
             display: flex;
+            flex-direction: column; /* 保持垂直布局 */
             overflow: hidden;
         }
 
-        #editor {
+        .editor-preview-container {
+            flex: 1;
+            display: flex;
+            flex-direction: row; /* 水平排列 cloze-editor 和 cloze-preview */
+            overflow: hidden;
+        }
+
+        #cloze-editor {
             flex: 1;
             border: 1px solid #ccc;
             padding: 10px;
@@ -138,7 +146,7 @@
             resize: none;
         }
 
-        #preview {
+        #cloze-preview {
             flex: 1;
             border: 1px solid #ccc;
             padding: 10px;
@@ -187,14 +195,6 @@
         <button id="generateApkgBtn">生成 Anki 文件</button>
     </div>
 
-    <div class="toolbar">
-        <button id="wrapClozeBtn">Cloze</button>
-        <button id="nextClozeBtn">Next Cloze</button>
-        <button id="formatBoldBtn">加粗</button>
-        <button id="formatItalicBtn">斜体</button>
-        <button id="toHtmlBtn">转换成HTML</button>
-    </div>
-
     <div class="container">
         <div class="session-container">
             <div class="session-header">
@@ -208,9 +208,18 @@
             <button id="addNewSessionBtn">新建 Session</button>
         </div>
 
-        <div class="editor-container">
-            <textarea id="editor"></textarea>
-            <div id="preview"></div>
+        <div class="cloze-editor-container">
+            <div class="cloze-toolbar">
+                <button id="wrapClozeBtn">Cloze</button>
+                <button id="nextClozeBtn">Next Cloze</button>
+                <button id="formatBoldBtn">加粗</button>
+                <button id="formatItalicBtn">斜体</button>
+                <button id="toHtmlBtn">转换成HTML</button>
+            </div>
+            <div class="editor-preview-container">
+                <textarea id="cloze-editor"></textarea>
+                <div id="cloze-preview"></div>
+            </div>
         </div>
     </div>
 
