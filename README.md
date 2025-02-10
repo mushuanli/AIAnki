@@ -16,11 +16,17 @@ Anki 卡片生成工具
 
 读取 data/wordlist.txt 文件内的内容，并为每个单词造句生成 音频和单词卡片
 
+## 填空卡片
+src/html/cloze.html - 填空卡片生成器, 输出 yaml
+src/gen/cloze.py  - 从yaml文件生成填空卡片apkg
 
 # 运行前：
-## 设置环境变量和服务器信息，默认使用 deepseek和阿里云百炼的flux， 如果改用其他需要修改 src/config.js:
+## ai设置: 设置环境变量和服务器信息，默认使用 deepseek和阿里云百炼的flux， 如果改用其他需要修改 src/config.js:
     FLUX_API_KEY - flux 认证，
     OPENAI_API_KEY - deepseek 认证
+## mp3设置: 
+  有两种生成声音的方法: tts 服务器或使用mac 的 say,
+  但是 mac 的 say 如果要说中文需要设置语音，修改 src/lib/config/AUDIO_PARAM
  # 运行
  保存单词信息到 data/EWordList.txt 文件，格式保持相同
  先运行 src/EWordDeck.js 生成 json/ audio/ images/ 信息

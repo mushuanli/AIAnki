@@ -7,7 +7,7 @@ const path = require('path');
 const config = require('../lib/config');
 const { ensureDirectories,AIChat,genMultimedia } = require('../lib/utils');
 
-const workdir = '../../yu';
+const workdir = '../../CH7B';
 
 async function genAItem(fileName,outputdir) {
   let dirtyNum = 0;
