@@ -179,32 +179,49 @@ export class AIChat extends BaseEditor {
             return;
         }
         
-        // 创建用户消息对象
-        const userMessage = {
-            role: 'user',
-            content: messageText,
-            timestamp: new Date().toISOString()
-        };
+        // Save the message input content in case we need to restore it
+        const originalMessage = messageText;
+        const originalAttachments = [...this.#currentAttachments];
         
-        // 如果有附件，添加附件信息
-        if (this.#currentAttachments.length > 0) {
-            userMessage.attachments = this.#currentAttachments;
+        try {
+            // Create user message object
+            const userMessage = {
+                role: 'user',
+                content: messageText,
+                timestamp: new Date().toISOString()
+            };
+            
+            // Add attachments if any
+            if (this.#currentAttachments.length > 0) {
+                userMessage.attachments = this.#currentAttachments;
+            }
+            
+            this.#messages.push(userMessage);
+            this.#renderMessage(userMessage);
+            this.#elements.messageInput.value = '';
+            
+            // Clear attachments
+            this.#currentAttachments = [];
+            this.#updateAttachmentsUI();
+            
+            // Request AI response
+            await this.#requestAIResponse(botId);
+            
+            // Save current session
+            this.#saveCurrentSession();
+        } catch (error) {
+            // On error, restore the input field and attachments
+            this.#elements.messageInput.value = originalMessage;
+            this.#currentAttachments = originalAttachments;
+            this.#updateAttachmentsUI();
+            
+            // Note: The user message is already removed from #messages by the DeepSeek request handler
+            // The error will be displayed by the outer error handler
+            
+            // Don't rethrow here - the error is already handled by #requestAIResponse
         }
-        
-        this.#messages.push(userMessage);
-        this.#renderMessage(userMessage);
-        this.#elements.messageInput.value = '';
-        
-        // 清空附件区域
-        this.#currentAttachments = [];
-        this.#updateAttachmentsUI();
-        
-        // 开始请求AI响应
-        await this.#requestAIResponse(botId);
-        
-        // 保存当前会话
-        this.#saveCurrentSession();
     }
+    
 
     async #requestAIResponse(botId) {
         this.#isWaitingForResponse = true;
@@ -497,7 +514,6 @@ export class AIChat extends BaseEditor {
     }
 
     async #sendDeepSeekRequest(server, bot, messages, aiMessageId) {
-        
         const requestBody = {
             model: bot.model,
             messages: messages,
@@ -505,10 +521,13 @@ export class AIChat extends BaseEditor {
             stream: true
         };
         
-        const reader = await this.#getAIReader(server,requestBody);
+        const reader = await this.#getAIReader(server, requestBody);
         
         const decoder = new TextDecoder('utf-8');
         let content = '';
+        let reasoningContent = '';
+        let hasReasoning = false; // 是否有推理内容
+        let isReasoningActive = false; // 当前是否正在接收推理内容
         
         while (true) {
             const { done, value } = await reader.read();
@@ -521,9 +540,36 @@ export class AIChat extends BaseEditor {
                 if (line.startsWith('data: ') && line !== 'data: [DONE]') {
                     try {
                         const data = JSON.parse(line.substring(6));
-                        const delta = data.choices[0]?.delta?.content || '';
-                        content += delta;
-                        this.#updateAIMessage(aiMessageId, content);
+                        const delta = data.choices[0]?.delta;
+                        
+                        // 处理推理内容
+                        if (delta?.reasoning_content) {
+                            if (!isReasoningActive) {
+                                // 开始接收推理内容
+                                isReasoningActive = true;
+                                hasReasoning = true;
+                            }
+                            reasoningContent += delta.reasoning_content;
+                            // 更新消息，显示展开的推理内容（放在顶部）
+                            this.#updateAIMessage(aiMessageId, 
+                                (hasReasoning ? '<details class="reasoning-container" open><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') +
+                                content
+                            );
+                        } 
+                        // 处理普通内容
+                        else if (delta?.content) {
+                            // 如果之前有推理内容但现在是普通内容，则折叠推理内容
+                            if (isReasoningActive) {
+                                isReasoningActive = false;
+                            }
+                            
+                            content += delta.content;
+                            // 更新消息，推理内容放在顶部并折叠
+                            this.#updateAIMessage(aiMessageId, 
+                                (hasReasoning ? '<details class="reasoning-container"><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') +
+                                content
+                            );
+                        }
                     } catch (e) {
                         console.warn('解析DeepSeek响应出错:', e);
                     }
@@ -531,11 +577,27 @@ export class AIChat extends BaseEditor {
             }
         }
         
-        if (content === '') {
-            content = '(AI返回了空响应)';
-            this.#updateAIMessage(aiMessageId, content);
+        // 最终处理，确保消息格式正确（推理内容在前）
+        let finalContent = (hasReasoning ? '<details class="reasoning-container"><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') + content;
+        
+        if (finalContent.trim() === '') {
+            finalContent = '(AI返回了空响应)';
+        }
+        
+        this.#updateAIMessage(aiMessageId, finalContent);
+        
+        // 保存最终消息内容
+        const messageIndex = this.#messages.findIndex(msg => msg.id === aiMessageId);
+        if (messageIndex !== -1) {
+            this.#messages[messageIndex].content = content;
+            if (hasReasoning) {
+                this.#messages[messageIndex].reasoning = reasoningContent;
+            }
         }
     }
+    
+    
+    
 
     async #sendGrokRequest(server, bot, messages, aiMessageId) {
         const apiUrl = server.url;
