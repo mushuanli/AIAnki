@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown 和数学公式渲染</title>
+    <!-- 引入 marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 引入 MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- 引入 js-yaml -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #editor {
+            width: 100%;
+            height: 200px;
+            font-family: monospace;
+        }
+        #preview {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            margin-top: 10px;
+        }
+        .button-container button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Markdown 和数学公式渲染</h1>
+
+<div class="button-container">
+    <input type="file" id="fileInput" accept=".yaml,.yml" style="display: none;">
+    <button onclick="document.getElementById('fileInput').click()">打开 YAML 文件</button>
+    <button onclick="saveContent()">保存内容</button>
+</div>
+
+<textarea id="editor"></textarea>
+
+<div id="preview"></div>
+
+<script>
+    // 获取编辑器和预览区域的引用
+    const editor = document.getElementById('editor');
+    const preview = document.getElementById('preview');
+    const fileInput = document.getElementById('fileInput');
+
+    // 渲染 Markdown 和数学公式
+    function render() {
+        const markdownText = editor.value;
+        const htmlContent = marked.parse(markdownText);
+        preview.innerHTML = htmlContent;
+        MathJax.typesetPromise(); // 重新渲染数学公式
+    }
+
+    // 监听编辑器内容变化
+    editor.addEventListener('input', render);
+
+    // 监听粘贴事件
+    editor.addEventListener('paste', function (event) {
+        // 阻止默认粘贴行为
+        event.preventDefault();
+
+        // 获取剪切板内容
+        const clipboardData = event.clipboardData || window.clipboardData;
+        const pastedText = clipboardData.getData('text/plain'); // 获取纯文本
+
+        // 插入内容到编辑器
+        const startPos = editor.selectionStart;
+        const endPos = editor.selectionEnd;
+        const currentText = editor.value;
+
+        // 替换选中内容或插入新内容
+        editor.value = currentText.slice(0, startPos) + pastedText + currentText.slice(endPos);
+
+        // 移动光标到插入内容的末尾
+        editor.selectionStart = editor.selectionEnd = startPos + pastedText.length;
+
+        // 触发渲染
+        render();
+    });
+
+    // 读取 YAML 文件
+    fileInput.addEventListener('change', function (event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const content = e.target.result;
+                try {
+                    const data = jsyaml.load(content); // 解析 YAML
+                    if (data.content) {
+                        editor.value = data.content; // 将内容加载到编辑器
+                        render(); // 渲染内容
+                    } else {
+                        alert("YAML 文件中未找到 'content' 字段");
+                    }
+                } catch (error) {
+                    alert("解析 YAML 文件时出错: " + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+    });
+
+    // 保存内容为 YAML 文件
+    function saveContent() {
+        const content = editor.value;
+        const yamlContent = jsyaml.dump({ content: content }); // 将内容转换为 YAML
+        const blob = new Blob([yamlContent], { type: 'application/yaml' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'content.yaml'; // 下载文件名
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    // 初始渲染
+    render();
+</script>
+
+</body>
+</html>

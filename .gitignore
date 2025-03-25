@@ -1,6 +1,6 @@
-json/
-audio/
-images/
+#json/
+#audio/
+#images/
 media/
 node_modules/
 myenv/
