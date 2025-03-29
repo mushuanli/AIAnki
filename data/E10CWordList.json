@@ -1,0 +1,1569 @@
+[
+    {"name": "1"},
+    {
+        "name": "harm",
+        "symbol": "/hɑːm/",
+        "chn": "n. & vt. 伤害,损害",
+        "ext": "harmful adj. 有害的 → harmless adj. 无害的"
+    },
+    {
+        "name": "soil",
+        "symbol": "/sɔɪl/",
+        "chn": "n. 土壤;国土,领土,土地"
+    },
+    {
+        "name": "ecosystem",
+        "symbol": "/ˈiːkəʊsɪstəm/",
+        "chn": "n. 生态系统"
+    },
+    {
+        "name": "overseas",
+        "symbol": "/ˌəʊvəˈsiːz/",
+        "chn": "adj. 海外的,国外的 adv. 向（在）海外,向（在）国外"
+    },
+    {
+        "name": "region",
+        "symbol": "/ˈriːdʒən/",
+        "chn": "n. 地区,区域;行政区",
+        "ext": "regional adj. 地区的;区域的;地方的"
+    },
+    {
+        "name": "continent",
+        "symbol": "/ˈkɒntɪnənt/",
+        "chn": "n. 大陆,陆地;洲"
+    },
+    {
+        "name": "million",
+        "symbol": "/ˈmɪljən/",
+        "chn": "n. 一百万;许多,大量"
+    },
+    {
+        "name": "length",
+        "symbol": "/leŋθ/",
+        "chn": "n. 长,长度;时间的长短;篇幅,（电影）片长"
+    },
+    {
+        "name": "biodiversity",
+        "symbol": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+        "chn": "n. 生物多样性"
+    },
+    {
+        "name": "species",
+        "symbol": "/ˈspiːʃiːz/",
+        "chn": "n. (pl. species) 种,物种"
+    },
+    {
+        "name": "nut",
+        "symbol": "/nʌt/",
+        "chn": "n. 坚果"
+    },
+    {
+        "name": "brazil nut",
+        "symbol": "",
+        "chn": "巴西坚果"
+    },
+    {
+        "name": "lily",
+        "symbol": "/ˈlɪli/",
+        "chn": "n. 百合（花）"
+    },
+    {
+        "name": "water lily",
+        "symbol": "",
+        "chn": "睡莲"
+    },
+    {
+        "name": "variety",
+        "symbol": "/vəˈraɪəti/",
+        "chn": "n. 不同种类;变化,多样 性;变种,变体",
+        "ext": "vary v. 改变,变化 → various adj. 各种各样的"
+    },
+    {
+        "name": "wildlife",
+        "symbol": "/ˈwaɪldlaɪf/",
+        "chn": "n. 野生动植物,野生生物"
+    },
+    {
+        "name": "beneath",
+        "symbol": "/bɪˈniːθ/",
+        "chn": "prep. 在…下面,在…下 方;配不上"
+    },
+    {
+        "name": "mass",
+        "symbol": "/mæs/",
+        "chn": "n. 大量;团,块,堆;一大群 adj. 大批的,广泛的",
+        "ext": "massive adj. 大量的,巨大的"
+    },
+    {
+        "name": "towering",
+        "symbol": "/ˈtaʊərɪŋ/",
+        "chn": "adj. 高大的,高耸的; 出色的"
+    },
+    {
+        "name": "hardwood",
+        "symbol": "/ˈhɑːdwʊd/",
+        "chn": "n. 阔叶树;硬材（阔叶树的木材）"
+    },
+    {
+        "name": "living",
+        "symbol": "/ˈlɪvɪŋ/",
+        "chn": "adj. 活着的,活的;在使用的 n. 生计,谋生;生活方式"
+    },
+    {
+        "name": "mammal",
+        "symbol": "/ˈmæml/",
+        "chn": "n. 哺乳动物"
+    },
+    {
+        "name": "jaguar",
+        "symbol": "/ˈdʒæɡjuə(r)/",
+        "chn": "n. 美洲豹,美洲虎"
+    },
+    {
+        "name": "survive",
+        "symbol": "/səˈvaɪv/",
+        "chn": "vi. 生存,存活 vt. 幸存,幸免于难",
+        "ext": "survival n. 幸存;生存 → survivor n. 幸存者"
+    },
+    {
+        "name": "frog",
+        "symbol": "/frɒɡ/",
+        "chn": "n. 蛙,青蛙"
+    },
+    {
+        "name": "in turn",
+        "symbol": "",
+        "chn": "相应地,转而"
+    },
+    {
+        "name": "insect",
+        "symbol": "/ˈɪnsekt/",
+        "chn": "n. 昆虫"
+    },
+    {
+        "name": "microorganism",
+        "symbol": "/ˌmaɪkrəʊˈɔːgənɪzəm/",
+        "chn": "n.微生物"
+    },
+    {
+        "name": "break down",
+        "symbol": "",
+        "chn": "使分解（为）,使变化（成）"
+    },
+    {
+        "name": "nutrient",
+        "symbol": "/ˈnjuːtriənt/",
+        "chn": "n. 营养素,营养物"
+    },
+    {
+        "name": "breathe life into",
+        "symbol": "",
+        "chn": "给…带来起色,注入活力"
+    },
+    {
+        "name": "carbon",
+        "symbol": "/ˈkɑːbən/",
+        "chn": "n. 碳"
+    },
+    {
+        "name": "oxygen",
+        "symbol": "/ˈɒksɪdʒən/",
+        "chn": "n. 氧,氧气"
+    },
+    {
+        "name": "thus",
+        "symbol": "/ðʌs/",
+        "chn": "adv. 因此,从而;这样"
+    },
+    {
+        "name": "disappear",
+        "symbol": "/ˌdɪsəˈpɪə(r)/",
+        "chn": "vi. 不复存在, 灭绝,消亡;消失;失踪",
+        "ext": "disappearance n. 消失 → appear vi. 出现 → appearance n. 出现;外貌"
+    },
+    {
+        "name": "due to",
+        "symbol": "",
+        "chn": "由于,因为"
+    },
+    {
+        "name": "agriculture",
+        "symbol": "/ˈæɡrɪkʌltʃə(r)/",
+        "chn": "n. 农业,农学",
+        "ext": "agricultural adj. 农业的"
+    },
+    {
+        "name": "cattle",
+        "symbol": "/ˈkætl/",
+        "chn": "n. 牛"
+    },
+    {
+        "name": "impact",
+        "symbol": "/ˈɪmpækt/",
+        "chn": "n. 影响,作用;撞击,冲撞 /ɪmˈpækt/ vi. & vt. 有影响;冲击"
+    },
+    {
+        "name": "extinction",
+        "symbol": "/ɪkˈstɪŋkʃn/",
+        "chn": "n. 灭绝,绝种"
+    },
+    {
+        "name": "damage",
+        "symbol": "/ˈdæmɪdʒ/",
+        "chn": "vt. & n. 损害,伤害, 损坏,破坏"
+    },
+    {
+        "name": "climate",
+        "symbol": "/ˈklaɪmət/",
+        "chn": "n. 气候;倾向,风气"
+    },
+    {
+        "name": "build up",
+        "symbol": "",
+        "chn": "逐渐增加,扩大"
+    },
+    {
+        "name": "global",
+        "symbol": "/ˈɡləʊbl/",
+        "chn": "adj. 全球的;全面的",
+        "ext": "globe n. 球体;球状物;地球仪 → globally adv. 全球地"
+    },
+    {
+        "name": "greenhouse",
+        "symbol": "/ˈɡriːnhaʊs/",
+        "chn": "n. 温室,暖房"
+    },
+    {
+        "name": "gas",
+        "symbol": "/ɡæs/",
+        "chn": "n. 气体;煤气;汽油"
+    },
+    {
+        "name": "drought",
+        "symbol": "/draʊt/",
+        "chn": "n. 旱灾,久旱"
+    },
+    {
+        "name": "come up with",
+        "symbol": "",
+        "chn": "想出,想到"
+    },
+    {
+        "name": "call for",
+        "symbol": "",
+        "chn": "（公开）要求;需要"
+    },
+    {
+        "name": "application",
+        "symbol": "/ˌæplɪˈkeɪʃn/",
+        "chn": "n.应用,运用;申请",
+        "ext": "apply v. 申请;应用 → applied adj. 应用的 → applicant n. 申请者"
+    },
+    {
+        "name": "brochure",
+        "symbol": "/ˈbrəʊʃə(r)/",
+        "chn": "n. 小册子"
+    },
+    {
+        "name": "organization",
+        "symbol": "/ˌɔːɡənaɪˈzeɪʃn/",
+        "chn": "n. 组织,团体; 组织工作;安排;条理",
+        "ext": "organize v. 组织;处理 → organizer n. 组织者 → organized adj. 有组织的;有条理的"
+    },
+    {
+        "name": "absolutely",
+        "symbol": "/ˈæbsəluːtli/",
+        "chn": "adv. 绝对地,完全 地;极其",
+        "ext": "absolute adj. 绝对的;完全的"
+    },
+    {
+        "name": "belt",
+        "symbol": "/belt/",
+        "chn": "n. 地带,地区;腰带;传送带"
+    },
+    {
+        "name": "medal",
+        "symbol": "/ˈmedl/",
+        "chn": "n. 奖章,勋章"
+    },
+    {
+        "name": "image",
+        "symbol": "/ˈɪmɪdʒ/",
+        "chn": "n. 形象;图像;意象"
+    },
+    {
+        "name": "shark",
+        "symbol": "/ʃɑːk/",
+        "chn": "n. 鲨鱼"
+    },
+    {
+        "name": "spring to mind",
+        "symbol": "",
+        "chn": "突然记起（或想到）"
+    },
+    {
+        "name": "whale",
+        "symbol": "/weɪl/",
+        "chn": "n. 鲸"
+    },
+    {
+        "name": "deer",
+        "symbol": "/dɪə(r)/",
+        "chn": "n. (pl. deer) 鹿"
+    },
+    {
+        "name": "track",
+        "symbol": "/træk/",
+        "chn": "vt. & vi. 跟踪,追踪 n. 足迹,踪迹;小道;轨道; 跑道;路线"
+    },
+    {
+        "name": "habitat",
+        "symbol": "/ˈhæbɪtæt/",
+        "chn": "n. 生活环境,栖息地",
+        "ext": "habitable adj. 适合居住的"
+    },
+    {
+        "name": "nowhere",
+        "symbol": "/ˈnəʊweə(r)/",
+        "chn": "adv. 无处,哪里都不"
+    },
+    {
+        "name": "dolphin",
+        "symbol": "/ˈdɒlfɪn/",
+        "chn": "n. 海豚"
+    },
+    {
+        "name": "resident",
+        "symbol": "/ˈrezɪdənt/",
+        "chn": "n. 居民,住户"
+    },
+    {
+        "name": "chief",
+        "symbol": "/tʃiːf/",
+        "chn": "n. 首领,最高领导人 adj. 主要的;首席的"
+    },
+    {
+        "name": "committee",
+        "symbol": "/kəˈmɪti/",
+        "chn": "n. 委员会"
+    },
+    {
+        "name": "entirely",
+        "symbol": "/ɪnˈtaɪəli/",
+        "chn": "adv. 完全地,全部地, 完整地",
+        "ext": "entire adj. 全部的,整个的"
+    },
+    {
+        "name": "smog",
+        "symbol": "/smɒɡ/",
+        "chn": "n. 雾霾,烟雾"
+    },
+    {
+        "name": "get rid of",
+        "symbol": "",
+        "chn": "摆脱,丢弃,扔掉"
+    },
+    {
+        "name": "protest",
+        "symbol": "/prəˈtest/",
+        "chn": "vi. 反对,抗议 vt. 坚持声称,申辩 /ˈprəʊtest/ n. 抗议,反对"
+    },
+    {
+        "name": "profit",
+        "symbol": "/ˈprɒfɪt/",
+        "chn": "n. 利润,收益;好处 vi. & vt. 获益,得到好处",
+        "ext": "profitable adj. 有利润的"
+    },
+    {
+        "name": "defence",
+        "symbol": "/dɪˈfens/",
+        "chn": "(AmE defense) n. 辩护; 防御,保护;防御物;国防;防守",
+        "ext": "defend v. 防御,保护;辩解,辩护 → defensive adj. 自卫的;防御用的"
+    },
+    {
+        "name": "various",
+        "symbol": "/ˈveəriəs/",
+        "chn": "adj.各种各 样的"
+    },
+    {
+        "name": "process",
+        "symbol": "/ˈprəʊses/",
+        "chn": "n. 过程,进程;步骤,流程 vt. 加工,处理",
+        "ext": "processed adj. 经加工的,加工过的"
+    },
+    {
+        "name": "economic",
+        "symbol": "/ˌiːkəˈnɒmɪk/",
+        "chn": "adj. 经济的,经济上的;可赚钱的",
+        "ext": "economy n. 经济 → economical adj. 经济的,节约的,实惠的"
+    },
+    {
+        "name": "policy",
+        "symbol": "/ˈpɒləsi/",
+        "chn": "n. 政策,方针;原则"
+    },
+    {
+        "name": "branch",
+        "symbol": "/brɑːntʃ/",
+        "chn": "n.（政府或机构）部门; 分部;树枝;支流;分支"
+    },
+    {
+        "name": "strategy",
+        "symbol": "/ˈstrætədʒi/",
+        "chn": "n. 策略,行动计划; 策划,部署",
+        "ext": "strategic adj. 战略性的;战略上的 → strategically adv. 战略性地"
+    },
+    {
+        "name": "recycle",
+        "symbol": "/ˌriːˈsaɪkl/",
+        "chn": "vt. 回收利用,再利用",
+        "ext": "recycling n. 回收利用 → recyclable adj. 可回收利用的"
+    },
+    {
+        "name": "subway",
+        "symbol": "/ˈsʌbweɪ/",
+        "chn": "n. 地铁;地下人行道"
+    },
+    {
+        "name": "former",
+        "symbol": "/ˈfɔːmə(r)/",
+        "chn": "adj. 昔日的,前任的;以前的,从前的"
+    },
+    {
+        "name": "official",
+        "symbol": "/əˈfɪʃl/",
+        "chn": "n. 官员,要员 adj. 公务的;正式的,官方的",
+        "ext": "officially adv. 官方地,正式地 → officer n. 军官;警官;（政府的）官员"
+    },
+    {
+        "name": "poverty",
+        "symbol": "/ˈpɒvəti/",
+        "chn": "n. 贫穷,贫困;贫乏"
+    },
+    {
+        "name": "poison",
+        "symbol": "/ˈpɔɪzn/",
+        "chn": "vt. 污染;毒死,毒害 n. 毒物,毒药",
+        "ext": "poisonous adj. 有毒的"
+    },
+    {
+        "name": "chemical",
+        "symbol": "/ˈkemɪkl/",
+        "chn": "n. 化学制品 adj. 化学的;化学作用的",
+        "ext": "chemistry n. 化学 → chemist n. 化学家"
+    },
+    {
+        "name": "consequence",
+        "symbol": "/ˈkɒnsɪkwəns/",
+        "chn": "n. 结果,后果; 重要性",
+        "ext": "consequent adj. 随之发生的 → consequently adv. 结果,因此"
+    },
+    {
+        "name": "give rise to",
+        "symbol": "",
+        "chn": "使发生（或存在）"
+    },
+    {
+        "name": "further",
+        "symbol": "/ˈfɜːðə(r)/",
+        "chn": "adj. 更多的,更进一步的 adv. 较远,更远;进一步"
+    },
+    {"name": "2"},
+
+    {
+        "name": "county",
+        "symbol": "/ˈkaʊnti/",
+        "chn": "n. 郡,县"
+    },
+    {
+        "name": "injure",
+        "symbol": "/ˈɪndʒə(r)/",
+        "chn": "vt. 伤害,使受伤;损害",
+        "ext": "injured adj. 受伤的 → injury n. 伤害,损害"
+    },
+    {
+        "name": "disaster",
+        "symbol": "/dɪˈzɑːstə(r)/",
+        "chn": "n. 灾难,灾害;彻底 失败",
+        "ext": "disastrous adj. 灾难性的"
+    },
+    {
+        "name": "at large",
+        "symbol": "",
+        "chn": "整个,全部"
+    },
+    {
+        "name": "reaction",
+        "symbol": "/riˈækʃn/",
+        "chn": "n. 反应,回应;抗拒; 化学反应",
+        "ext": "react vi. 起反应;（对……）做出反应;回应;起化学反应"
+    },
+    {
+        "name": "crash",
+        "symbol": "/kræʃ/",
+        "chn": "n. 碰撞声,破裂声;碰撞;崩溃 vi. & vt. 碰撞,撞击;崩溃"
+    },
+    {
+        "name": "signal",
+        "symbol": "/ˈsɪɡnəl/",
+        "chn": "vi. & vt. 发信号,示意;标志 n. 信号,暗号;标志;信号灯"
+    },
+    {
+        "name": "exit",
+        "symbol": "/ˈeksɪt; ˈegzɪt/",
+        "chn": "vt. & vi. 出去,离去,退场; 退出 n. 出口,通道;离开"
+    },
+    {
+        "name": "orderly",
+        "symbol": "/ˈɔːdəli/",
+        "chn": "adj. 有秩序的,有条理的,整 齐的",
+        "ext": "order"
+    },
+    {
+        "name": "stair",
+        "symbol": "/steə(r)/",
+        "chn": "n. 楼梯;梯级"
+    },
+    {
+        "name": "roll",
+        "symbol": "/rəʊl/",
+        "chn": "n. 名单;卷;一管;翻滚 vi. & vt. 翻滚,滚动;翻身;卷起"
+    },
+    {
+        "name": "roll call",
+        "symbol": "",
+        "chn": "点名"
+    },
+    {
+        "name": "confirm",
+        "symbol": "/kənˈfɜːm/",
+        "chn": "vt. 证实,确认;使确信; 批准",
+        "ext": "confirmation n. 确认;证实"
+    },
+    {
+        "name": "safe and sound",
+        "symbol": "",
+        "chn": "安然无恙的"
+    },
+    {
+        "name": "hug",
+        "symbol": "/hʌɡ/",
+        "chn": "vt. 拥抱,搂抱;抱紧"
+    },
+    {
+        "name": "procedure",
+        "symbol": "/prəˈsiːdʒə(r)/",
+        "chn": "n. 程序,步骤, 手续"
+    },
+    {
+        "name": "tsunami",
+        "symbol": "/tsuːˈnɑːmi/",
+        "chn": "n. 海啸"
+    },
+    {
+        "name": "odd",
+        "symbol": "/ɒd/",
+        "chn": "adj. 奇怪的,怪异的;偶尔的; 不成对的",
+        "ext": "oddly adv. 古怪地;怪异地;反常地"
+    },
+    {
+        "name": "bubble",
+        "symbol": "/ˈbʌbl/",
+        "chn": "n. 泡沫,泡,气泡"
+    },
+    {
+        "name": "occur",
+        "symbol": "/əˈkɜː(r)/",
+        "chn": "vi. 发生,出现;存在于",
+        "ext": "occurrence n. 发生;发生的事情"
+    },
+    {
+        "name": "occur to",
+        "symbol": "",
+        "chn": "被想到,浮现在脑中"
+    },
+    {
+        "name": "keep one’s head",
+        "symbol": "",
+        "chn": "（在困境中）保持冷静"
+    },
+    {
+        "name": "relief",
+        "symbol": "/rɪˈliːf/",
+        "chn": "n. 宽慰,轻松;减轻,消除; 救济",
+        "ext": "relieve vt. 减轻"
+    },
+    {
+        "name": "typhoon",
+        "symbol": "/taɪˈfuːn/",
+        "chn": "n. 台风"
+    },
+    {
+        "name": "destructive",
+        "symbol": "/dɪˈstrʌktɪv/",
+        "chn": "adj. 引起破坏（或毁灭）的,破坏（或毁灭性）的",
+        "ext": "destruction n. 破坏,摧毁"
+    },
+    {
+        "name": "pole",
+        "symbol": "/pəʊl/",
+        "chn": "n. 柱,杆;极"
+    },
+    {
+        "name": "inform",
+        "symbol": "/ɪnˈfɔːm/",
+        "chn": "vt. 了解,熟悉;通知",
+        "ext": "informed adj. 见多识广的,消息灵通的 → information n. 信息;消息;情报;资料"
+    },
+    {
+        "name": "hurricane",
+        "symbol": "/ˈhʌrɪkən/",
+        "chn": "n. 飓风"
+    },
+    {
+        "name": "conference",
+        "symbol": "/ˈkɒnfərəns/",
+        "chn": "n. 会议,研讨会; 讨论,商谈"
+    },
+    {
+        "name": "shock",
+        "symbol": "/ʃɒk/",
+        "chn": "n. 震惊,惊愕;剧烈震动 vt. 使震惊",
+        "ext": "shocked adj. 感到震惊的 → shocking adj. 令人震惊的"
+    },
+    {
+        "name": "scare",
+        "symbol": "/skeə(r)/",
+        "chn": "vt. & vi. 惊吓,害怕 n. 恐慌;惊吓",
+        "ext": "scared adj. 害怕的 → scary adj. 恐怖的, 吓人的"
+    },
+    {
+        "name": "power",
+        "symbol": "/ˈpaʊə(r)/",
+        "chn": "n. 电,电力;权力;政权;控 制力;能力;能量;力量",
+        "ext": "powerful adj. 强大的,强有力的;有权势的;效力大的 → powerless adj. 无力的;无权的"
+    },
+    {
+        "name": "run out of",
+        "symbol": "",
+        "chn": "用完,耗尽"
+    },
+    {
+        "name": "supply",
+        "symbol": "/səˈplaɪ/",
+        "chn": "n. 补给,补给品;供应; 供应量,储备 vt. 供应,供给,提供"
+    },
+    {
+        "name": "donate",
+        "symbol": "/dəʊˈneɪt/",
+        "chn": "vt. 捐赠,赠送;献（血）",
+        "ext": "donation n. 捐赠 → donor n. 捐赠者,捐赠机构"
+    },
+    {
+        "name": "charity",
+        "symbol": "/ˈtʃærəti/",
+        "chn": "n. 慈善机构（组织）;慈善, 施舍;仁爱,宽容",
+        "ext": "charitable adj. 慈善的;慈善事业的"
+    },
+    {
+        "name": "staff",
+        "symbol": "/stɑːf/",
+        "chn": "n. 全体职工;管理人员 vt. 在…工作,任职于"
+    },
+    {
+        "name": "slide",
+        "symbol": "/slaɪd/",
+        "chn": "n. 投影片;降低;滑行;山崩 vi. & vt. 滑行;逐渐陷入"
+    },
+    {
+        "name": "fund",
+        "symbol": "/fʌnd/",
+        "chn": "n. 资金;基金"
+    },
+    {
+        "name": "flood",
+        "symbol": "/flʌd/",
+        "chn": "n. 洪水,水灾;大量 vt. & vi. 淹没,泛滥;大量涌入;充满"
+    },
+    {
+        "name": "downstairs",
+        "symbol": "/ˌdaʊnˈsteəz/",
+        "chn": "adv. 在楼下,往楼下 n. 楼下"
+    },
+    {
+        "name": "document",
+        "symbol": "/ˈdɒkjumənt/",
+        "chn": "n. 文件,公文;（计 算机中的）文档",
+        "ext": "documentary n. 纪录片 adj. 纪实的"
+    },
+    {
+        "name": "honey",
+        "symbol": "/ˈhʌni/",
+        "chn": "n. （爱称）亲爱的;蜂蜜"
+    },
+    {
+        "name": "otherwise",
+        "symbol": "/ˈʌðəwaɪz/",
+        "chn": "adv. 否则,不然;除此 以外"
+    },
+    {
+        "name": "curious",
+        "symbol": "/ˈkjʊəriəs/",
+        "chn": "adj. 好奇的;奇特的",
+        "ext": "curiosity n. 好奇心 → curiously adv. 好奇地"
+    },
+    {
+        "name": "Roman",
+        "symbol": "/ˈrəʊmən/",
+        "chn": "adj. 古罗马的;罗马的 n. 古罗马人;罗马人"
+    },
+    {
+        "name": "erupt",
+        "symbol": "/ɪˈrʌpt/",
+        "chn": "vi. & vt.（火山）爆发;突然 发生",
+        "ext": "eruption n. （火山的）爆发,喷发;突然发生"
+    },
+    {
+        "name": "unearth",
+        "symbol": "/ʌnˈɜːθ/",
+        "chn": "vt. 使出土,挖掘,发掘; 发现,找到"
+    },
+    {
+        "name": "destination",
+        "symbol": "/ˌdestɪˈneɪʃn/",
+        "chn": "n. 目的地,终点"
+    },
+    {
+        "name": "bar",
+        "symbol": "/bɑː(r)/",
+        "chn": "n. 酒吧;小馆子;吧台;条,块;栏 杆;障碍 vt. 封;阻挡;阻止"
+    },
+    {
+        "name": "import",
+        "symbol": "/ˈɪmpɔːt/",
+        "chn": "n. 进口产品,输入的产品; 输入 /ɪmˈpɔːt/ vt. 进口,引进"
+    },
+    {
+        "name": "export",
+        "symbol": "/ˈekspɔːt/",
+        "chn": "n. 出口产品,输出的产品; 出口,输出 /ɪkˈspɔːt/ vt. 出口,输出"
+    },
+    {
+        "name": "port",
+        "symbol": "/pɔːt/",
+        "chn": "n. 港口,避风港;港口城市"
+    },
+    {
+        "name": "cloud-capped",
+        "symbol": "/ˌklaʊd ˈkæpt/",
+        "chn": "adj. 高耸入云 的,耸入云霄的"
+    },
+    {
+        "name": "ashy",
+        "symbol": "/ˈæʃi/",
+        "chn": "adj. 覆盖着灰的;灰色的"
+    },
+    {
+        "name": "dawn",
+        "symbol": "/dɔːn/",
+        "chn": "n. 黎明,破晓;开端,萌芽 vi. 开始;开始清楚"
+    },
+    {
+        "name": "volcano",
+        "symbol": "/vɒlˈkeɪnəʊ/",
+        "chn": "n. 火山"
+    },
+    {
+        "name": "take the form of",
+        "symbol": "",
+        "chn": "呈现…的形状;采取… 的形式"
+    },
+    {
+        "name": "trunk",
+        "symbol": "/trʌŋk/",
+        "chn": "n. 树干"
+    },
+    {
+        "name": "unbearable",
+        "symbol": "/ʌnˈbeərəbl/",
+        "chn": "adj. 难耐的,无法 忍受的",
+        "ext": "bearable adj. 可忍受的 → bear v. 忍受,容忍;承担;显示;带有;携带;承受;结（果实）"
+    },
+    {
+        "name": "break out",
+        "symbol": "",
+        "chn": "突然开始,爆发"
+    },
+    {
+        "name": "beyond",
+        "symbol": "/bɪˈjɒnd/",
+        "chn": "adv. 在（或向）较远处; 在另一边 prep. 在（或向）更远处; 超出;晚于;无法;超出…之外"
+    },
+    {
+        "name": "distance",
+        "symbol": "/ˈdɪstəns/",
+        "chn": "n. 遥远,久远;距离;差 异;疏远",
+        "ext": "distant adj. 遥远的;冷淡的;疏远的 → distantly adv. 遥远地;冷淡地;疏远地"
+    },
+    {
+        "name": "far and wide",
+        "symbol": "",
+        "chn": "到处,各处"
+    },
+    {
+        "name": "pattern",
+        "symbol": "/ˈpætn/",
+        "chn": "n. 图案,花样;模式;范例; 模型"
+    },
+    {
+        "name": "column",
+        "symbol": "/ˈkɒləm/",
+        "chn": "n. 柱,圆柱;柱状物;栏; 专栏;队,列"
+    },
+    {
+        "name": "rescue",
+        "symbol": "/ˈreskjuː/",
+        "chn": "n. & vt. 救援,营救,抢救"
+    },
+    {
+        "name": "sharp",
+        "symbol": "/ʃɑːp/",
+        "chn": "adj. 灵敏的;锋利的;急剧的;明 显的;尖锐的;强烈的",
+        "ext": "sharply adv. 急剧地;明显地;尖刻地;猛烈地 → sharpen v. （使）变锋利"
+    },
+    {
+        "name": "locate",
+        "symbol": "/ləʊˈkeɪt/",
+        "chn": "vt. 找出…的准确位置;把…安置在（或建造于）",
+        "ext": "located adj. 位于,坐落在 → location n. 地点,位置"
+    },
+    {
+        "name": "retire",
+        "symbol": "/rɪˈtaɪə(r)/",
+        "chn": "vi. & vt.",
+        "ext": "retired adj. 已退休的 → retiring adj. 腼腆的;不爱与人交往的 → retirement n. 退休;退职;退休生活"
+    },
+    { "name":"3"},
+    
+    {
+        "name": "webcam",
+        "symbol": "/ˈwebkæm/",
+        "chn": "n. 网络摄像头"
+    },
+    {
+        "name": "pot",
+        "symbol": "/pɒt/",
+        "chn": "n. 壶,瓶,罐;锅"
+    },
+    {
+        "name": "emoji",
+        "symbol": "/ɪˈməʊdʒi/",
+        "chn": "n. 表情符号"
+    },
+    {
+        "name": "comic",
+        "symbol": "/ˈkɒmɪk/",
+        "chn": "n. 连环漫画;喜剧演员 adj. 滑稽的;喜剧的"
+    },
+    {
+        "name": "take off",
+        "symbol": "",
+        "chn": "突然大受欢迎,迅速流行"
+    },
+    {
+        "name": "frontier",
+        "symbol": "/ˈfrʌntɪə(r)/",
+        "chn": "n. 国界,边界;尖端, 边缘"
+    },
+    {
+        "name": "billion",
+        "symbol": "/ˈbɪljən/",
+        "chn": "n. 十亿"
+    },
+    {
+        "name": "obviously",
+        "symbol": "/ˈɒbviəsli/",
+        "chn": "adv. 显然,明显地",
+        "ext": "obvious adj. 显然的,明显的"
+    },
+    {
+        "name": "access",
+        "symbol": "/ˈækses/",
+        "chn": "n. 机会,权利;路径,通道 vt. 到达,进入,使用",
+        "ext": "accessible adj. 可进入的;可使用的"
+    },
+    {
+        "name": "extent",
+        "symbol": "/ɪkˈstent/",
+        "chn": "n. 程度,限度;范围"
+    },
+    {
+        "name": "to a certain extent",
+        "symbol": "",
+        "chn": "在一定程度上"
+    },
+    {
+        "name": "at one's fingertips",
+        "symbol": "",
+        "chn": "掌握（信息）,熟悉、精通（知识等）,了如指掌"
+    },
+    {
+        "name": "click",
+        "symbol": "/klɪk/",
+        "chn": "n. 点击,单击;咔哒声 vi. & vt. 使发出咔哒声;点击, 单击"
+    },
+    {
+        "name": "button",
+        "symbol": "/ˈbʌtn/",
+        "chn": "n. 按钮;纽扣"
+    },
+    {
+        "name": "recipe",
+        "symbol": "/ˈresəpi/",
+        "chn": "n. 食谱;方法,秘诀"
+    },
+    {
+        "name": "military",
+        "symbol": "/ˈmɪlətri/",
+        "chn": "adj. 军事的,军队的"
+    },
+    {
+        "name": "affair",
+        "symbol": "/əˈfeə(r)/",
+        "chn": "n.公共事务,政治事务;事情"
+    },
+    {
+        "name": "bring up",
+        "symbol": "",
+        "chn": "使显示在计算机屏幕上,调出; 提出"
+    },
+    {
+        "name": "majority",
+        "symbol": "/məˈdʒɒrəti/",
+        "chn": "n. 大部分,大多数票",
+        "ext": "major adj. 主要的;大的 n.主修课程,专业;主修学生 vi. 主修"
+    },
+    {
+        "name": "goods",
+        "symbol": "/ɡʊdz/",
+        "chn": "n. 商品,货品;私人财产"
+    },
+    {
+        "name": "commerce",
+        "symbol": "/ˈkɒmɜːs/",
+        "chn": "n. 商务;商业;贸易"
+    },
+    {
+        "name": "deliver",
+        "symbol": "/dɪˈlɪvə(r)/",
+        "chn": "vt.递送;发表,宣布",
+        "ext": "delivery n. 递送;分娩"
+    },
+    {
+        "name": "site",
+        "symbol": "/saɪt/",
+        "chn": "n. 网站,站点;地点;现场"
+    },
+    {
+        "name": "boot",
+        "symbol": "/buːt/",
+        "chn": "n. 靴子"
+    },
+    {
+        "name": "arrangement",
+        "symbol": "/əˈreɪndʒmənt/",
+        "chn": "n.安排;布置;约定;排列",
+        "ext": "arrange v. 安排,筹划"
+    },
+    {
+        "name": "cash",
+        "symbol": "/kæʃ/",
+        "chn": "n. 现金;金钱,资金"
+    },
+    {
+        "name": "above all else",
+        "symbol": "",
+        "chn": "最重要的是,尤其是"
+    },
+    {
+        "name": "establish",
+        "symbol": "/ɪˈstæblɪʃ/",
+        "chn": "vt. 建立（关系或联系）;设立;确立;使得到认可;查实,确定"
+    },
+    {
+        "name": "software",
+        "symbol": "/ˈsɒftweə(r)/",
+        "chn": "n. 软件"
+    },
+    {
+        "name": "instant",
+        "symbol": "/ˈɪnstənt/",
+        "chn": "adj. 立即的,立刻的;方便的 n. 瞬间,片刻;某一时刻",
+        "ext": "instantly adv. 立即,立刻"
+    },
+    {
+        "name": "comment",
+        "symbol": "/ˈkɒment/",
+        "chn": "n. 议论,评论;批评,指责 vi. & vt. 表达意见"
+    },
+    {
+        "name": "aware",
+        "symbol": "/əˈweə(r)/",
+        "chn": "adj. 知道,意识到;察觉到,发觉;有…意识的",
+        "ext": "awareness n. 认识,意识"
+    },
+    {
+        "name": "surf",
+        "symbol": "/sɜːf/",
+        "chn": "vt. & vi.（互联网上）冲浪,浏览; 进行冲浪运动"
+    },
+    {
+        "name": "guideline",
+        "symbol": "/ˈɡaɪdlaɪn/",
+        "chn": "n. 准则,指导方针; 参考"
+    },
+    {
+        "name": "remove",
+        "symbol": "/rɪˈmuːv/",
+        "chn": "vt. 删除;移走;开除",
+        "ext": "removal n. 免职;移动;排除;搬迁 → remover n. 消除剂;搬运工;搬家公司"
+    },
+    {
+        "name": "file",
+        "symbol": "/faɪl/",
+        "chn": "n. 文件;文件夹;档案"
+    },
+    {
+        "name": "belong to",
+        "symbol": "",
+        "chn": "属于,归…所有",
+        "ext": "belong vi. 应在（某处）;能适应 → belonging n."
+    },
+    {
+        "name": "ballet",
+        "symbol": "/ˈbæleɪ/",
+        "chn": "n. 芭蕾舞;芭蕾舞剧;芭蕾 舞团"
+    },
+    {
+        "name": "set up",
+        "symbol": "",
+        "chn": "创建,建立"
+    },
+    {
+        "name": "request",
+        "symbol": "/rɪˈkwest/",
+        "chn": "vt. 要求,请求 n. 要求,请求;要求的事"
+    },
+    {
+        "name": "technical",
+        "symbol": "/ˈteknɪkl/",
+        "chn": "adj. 技术的,技能的;专门技术的;专业的",
+        "ext": "technique n."
+    },
+    {
+        "name": "upload",
+        "symbol": "/ˌʌpˈləʊd/",
+        "chn": "vt. 上载,上传"
+    },
+    {
+        "name": "download",
+        "symbol": "/ˌdaʊnˈləʊd/",
+        "chn": "vt. 下载"
+    },
+    {
+        "name": "percentage",
+        "symbol": "/pəˈsentɪdʒ/",
+        "chn": "n.百分率,百分比;提成"
+    },
+    {
+        "name": "entertainment",
+        "symbol": "/ˌentəˈteɪnmənt/",
+        "chn": "n.娱乐活动,招待,娱乐",
+        "ext": "entertain v. 使欢乐;款待 → entertaining adj. 使人愉快的;有趣的;娱乐的"
+    },
+    {
+        "name": "mobile",
+        "symbol": "/ˈməʊbaɪl/",
+        "chn": "adj. 可移动的, 行动方便的 n. 手机"
+    },
+    {
+        "name": "device",
+        "symbol": "/dɪˈvaɪs/",
+        "chn": "n. 设备,仪器;手段,技巧"
+    },
+    {
+        "name": "addict",
+        "symbol": "/ˈædɪkt/",
+        "chn": "n. 对…入迷的人;瘾君子",
+        "ext": "addiction n. 入迷,嗜好;瘾 → addictive adj. 使人入迷的;（药物等）使人上瘾的 → addicted adj. 入迷的;（人）上瘾的"
+    },
+    {
+        "name": "be glued to sth",
+        "symbol": "",
+        "chn": "全神贯注看着某物,离某物很近"
+    },
+    {
+        "name": "Wi-Fi",
+        "symbol": "/ˈwaɪ faɪ/",
+        "chn": "n. 无线网络"
+    },
+    {
+        "name": "battery",
+        "symbol": "/ˈbætri; ˈbætəri/",
+        "chn": "n. 电池"
+    },
+    {
+        "name": "quit",
+        "symbol": "/kwɪt/",
+        "chn": "vt. & vi. (quit, quit; quitted, quitted) 停止,戒掉;离开"
+    },
+    {
+        "name": "shoot past",
+        "symbol": "",
+        "chn": "飞驰而过"
+    },
+    {
+        "name": "knock sb off one's feet",
+        "symbol": "",
+        "chn": "撞倒某人,使某人离地"
+    },
+    {
+        "name": "scary",
+        "symbol": "/ˈskeəri/",
+        "chn": "adj. 恐怖的,吓人的",
+        "ext": "scare vt. 使恐惧,惊吓"
+    },
+    {
+        "name": "somehow",
+        "symbol": "/ˈsʌmhaʊ/",
+        "chn": "adv. 不知怎么地;以某 种方式（或方法）"
+    },
+    {
+        "name": "be lost in",
+        "symbol": "",
+        "chn": "全神贯注,沉浸于"
+    },
+    {
+        "name": "journal",
+        "symbol": "/ˈdʒɜːnl/",
+        "chn": "n. 日记;报纸,杂志"
+    },
+    {
+        "name": "reveal",
+        "symbol": "/rɪˈviːl/",
+        "chn": "vt. 展示,显出;揭示,透露"
+    },
+    {
+        "name": "appreciate",
+        "symbol": "/əˈpriːʃieɪt/",
+        "chn": "vt. 欣赏,赏识;感谢",
+        "ext": "appreciation n. 感激;欣赏"
+    },
+    {
+        "name": "wide-ranging",
+        "symbol": "/ˌwaɪd ˈreɪndʒɪŋ/",
+        "chn": "adj. 覆盖面 广的,内容广泛的"
+    },
+    {
+        "name": "opera",
+        "symbol": "/ˈɒprə/",
+        "chn": "n. 歌剧;歌剧院"
+    },
+    {
+        "name": "badminton",
+        "symbol": "/ˈbædmɪntən/",
+        "chn": "n. 羽毛球运动"
+    },
+    {
+        "name": "cut back on",
+        "symbol": "",
+        "chn": "削减"
+    },
+    {"name":"4"},
+    
+    {
+        "name": "republic",
+        "symbol": "/rɪˈpʌblɪk/",
+        "chn": "n. 共和国,共和政体"
+    },
+    {
+        "name": "malaria",
+        "symbol": "/məˈleəriə/",
+        "chn": "n. 疟疾"
+    },
+    {
+        "name": "deadly",
+        "symbol": "/ˈdedli/",
+        "chn": "adj.致命的;十足的,彻底的",
+        "ext": "dead adj. → die v. → death n. → dying adj."
+    },
+    {
+        "name": "survival",
+        "symbol": "/səˈvaɪvl/",
+        "chn": "n. 生存,存活,幸存事物",
+        "ext": "survive v. 幸存;生存;比……活得长"
+    },
+    {
+        "name": "province",
+        "symbol": "/ˈprɒvɪns/",
+        "chn": "n. 省,省份"
+    },
+    {
+        "name": "broad",
+        "symbol": "/brɔːd/",
+        "chn": "adj. 广泛的;概括的;开阔的",
+        "ext": "broaden v. 变宽;变阔;增长（经验、知识等）"
+    },
+    {
+        "name": "intend",
+        "symbol": "/ɪnˈtend/",
+        "chn": "vi. & vt. 想要,计划;意指",
+        "ext": "intention n. 打算;计划;意图"
+    },
+    {
+        "name": "extract",
+        "symbol": "/ˈekstrækt/",
+        "chn": "n. 提取物;选录 /ɪkˈstrækt/ vt. 提取;选录;取出;设法 得到"
+    },
+    {
+        "name": "herb",
+        "symbol": "/hɜːb/",
+        "chn": "n. 药草,香草;草本"
+    },
+    {
+        "name": "refer to",
+        "symbol": "",
+        "chn": "查阅,参考;提到,谈及",
+        "ext": "reference n. 参考;谈及"
+    },
+    {
+        "name": "experiment",
+        "symbol": "/ɪkˈsperɪmənt/",
+        "chn": "n. 实验,试验;尝试 vi. 做试验,进行实验;尝试"
+    },
+    {
+        "name": "trial",
+        "symbol": "/ˈtraɪəl/",
+        "chn": "n. 试用,试验;审讯,审判;考验 vi. & vt. 测试,试验"
+    },
+    {
+        "name": "limited",
+        "symbol": "/ˈlɪmɪtɪd/",
+        "chn": "adj. 有限的",
+        "ext": "limit n.&v. 限度,限制"
+    },
+    {
+        "name": "household",
+        "symbol": "/ˈhaʊshəʊld/",
+        "chn": "adj. 家庭的,家用的 n. 一家人,家庭"
+    },
+    {
+        "name": "container",
+        "symbol": "/kənˈteɪnə(r)/",
+        "chn": "n. 容器;集装箱, 货柜"
+    },
+    {
+        "name": "postpone",
+        "symbol": "/pəˈspəʊn/",
+        "chn": "vt. 延迟,延期"
+    },
+    {
+        "name": "sufficient",
+        "symbol": "/səˈfɪʃnt/",
+        "chn": "adj. 足够的,充足的"
+    },
+    {
+        "name": "data",
+        "symbol": "/ˈdeɪtə/",
+        "chn": "n. 数据,资料,材料"
+    },
+    {
+        "name": "speed up",
+        "symbol": "",
+        "chn": "（使）加速"
+    },
+    {
+        "name": "pay off",
+        "symbol": "",
+        "chn": "成功,奏效,达到目的"
+    },
+    {
+        "name": "error",
+        "symbol": "/ˈerə(r)/",
+        "chn": "n. 错误,差错"
+    },
+    {
+        "name": "through trial and error",
+        "symbol": "",
+        "chn": "反复试验"
+    },
+    {
+        "name": "wisdom",
+        "symbol": "/ˈwɪzdəm/",
+        "chn": "n. 智慧,知识,才智;明智",
+        "ext": "wise adj. 明智的;有判断力的"
+    },
+    {
+        "name": "beneficial",
+        "symbol": "/ˌbenɪˈfɪʃl/",
+        "chn": "adj. 有益的,有用的",
+        "ext": "benefit n. 益处,好处;福利"
+    },
+    {
+        "name": "conduct",
+        "symbol": "/kənˈdʌkt/",
+        "chn": "vt. & vi. 组织,实施;指 挥;引导;举止"
+    },
+    {
+        "name": "illustrate",
+        "symbol": "/ˈɪləstreɪt/",
+        "chn": "vt. 说明,解释;加插 图于",
+        "ext": "illustration n. 图表,插图;示例"
+    },
+    {
+        "name": "penicillin",
+        "symbol": "/ˌpenɪˈsɪlɪn/",
+        "chn": "n. 青霉素,盘尼西林"
+    },
+    {
+        "name": "mould",
+        "symbol": "/məʊld/",
+        "chn": "(AmE. mold) n. 霉菌;模具; 类型 vt. 浇铸;塑造"
+    },
+    {
+        "name": "bacteria",
+        "symbol": "/bækˈtɪəriə/",
+        "chn": "n. (sing. bacterium) 细菌"
+    },
+    {
+        "name": "surround",
+        "symbol": "/səˈraʊnd/",
+        "chn": "vt. 围绕,与… 紧密相关",
+        "ext": "surrounding adj. 附近的,四周的"
+    },
+    {
+        "name": "indicate",
+        "symbol": "/ˈɪndɪkeɪt/",
+        "chn": "vt. 表明;暗示;提及; 指出",
+        "ext": "indication n. 表明;标示;显示;象征"
+    },
+    {
+        "name": "accident",
+        "symbol": "/ˈæksɪdənt/",
+        "chn": "n. 意外,偶然的事;事故"
+    },
+    {
+        "name": "by accident",
+        "symbol": "",
+        "chn": "偶然,意外地"
+    },
+    {
+        "name": "intelligent",
+        "symbol": "/ɪnˈtelɪdʒənt/",
+        "chn": "adj. 有才智的,聪明 的;有智力的",
+        "ext": "intelligence n. 智力;理解力"
+    },
+    {
+        "name": "favour",
+        "symbol": "/ˈfeɪvə(r)/",
+        "chn": "(AmE favor) vt. 较喜欢 n. 帮助,好事;赞同;偏袒"
+    },
+    {
+        "name": "politician",
+        "symbol": "/ˌpɒləˈtɪʃn/",
+        "chn": "n. 政治家, 投机钻营者"
+    },
+    {
+        "name": "lightning",
+        "symbol": "/ˈlaɪtnɪŋ/",
+        "chn": "n. 闪电"
+    },
+    {
+        "name": "electricity",
+        "symbol": "/ɪˌlekˈtrɪsəti/",
+        "chn": "n. 电,电能",
+        "ext": "electric adj. 电的,发电的,电动的 → electrical adj. 用电的; 与电有关的"
+    },
+    {
+        "name": "theory",
+        "symbol": "/ˈθɪəri/",
+        "chn": "n.学说,论;原理;看法,意见"
+    },
+    {
+        "name": "thunderstorm",
+        "symbol": "/ˈθʌndəstɔːm/",
+        "chn": "n. 雷雨,雷暴"
+    },
+    {
+        "name": "ribbon",
+        "symbol": "/ˈrɪbən/",
+        "chn": "n. 带子,丝带;带状物"
+    },
+    {
+        "name": "metal",
+        "symbol": "/ˈmetl/",
+        "chn": "n. 金属"
+    },
+    {
+        "name": "charge",
+        "symbol": "/tʃɑːdʒ/",
+        "chn": "vt. & vi. 充电;收费;控告; 谴责;使…承担责任;使充满 n. 收费;控告;谴责;掌管"
+    },
+    {
+        "name": "electric",
+        "symbol": "/ɪˈlektrɪk/",
+        "chn": "adj. 电的,发电的,电 动的"
+    },
+    {
+        "name": "bang",
+        "symbol": "/bæŋ/",
+        "chn": "n. 突然的巨响;猛敲,猛击 vi. & vt. 砸;砰地关上;猛摔; 碰撞"
+    },
+    {
+        "name": "with a bang",
+        "symbol": "",
+        "chn": "很成功;引人注目,有强烈 影响"
+    },
+    {
+        "name": "standout",
+        "symbol": "/ˈstændaʊt/",
+        "chn": "adj. 突出的 n. 突出的人（或物）"
+    },
+    {
+        "name": "atomic",
+        "symbol": "/əˈtɒmɪk/",
+        "chn": "adj. 原子的;原子能的"
+    },
+    {
+        "name": "bomb",
+        "symbol": "/bɒm/",
+        "chn": "n. 炸弹;核武器 vt. 轰炸"
+    },
+    {
+        "name": "evil",
+        "symbol": "/ˈiːvl/",
+        "chn": "n. 罪恶,罪行;害处,坏处 adj. 恶毒的;有害的;恶魔的"
+    },
+    {
+        "name": "involve",
+        "symbol": "/ɪnˈvɒlv/",
+        "chn": "vt. 牵涉,影响;包含（使）参加",
+        "ext": "involved adj. 参与,有关联的 → involvement n. 参与"
+    },
+    {
+        "name": "scientific",
+        "symbol": "/ˌsaɪənˈtɪfɪk/",
+        "chn": "adj. 科学的,关于科学 的;细致严谨的",
+        "ext": "science n. → scientist n. 科学家"
+    },
+    {
+        "name": "credit",
+        "symbol": "/ˈkredɪt/",
+        "chn": "n. 赞扬,认可;信用 vt. 存入金额;把…归于"
+    },
+    {
+        "name": "moral",
+        "symbol": "/ˈmɒrəl/",
+        "chn": "adj. 道德的;道义上的;端正的 n. 品行,道德;寓意",
+        "ext": "morality n. 道德;道德准则"
+    },
+    {
+        "name": "apply",
+        "symbol": "/əˈplaɪ/",
+        "chn": "vt. & vi. 应用;申请;涂;有关",
+        "ext": "application n. 申请;请求;申请表 → applicant n. 申请人"
+    },
+    {
+        "name": "negate",
+        "symbol": "/nɪˈɡeɪt/",
+        "chn": "vt. 取消,使无效;否认,否定",
+        "ext": "negative adj. 有害的,不良的;消极的;负面的;否定的"
+    },
+    {
+        "name": "intellectual",
+        "symbol": "/ˌɪntəˈlektʃuəl/",
+        "chn": "adj. 脑力的;有才智的, n. 知识分子,脑力劳动者"
+    },
+    {
+        "name": "mystery",
+        "symbol": "/ˈmɪstri/",
+        "chn": "n. 神秘;神秘的人（或事 物）;悬疑作品"
+    },
+    {
+        "name": "let sb down",
+        "symbol": "",
+        "chn": "使某人失望"
+    },
+    {
+        "name": "ignorance",
+        "symbol": "/ˈɪɡnərəns/",
+        "chn": "n. 无知",
+        "ext": "ignorant adj. 不了解的,无知的;无礼的"
+    },
+    {
+        "name": "as to",
+        "symbol": "",
+        "chn": "关于,至于"
+    },
+    {
+        "name": "take it for granted",
+        "symbol": "",
+        "chn": "想当然地认为,认 为…是理所当然"
+    },
+    {
+        "name": "freedom",
+        "symbol": "/ˈfriːdəm/",
+        "chn": "n. 自由",
+        "ext": "free adj. 自由的;免费的;空闲的 v. 摆脱;使自由"
+    },
+    {
+        "name": "authority",
+        "symbol": "/ɔːˈθɒrəti/",
+        "chn": "n. 权威;权力;官方"
+    },
+    {
+        "name": "permit",
+        "symbol": "/pəˈmɪt/",
+        "chn": "vt. & vi. 允许,准许,许可 /ˈpɜːmɪt/ n. 许可证",
+        "ext": "permission n. 准许;许可;批准"
+    },
+    {
+        "name": "responsibility",
+        "symbol": "/rɪˌspɒnsəˈbɪləti/",
+        "chn": "n. 责任,负责;职责,义务",
+        "ext": "responsible adj. 负责的; 应负责任的 → irresponsible adj. 不负责的"
+    },
+    {
+        "name": "declare",
+        "symbol": "/dɪˈkleə(r)/",
+        "chn": "vt. 表明,宣称宣布;申报",
+        "ext": "declaration n. 宣布,宣告,公布,公告"
+    },
+    {
+        "name": "nationality",
+        "symbol": "/ˌnæʃəˈnæləti/",
+        "chn": "n. 国籍;民族",
+        "ext": "national adj. 国家的,全国的;国有的,国立的"
+    },
+    {
+        "name": "put forward",
+        "symbol": "",
+        "chn": "提出,提议,建议"
+    },
+    {
+        "name": "evolution",
+        "symbol": "/ˌiːvəˈluːʃn/",
+        "chn": "n. 进化;演变,发展"
+    },
+    {
+        "name": "publish",
+        "symbol": "/ˈpʌblɪʃ/",
+        "chn": "vt. 出版,发行;发表; 公布"
+    },
+    {
+        "name": "marriage",
+        "symbol": "/ˈmærɪdʒ/",
+        "chn": "n. 结婚",
+        "ext": "marry v. （和某人）结婚;娶;嫁 → married adj. 已婚的"
+    }
+]

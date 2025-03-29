@@ -18,7 +18,7 @@ const defaultConfig = {
             name: 'gemini',
             url: 'https://generativelanguage.googleapis.com/v1beta/models/__MODEL_NAME__:generateContent',
             key: '',
-            models: ['gemini-2.0-flash-exp', 'gemini-pro-vision', 'gemini-1.0-pro-001']
+            models: ['gemini-2.0-flash-exp-image-generation', 'gemini-pro-vision', 'gemini-2.5-pro-exp-03-25']
         },
         openai: {
             name: 'openai',
@@ -37,7 +37,13 @@ const defaultConfig = {
             name: 'grok',
             url: 'https://api.x.ai/v1/chat/completions',
             key: '',
-            models: ['grok-2-latest', 'grok-beta']
+            models: ['grok-3']
+        },
+        openrouter: {
+            name: 'openrouter',
+            url: 'https://api.openrouter.ai/v1/chat/completions',
+            key: '',
+            models: ['anthropic/claude-3.7-sonnet','anthropic/claude-3.7-sonnet:thinking','anthropic/claude-3.5-sonnet','google/gemini-2.5-pro-exp-03-25:free']
         }
     },
     bot: {
@@ -102,17 +108,40 @@ export class AIConfigDialog {
 
     #initializeSettings() {
         const storedSettings = storageManager.aisettings;
-        if (storedSettings && (Object.keys(storedSettings.servers).length > 0 || Object.keys(storedSettings.bots).length > 0)) {
-            // @ts-ignore
-            this.#currentSettings = { ...storedSettings };
+        if (storedSettings && (Object.keys(storedSettings.servers).length > 0)) {
+            // 合并默认配置和存储的配置，保留存储的key值
+            const mergedServers = {};
+            
+            // 首先处理默认配置
+            for (const [serverName, serverConfig] of Object.entries(defaultConfig.server)) {
+                mergedServers[serverName] = {
+                    ...serverConfig,
+                    // 如果存储中有相同的server且key不为空，则使用存储的key
+                    key: (storedSettings.servers[serverName]?.key || '')
+                };
+            }
+            
+            // 然后添加存储中独有的服务器配置
+            for (const [serverName, serverConfig] of Object.entries(storedSettings.servers)) {
+                if (!mergedServers[serverName]) {
+                    mergedServers[serverName] = serverConfig;
+                }
+            }
+            
+            this.#currentSettings = {
+                servers: mergedServers,
+                bots: storedSettings.bots || { ...defaultConfig.bot },
+                curBot: storedSettings.curBot || defaultConfig.curBot
+            };
         } else {
             this.#currentSettings = {
                 servers: { ...defaultConfig.server },
                 bots: { ...defaultConfig.bot },
                 curBot: defaultConfig.curBot
             };
-            storageManager.updateAISettings(this.#currentSettings);
         }
+        
+        storageManager.updateAISettings(this.#currentSettings);
     }
 
     #bindEvents() {

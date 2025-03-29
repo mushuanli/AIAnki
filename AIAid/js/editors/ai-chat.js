@@ -7,6 +7,9 @@ import { BaseEditor } from './base-editor.js';
 import eventBus from '../core/event-bus.js';
 import storageManager from '../core/storage-manager.js';
 import aiConfigDialog from './ai-config-dialog.js';
+import { AIHandlerFactory } from '../ai/handlers/ai-handler-factory.js';
+import { MessageRenderer } from '../ai/renderers/message-renderer.js';
+import { AttachmentManager } from '../ai/attachments/attachment-manager.js';
 
 export class AIChat extends BaseEditor {
     #elements = {
@@ -27,14 +30,33 @@ export class AIChat extends BaseEditor {
         attachmentsList: /** @type {HTMLDivElement} */ (document.querySelector('.ai-attachments-list'))
     };
 
-    
+    /** @type {Array<any>} */
     #messages = [];
+    
+    /** @type {boolean} */
     #isWaitingForResponse = false;
-    #currentAttachments = [];
+    
+    /** @type {AbortController|null} */
     #currentController = null;
+    
+    /** @type {MessageRenderer} */
+    #messageRenderer;
+    
+    /** @type {AttachmentManager} */
+    #attachmentManager;
 
     constructor() {
         super('ai');
+        this.#messageRenderer = new MessageRenderer(this.#elements.chatHistory);
+        this.#attachmentManager = new AttachmentManager(
+            this.#elements.attachmentsContainer,
+            this.#elements.attachmentsList,
+            this.#elements.fileUpload
+        );
+        this.#initialize();
+    }
+
+    #initialize() {
         this.#bindEditorEvents();
         this.#setupResizeHandle();
         this.#populateBotSelect();
@@ -61,7 +83,7 @@ export class AIChat extends BaseEditor {
         
         this.#elements.fileUpload.addEventListener('change', (e) => {
             // @ts-ignore
-            this.#handleFileUpload(e.target.files);
+            this.#attachmentManager.handleFileUpload(e.target.files);
         });
         
         // 清除对话
@@ -143,15 +165,14 @@ export class AIChat extends BaseEditor {
         
         Object.entries(settings.bots).forEach(([name, bot]) => {
             const option = document.createElement('option');
-            option.value = name;  // Use the bot's key (name) as the value
+            option.value = name;  
             // @ts-ignore
-            option.textContent = bot.name;  // Display the bot's name
+            option.textContent = bot.name;
             if (name === settings.curBot) {
-                option.selected = true;  // Select the current bot
+                option.selected = true;
             }
             botSelect.appendChild(option);
         });
-
         
         // 尝试恢复之前选中的值
         if (currentValue && Array.from(botSelect.options).some(opt => opt.value === currentValue)) {
@@ -171,7 +192,9 @@ export class AIChat extends BaseEditor {
 
     async #sendMessage() {
         const messageText = this.#elements.messageInput.value.trim();
-        if ((!messageText && this.#currentAttachments.length === 0) || this.#isWaitingForResponse) return;
+        const attachments = this.#attachmentManager.getCurrentAttachments();
+        
+        if ((!messageText && attachments.length === 0) || this.#isWaitingForResponse) return;
         
         const botId = this.#elements.botSelect.value;
         if (!botId) {
@@ -179,54 +202,51 @@ export class AIChat extends BaseEditor {
             return;
         }
         
-        // Save the message input content in case we need to restore it
+        // 保存原始输入内容以备恢复
         const originalMessage = messageText;
-        const originalAttachments = [...this.#currentAttachments];
+        const originalAttachments = [...attachments];
         
         try {
-            // Create user message object
+            // 创建用户消息对象
             const userMessage = {
                 role: 'user',
                 content: messageText,
                 timestamp: new Date().toISOString()
             };
             
-            // Add attachments if any
-            if (this.#currentAttachments.length > 0) {
-                userMessage.attachments = this.#currentAttachments;
+            // 添加附件
+            if (attachments.length > 0) {
+                userMessage.attachments = attachments;
             }
             
             this.#messages.push(userMessage);
-            this.#renderMessage(userMessage);
+            this.#messageRenderer.renderMessage(userMessage);
             this.#elements.messageInput.value = '';
             
-            // Clear attachments
-            this.#currentAttachments = [];
-            this.#updateAttachmentsUI();
+            // 清空附件
+            this.#attachmentManager.clearAttachments();
             
-            // Request AI response
+            // 请求AI响应
             await this.#requestAIResponse(botId);
             
-            // Save current session
+            // 保存当前会话
             this.#saveCurrentSession();
         } catch (error) {
-            // On error, restore the input field and attachments
+            // 恢复输入和附件
             this.#elements.messageInput.value = originalMessage;
-            this.#currentAttachments = originalAttachments;
-            this.#updateAttachmentsUI();
+            this.#attachmentManager.setAttachments(originalAttachments);
             
-            // Note: The user message is already removed from #messages by the DeepSeek request handler
-            // The error will be displayed by the outer error handler
-            
-            // Don't rethrow here - the error is already handled by #requestAIResponse
+            console.error('发送消息错误:', error);
         }
     }
     
-
+    /**
+     * 请求AI响应
+     * @param {string} botId - Bot ID
+     */
     async #requestAIResponse(botId) {
         this.#isWaitingForResponse = true;
         this.#elements.loading.style.display = 'flex';
-        // @ts-ignore
         this.#currentController = new AbortController();
         
         try {
@@ -245,8 +265,8 @@ export class AIChat extends BaseEditor {
                 throw new Error('找不到Bot对应的服务器配置');
             }
             
-            // 构建请求参数
-            const messages = this.#formatMessagesForAPI(bot);
+            // 创建AI处理器
+            const aiHandler = AIHandlerFactory.createHandler(bot.server, server, bot);
             
             // 创建聊天记录中的AI响应占位
             const aiMessageId = `ai-response-${Date.now()}`;
@@ -256,30 +276,15 @@ export class AIChat extends BaseEditor {
                 content: '',
                 timestamp: new Date().toISOString()
             };
-            this.#messages.push(aiMessage);
-            this.#renderMessage(aiMessage);
             
-            // 根据不同AI服务发送请求
-            switch (bot.server) {
-                case 'openai':
-                    await this.#sendOpenAIRequest(server, bot, messages, aiMessageId);
-                    break;
-                case 'claude':
-                    await this.#sendClaudeRequest(server, bot, messages, aiMessageId);
-                    break;
-                case 'gemini':
-                    await this.#sendGeminiRequest(server, bot, messages, aiMessageId);
-                    break;
-                case 'deepseek':
-                    await this.#sendDeepSeekRequest(server, bot, messages, aiMessageId);
-                    break;
-                case 'grok':
-                    await this.#sendGrokRequest(server, bot, messages, aiMessageId);
-                    break;
-                default:
-                    // 默认模拟响应
-                    await this.#simulateAIResponse(bot, aiMessageId);
-            }
+            this.#messages.push(aiMessage);
+            this.#messageRenderer.renderMessage(aiMessage);
+            
+            // 准备消息数据
+            const messages = this.#formatMessagesForAPI(bot);
+            
+            // 处理AI请求
+            await this.#processAIRequest(aiHandler, messages, aiMessageId);
             
             // 保存当前会话
             this.#saveCurrentSession();
@@ -299,7 +304,7 @@ export class AIChat extends BaseEditor {
                 isError: true
             };
             
-            this.#renderMessage(errorMessage);
+            this.#messageRenderer.renderMessage(errorMessage);
             this.#messages.push(errorMessage);
             this.#saveCurrentSession();
         } finally {
@@ -309,415 +314,242 @@ export class AIChat extends BaseEditor {
         }
     }
 
-    async #getAIReader(server,requestBody,headers = undefined){
-        const apiUrl = server.url;
-        const apiKey = server.key;
-
-        if( headers === undefined ){
-            // @ts-ignore
-            headers = {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
-            };
+    /**
+     * 处理AI请求
+     * @param {import('../ai/handlers/ai-handler.js').AIHandler} aiHandler - AI处理器
+     * @param {Array<any>} messages - 消息列表
+     * @param {string} aiMessageId - AI消息ID
+     */
+    async #processAIRequest(aiHandler, messages, aiMessageId) {
+        try {
+            // 构建请求体
+            const requestBody = aiHandler.buildRequestBody(messages);
+            
+            // 获取响应流读取器
+            const reader = await this.#getResponseReader(aiHandler, requestBody);
+            
+            // 处理流式响应
+            await this.#processStreamResponse(reader, aiHandler, aiMessageId);
+        } catch (error) {
+            // 删除最后一个AI消息，让外层错误处理来显示错误
+            const lastIndex = this.#messages.findIndex(msg => msg.id === aiMessageId);
+            if (lastIndex !== -1) {
+                this.#messages.splice(lastIndex, 1);
+                const messageElement = document.getElementById(aiMessageId);
+                if (messageElement) {
+                    messageElement.remove();
+                }
+            }
+            
+            throw error;
         }
-
-        const response = await fetch(apiUrl, {
+    }
+    
+    /**
+     * 获取响应流读取器
+     * @param {import('../ai/handlers/ai-handler.js').AIHandler} aiHandler - AI处理器
+     * @param {any} requestBody - 请求体
+     * @returns {Promise<ReadableStreamDefaultReader<Uint8Array>>} 读取器
+     */
+    async #getResponseReader(aiHandler, requestBody) {
+        const response = await fetch(aiHandler.getApiUrl(), {
             method: 'POST',
-            headers: headers,
+            headers: aiHandler.getRequestHeaders(),
             body: JSON.stringify(requestBody),
-            // @ts-ignore
             signal: this.#currentController?.signal
         });
         
         if (!response.ok) {
             const contentType = response.headers.get('Content-Type');
+            let errorMessage = '';
+            
             if (contentType && contentType.includes('application/json')) {
                 const error = await response.json();
-                throw new Error(`${server.name} API错误: ${error.error?.message || '未知错误'}`);
+                errorMessage = error.error?.message || '未知错误';
             } else {
                 const errorText = await response.text();
-                throw new Error(`${server.name} API错误: ${errorText || '未知错误'}`);
+                errorMessage = errorText || '未知错误';
             }
-        }        
+            
+            throw new Error(`${aiHandler.getServiceName()} API错误: ${errorMessage}`);
+        }
         
         const reader = response.body?.getReader();
-        if( !reader ){
-            throw new Error(`${server.name} API错误: 读响应失败`);
+        if (!reader) {
+            throw new Error(`${aiHandler.getServiceName()} API错误: 无法读取响应`);
         }
-
+        
         return reader;
     }
-    
-    async #sendOpenAIRequest(server, bot, messages, aiMessageId) {
-        
-        const requestBody = {
-            model: bot.model,
-            messages: messages,
-            temperature: 0.7,
-            stream: true
-        };
-        
-        const reader = await this.#getAIReader(server,requestBody);
 
+    /**
+     * 处理流式响应
+     * @param {ReadableStreamDefaultReader<Uint8Array>} reader - 读取器
+     * @param {import('../ai/handlers/ai-handler.js').AIHandler} aiHandler - AI处理器 
+     * @param {string} aiMessageId - AI消息ID
+     */
+    async #processStreamResponse(reader, aiHandler, aiMessageId) {
         const decoder = new TextDecoder('utf-8');
         let content = '';
+        let additionalContent = {}; // 存储额外内容，如推理过程
         
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
-            
-            const chunk = decoder.decode(value);
-            const lines = chunk.split('\n');
-            
-            for (const line of lines) {
-                if (line.startsWith('data: ') && line !== 'data: [DONE]') {
-                    try {
-                        const data = JSON.parse(line.substring(6));
-                        const delta = data.choices[0]?.delta?.content || '';
-                        content += delta;
-                        this.#updateAIMessage(aiMessageId, content);
-                    } catch (e) {
-                        console.warn('解析OpenAI响应出错:', e);
-                    }
-                }
-            }
-        }
-        
-        if (content === '') {
-            content = '(AI返回了空响应)';
-            this.#updateAIMessage(aiMessageId, content);
-        }
-    }
-
-    async #sendClaudeRequest(server, bot, messages, aiMessageId) {
-        const apiKey = server.key;
-        
-        // Claude API有不同的消息格式
-        const claudeMessages = messages.map(msg => ({
-            role: msg.role === 'assistant' ? 'assistant' : (msg.role === 'system' ? 'system' : 'user'),
-            content: msg.role === 'system' ? [{type: 'text', text: msg.content}] : [{type: 'text', text: msg.content}]
-        }));
-        
-        const requestBody = {
-            model: bot.model,
-            messages: claudeMessages,
-            stream: true
-        };
-        
-        const headers = {
-            'Content-Type': 'application/json',
-            'x-api-key': apiKey
-        };
-        
-        if (server.headers) {
-            Object.assign(headers, server.headers);
-        }
-        
-        // @ts-ignore
-        const reader = await this.#getAIReader(server,requestBody,headers);
-
-
-        const decoder = new TextDecoder('utf-8');
-        let content = '';
-        
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
-            
-            const chunk = decoder.decode(value);
-            const lines = chunk.split('\n');
-            
-            for (const line of lines) {
-                if (line.startsWith('data: ') && line !== 'data: [DONE]') {
-                    try {
-                        const data = JSON.parse(line.substring(6));
-                        if (data.type === 'content_block_delta') {
-                            const delta = data.delta?.text || '';
-                            content += delta;
-                            this.#updateAIMessage(aiMessageId, content);
-                        }
-                    } catch (e) {
-                        console.warn('解析Claude响应出错:', e);
-                    }
-                }
-            }
-        }
-        
-        if (content === '') {
-            content = '(AI返回了空响应)';
-            this.#updateAIMessage(aiMessageId, content);
-        }
-    }
-
-    async #sendGeminiRequest(server, bot, messages, aiMessageId) {
-        // 替换URL中的模型占位符
-        const modelName = bot.model;
-        const apiUrl = server.url.replace('__MODEL_NAME__', modelName);
-        const apiKey = server.key;
-        
-        // 转换为Gemini格式
-        const geminiMessages = [];
-        let hasSystemPrompt = false;
-        
-        // 处理系统提示
-        for (const msg of messages) {
-            if (msg.role === 'system') {
-                hasSystemPrompt = true;
-                geminiMessages.push({
-                    role: 'user',
-                    parts: [{ text: msg.content }]
-                });
-                geminiMessages.push({
-                    role: 'model',
-                    parts: [{ text: 'I understand and will follow these instructions.' }]
-                });
-            } else if (msg.role === 'user') {
-                geminiMessages.push({
-                    role: 'user',
-                    parts: [{ text: msg.content }]
-                });
-            } else if (msg.role === 'assistant') {
-                geminiMessages.push({
-                    role: 'model',
-                    parts: [{ text: msg.content }]
-                });
-            }
-        }
-        
-        const requestBody = {
-            contents: geminiMessages,
-            generationConfig: {
-                temperature: 0.7
-            }
-        };
-        
-        // Gemini API URL需要包含API Key
-        const fullUrl = `${apiUrl}?key=${apiKey}`;
-        
-        const response = await fetch(fullUrl, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(requestBody),
-            // @ts-ignore
-            signal: this.#currentController.signal
-        });
-
-        if (!response.ok) {
-            const error = await response.json();
-            throw new Error(`Gemini API错误: ${error.error?.message || '未知错误'}`);
-        }
-
-        const result = await response.json();
-        const content = result.candidates[0]?.content?.parts[0]?.text || '(Gemini返回了空响应)';
-        
-        this.#updateAIMessage(aiMessageId, content);
-    }
-
-    async #sendDeepSeekRequest(server, bot, messages, aiMessageId) {
-        const requestBody = {
-            model: bot.model,
-            messages: messages,
-            temperature: 0.7,
-            stream: true
-        };
-        
-        const reader = await this.#getAIReader(server, requestBody);
-        
-        const decoder = new TextDecoder('utf-8');
-        let content = '';
-        let reasoningContent = '';
-        let hasReasoning = false; // 是否有推理内容
-        let isReasoningActive = false; // 当前是否正在接收推理内容
-        
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
-            
-            const chunk = decoder.decode(value);
-            const lines = chunk.split('\n');
-            
-            for (const line of lines) {
-                if (line.startsWith('data: ') && line !== 'data: [DONE]') {
-                    try {
-                        const data = JSON.parse(line.substring(6));
-                        const delta = data.choices[0]?.delta;
-                        
-                        // 处理推理内容
-                        if (delta?.reasoning_content) {
-                            if (!isReasoningActive) {
-                                // 开始接收推理内容
-                                isReasoningActive = true;
-                                hasReasoning = true;
-                            }
-                            reasoningContent += delta.reasoning_content;
-                            // 更新消息，显示展开的推理内容（放在顶部）
-                            this.#updateAIMessage(aiMessageId, 
-                                (hasReasoning ? '<details class="reasoning-container" open><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') +
-                                content
-                            );
-                        } 
-                        // 处理普通内容
-                        else if (delta?.content) {
-                            // 如果之前有推理内容但现在是普通内容，则折叠推理内容
-                            if (isReasoningActive) {
-                                isReasoningActive = false;
+        try {
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+                
+                const chunk = decoder.decode(value);
+                const lines = chunk.split('\n');
+                
+                for (const line of lines) {
+                    if (this.#isValidDataLine(line)) {
+                        const data = this.#parseLineData(line);
+                        if (data) {
+                            const result = aiHandler.parseResponse(data);
+                            
+                            // 处理常规内容和额外内容（如推理过程）
+                            if (result.mainContent !== undefined) {
+                                content += result.mainContent;
                             }
                             
-                            content += delta.content;
-                            // 更新消息，推理内容放在顶部并折叠
-                            this.#updateAIMessage(aiMessageId, 
-                                (hasReasoning ? '<details class="reasoning-container"><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') +
-                                content
-                            );
+                            // 合并额外内容
+                            if (result.additionalContent) {
+                                additionalContent = {
+                                    ...additionalContent,
+                                    ...result.additionalContent
+                                };
+                            }
+                            
+                            // 根据处理器更新消息
+                            this.#updateAIMessage(aiMessageId, content, additionalContent);
                         }
-                    } catch (e) {
-                        console.warn('解析DeepSeek响应出错:', e);
                     }
                 }
             }
-        }
-        
-        // 最终处理，确保消息格式正确（推理内容在前）
-        let finalContent = (hasReasoning ? '<details class="reasoning-container"><summary>推理过程</summary>\n' + reasoningContent + '\n</details>\n\n' : '') + content;
-        
-        if (finalContent.trim() === '') {
-            finalContent = '(AI返回了空响应)';
-        }
-        
-        this.#updateAIMessage(aiMessageId, finalContent);
-        
-        // 保存最终消息内容
-        const messageIndex = this.#messages.findIndex(msg => msg.id === aiMessageId);
-        if (messageIndex !== -1) {
-            this.#messages[messageIndex].content = content;
-            if (hasReasoning) {
-                this.#messages[messageIndex].reasoning = reasoningContent;
+        } catch (error) {
+            console.error('处理流响应出错:', error);
+            throw new Error(`处理${aiHandler.getServiceName()}响应出错: ${error.message}`);
+        } finally {
+            // 确保消息格式正确
+            if (content.trim() === '') {
+                content = '(AI返回了空响应)';
             }
-        }
-    }
-    
-    
-    
-
-    async #sendGrokRequest(server, bot, messages, aiMessageId) {
-        const apiUrl = server.url;
-        const apiKey = server.key;
-        
-        const requestBody = {
-            model: bot.model,
-            messages: messages,
-            temperature: 0.7,
-            stream: true
-        };
-        
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
-            },
-            body: JSON.stringify(requestBody),
-            // @ts-ignore
-            signal: this.#currentController.signal
-        });
-        
-        if (!response.ok) {
-            const error = await response.json();
-            throw new Error(`Grok API错误: ${error.error?.message || '未知错误'}`);
-        }
-        
-        const reader = response.body?.getReader();
-        if( !reader ){
-            throw new Error(`Grok API错误: 读响应失败`);
-        }
-        const decoder = new TextDecoder('utf-8');
-        let content = '';
-        
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
             
-            const chunk = decoder.decode(value);
-            const lines = chunk.split('\n');
+            this.#updateAIMessage(aiMessageId, content, additionalContent);
             
-            for (const line of lines) {
-                if (line.startsWith('data: ') && line !== 'data: [DONE]') {
-                    try {
-                        const data = JSON.parse(line.substring(6));
-                        const delta = data.choices[0]?.delta?.content || '';
-                        content += delta;
-                        this.#updateAIMessage(aiMessageId, content);
-                    } catch (e) {
-                        console.warn('解析Grok响应出错:', e);
-                    }
-                }
-            }
-        }
-        
-        if (content === '') {
-            content = '(AI返回了空响应)';
-            this.#updateAIMessage(aiMessageId, content);
+            // 更新消息对象的内容
+            this.#updateMessageContent(aiMessageId, content, additionalContent);
         }
     }
 
-    async #simulateAIResponse(bot, aiMessageId) {
-        let content = '';
-        const fullResponse = `这是模拟的AI响应，来自 ${bot.name} (${bot.model})。\n\n您的请求已收到，但这是一个模拟环境。在实际应用中，您会看到来自AI的真实回复。`;
-        
-        // 模拟流式响应
-        for (let i = 0; i < fullResponse.length; i += 5) {
-            // @ts-ignore
-            if (this.#currentController && this.#currentController.signal.aborted) {
-                break;
-            }
-            
-            await new Promise(resolve => setTimeout(resolve, 50));
-            content += fullResponse.substring(i, Math.min(i + 5, fullResponse.length));
-            this.#updateAIMessage(aiMessageId, content);
+    /**
+     * 检查响应行是否是有效的数据行
+     * @param {string} line - 响应行
+     * @returns {boolean} 是否有效
+     */
+    #isValidDataLine(line) {
+        return line.startsWith('data: ') && line !== 'data: [DONE]';
+    }
+
+    /**
+     * 解析响应行数据
+     * @param {string} line - 响应行
+     * @returns {any|null} 解析后的数据
+     */
+    #parseLineData(line) {
+        try {
+            return JSON.parse(line.substring(6));
+        } catch (e) {
+            console.warn('解析响应行失败:', e);
+            return null;
         }
     }
 
-    #updateAIMessage(messageId, content) {
-        // 更新消息内容
-        const messageIndex = this.#messages.findIndex(msg => msg.id === messageId);
-        if (messageIndex !== -1) {
-            this.#messages[messageIndex].content = content;
-        }
-        
-        // 更新UI
+    /**
+     * 更新AI消息内容
+     * @param {string} messageId - 消息ID
+     * @param {string} content - 主要内容
+     * @param {Object} additionalContent - 额外内容
+     */
+    #updateAIMessage(messageId, content, additionalContent = {}) {
         const messageElement = document.getElementById(messageId);
-        if (messageElement) {
-            const contentElement = messageElement.querySelector('.message-text');
-            if (contentElement) {
-                // @ts-ignore
-                contentElement.innerHTML = DOMPurify.sanitize(marked.parse(content));
-                
-                // 代码高亮
-                // @ts-ignore
-                if (window.hljs) {
-                    // @ts-ignore
-                    contentElement.querySelectorAll('pre code').forEach((block) => {
-                        // @ts-ignore
-                        hljs.highlightElement(block);
-                    });
-                }
-                
-                // MathJax渲染
-                // @ts-ignore
-                if (window.MathJax) {
-                    // @ts-ignore
-                    MathJax.typesetPromise([contentElement]).catch((err) => {
-                        console.error('MathJax error:', err);
-                    });
-                }
-            }
+        if (!messageElement) return;
+        
+        const contentElement = messageElement.querySelector('.message-text');
+        if (!contentElement) return;
+        
+        // 构建最终显示内容
+        let finalContent = content;
+        
+        // 添加额外内容（如推理过程）
+        if (additionalContent.reasoning) {
+            const isOpen = additionalContent.isReasoningActive || false;
+            finalContent = 
+                `<details class="reasoning-container" ${isOpen ? 'open' : ''}>` +
+                `<summary>推理过程</summary>\n${additionalContent.reasoning}\n</details>\n\n` + 
+                content;
         }
         
+        // 更新DOM
+        // @ts-ignore
+        contentElement.innerHTML = DOMPurify.sanitize(marked.parse(finalContent));
+        
+        // 应用代码高亮和数学公式渲染
+        this.#applyFormatting(contentElement);
+        
+        // 滚动到底部
         this.#scrollToBottom();
     }
 
+    /**
+     * 更新消息对象的内容
+     * @param {string} messageId - 消息ID
+     * @param {string} content - 主要内容
+     * @param {Object} additionalContent - 额外内容
+     */
+    #updateMessageContent(messageId, content, additionalContent = {}) {
+        const messageIndex = this.#messages.findIndex(msg => msg.id === messageId);
+        if (messageIndex === -1) return;
+        
+        this.#messages[messageIndex].content = content;
+        
+        // 保存额外内容
+        for (const [key, value] of Object.entries(additionalContent)) {
+            this.#messages[messageIndex][key] = value;
+        }
+    }
+
+    /**
+     * 应用格式化（代码高亮、数学公式）
+     * @param {Element} element - 要格式化的元素
+     */
+    #applyFormatting(element) {
+        // 代码高亮
+        // @ts-ignore
+        if (window.hljs) {
+            // @ts-ignore
+            element.querySelectorAll('pre code').forEach((block) => {
+                // @ts-ignore
+                hljs.highlightElement(block);
+            });
+        }
+        
+        // MathJax渲染
+        // @ts-ignore
+        if (window.MathJax) {
+            // @ts-ignore
+            MathJax.typesetPromise([element]).catch((err) => {
+                console.error('MathJax error:', err);
+            });
+        }
+    }
+
+    /**
+     * 为API格式化消息
+     * @param {any} bot - Bot配置
+     * @returns {Array<any>} 格式化后的消息
+     */
     #formatMessagesForAPI(bot) {
-        // 转换消息格式以适应不同AI API
         const messages = [];
         
         // 添加系统提示
@@ -736,14 +568,11 @@ export class AIChat extends BaseEditor {
                     content: msg.content
                 };
                 
-                // 如果消息有附件，根据不同API处理
+                // 如果消息有附件，添加描述
                 if (msg.attachments && msg.attachments.length > 0) {
-                    // 暂时简单处理：在消息末尾添加附件描述
                     const attachmentDesc = msg.attachments.map(att => 
                         `[附件: ${att.name} (${att.type})]`).join('\n');
                     formattedMsg.content += '\n\n' + attachmentDesc;
-                    
-                    // TODO: 为不同AI服务添加多模态支持
                 }
                 
                 messages.push(formattedMsg);
@@ -753,147 +582,16 @@ export class AIChat extends BaseEditor {
         return messages;
     }
 
-    #renderMessage(message) {
-        const messageElement = document.createElement('div');
-        messageElement.className = `chat-message ${message.role}`;
-        
-        if (message.id) {
-            messageElement.id = message.id;
-        }
-        
-        if (message.isError) {
-            messageElement.classList.add('error');
-        }
-        
-        const avatarIcon = this.#getAvatarIconForRole(message.role);
-        
-        messageElement.innerHTML = `
-            <div class="message-avatar">
-                <i class="${avatarIcon}"></i>
-            </div>
-            <div class="message-content">
-                <div class="message-header">
-                    <span class="message-role">${this.#getRoleName(message.role)}</span>
-                    <span class="message-time">${this.#formatTime(message.timestamp)}</span>
-                </div>
-                <div class="message-text"></div>
-            </div>
-        `;
-        
-        // 首先渲染文本内容
-        const contentElement = messageElement.querySelector('.message-text');
-        // @ts-ignore
-        contentElement.innerHTML = DOMPurify.sanitize(marked.parse(message.content));
-        
-        // 如果有附件，渲染附件
-        if (message.attachments && message.attachments.length > 0) {
-            const attachmentsContainer = document.createElement('div');
-            attachmentsContainer.className = 'message-attachments';
-            
-            message.attachments.forEach(attachment => {
-                const attachmentElement = document.createElement('div');
-                attachmentElement.className = 'message-attachment';
-                
-                // 根据附件类型显示预览
-                if (attachment.type.startsWith('image/')) {
-                    // 图片附件显示缩略图
-                    attachmentElement.innerHTML = `
-                        <img src="${attachment.data}" alt="${attachment.name}" class="attachment-preview">
-                        <div class="attachment-info">${attachment.name}</div>
-                    `;
-                } else {
-                    // 其他类型附件显示图标
-                    const icon = this.#getFileIcon(attachment.type);
-                    attachmentElement.innerHTML = `
-                        <div class="attachment-icon"><i class="${icon}"></i></div>
-                        <div class="attachment-info">${attachment.name}</div>
-                    `;
-                }
-                
-                attachmentsContainer.appendChild(attachmentElement);
-            });
-            
-            messageElement.querySelector('.message-content')?.appendChild(attachmentsContainer);
-        }
-        
-        // 代码高亮
-        // @ts-ignore
-        if (window.hljs) {
-            // @ts-ignore
-            contentElement.querySelectorAll('pre code').forEach((block) => {
-                // @ts-ignore
-                hljs.highlightElement(block);
-            });
-        }
-        
-        // MathJax渲染
-        // @ts-ignore
-        if (window.MathJax) {
-            // @ts-ignore
-            MathJax.typesetPromise([contentElement]).catch((err) => {
-                console.error('MathJax error:', err);
-            });
-        }
-        
-        this.#elements.chatHistory.appendChild(messageElement);
-        this.#scrollToBottom();
-    }
-
-    #getFileIcon(mimeType) {
-        if (mimeType.startsWith('image/')) {
-            return 'fas fa-file-image';
-        } else if (mimeType.startsWith('text/')) {
-            return 'fas fa-file-alt';
-        } else if (mimeType.startsWith('application/pdf')) {
-            return 'fas fa-file-pdf';
-        } else if (mimeType.includes('word') || mimeType.includes('document')) {
-            return 'fas fa-file-word';
-        } else if (mimeType.includes('excel') || mimeType.includes('spreadsheet')) {
-            return 'fas fa-file-excel';
-        } else if (mimeType.includes('powerpoint') || mimeType.includes('presentation')) {
-            return 'fas fa-file-powerpoint';
-        } else if (mimeType.includes('zip') || mimeType.includes('compressed')) {
-            return 'fas fa-file-archive';
-        } else if (mimeType.includes('audio')) {
-            return 'fas fa-file-audio';
-        } else if (mimeType.includes('video')) {
-            return 'fas fa-file-video';
-        } else if (mimeType.includes('code') || mimeType.includes('javascript') || mimeType.includes('json')) {
-            return 'fas fa-file-code';
-        } else {
-            return 'fas fa-file';
-        }
-    }
-
-    #getAvatarIconForRole(role) {
-        switch (role) {
-            case 'user': return 'fas fa-user';
-            case 'assistant': return 'fas fa-robot';
-            case 'system': return 'fas fa-cog';
-            default: return 'fas fa-comment';
-        }
-    }
-
-    #getRoleName(role) {
-        switch (role) {
-            case 'user': return '用户';
-            case 'assistant': return 'AI助手';
-            case 'system': return '系统';
-            default: return role;
-        }
-    }
-
-    #formatTime(timestamp) {
-        if (!timestamp) return '';
-        
-        const date = new Date(timestamp);
-        return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    }
-
+    /**
+     * 滚动到聊天历史底部
+     */
     #scrollToBottom() {
         this.#elements.chatHistory.scrollTop = this.#elements.chatHistory.scrollHeight;
     }
 
+    /**
+     * 保存当前会话
+     */
     #saveCurrentSession() {
         if (!this.currentSession) return;
         
@@ -904,6 +602,10 @@ export class AIChat extends BaseEditor {
         });
     }
 
+    /**
+     * 根据内容生成标题
+     * @returns {string} 生成的标题
+     */
     #generateTitle() {
         // 从第一条用户消息生成标题
         const firstUserMessage = this.#messages.find(m => m.role === 'user');
@@ -915,6 +617,9 @@ export class AIChat extends BaseEditor {
         return '新对话';
     }
 
+    /**
+     * 清空聊天
+     */
     #clearChat() {
         if (this.#messages.length === 0) return;
         
@@ -925,8 +630,7 @@ export class AIChat extends BaseEditor {
         this.#elements.chatHistory.innerHTML = '';
         
         // 清空附件
-        this.#currentAttachments = [];
-        this.#updateAttachmentsUI();
+        this.#attachmentManager.clearAttachments();
         
         // 如果有活动会话，保存清空状态
         if (this.currentSession) {
@@ -934,6 +638,9 @@ export class AIChat extends BaseEditor {
         }
     }
 
+    /**
+     * 导出聊天记录
+     */
     #exportChat() {
         if (this.#messages.length === 0) {
             alert('没有可导出的对话内容');
@@ -945,8 +652,8 @@ export class AIChat extends BaseEditor {
         markdown += `导出时间: ${new Date().toLocaleString()}\n\n`;
         
         this.#messages.forEach(msg => {
-            const role = this.#getRoleName(msg.role);
-            const time = this.#formatTime(msg.timestamp);
+            const role = this.#messageRenderer.getRoleName(msg.role);
+            const time = this.#messageRenderer.formatTime(msg.timestamp);
             markdown += `## ${role} (${time})\n\n${msg.content}\n\n`;
             
             // 添加附件信息
@@ -958,6 +665,12 @@ export class AIChat extends BaseEditor {
                 markdown += '\n';
             }
             
+            // 添加推理过程
+            if (msg.reasoning) {
+                markdown += '### 推理过程:\n\n';
+                markdown += `${msg.reasoning}\n\n`;
+            }
+            
             markdown += '---\n\n';
         });
         
@@ -967,6 +680,9 @@ export class AIChat extends BaseEditor {
         saveAs(blob, `chat-export-${Date.now()}.md`);
     }
 
+    /**
+     * 保存为新会话
+     */
     #saveConversation() {
         if (this.#messages.length === 0) {
             alert('没有可保存的对话内容');
@@ -987,114 +703,9 @@ export class AIChat extends BaseEditor {
         alert('对话已保存为新会话');
     }
 
-    #handleFileUpload(files) {
-        if (!files || files.length === 0) return;
-        
-        // 处理每个上传的文件
-        Array.from(files).forEach(file => {
-            // 检查文件大小
-            if (file.size > 10 * 1024 * 1024) { // 10MB 限制
-                alert(`文件 ${file.name} 太大，请上传10MB以内的文件`);
-                return;
-            }
-            
-            // 读取文件
-            const reader = new FileReader();
-            
-            reader.onload = (e) => {
-                const attachment = {
-                    name: file.name,
-                    type: file.type,
-                    size: file.size,
-                    data: /** @type {string} */e.target?.result
-                };
-                
-                this.#currentAttachments.push(attachment);
-                this.#updateAttachmentsUI();
-            };
-            
-            reader.onerror = () => {
-                alert(`文件 ${file.name} 读取失败`);
-            };
-            
-            // 根据文件类型决定如何读取
-            if (file.type.startsWith('text/') || 
-                file.type.includes('json') || 
-                file.type.includes('javascript') || 
-                file.name.endsWith('.py') || 
-                file.name.endsWith('.md')) {
-                reader.readAsText(file);
-            } else {
-                reader.readAsDataURL(file);
-            }
-        });
-        
-        // 清空文件输入，允许再次上传同一文件
-        this.#elements.fileUpload.value = '';
-    }
-
-    #updateAttachmentsUI() {
-        const container = this.#elements.attachmentsContainer;
-        const list = this.#elements.attachmentsList;
-        
-        if (this.#currentAttachments.length === 0) {
-            container.style.display = 'none';
-            list.innerHTML = '';
-            return;
-        }
-        
-        container.style.display = 'block';
-        list.innerHTML = '';
-        
-        this.#currentAttachments.forEach((attachment, index) => {
-            const attachmentEl = document.createElement('div');
-            attachmentEl.className = 'attachment-item';
-            
-            // 根据文件类型显示不同的预览
-            let previewHTML = '';
-            if (attachment.type.startsWith('image/')) {
-                previewHTML = `<img src="${attachment.data}" alt="${attachment.name}" class="attachment-thumbnail">`;
-            } else {
-                const icon = this.#getFileIcon(attachment.type);
-                previewHTML = `<div class="attachment-icon"><i class="${icon}"></i></div>`;
-            }
-            
-            attachmentEl.innerHTML = `
-                ${previewHTML}
-                <div class="attachment-name">${attachment.name}</div>
-                <button class="attachment-remove" data-index="${index}">
-                    <i class="fas fa-times"></i>
-                </button>
-            `;
-            
-            // 绑定删除按钮事件
-            attachmentEl.querySelector('.attachment-remove')?.addEventListener('click', (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                this.#removeAttachment(index);
-            });
-            
-            list.appendChild(attachmentEl);
-        });
-    }
-
-    #removeAttachment(index) {
-        if (index >= 0 && index < this.#currentAttachments.length) {
-            this.#currentAttachments.splice(index, 1);
-            this.#updateAttachmentsUI();
-        }
-    }
-
-    #formatFileSize(bytes) {
-        if (bytes < 1024) {
-            return bytes + ' bytes';
-        } else if (bytes < 1024 * 1024) {
-            return (bytes / 1024).toFixed(1) + ' KB';
-        } else {
-            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
-        }
-    }
-
+    /**
+     * Bot选择改变处理
+     */
     #botChanged() {
         // 保存新的bot选择
         if (this.currentSession) {
@@ -1104,15 +715,18 @@ export class AIChat extends BaseEditor {
         }
     }
 
-    // BaseEditor方法实现
+    /**
+     * 加载会话
+     * @param {any} session - 会话数据
+     * @override
+     */
     onSessionLoaded(session) {
         // 加载会话消息
         this.#messages = session.messages || [];
         this.#elements.chatHistory.innerHTML = '';
         
         // 清空附件
-        this.#currentAttachments = [];
-        this.#updateAttachmentsUI();
+        this.#attachmentManager.clearAttachments();
         
         // 设置bot
         if (session.botId && this.#elements.botSelect.querySelector(`option[value="${session.botId}"]`)) {
@@ -1120,7 +734,10 @@ export class AIChat extends BaseEditor {
         }
         
         // 渲染所有消息
-        this.#messages.forEach(msg => this.#renderMessage(msg));
+        this.#messages.forEach(msg => {
+            this.#messageRenderer.renderMessage(msg);
+        });
+        
         this.#scrollToBottom();
     }
 }
